@@ -1,0 +1,40 @@
+@-webkit-keyframes floating{
+    from {
+    	-webkit-transform: translate(0, 0px);
+    	transform: translate(0, 0px);
+    }
+    65% {
+    	-webkit-transform:translate(0, 10px);
+    	transform: translate(0, 10px);
+    }
+    to {
+    	-webkit-transform: translate(0, -0px);
+    	transform: translate(0, 0px);   
+    }    
+}
+    
+@keyframes floating{
+    from {
+    	-webkit-transform: translate(0, 0px);
+    	transform: translate(0, 0px);
+    }
+    65% {
+    	-webkit-transform:translate(0, 10px);
+    	transform: translate(0, 10px);
+    }
+    to {
+    	-webkit-transform: translate(0, -0px);
+    	transform: translate(0, 0px);   
+    }    
+}
+
+.float() {
+	-webkit-animation-name: floating;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+	animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}

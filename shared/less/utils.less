@@ -1,0 +1,96 @@
+.disable-dclick-select() {
+	 -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
+
+.disable-dclick-select {
+	.disable-dclick-select();
+}
+
+.make-triangle-base(@width) {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border: @width/2 solid transparent;
+}
+.make-triangle-up(@color, @width) {
+	.make-triangle-base(@width);
+	border-bottom-color: @color;
+}
+.make-triangle-down(@color, @width) {
+	.make-triangle-base(@width);
+	border-top-color: @color;
+}
+.make-triangle-left(@color, @width) {
+	.make-triangle-base(@width);
+	border-right-color: @color;
+}
+.make-triangle-right(@color, @width) {
+	.make-triangle-base(@width);
+	border-left-color: @color;
+}
+
+.sprite-width2x(@sprite) {
+  @width: ~`parseInt("@{sprite}".split(', ')[4])/2`;
+  width: unit(@width, px);
+}
+
+.sprite-height2x(@sprite) {
+  @height: ~`parseInt("@{sprite}".split(', ')[5])/2`;
+  height: unit(@height, px);
+}
+
+.sprite-position2x(@sprite) {
+  @sprite-offset-x: ~`parseInt("@{sprite}".split(', ')[2])/2`;
+  @sprite-offset-y: ~`parseInt("@{sprite}".split(', ')[3])/2`;
+  background-position: unit(@sprite-offset-x, px)  unit(@sprite-offset-y, px);
+}
+
+.sprite-image2x(@sprite) {
+  @sprite-image: ~`"@{sprite}".split(', ')[8].slice(1, -2)`;
+  @sprite-w: ~`parseInt("@{sprite}".split(', ')[6])/2`;
+  @sprite-h: ~`parseInt("@{sprite}".split(', ')[7])/2`;
+  background-image: url(@sprite-image);
+  background-size: unit(@sprite-w,px) unit(@sprite-h,px);  
+}
+
+.sprite2x(@sprite) {
+  .sprite-image2x(@sprite);
+  .sprite-position2x(@sprite);
+  .sprite-width2x(@sprite);
+  .sprite-height2x(@sprite);
+}
+
+.sprite-widthX(@sprite,@scale) {
+  @width: ~`parseInt("@{sprite}".split(', ')[4])/parseFloat("@{scale}")`;
+  width: unit(@width, px);
+}
+
+.sprite-heightX(@sprite,@scale) {
+  @height: ~`parseInt("@{sprite}".split(', ')[5])/parseFloat("@{scale}")`;
+  height: unit(@height, px);
+}
+
+.sprite-positionX(@sprite,@scale) {
+  @sprite-offset-x: ~`parseInt("@{sprite}".split(', ')[2])/parseFloat("@{scale}")`;
+  @sprite-offset-y: ~`parseInt("@{sprite}".split(', ')[3])/parseFloat("@{scale}")`;
+  background-position: unit(@sprite-offset-x, px)  unit(@sprite-offset-y, px);
+}
+
+.sprite-imageX(@sprite,@scale) {
+  @sprite-image: ~`"@{sprite}".split(', ')[8].slice(1, -2)`;
+  @sprite-w: ~`parseInt("@{sprite}".split(', ')[6])/parseFloat("@{scale}")`;
+  @sprite-h: ~`parseInt("@{sprite}".split(', ')[7])/parseFloat("@{scale}")`;
+  background-image: url(@sprite-image);
+  background-size: unit(@sprite-w,px) unit(@sprite-h,px);  
+}
+
+.spriteX(@sprite,@scale) {
+  .sprite-imageX(@sprite,@scale);
+  .sprite-positionX(@sprite,@scale);
+  .sprite-widthX(@sprite,@scale);
+  .sprite-heightX(@sprite,@scale);
+}

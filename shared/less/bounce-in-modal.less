@@ -1,0 +1,138 @@
+@import "animation/bounce-in.less";
+
+.commonBounceInModal() {
+	position: fixed;
+	top: 0px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10000000!important;
+	background-color: rgba(255,255,255,0.75);
+	padding: 15px;
+	margin: 0!important;
+
+	.bounceIn();
+	@bg: #454545;
+
+	
+
+	.transition(none);
+	overflow: hidden;
+	height: auto!important;
+	top: 0px!important;
+	display: block;
+
+	&:before {
+		display: block;
+		content: "";
+		z-index: 0;
+		position: absolute;
+		top: 15px;
+		bottom: 15px;
+		left: 15px;
+		right: 15px;
+		background-color: @bg;
+	}
+}
+
+.mobilePopModalHeader() {
+	text-align: left;
+	position: fixed;
+	width: auto;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	padding: 27px;
+	background-color: #4a4a4a;
+  	border-bottom: 1px solid #383838;
+  	z-index: 11;
+  	display: block!important;
+	visibility: visible!important;
+  	.mobile-modal-header-title {
+		font-family: "Montserrat",'Futura','Verdana',Arial,sans-serif;
+		-webkit-font-smoothing: initial;
+		-moz-osx-font-smoothing: initial;
+		font-size: 10px;
+		letter-spacing: .25em;
+		vertical-align: middle;
+		display: inline-block;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: 70%;
+		color: #a3a3a3;
+		line-height: 28px;
+		cursor: pointer !important;
+		-webkit-user-select: none;
+		text-transform: uppercase;
+  	}
+}
+.mobilePopModalContent() {
+	margin-top: 0 !important;
+	position: absolute;
+	top: 98px;
+	bottom: 0;
+	left: 15px;
+	right: 15px;
+	width: auto;
+	z-index: 12;
+	background-color: transparent;
+	overflow: auto;
+	padding: 0px!important;
+  	display: block!important;
+	visibility: visible!important;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-overflow-scrolling: touch;
+	overflow-x: hidden;
+	>:last-child {
+  		margin-bottom: 15px!important;
+	}
+
+	.foot-note {
+		font-size: 11px;
+		letter-spacing: .01em;
+		display: inline-block;
+		line-height: 16px;  
+		font-weight: 400;
+  		color: #9a9ca2;
+	}
+}
+.mobilePopModalContentInnerWrapper() {
+	background-color: #454545;
+	padding: 27px;
+	padding-top: 16px;
+  	margin: 0;
+  	display: block!important;
+	visibility: visible!important;
+}
+.mobilePopModalCloseButton() {
+
+	display: block !important;
+	content: "";
+	width: 65px;
+	height: 77px;
+	position: absolute !important;
+	z-index: 9999999 !important;
+	right: 0px !important;
+	top: 0px !important;
+	float: none !important;
+	margin: 0!important;
+	background: none!important;
+
+	.transition(none);
+
+	&:after {
+		display: none;
+	}
+
+	&:before {
+		content: "";
+		display: block!important;
+		.sprite2x(@cross-light-grey-small-2x);
+		position: absolute;
+		top: 50%;
+		right: 22px;
+  		margin-top: -8.75px;
+	}
+}

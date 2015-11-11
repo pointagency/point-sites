@@ -1,0 +1,82 @@
+@-webkit-keyframes wobble {
+  from {
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  15% {
+    -webkit-transform: translate3d(-1.5%, 0, 0) rotate3d(0, 0, 1, -1.25deg);
+    transform: translate3d(-1.5%, 0, 0) rotate3d(0, 0, 1, -1.25deg);
+  }
+
+  30% {
+    -webkit-transform: translate3d(1.25%, 0, 0) rotate3d(0, 0, 1, 1deg);
+    transform: translate3d(1.25%, 0, 0) rotate3d(0, 0, 1, 1deg);
+  }
+
+  45% {
+    -webkit-transform: translate3d(-1%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-1%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+
+  60% {
+    -webkit-transform: translate3d(0.75%, 0, 0) rotate3d(0, 0, 1, 0.71.25deg);
+    transform: translate3d(0.75%, 0, 0) rotate3d(0, 0, 1, 0.71.25deg);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-0.5%, 0, 0) rotate3d(0, 0, 1, -0.1.25deg);
+    transform: translate3d(-0.5%, 0, 0) rotate3d(0, 0, 1, -0.1.25deg);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes wobble {
+  from {
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  15% {
+    -webkit-transform: translate3d(-1.5%, 0, 0) rotate3d(0, 0, 1, -1.25deg);
+    transform: translate3d(-1.5%, 0, 0) rotate3d(0, 0, 1, -1.25deg);
+  }
+
+  30% {
+    -webkit-transform: translate3d(1.25%, 0, 0) rotate3d(0, 0, 1, 1deg);
+    transform: translate3d(1.25%, 0, 0) rotate3d(0, 0, 1, 1deg);
+  }
+
+  45% {
+    -webkit-transform: translate3d(-1%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-1%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+
+  60% {
+    -webkit-transform: translate3d(0.75%, 0, 0) rotate3d(0, 0, 1, 0.71.25deg);
+    transform: translate3d(0.75%, 0, 0) rotate3d(0, 0, 1, 0.71.25deg);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-0.5%, 0, 0) rotate3d(0, 0, 1, -0.1.25deg);
+    transform: translate3d(-0.5%, 0, 0) rotate3d(0, 0, 1, -0.1.25deg);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.wobble {
+  -webkit-animation-name: wobble;
+  animation-name: wobble;
+  -webkit-animation-duration: 0.125s;
+  -webkit-animation-iteration-count: infinite;
+  animation-duration: 0.125s;
+  animation-iteration-count: infinite;
+}

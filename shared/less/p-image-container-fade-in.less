@@ -1,0 +1,26 @@
+.p-image-container-fade-in {
+	background-image: url(../images/loading-lighter.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+	&.images-loaded {
+		background-image: none;
+	}
+}
+
+	.p-image-container-fade-in--content {
+		.opacity(0);
+		.transition(opacity 0.25s ease);
+		.images-loaded & {
+			.opacity(1);
+		}
+	}
+
+	.p-image-container-fade-in--hidden {
+		position: absolute;
+		visibility: hidden;
+		.opacity(0);
+		display: block;
+		height: 0;
+		width: 0;
+		overflow: hidden;
+	}

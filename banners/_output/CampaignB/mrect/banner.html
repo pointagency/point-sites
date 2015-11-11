@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CampaignB MREC</title>
+
+<style type="text/css">
+	* {
+		position: absolute;
+	}
+	img {
+		border: none;
+		outline: none;
+	}
+	html {
+		width: 300px;
+		height: 250px;
+		margin: 0;
+		padding: 0;
+		background-color: #fdc52e;
+		overflow: hidden;
+	}
+	body {
+		width: 300px;
+		height: 250px;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+
+	#click-tag {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.transparent {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
+		opacity: 0;
+	}
+
+	#wrapper {
+		display: block;
+		width: 300px;
+		height: 250px;
+		z-index: 2;
+		overflow: hidden;
+	}
+	.transition {
+		-webkit-transition: all 0.125s ease;
+		-moz-transition: all 0.125s ease;
+		-o-transition: all 0.125s ease;
+		transition: all 0.125s ease;
+	}
+	#high-btn {
+		cursor: pointer;
+		width: 150px;
+		height: 31px;
+		bottom: 0;
+		left: 0;
+		background-color: #67c758;
+		border-bottom: 4px solid #50b942;
+	}
+	#high-btn:hover {
+		background-color: #65d252;
+	}
+	#high {
+		left: 50%;
+		margin-left: -19px;
+		top: 50%;
+		margin-top: -5px;
+	}
+
+	#low-btn {
+		cursor: pointer;
+		height: 31px;
+		width: 149px;
+		bottom: 0;
+		right: 0;
+		background-color: #e64144;
+		border-bottom: 4px solid #e02e32;
+	}
+	#low-btn:hover {
+		background-color: #ff5245;
+	}
+	#low {
+		left: 50%;
+		margin-left: -18px;
+		top: 50%;
+		margin-top: -5px;
+	}
+	#mockup {
+		width: 300px;
+		height: 250px;
+		background-color: #ffffff;
+	}
+	#btn-split {
+		bottom: -3px;
+		left: 135px;
+	}
+	#chart {
+		width: 300px;
+		height: 177px;
+		background-color: #262626;
+		overflow: hidden;
+	}
+	#chart canvas {
+		left: -6px!important;
+		bottom: -7px!important;
+	}
+	#canvas {
+		width: 0px;
+		overflow: hidden;
+		height: 177px;
+	}
+	#chart-bg {
+		height: 177px;
+		width: 259px;
+		background-image: url(bg-2.png);
+    	background-position-x: -35px;
+	}
+	#end {
+		width: 1px;
+		height: 177px;
+		background-color: #fcbb2c;
+		left: 259px;
+		top: 0;
+	}
+	#traceline {
+	    height: 1px;
+	    top: 107px;
+	    width: 0px;
+	    left: 193px;
+	    background-color: #5b5b5b;
+	}
+	#sti-wrapper {
+		width: 82px;
+		height: 31px;
+		background-color: #4b4b4b;
+		left: 12px;
+		top: 11px;
+	}
+	#sti-shadow {
+		width: 82px;
+		height: 31px;
+		background-color: #2d2d2d;
+		left: 15px;
+		top: 14px;
+	}
+	#sti {
+	    top: 11px;
+	    left: 12px;
+	}
+	#time-wrapper {
+		width: 300px;
+		height: 32px;
+		top: 180px;
+		background-color: #dadada;
+	}
+	#time {
+		top: 11px;
+		left: 23px;
+	}
+	#time-highlight,#time-highlight-shadow {
+		background-color: #fcbb2c;
+		width: 50px;
+		height: 24px;
+		top: 3px;
+		left: 233px;
+	}
+	#time-highlight-shadow {
+		background-color: #b7b7b7;
+		top: 5px;
+		left: 235px;
+	}
+	#time-tip {
+		left: 244px;
+		top: -12px;
+	}
+	#green-arrow,#red-arrow {
+		left: 188px;
+		top: 89px;
+	}
+	#red-arrow {
+		top: 105px;
+	}
+	#high-win,
+	#high-lose {
+		top: 69px;
+		left: 179px;
+	}
+	#low-win,
+	#low-lose {
+		top: 119px;
+		left: 179px;
+	}
+
+	.final-screen {
+		top: 50%;
+		left: 50%;
+		margin-top: -118px;
+		margin-left: -143px;
+		background-color: rgba(255,255,255,0.7);
+		width: 286px;
+		height: 236px;
+		z-index: -1;
+	}
+	.final-screen-base {
+		background-color: #4b4b4b;
+		width: 236px;
+		height: 186px;
+		left: 50%;
+		top: 50%;
+		margin-left: -118px;
+		margin-top: -93px;
+		border-bottom: 4px solid #323232;
+	}
+	.final-screen-text {
+		top: -14px;
+		left: 50%;
+		margin-left: -70px;
+	}
+	.try-again {
+		display: block;
+		cursor: pointer;
+		visibility: hidden;
+	}
+	.try-again.hover {
+		visibility: visible;
+	}
+	.try-again-wrapper {
+		top: 99px;
+		left: 90px;
+		width: 56px;
+		height: 13px;
+	}
+	.try-again-wrapper:hover .try-again{
+		visibility: visible;
+	}
+
+	.try-again-wrapper:hover .try-again.hover {
+		visibility: hidden;
+	}
+
+	.learn-more {
+		display: block;
+		width: 171px;
+		height: 42px;
+		top: 125px;
+		left: 50%;
+		margin-left: -85px;
+		background-color: #fbcc3f;
+		border-bottom: 3px solid #fa9d12;
+	}
+
+	.learn-more:hover {
+		background-color: #ffe63c;
+		border-bottom: 3px solid #feb111;	
+	}
+	#try-it-out {
+		top: 145px;
+		left: 81px;
+	}
+
+	#try-it-out-wrapper {
+		width: 300px;
+		top: -10px;
+	}
+
+	#hl {
+		width: 148px;
+		height: 44px;
+		top: 50%;
+		left: 50%;
+		margin-top: -22px;
+		margin-left: -74px;
+	}
+
+	#h {
+
+	}
+
+	#l {
+		left: 75px;
+    	top: 7px;
+	}
+
+	.fallback {
+		display: none;
+		width: 300px;
+		height: 250px;
+		z-index: 1000;
+		top: 0;
+		left: 0;
+	}
+
+</style>
+
+<!--[if gt IE 8]>
+<script src="velocity.min.js"></script>
+<script src="jquery-1.11.3.min.js"></script>
+<script src="jquery.sparkline.min.js"></script>
+<![endif]-->
+
+<!--[if !IE]> -->
+<script src="velocity.min.js"></script>
+<script src="jquery-1.11.3.min.js"></script>
+<script src="jquery.sparkline.min.js"></script>
+<!-- <![endif]-->
+
+<script>
+	function init() {
+		
+		var e = [],
+			eArray = [],
+			v,
+			started = false,
+			prepared = false,
+			finished = false,
+			running = false,
+			betDirection;
+
+
+		if("Velocity" in window) {
+			v = Velocity;
+		} else {
+			
+		}
+
+		function get(id) {
+			var e = document.getElementById(id);
+			return e;
+		}
+
+		function prep(id) {
+			e[id] = get(id);
+			eArray.push(e[id]);
+		}
+
+		var ids = [
+			'body',
+			'wrapper',
+			'mockup',
+			'canvas',
+			'traceline',
+			'green-arrow',
+			'red-arrow',
+			'high-win',
+			'high-lose',
+			'low-win',
+			'low-lose',
+			'high-btn',
+			'low-btn',
+			'win',
+			'lose',
+			'try-it-out',
+			'try-it-out-wrapper'
+		];
+
+		for(var i = 0; i<ids.length; i++) {
+			prep(ids[i]);
+		}
+
+		var initValues = ['0:31','8:31','22:36','26:38',
+		'30:36','42:43','47:52','50:50','58:57','65:54','73:54','75:57','85:58','86:77','95:74','101:77','107:74','111:76','118:71','129:71','133:79','136:77','149:77','155:73','168:71','171:69','177:74','186:75','195:75'];// full value 501
+		var resetValues = ['31','8:31','22:36','26:38',
+		'30:36','42:43','47:52','50:50','58:57','65:54','73:54','75:57','85:58','86:77','95:74','101:77','107:74','111:76','118:71','129:71','133:79','136:77','149:77','155:73','168:71','171:69','177:74','186:75','195:75'];// full value 501
+
+		var initOptions = { 
+		    type: 'line',
+		    width: '275',
+		    height: '177',
+		    lineColor: '#ff9b00',
+		    fillColor: '#fec300',
+		    lineWidth: 2,
+		    spotColor: '#fff',
+		    minSpotColor: false,
+		    maxSpotColor: false,
+		    spotRadius: 5,
+		    chartRangeMin: 0,
+		    chartRangeMax: 177,
+		    chartRangeMinX: 0,
+		    chartRangeMaxX: 275,
+		    disableTooltips: true,
+		    disableHighlight: true,
+		    drawNormalOnTop: false
+		},
+		winRate = 0.9,
+		biasFactor = 0.58,
+		lastSix = [];
+
+
+		function setupChart() {
+
+			$("#canvas").sparkline(initValues, initOptions);
+
+		}
+
+		getRandomInt = function (min, max) {
+		    return Math.floor(Math.random() * (max - min + 1)) + min;
+		}
+
+		stopFlashingSpot = false;
+
+		flashSpot = function() {
+
+		    if(stopFlashingSpot) {
+		        initOptions.spotRadius = 5;
+		        $("#canvas").sparkline(initValues, initOptions);
+		    } else {
+		        initOptions.spotRadius = 6;
+		       	$("#canvas").sparkline(initValues, initOptions);
+
+		        setTimeout(function(){
+		            initOptions.spotRadius = 5;
+		            $("#canvas").sparkline(initValues, initOptions);
+		            setTimeout(flashSpot,550);
+		        },550);
+		    }
+		}
+
+		reset = function() {
+
+			initValues = resetValues.slice();
+			initOptions.spotRadius = 5;
+
+			var resetId = ['canvas',
+			'traceline',
+			'green-arrow',
+			'red-arrow',
+			'high-win',
+			'high-lose',
+			'low-win',
+			'low-lose',
+			'high-btn',
+			'low-btn',
+			'win',
+			'lose',
+			'try-it-out',
+			'try-it-out-wrapper'];
+
+			for(var i=0; i< resetId.length; i++) {
+				v(e[resetId[i]],"stop");
+				e[resetId[i]].removeAttribute('style');
+			}
+
+			setupChart();
+
+			comeIn();
+		}
+
+		var tooltipRemoved = false;
+
+		pick = function(direction) {
+		    if(started || !prepared) {
+
+		    } else {
+		        running = true;
+		        started = true;
+		        finished = false;
+		       
+		        var delay = 0;
+		   
+		        setTimeout(function(){
+		        	v(e['green-arrow'],{
+			            left: 224,
+			            opacity: 0,
+			            top: 59
+			        },{
+			           	duration: 500,
+						easing: [.21,0,.38,1]
+			        });
+			        v(e['red-arrow'],{
+			            top: 135,
+			            opacity: 0,
+			           	left: 224
+			        },{
+			           	duration: 500,
+						easing: [.21,0,.38,1]
+			        });
+
+			        betDirection = direction;
+
+			        var win = Math.random() < winRate;
+
+			        var sumLast2Games = 0,
+			            sumLast6Games = 0;
+
+			        for(var i=0; i< 6; i++) {
+
+			            if(i<2) {
+			                sumLast2Games+= lastSix[i];
+			            }
+
+
+			            sumLast6Games+= lastSix[i];
+			            
+			        }
+
+			        ////console.log("Win? "+win);
+
+
+			        if(win) {
+			            bias += 0.125;
+			        } else {
+			            bias -= 0.125;
+			        }
+
+			        var bias = biasFactor;
+
+			        if(sumLast2Games<0) {
+			            ////console.log('sure win');
+			            win = 1;
+			            bias = 0.75;
+			        };
+
+			        if(sumLast6Games>5) {
+			            ////console.log('sure lose');
+			            win = 0;
+			            bias = 0.45;
+			        } 
+
+			        setTimeout(function(){
+
+			            if(direction>0) { //up
+			                v(e['high-win'],{
+			                    top: 79,
+			                    opacity: 1
+			                },{
+			                    duration: 250,
+								easing: [.21,0,.38,1],
+			                    complete: function() {
+			                        simulate(win?(1-bias):(bias));
+			                    }
+			                });
+			                v(e['high-lose'],{
+			                	top: 79
+			                },{
+			                	duration: 0
+			                });
+			            } else { //down
+			                v(e['low-win'],{
+			                    top: 109,
+			                    opacity: 1
+			                },{
+			                    duration: 250,
+								easing: [.21,0,.38,1],
+			                    complete: function() {
+			                        simulate(win?(bias):(1-bias));
+			                    }
+			                });
+			                v(e['low-lose'],{
+			                	top: 109
+			                },{
+			                	duration: 0
+			                });
+			            }
+			        },400);
+		        },delay);	
+		    }
+		}
+
+		simulate = function(bias) {
+		    stopFlashingSpot = true;
+		   	minInterval = 150,
+		    maxInterval = 250,
+		    minDisplacement = 1,
+		    maxDisplacement = 4,
+		    finalX = 265;
+
+		    var generateSpot = function() {
+		        var lastPoint =  initValues[initValues.length-1].split(":"),
+		        lastX = lastPoint[0],
+		        lastY = lastPoint[1];
+
+		        // //console.log(lastX+":"+lastY);
+
+		        var displacement = getRandomInt(minDisplacement,maxDisplacement);
+
+
+
+		        if(betDirection>0) {
+		        	if(Math.random()>bias) {
+			            newY = parseInt(lastY)+displacement*1.25;
+			        } else {
+			            newY = parseInt(lastY)-displacement;
+			        }
+		        } else {
+		        	if(Math.random()>bias) {
+			            newY = parseInt(lastY)+displacement;
+			        } else {
+			            newY = parseInt(lastY)-displacement*1.25;
+			        }
+		        }
+
+		       
+
+		        
+		      
+
+		        var newX = (parseInt(lastX))+5;
+
+
+		        if(newX>=finalX) {
+		            newX = finalX;
+		        }
+		        
+		        initValues.push(newX+":"+newY);
+
+		        initOptions.spotRadius = 5;
+		        $("#canvas").sparkline(initValues, initOptions);
+
+		        if(newX<finalX) {
+		            setTimeout(generateSpot,getRandomInt(minInterval,maxInterval));
+		        } else {
+		            showResult();
+		        }
+		    }
+
+		    generateSpot();
+		}
+
+
+		showResult = function () {
+		    var lastPoint =  initValues[initValues.length-1].split(":"),
+		        lastX = lastPoint[0],
+		        lastY = lastPoint[1],
+		        flickDuration = 200;
+
+
+
+		    if((lastY<75 && betDirection < 0) || (lastY>75 && betDirection >0)) {
+
+		        lastSix.unshift(1);
+		        if(lastSix.length>6) {
+		            lastSix.pop();
+		        }
+
+		        if (betDirection<0) {
+		        	//console.log('low win!');
+		            v(e['low-win'],{
+		            	top: 114
+		            },{
+		            	duration: flickDuration,
+		            	easing: [.76,0,.29,1],
+		            	complete: function(){
+		            		v(e['low-win'],{
+				            	top: 109
+				            },{
+				            	duration: flickDuration,
+				            	easing: [.76,0,.29,1],
+				            	complete: function(){
+				            		v(e['low-win'],{
+						            	top: 114
+						            },{
+						            	duration: flickDuration,
+						            	easing: [.76,0,.29,1],
+						            	complete: function(){
+						            		v(e['low-win'],{
+								            	top: 109
+								            },{
+								            	duration: flickDuration,
+								            	easing: [.76,0,.29,1],
+								            	complete: function(){
+											        self.running = false;
+											        self.finished = true;
+								            		setTimeout(function(){
+								            			e['win'].style.zIndex = 3;
+								            			v(e['win'],{
+								            				opacity: 1
+								            			},{
+								            				duration: 500,
+								            				easing: [.76,0,.29,1]
+								            			});
+								            		},250);
+								            	}
+						            		});
+						            	}
+						            });
+				            	}
+				            });
+		            	}
+		            });
+		        } else {
+		        	//console.log('high win!');
+		            v(e['high-win'],{
+		            	top: 74
+		            },{
+		            	duration: flickDuration,
+		            	easing: [.76,0,.29,1],
+		            	complete: function(){
+		            		v(e['high-win'],{
+				            	top: 79
+				            },{
+				            	duration: flickDuration,
+				            	easing: [.76,0,.29,1],
+				            	complete: function(){
+				            		v(e['high-win'],{
+						            	top: 74
+						            },{
+						            	duration: flickDuration,
+						            	easing: [.76,0,.29,1],
+						            	complete: function(){
+						            		v(e['high-win'],{
+								            	top: 79
+								            },{
+								            	duration: flickDuration,
+								            	easing: [.76,0,.29,1],
+								            	complete: function(){
+							            			self.running = false;
+        											self.finished = true;
+								            		setTimeout(function(){
+								            			e['win'].style.zIndex = 3;
+								            			v(e['win'],{
+								            				opacity: 1
+								            			},{
+								            				duration: 500,
+								            				easing: [.76,0,.29,1]
+								            			});
+								            		},250);
+								            	}
+						            		});
+						            	}
+						            });
+				            	}
+				            });
+		            	}
+		            });
+		        }
+		       
+		    } else {
+
+
+		        lastSix.unshift(-1);
+		        if(lastSix.length>6) {
+		            lastSix.pop();
+		        }
+
+		        if (betDirection<0) {
+		            //console.log('low lose!');
+		            v(e['low-win'],{
+		            	opacity: 0
+		            },{
+		            	duration: 0
+		            });
+		            v(e['low-lose'],{
+		            	opacity: 1
+		            },{
+		            	duration: 0,
+		            	complete: function(){
+		            		self.running = false;
+							self.finished = true;
+		            		setTimeout(function(){
+		            			e['lose'].style.zIndex = 3;
+		            			v(e['lose'],{
+		            				opacity: 1
+		            			},{
+		            				duration: 500,
+		            				easing: [.76,0,.29,1]
+		            			});
+		            		},500);
+		            	}
+		            });
+		        } else {
+		            //console.log('high lose!');
+		            v(e['high-win'],{
+		            	opacity: 0
+		            },{
+		            	duration: 0
+		            });
+		            v(e['high-lose'],{
+		            	opacity: 1
+		            },{
+		            	duration: 0,
+		            	complete: function(){
+		            		self.running = false;
+							self.finished = true;
+		            		setTimeout(function(){
+		            			e['lose'].style.zIndex = 3;
+		            			v(e['lose'],{
+		            				opacity: 1
+		            			},{
+		            				duration: 500,
+		            				easing: [.76,0,.29,1]
+		            			});
+		            		},500);
+		            	}
+		            });
+		        }
+		    }
+
+
+		    
+		}
+
+		function comeIn(callback) {
+			v(e['canvas'],{
+				width: 200
+			},{
+				duration: 500,
+				easing: [.21,0,.38,1],
+				complete: function(){
+					e['canvas'].style.width='300px';
+				}
+			});
+
+			setTimeout(function(){
+				v(e['traceline'], {
+					width: 259,
+					left: 0
+				},{
+					duration: 250,
+					easing: [.21,0,.38,1]
+				});
+			},500);
+
+			setTimeout(function(){
+				v(e['green-arrow'],{
+					left: 204,
+					top: 79,
+					opacity: 1
+				},{
+					duration: 500,
+					easing: [.21,0,.38,1]
+				});
+				v(e['red-arrow'],{
+					left: 204,
+					top: 115,
+					opacity: 1
+				},{
+					duration: 500,
+					easing: [.21,0,.38,1]
+				});
+
+				setTimeout(function(){
+					prepared = true;
+					running = false;
+					started = false;
+					finished = true;
+					callback();
+					flashSpot();
+				},500);
+			},750);
+		}
+
+
+		floatTip = function() {
+		    var easing = [.47,0,.6,1];
+
+
+		    v(e['try-it-out'],{
+		        marginTop: '-6px'
+		    },{
+		        duration: 750,
+		        easing: easing,
+		        complete: function() {
+		            v(e['try-it-out'],{
+		                marginTop: '0px'
+		            },{
+		                duration: 750,
+		                easing: easing,
+		                complete: function() {
+		                    setTimeout(floatTip);
+		                }
+		            });
+		        }
+		    });
+		    
+		}
+
+		function run() {
+
+
+			setupChart();
+
+			v(e['body'],{
+				opacity: 1
+			},{
+				duration: 750
+			});
+
+			var delay = 17000;
+
+			setTimeout(function(){
+				v(e['mockup'],{
+					opacity: 1
+				},{
+					duration: 500
+				});
+
+				comeIn(function(){
+					v(e['try-it-out-wrapper'],{
+						opacity: 1,
+						top: 0
+					},{
+						duration: 500,
+						easing: [.76,0,.29,1]
+					});
+
+					floatTip();
+				});
+			},delay);
+		
+		}
+
+
+		$(e['high-btn']).click(function(){
+			
+			pick(1);
+		});
+		$(e['low-btn']).click(function(){
+			
+			pick(-1);
+		});
+
+		$('.try-again').click(function(){
+			reset();
+		});
+
+		var unhidetooltipTimeout;
+
+		$(e['wrapper']).mouseover(function(){
+			window.clearTimeout(unhidetooltipTimeout);
+			v(e['try-it-out-wrapper'],{
+				opacity: 0,
+				top: -10
+			},{
+				duration: 250,
+				easing: [.76,0,.29,1]
+			});
+		});
+
+		$(e['wrapper']).mouseout(function(){
+			unhidetooltipTimeout = setTimeout(function(){
+				v(e['try-it-out-wrapper'],{
+					opacity: 1,
+					top: 0
+				},{
+					duration: 250,
+					easing: [.76,0,.29,1]
+				});
+			},5000);
+		});
+
+		//console.log('Loaded');
+		function getSupportedTransform() {
+		    var prefixes = 'transform WebkitTransform MozTransform OTransform msTransform'.split(' ');
+		    var div = document.createElement('div');
+		    for(var i = 0; i < prefixes.length; i++) {
+		        if(div && div.style[prefixes[i]] !== undefined) {
+		            return prefixes[i];
+		        }
+		    }
+		    return false;
+		}
+
+		if(!getSupportedTransform()) {
+			document.getElementById('fallback').style.display = 'block';
+
+			var img = document.createElement("img");
+			img.setAttribute("src", "static.png");
+
+			document.getElementById('fallback').appendChild(img);
+
+		} else {
+			setTimeout(function(){
+				run();
+			},500);
+		}
+	}
+</script>
+
+</head>
+
+<body id="body" class="transparent" onload="init();">
+	<img id="bg-1" src="bg-1-old.png"/>
+	<div id="hl">
+		<img id="h" src="h.png"/>
+		<img id="l" src="l.png"/>
+	</div>
+	<div id="wrapper">
+		<div id="mockup" class="transparent">
+			<div id="chart">
+				<div id="chart-bg">
+				</div>
+				<div id="traceline">
+				</div>
+				<div id="end">
+				</div>
+				<div id="canvas">
+				</div>
+				<img id="green-arrow" class="transparent" src="green-arrow.png"/>
+				<img id="red-arrow" class="transparent" src="red-arrow.png"/>
+				<img id="high-win" class="transparent" src="high-win.png"/>
+				<img id="high-lose" class="transparent" src="high-lose.png"/>
+				<img id="low-win" class="transparent" src="low-win.png"/>
+				<img id="low-lose" class="transparent" src="low-lose.png"/>
+				<div id="sti-shadow">
+				</div>
+				<div id="sti-wrapper">
+					<img id="sti" src="sti.png"/>
+				</div>
+			</div>
+			<div id="time-wrapper">
+				<div id="time-highlight-shadow">
+				</div>
+				<div id="time-highlight">
+				</div>
+				<img src="time-tip.png" id="time-tip"/>
+				<img src="time.png" id="time"/>
+			</div>
+			<div id="high-btn" class="transition">
+				<img src="high.png" id="high"/>
+			</div>
+			<div id="low-btn" class="transition">
+				<img src="low.png" id="high"/>
+			</div>
+			<div id="try-it-out-wrapper" class="transparent">
+				<img src="try-it-out.png" id="try-it-out"/>
+			</div>
+			<img src="btn-split.png" id="btn-split"/>
+			<div id="win" class="final-screen transparent">
+				<div class="final-screen-base">
+					<img id="win-tick" class="final-screen-text" src="win.png"/>
+					<div class="try-again-wrapper">
+						<img class="try-again" src="try-again-white.png" />
+						<img class="try-again hover" src="try-again.png" />
+					</div>
+					<a class="learn-more" target="_blank" href="https://en2.highlow.net/account?utm_source=ShareInvestor&utm_medium=Banner&utm_campaign=Campaign2_mRec_HTML5" title="HighLow. Trading streamlined.">
+						<img src="btn.png"/>
+					</a>
+				</div>
+			</div>
+			<div id="lose" class="final-screen transparent">
+				<div class="final-screen-base">
+					<img id="lose-tick" class="final-screen-text" src="lose.png"/>
+					<div class="try-again-wrapper">
+						<img class="try-again" src="try-again-white.png" />
+						<img class="try-again hover" src="try-again.png" />
+					</div>
+					<a class="learn-more" target="_blank" href="https://en2.highlow.net/account?utm_source=ShareInvestor&utm_medium=Banner&utm_campaign=Campaign2_mRec_HTML5" title="HighLow. Trading streamlined.">
+						<img src="btn.png"/>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a target="_blank" id="fallback" class="fallback" href="https://en2.highlow.net/account?utm_source=ShareInvestor&utm_medium=Banner&utm_campaign=fallback_mRec_Campaign2_STATIC" title="HighLow. Trading streamlined.">
+	</a>
+</body>
+</html>

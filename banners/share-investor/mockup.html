@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Share Invesstor</title>
+
+<style type="text/css">
+	* {
+		/*position: absolute;*/
+	}
+	html {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		background-color: #e9e9e9;
+		visibility: hidden;
+	}
+
+	#mockup {
+		width: 998px;
+		height: 1313px;
+		background-image: url(web.png);
+		margin: 0 auto;
+		position: relative;
+	}
+
+	#bar,#mrect {
+		border: none;
+		outline: none;
+		position: absolute;
+		background-color: white;
+	}
+
+	#bar {
+		top: 166px;
+		left: 16px;
+		width: 728px;
+		height: 90px;
+	}
+
+	#mrect {
+		top: 273px;
+		left: 43px;
+		width: 300px;
+		height: 250px;
+		position: absolute;
+	}
+	
+</style>
+
+<script>
+	function init() {
+		document.getElementById('body').style.visibility = 'visible';
+	}
+</script>
+
+</head>
+
+<body id="body" onload="init();">
+	<div id="mockup">
+		<iframe id="bar" src="leaderboard/banner.html">
+		</iframe>
+		<iframe id="mrect" src="mrect/banner.html">
+		</iframe>
+	</div>
+</body>
+</html>

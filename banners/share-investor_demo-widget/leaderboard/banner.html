@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CampaignB LBOARD</title>
+
+<style type="text/css">
+	* {
+		position: absolute;
+	}
+	img {
+		border: none;
+		outline: none;
+	}
+	html {
+		width: 728px;
+		height: 90px;
+		margin: 0;
+		padding: 0;
+		background-color: #fdc52e;
+		overflow: hidden;
+	}
+	body {
+		width: 728px;
+		height: 90px;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+
+	#click-tag {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.transparent {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
+		opacity: 0;
+	}
+
+	#wrapper {
+		width: 728px;
+		height: 90px;
+		z-index: 2;
+		overflow: hidden;
+	}
+
+	#less-than-1 {
+	    top: 0px;
+	    left: 0px;
+	}
+	#caption-wrapper {
+		overflow: hidden;
+	    top: 36px;
+	    left: 24px;
+	    width: 0;
+	    height: 22px;
+	}
+	#its-trading {
+    	left: 218px;
+	}
+	#streamlined {
+    	left: 318px;
+	}
+
+	#bg-2 {
+		width: 728px;
+		height: 90px;
+		background-image: url(bg-2.png);
+		background-position: -12px 14px;
+	}
+
+	#bg-2-wrapper {
+		width: 728px;
+		height: 90px;
+	}
+
+	#high-or-low-wrapper {
+		width: 0;
+		height: 0;
+    	left: 183px;
+		bottom: 0;
+		overflow: hidden;
+	}
+
+	#high-or-low {
+		left: 0;
+		bottom: 0;
+	}
+
+	.x1p5 {
+		  -webkit-transform: scale(1.5);  /* Saf3.1+, Chrome */
+     -moz-transform: scale(1.5);  /* FF3.5+ */
+      -ms-transform: scale(1.5);  /* IE9 */
+       -o-transform: scale(1.5);  /* Opera 10.5+ */
+          transform: scale(1.5);
+	}
+
+	#hover-screen {
+		width: 728px;
+		height: 90px;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
+		opacity: 0;
+		z-index: 3;
+		-webkit-transition: all 0.25s ease;
+		-moz-transition: all 0.25s ease;
+		-o-transition: all 0.25s ease;
+		transition: all 0.25s ease;
+		cursor: pointer;
+	}
+
+	#body.finished:hover #hover-screen {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+		opacity: 1;
+	}
+
+	#body.finished:hover #wrapper {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
+		opacity: 0;	
+		-webkit-transition: all 0.25s ease;
+		-moz-transition: all 0.25s ease;
+		-o-transition: all 0.25s ease;
+		transition: all 0.25s ease;
+	}
+
+	.hl {
+		width: 124px;
+		height: 37px;
+	}
+
+	#hl {
+	    left: 27px;
+		top: 29px;
+	}
+	.h {
+		width: 63px;
+		height: 32px;
+	}
+	.l {
+		width: 61px;
+		height: 32px;
+    	left: 66px;
+    	top: 7px;
+	}
+
+	#hover-caption {
+		left: 246px;
+    	top: 24px;
+	}
+
+	#btn {
+		left: 533px;
+		top: 20px;
+		background-color: #fbcc3f;
+		border-bottom: 3px solid #fa9d12;
+	}
+
+	#btn:hover {
+		background-color: #ffe63c;
+		border-bottom: 3px solid #feb111;	
+	}
+
+	#hl-2 {
+		top: 29px;
+		left: 27px;
+	}
+
+	#h-2 {
+		top: 10px;
+	}
+
+	#l-2 {
+		top: -3px;
+	}
+
+	.fallback {
+		display: none;
+		z-index: 1000;
+		top: 0;
+		left: 0;
+	}
+	
+</style>
+
+
+<!--[if gt IE 8]>
+<script src="velocity.min.js"></script>
+<![endif]-->
+
+<!--[if !IE]> -->
+<script src="velocity.min.js"></script>
+<!-- <![endif]-->
+
+<script>
+	function init() {
+		
+		var e = [],
+			v;
+		if("Velocity" in window) {
+			v = Velocity;
+		} else {
+			
+		}
+		function get(id) {
+			var e = document.getElementById(id);
+			return e;
+		}
+
+		function prep(id) {
+			e[id] = get(id);
+		}
+
+		var ids = [
+			'body',
+			'wrapper',
+			'bg-1',
+			'less-than-1',
+			'caption-wrapper',
+			'zero-spread',
+			'intro',
+			'its-trading',
+			'streamlined',
+			'bg-2',
+			'bg-2-wrapper',
+			'high-or-low-wrapper',
+			'hover-screen',
+			'hl-2',
+			'h-2',
+			'l-2'
+		];
+
+
+		for(var i = 0; i<ids.length; i++) {
+			prep(ids[i]);
+		}
+
+		function run() {
+
+			v(e['body'],{
+				opacity: 1
+			},{
+				duration: 750
+			});
+
+			setTimeout(function(){
+				v(e['less-than-1'],{
+					opacity: 1
+				},{
+					duration: 750,
+					easing: [.21,0,.38,1]
+				});
+				v(e['caption-wrapper'],{
+					width: 501,
+					left: 44,
+					opacity: 1
+				},{
+					duration: 750,
+					easing: [.25,.1,.25,1],
+					complete: function(){
+						setTimeout(function(){
+
+							v(e['caption-wrapper'],{
+								width: 0,
+								left: 24
+							},{
+								duration: 350,
+								complete: function(){
+									setTimeout(function(){
+										v(e['less-than-1'],{
+											opacity: 0
+										},{
+											duration: 0
+										});
+
+										v(e['zero-spread'],{
+											opacity: 1
+										},{
+											duration: 750,
+											easing: [.21,0,.38,1]
+										});
+
+										v(e['caption-wrapper'],{
+											width: 410,
+											left: 44
+										},{
+											duration: 750,
+											easing: [.25,.1,.25,1],
+											complete: function() {
+												setTimeout(function(){
+													v(e['caption-wrapper'],{
+														width: 0,
+														left: 24
+													},{
+														duration: 350,
+														complete: function(){
+															setTimeout(function(){
+																v(e['zero-spread'],{
+																	opacity: 0
+																},{
+																	duration: 0
+																});
+																v(e['caption-wrapper'],{
+																	width: 444,
+																	left: 44
+																},{
+																	duration: 750,
+																	easing: [.25,.1,.25,1]
+																});
+																setTimeout(function(){
+																	v(e['intro'],{
+																		opacity: 1,
+																		scale: 1
+																	},{
+																		duration: 750,
+																		easing: [.21,0,.38,1],
+																		complete: function(){
+																			setTimeout(function(){
+																				v(e['its-trading'],{
+																					opacity: 1,
+																					scale: 1
+																				},{
+																					duration: 750,
+																					easing: [.21,0,.38,1],
+																					complete: function(){
+																						v(e['streamlined'],{
+																							opacity: 1,
+																							scale: 1
+																						},{
+																							duration: 750,
+																							easing: [.21,0,.38,1],
+																							complete: function(){
+																								setTimeout(function(){
+																									v(e['bg-2-wrapper'],{
+																										opacity: 1
+																									},{
+																										duration: 250,
+																										easing: [.21,0,.38,1]
+																									});
+																									setTimeout(function(){
+																										v(e['hl-2'],{
+																											opacity: 1
+																										},{
+																											duration: 750,
+																											easing: [.21,0,.38,1]
+																										});
+
+																										v(e['h-2'],{
+																											top: 0
+																										},{
+																											duration: 750,
+																											easing: [.21,0,.38,1]
+																										});
+
+																										v(e['l-2'],{
+																											top: 7
+																										},{
+																											duration: 750,
+																											easing: [.21,0,.38,1]
+																										});
+
+																									},750);
+																									
+																									v(e['bg-2'],{
+																										backgroundPositionY: -540
+																									},{
+																										duration: 1750,
+																										easing: [.21,0,.38,1]
+																									});
+
+																									setTimeout(function(){
+																										v(e['high-or-low-wrapper'],{
+																											width: 517,
+																											height: 54,
+																											opacity: 1
+																										},{
+																											duration: 750,
+																											easing: [.21,0,.38,1],
+																											complete: function(){
+																												e['body'].className += ' finished';
+																											}
+																										});
+																									},250);
+																								},1500);
+																							}
+																						});
+																					}
+																				});
+																			},1000);
+																			
+																		}
+																	});
+																},500);
+															},500);
+															
+														}
+													});
+												},3000);
+											}
+										});
+									},500);
+									
+								}
+							});
+
+						},3000);
+					}
+				});
+			},2250);
+		}
+
+
+		function getSupportedTransform() {
+		    var prefixes = 'transform WebkitTransform MozTransform OTransform msTransform'.split(' ');
+		    var div = document.createElement('div');
+		    for(var i = 0; i < prefixes.length; i++) {
+		        if(div && div.style[prefixes[i]] !== undefined) {
+		            return prefixes[i];
+		        }
+		    }
+		    return false;
+		}
+
+
+		if(!getSupportedTransform()) {
+			document.getElementById('fallback').style.display = 'block';
+
+			var img = document.createElement("img");
+			img.setAttribute("src", "static.png");
+
+			document.getElementById('fallback').appendChild(img);
+
+		} else {
+			setTimeout(function(){
+				run();
+			},500);
+		}
+
+		//console.log('Loaded');
+		
+	}
+</script>
+
+</head>
+
+<body id="body" class="transparent" onload="init();">
+	<a id="click-tag"  target="_blank" href="https://en2.highlow.net/account?utm_source=ShareInvestor&utm_medium=Banner&utm_campaign=Campaign2_lBoard_HTML5" title="HighLow. Trading streamlined.">
+		<img id="bg-1" src="bg-1-old.png"/>
+		<div id="wrapper">
+			<div id="caption-wrapper" class="transparent">
+				<img id="less-than-1" class="transparent" src="less-than-1.png"/>
+				<img id="zero-spread" class="transparent" src="zero-spread.png"/>
+				<img id="intro" class="transparent x1p5" src="introducing-highlow.png"/>
+				<img id="its-trading" class="transparent x1p5" src="its-trading.png"/>
+				<img id="streamlined" class="transparent x1p5" src="streamlined.png"/>
+			</div>
+			<div id="bg-2-wrapper"  class="transparent">
+				<div id="bg-2"></div>
+				<div class="hl transparent" id="hl-2">
+					<img class="h" id="h-2" src="h.png"/>
+					<img class="l" id="l-2" src="l.png"/>
+				</div>
+				<div id="high-or-low-wrapper" class="transparent">
+					<img id="high-or-low" src="high-or-low.png"/>
+				</div>
+			</div>
+		</div>
+		<div id="hover-screen" class="transparent">
+			<div id="hl" class="hl">
+				<img id="h" class="h" src="h.png"/>
+				<img id="l" class="l" src="l.png"/>
+			</div>
+			<img id="hover-caption" src="hover-caption.png"/>
+			<img id="btn" src="btn.png"/>
+		</div>
+		<a target="_blank" id="fallback" class="fallback" href="https://en2.highlow.net/account?utm_source=ShareInvestor&utm_medium=Banner&utm_campaign=Fallback_lBoard_STATIC" title="HighLow. Trading streamlined.">
+		</a>
+	</a>
+</body>
+</html>
