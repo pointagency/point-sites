@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>CampaignA LBOARD</title>
+<title>high-low_mrec-1b_flash</title>
 
 <meta name="ad.size" content="width=300,height=250">
 
@@ -13,7 +13,6 @@
 	html {
 		width: 728px;
 		height: 90px;
-		overflow: hidden;
 	}
 	body {
 		margin: 0;
@@ -292,22 +291,10 @@
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
 		opacity: 0;
 	}
-
-	.fallback {
-		display: none;
-		z-index: 1000;
-		top: 0;
-		left: 0;
-	}
 </style>
 
-<!--[if gt IE 8]>
-<script src="velocity.min.js"></script>
-<![endif]-->
 
-<!--[if !IE]> -->
 <script src="velocity.min.js"></script>
-<!-- <![endif]-->
 
 <script>
 
@@ -327,6 +314,7 @@ function init() {
 	e['mask-2-sub'] = d.getElementById('mask-2-sub'),
 	e['less-than'] = d.getElementById('less-than'),
 	e['pip'] = d.getElementById('pip'),
+	e['pip-2'] = d.getElementById('pip-2'),
 	e['pip-wrapper'] = d.getElementById('pip-wrapper'),
 	e['pip-wrapper-border-right'] = d.getElementById('pip-wrapper-border-right'),
 	e['pip-wrapper-border-left'] = d.getElementById('pip-wrapper-border-left'),
@@ -369,13 +357,7 @@ function init() {
 	eArray.push(e['last-bg']);
 
 
-	if("Velocity" in window) {
-		v = Velocity;
-	} else {
-		
-	}
-
-
+	v = Velocity;
 	function run(){
 		v(e['get-up-to'],{
 			opacity: 1
@@ -756,8 +738,11 @@ function init() {
 																												}
 																											});
 																										},1000);
+																										
 																									},250);
 																								},1500);
+																					
+
 																							},250);
 																						},1500);
 																					}
@@ -844,30 +829,8 @@ function init() {
 		
 	}
 
-	function getSupportedTransform() {
-	    var prefixes = 'transform WebkitTransform MozTransform OTransform msTransform'.split(' ');
-	    var div = document.createElement('div');
-	    for(var i = 0; i < prefixes.length; i++) {
-	        if(div && div.style[prefixes[i]] !== undefined) {
-	            return prefixes[i];
-	        }
-	    }
-	    return false;
-	}
 
-	if(!getSupportedTransform()) {
-		document.getElementById('fallback').style.display = 'block';
-
-		var img = document.createElement("img");
-		img.setAttribute("src", "static.png");
-
-		document.getElementById('fallback').appendChild(img);
-
-	} else {
-		run();
-	}
-
-	
+	run();
 
 	
 	
@@ -877,6 +840,7 @@ function init() {
 </head>
 
 <body onload="init();">
+	<img src="1-pip-2.png" class="preload"/>
 	<img src="1-pip.png" class="preload"/>
 	<img src="bg-1.png" class="preload"/>
 	<img src="bg-2.png" class="preload"/>
@@ -893,7 +857,7 @@ function init() {
 	<img src="wipe-left.png"  class="preload"/>
 	<img src="wipe-right.png"  class="preload"/>
 	<img src="zero-spread.png"  class="preload"/>
-	<a id="wrapper" title="HighLow. Trading streamlined." target="_blank" href="https://en2.highlow.net/account?utm_source=ShareInvestor&utm_medium=Banner&utm_campaign=Campaign1_lBoard_HTML5">
+	<a id="wrapper" target="_blank" href="https://en2.highlow.net/account">
 		<div id="bg-1">
 		</div>
 		<div id="first-screen" class="screen">
@@ -917,6 +881,7 @@ function init() {
 			<div id="pip-wrapper">
 				<div id="pip-inner-wrapper">
 					<img id="pip" src="1-pip.png"/>
+					<img id="pip-2" src="1-pip-2.png"/>
 					<img id="less-than" src="less-than.png"/>
 					<img id="zero-spread" src="zero-spread.png"/>
 				</div>
@@ -926,7 +891,7 @@ function init() {
 				<div id="pip-wrapper-wipe-right"></div>
 			</div>
 			<div id="platform-wrapper">
-				<img id="platform" src="platform-old.png"/>
+				<img id="platform" src="platform.png"/>
 			</div>
 			<div id="last-bg">
 				<img src="hl.png" id="hl"/>
@@ -938,8 +903,6 @@ function init() {
 		</div>
 		<div id="border">
 		</div>
-		<a target="_blank" id="fallback" class="fallback" href="https://en2.highlow.net/account?utm_source=ShareInvestor&utm_medium=Banner&utm_campaign=Fallback_lBoard_STATIC" title="HighLow. Trading streamlined.">
-		</a>
 	</a>
 </body>
 </html>
