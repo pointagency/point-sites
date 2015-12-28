@@ -993,9 +993,7 @@ function init() {
 
 		document.getElementById('fallback').appendChild(img);
 
-		console.log('not-run');
 	} else {
-		console.log('run');
 		run();
 	}
 	
