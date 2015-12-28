@@ -610,30 +610,27 @@ function init() {
 									},{
 										duration: 10,
 										complete: function() {
+											setTimeout(function() {
+												v(e['cursor-2'],"stop");
 
-											if(blink) {
-												setTimeout(function() {
-													v(e['cursor-2'],"stop");
+												v(e['cursor-2'],{
+													opacity: 1
+												},{
+													duration: 10,
+													complete: function() {
 
-													v(e['cursor-2'],{
-														opacity: 1
-													},{
-														duration: 10,
-														complete: function() {
+														if(blink) {
 
-															if(blink) {
-
-																setTimeout(function(){
-																	if(blink) {
-																		blinkCursor(delay);
-																	}
-																},delay);
-															}
+															setTimeout(function(){
+																if(blink) {
+																	blinkCursor(delay);
+																}
+															},delay);
 														}
-													});	
+													}
+												});	
 
-												},delay);
-											}
+											},delay);
 										}
 									});
 								}
