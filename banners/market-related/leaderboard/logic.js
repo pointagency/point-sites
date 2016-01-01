@@ -103,8 +103,6 @@ function init() {
 
 		function showQuestionMark(callback) {
 
-			var scale = 0.5;
-
 			v(e['question-mark-1'],{
 				width: 28
 			},{
@@ -1150,7 +1148,6 @@ function init() {
 		img.setAttribute("src", "static.png");
 
 		document.getElementById('fallback').appendChild(img);
-
 	
 	} else {
 		run();

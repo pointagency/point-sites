@@ -37,13 +37,6 @@
 		display: block;
 	}
 
-	#fallback {
-		width: 300px;
-		height: 250px;
-		top: 0;
-		left: 0;
-	}
-
 	.preload {
 		visibility: hidden;
 		position: absolute;
@@ -62,18 +55,20 @@
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
 		opacity: 0;
 		z-index: 2;
+		-webkit-transform-origin: 0% 50%;
+		-ms-transform-origin: 0% 50%;
+		transform-origin: 0% 50%;
 	}
 
 	.graph-wrapper {
-		width: 150px;
+		width: 300px;
 		height: 250px;
-    	left: -154px;
-    	top: 42px;
-		overflow: hidden;
+    	left: 0px;
+    	top: 0px;
 	}
 
 	.graph {
-    	left: 150px;
+    	left: -3px;
     	height: 172px;
 	}
 
@@ -81,13 +76,11 @@
 		background-color: #ffc93d;
 		width: 1px;
 		height: 20px;
-		right: 0px;
-		margin-top: -42px;
-    	top: 128px;
 	}
 
-	#cursor {
-		top: 158px;
+	#cursor {    
+		top: 116px;
+		right: 0px;
 	}
 
 	#graph-wrapper-2 {
@@ -300,8 +293,8 @@
 	}
 
 	#cursor-2 {
-		right: 40px;
-		margin-top: -17px;
+		right: 0px;
+    	top: 111px;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
 		opacity: 0;
 	}
@@ -318,6 +311,7 @@
 		height: 250px;
 		left: 0;
 		top: 0;
+	    display: none;
 	}
 
 	#bg-1-wrapper-inner {
@@ -338,11 +332,12 @@
 		opacity: 0;
 	}
 
-	#chart-wrapper {
-		width: 300px;
+	.chart-wrapper {
+		width: 1px;
 		height: 250px;
-		top: 0;
+		top: 42px;
 		left: 0;
+		overflow: hidden;
 	}
 
 	#predict,
@@ -410,7 +405,23 @@
 	#target,#fallback {
 		cursor: pointer;
 	}
+
+	#chart-wrapper-2 {
+		width: 0px; /* 33 */
+    	left: 160px;
+	}
+
+	#chart-2-outer-wrapper,
+	#chart-2-zoom-position-offset,
+	#fallback {
+		width: 300px;
+		height: 250px;
+		top: 0;
+		left: 0;
+	}
 </style>
+
+<script src="Promise.min.js"></script>
 
 <!--[if gt IE 8]>
 <script src="velocity.js"></script>
@@ -424,93 +435,94 @@
 </head>
 
 <body onload="init();">
-	<a href="https://highlow.net/?banner=html5" target="_blank" title="HighLow. Trading streamlined." id="target" class="wrapper">
+	<div id="target" class="wrapper">
 		<div id="bg-1-wrapper">
 			<div id="bg-1-wrapper-inner">
 				<div id="bg-1">
 				</div>
-				<div id="chart-wrapper">
-					<div id="graph-wrapper" class="graph-wrapper">
-						<img   id="graph" class="graph" src="graph.png"/>
-						<div id="cursor-wrapper">
-							<div id="cursor" class="cursor"></div>
-						</div>
+				<img src="where-is-it-going.png" id="where-is-it-going"/>
+				<div id="chart-wrapper" class="chart-wrapper">
+					<img id="graph" class="graph" src="graph.png"/>
+					<div id="cursor-wrapper">
+						<div id="cursor" class="cursor"></div>
 					</div>
-					<img   src="where-is-it-going.png" id="where-is-it-going"/>
-					<div id="question-mark-wrapper">
-						<div class="question-mark-mask" id="question-mark-1">
-							<img   src="question-mark.png" id="question-mark-img-1"/>
-						</div>
-						<div class="question-mark-mask" id="question-mark-2">
-							<img   src="question-mark.png" id="question-mark-img-2"/>
-						</div>
-						<div class="question-mark-mask" id="question-mark-3">
-							<img   src="question-mark.png" id="question-mark-img-3"/>
-						</div>
-						<div class="question-mark-mask" id="question-mark-4">
-							<img   src="question-mark.png" id="question-mark-img-4"/>
-						</div>
-						<div class="question-mark-mask" id="question-mark-5">
-							<img   src="question-mark.png" id="question-mark-img-5"/>
-						</div>
-						<div class="question-mark-mask" id="question-mark-6">
-							<img   src="question-mark.png" id="question-mark-img-6"/>
-						</div>
-						<div class="question-mark-mask" id="question-mark-6-1">
-							<img   src="question-mark.png" id="question-mark-img-6-1"/>
-						</div>
-						<div class="question-mark-mask" id="question-mark-7">
-							<img   src="question-mark.png" id="question-mark-img-7"/>
-						</div>
-						<div class="question-mark-mask" id="question-mark-8">
-							<img   src="question-mark.png" id="question-mark-img-8"/>
-						</div>
-						<div class="question-mark-mask" id="question-mark-9">
-							<img   src="question-mark.png" id="question-mark-img-9"/>
-						</div>
-						<div class="question-mark-mask" id="question-mark-10">
-							<img   src="question-mark.png" id="question-mark-img-10"/>
-						</div>
-						<div class="question-mark-mask" id="question-mark-11">
-							<img   src="question-mark.png" id="question-mark-img-11"/>
-						</div>
-						<div class="question-mark-mask" id="question-mark-12">
-							<img   src="question-mark.png" id="question-mark-img-12"/>
-						</div>
-						<div class="question-mark-mask" id="question-mark-13">
-							<img   src="question-mark.png" id="question-mark-img-13"/>
-						</div>
-						<div class="question-mark-mask" id="question-mark-14">
-							<img   src="question-mark.png" id="question-mark-img-14"/>
-						</div>
-						<img   src="dot.png" id="dot"/>
-					</div>
-					<div id="graph-wrapper-2-position">
-						<div id="graph-wrapper-2" class="graph-wrapper">
-							<img   id="graph-2" class="graph" src="graph.png"/>
+				</div>
+				<div id="chart-2-zoom-position-offset">
+					<div id="chart-2-outer-wrapper">
+						<div id="chart-wrapper-2"  class="chart-wrapper">
+							<img id="graph-2" class="graph" src="graph.png"/>
 							<div id="cursor-2" class="cursor"></div>
 						</div>
 					</div>
 				</div>
+				<div id="question-mark-wrapper">
+					<!-- <img class="question-mark-image"  src="question-mark.png"/> -->
+					<div class="question-mark-mask" id="question-mark-1">
+						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-1"/>
+					</div>
+					<div class="question-mark-mask" id="question-mark-2">
+						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-2"/>
+					</div>
+					<div class="question-mark-mask" id="question-mark-3">
+						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-3"/>
+					</div>
+					<div class="question-mark-mask" id="question-mark-4">
+						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-4"/>
+					</div>
+					<div class="question-mark-mask" id="question-mark-5">
+						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-5"/>
+					</div>
+					<div class="question-mark-mask" id="question-mark-6">
+						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-6"/>
+					</div>
+					<div class="question-mark-mask" id="question-mark-6-1">
+						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-6-1"/>
+					</div>
+					<div class="question-mark-mask" id="question-mark-7">
+						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-7"/>
+					</div>
+					<div class="question-mark-mask" id="question-mark-8">
+						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-8"/>
+					</div>
+					<div class="question-mark-mask" id="question-mark-9">
+						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-9"/>
+					</div>
+					<div class="question-mark-mask" id="question-mark-10">
+						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-10"/>
+					</div>
+					<div class="question-mark-mask" id="question-mark-11">
+						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-11"/>
+					</div>
+					<div class="question-mark-mask" id="question-mark-12">
+						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-12"/>
+					</div>
+					<div class="question-mark-mask" id="question-mark-13">
+						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-13"/>
+					</div>
+					<div class="question-mark-mask" id="question-mark-14">
+						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-14"/>
+					</div>
+					<img   src="dot.png" id="dot"/>
+				</div>
 			</div>
 		</div>
 		<div id="bg-2-wrapper"> 
-			<img   id="predict" src="predict.png"/>
-			<img   id="up" src="up.png"/>
-			<img   id="down" src="down.png"/>
+			<img  id="predict" src="predict.png"/>
+			<img  id="up" src="up.png"/>
+			<img  id="down" src="down.png"/>
 
-			<img   id="high" src="high.png"/>
-			<img   id="low" src="low.png"/>
-			<img   id="its-trading" src="its-trading.png"/>
+			<img  id="high" src="high.png"/>
+			<img  id="low" src="low.png"/>
+			<img  id="its-trading" src="its-trading.png"/>
 
 			<div id="cta">
 				<img   src="cta.png"/>
 			</div>
 		</div>
-	</a>
+	</div>
 
-	<a href="https://highlow.net/?banner=fallback" title="HighLow. Trading streamlined." target="_blank" id="fallback" class="fallback" >
-	</a>
+	<div target="_blank" id="fallback" class="fallback" title="HighLow. Trading streamlined.">
+	</div>
 
 
 	<script src="logic.js">
