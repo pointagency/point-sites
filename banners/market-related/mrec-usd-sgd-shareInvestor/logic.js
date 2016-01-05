@@ -1143,20 +1143,25 @@ function init() {
 	function rerun () {
 		emergencyStop();
 
-		v(e['bg-1-wrapper'],{
-			scale: 1
-		},{
-			duration: 0
-		});
-
-		for(var i = 0; i < eArray.length; i++) {
-			var element = eArray[i];
-			if(element!=null) {
-				element.removeAttribute("style");
-			}
-		}
 		
-		run();
+
+		setTimeout(function(){
+
+			v(e['bg-1-wrapper'],{
+				scale: 1
+			},{
+				duration: 0
+			});
+			
+			for(var i = 0; i < eArray.length; i++) {
+				var element = eArray[i];
+				if(element!=null) {
+					element.removeAttribute("style");
+				}
+			}
+			
+			run();
+		},1000);
 
 	}
 

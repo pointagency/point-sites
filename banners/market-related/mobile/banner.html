@@ -23,8 +23,8 @@
 
 	.wrapper {
 		position: relative;
-		width: 320px;
-		height: 50px;
+		width: 768px;
+		height: 90px;
 		overflow: hidden;
 		z-index: 2;
 		display: block;
@@ -61,20 +61,20 @@
 	}
 
 	.graph-wrapper {
-		width: 320px;
-		height: 50px;
+		width: 728px;
+		height: 90px;
     	left: 0px;
     	top: 0px;
 	}
 
 	.graph {
     	left: -3px;
-    	height: 50px;
+    	height: 90px;
 	}
 
 	.cursor {
 		background-color: #ffc93d;
-		width: 1px;
+		width: 2px;
 		height: 20px;
 	}
 
@@ -85,7 +85,7 @@
 
 	#graph-wrapper-2 {
 	    left: 161px;
-	    width: 0px; /* 60px */
+	    width: 0px; /* 90px */
 	}
 
 	#graph-2 {
@@ -93,8 +93,8 @@
 	}
 
 	#where-is-it-going {
-		top: 31px;
-		left: 36px;
+		top: 14px;
+		left: 15px;
 		margin-left: 30px;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
 		opacity: 0;
@@ -304,26 +304,16 @@
 	    top: 4px;
 	}
 
-	#graph-wrapper-2-position {
-		width: 300px;
-		height: 250px;
-		left: -66px;
-	    top: 0px;
-	    display: none;
-	}
-
 	#bg-1-wrapper-inner {
-		width: 320px;
-		height: 50px;
+		width: 768px;
+		height: 90px;
 		left: 0;
 		top: 0;
 	}
 
 	#bg-2-wrapper {
-		width: 320px;
-		height: 50px;
-		left: 0;
-		top: 0;
+		width: 768px;
+		height: 90px;
 		background-image: url(bg-2.png);
 		z-index: 3;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
@@ -332,56 +322,69 @@
 
 	.chart-wrapper {
 		width: 1px;
-		height: 50px;
+		height: 90px;
     	top: 17px;
 		left: 0;
 		overflow: hidden;
 	}
 
+	#chart-warpper-scale {
+		width: 768px;
+		height: 90px;
+		left: 0;
+		top: 4px;
+		-webkit-transform-origin: 0% 0%;
+		-ms-transform-origin: 0% 0%;
+		transform-origin: 0% 0%;
+		-ms-transform: scale(0.5,0.5); /* IE 9 */
+		-webkit-transform: scale(0.5,0.5); /* Safari */
+		transform: scale(0.5,0.5);
+	}
+
 	#predict,
 	#up,
 	#down {
-		top: 60px; /* 40px */
-		left: 199px;
+		top: 25px; /* 17px */
+		left: 43px;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
 		opacity: 0;
 	}
 
 	#up {
-		top: 30px;
+		top: 20px;
 	}
 
 	#down {
-		top: 50px;
+		top: 30px;
 	}
 
 	#high {
-		top: 35px; /* 25 */
-    	left: 36px;
+		top: 18px; /* 13 */
+    	left: 13px;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
 		opacity: 0;
 	}
 	#low {
-		top: 21px; /* 31 */
-		left: 108px;
+		top: 12px; /* 17 */
+		left: 55px;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
 		opacity: 0;
 	}
 
 	#its-trading {
-		top: 50px; /* 40 */
-		left: 246px; /* 246 */
+		top: 14px; /* 9 */
+		left: 116px;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
 		opacity: 0;
 	}
 
 	#cta {
-		top: 9px; /* 19 */ 
-		left: 523px; /* 523 */
-		width: 172px;
-		height: 48px;
+		top: 2px; /* 7 */ 
+		left: 212px; /* 212 */
+		width: 99px;
+		height: 32px;
 		background-color: #ee683a;
-		border-bottom: 3px solid #de2e10;
+		border-bottom: 2px solid #de2e10;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
 		opacity: 0;
 	}
@@ -417,7 +420,14 @@
 	}
 	
 	#chart-2-outer-wrapper,
-	#chart-2-zoom-position-offset,
+	#chart-2-zoom-position-offset {
+		width: 728px;
+		height: 90px;
+		top: 0;
+		left: 0;
+	}
+
+
 	#fallback {
 		width: 320px;
 		height: 50px;
@@ -448,68 +458,71 @@
 				<div id="bg-1">
 				</div>
 				<img src="where-is-it-going.png" id="where-is-it-going"/>
-				<div id="chart-wrapper" class="chart-wrapper">
-					<img id="graph" class="graph" src="graph.png"/>
-					<div id="cursor-wrapper">
-						<div id="cursor" class="cursor"></div>
-					</div>
-				</div>
-				<div id="chart-2-zoom-position-offset">
-					<div id="chart-2-outer-wrapper">
-						<div id="chart-wrapper-2"  class="chart-wrapper">
-							<img id="graph-2" class="graph" src="graph.png"/>
-							<div id="cursor-2" class="cursor"></div>
+				<div id="chart-warpper-scale">
+					<div id="chart-wrapper" class="chart-wrapper">
+						<img id="graph" class="graph" src="graph.png"/>
+						<div id="cursor-wrapper">
+							<div id="cursor" class="cursor"></div>
 						</div>
 					</div>
-				</div>
-				<div id="question-mark-wrapper">
-					<!-- <img class="question-mark-image"  src="question-mark.png"/> -->
-					<div class="question-mark-mask" id="question-mark-1">
-						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-1"/>
+				
+					<div id="chart-2-zoom-position-offset">
+						<div id="chart-2-outer-wrapper">
+							<div id="chart-wrapper-2"  class="chart-wrapper">
+								<img id="graph-2" class="graph" src="graph.png"/>
+								<div id="cursor-2" class="cursor"></div>
+							</div>
+						</div>
 					</div>
-					<div class="question-mark-mask" id="question-mark-2">
-						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-2"/>
+					<div id="question-mark-wrapper">
+						<!-- <img class="question-mark-image"  src="question-mark.png"/> -->
+						<div class="question-mark-mask" id="question-mark-1">
+							<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-1"/>
+						</div>
+						<div class="question-mark-mask" id="question-mark-2">
+							<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-2"/>
+						</div>
+						<div class="question-mark-mask" id="question-mark-3">
+							<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-3"/>
+						</div>
+						<div class="question-mark-mask" id="question-mark-4">
+							<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-4"/>
+						</div>
+						<div class="question-mark-mask" id="question-mark-5">
+							<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-5"/>
+						</div>
+						<div class="question-mark-mask" id="question-mark-6">
+							<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-6"/>
+						</div>
+						<div class="question-mark-mask" id="question-mark-6-1">
+							<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-6-1"/>
+						</div>
+						<div class="question-mark-mask" id="question-mark-7">
+							<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-7"/>
+						</div>
+						<div class="question-mark-mask" id="question-mark-8">
+							<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-8"/>
+						</div>
+						<div class="question-mark-mask" id="question-mark-9">
+							<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-9"/>
+						</div>
+						<div class="question-mark-mask" id="question-mark-10">
+							<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-10"/>
+						</div>
+						<div class="question-mark-mask" id="question-mark-11">
+							<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-11"/>
+						</div>
+						<div class="question-mark-mask" id="question-mark-12">
+							<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-12"/>
+						</div>
+						<div class="question-mark-mask" id="question-mark-13">
+							<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-13"/>
+						</div>
+						<div class="question-mark-mask" id="question-mark-14">
+							<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-14"/>
+						</div>
+						<img   src="dot.png" id="dot"/>
 					</div>
-					<div class="question-mark-mask" id="question-mark-3">
-						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-3"/>
-					</div>
-					<div class="question-mark-mask" id="question-mark-4">
-						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-4"/>
-					</div>
-					<div class="question-mark-mask" id="question-mark-5">
-						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-5"/>
-					</div>
-					<div class="question-mark-mask" id="question-mark-6">
-						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-6"/>
-					</div>
-					<div class="question-mark-mask" id="question-mark-6-1">
-						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-6-1"/>
-					</div>
-					<div class="question-mark-mask" id="question-mark-7">
-						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-7"/>
-					</div>
-					<div class="question-mark-mask" id="question-mark-8">
-						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-8"/>
-					</div>
-					<div class="question-mark-mask" id="question-mark-9">
-						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-9"/>
-					</div>
-					<div class="question-mark-mask" id="question-mark-10">
-						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-10"/>
-					</div>
-					<div class="question-mark-mask" id="question-mark-11">
-						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-11"/>
-					</div>
-					<div class="question-mark-mask" id="question-mark-12">
-						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-12"/>
-					</div>
-					<div class="question-mark-mask" id="question-mark-13">
-						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-13"/>
-					</div>
-					<div class="question-mark-mask" id="question-mark-14">
-						<img class="question-mark-image"  src="question-mark.png" id="question-mark-img-14"/>
-					</div>
-					<img   src="dot.png" id="dot"/>
 				</div>
 			</div>
 		</div>

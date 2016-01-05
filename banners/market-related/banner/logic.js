@@ -245,7 +245,7 @@ function init() {
 
 			if(pacing) {
 
-				var width = getRandomInt(535,545),
+				var width = getRandomInt(585,595),
 					duration = getRandomInt(750,1250);
 
 				v(e['chart-wrapper'],{
@@ -255,7 +255,7 @@ function init() {
 					easing: [.67,0,.54,1]
 				}).then(function() {
 
-					var width = getRandomInt(555,575),
+					var width = getRandomInt(605,615),
 					duration = getRandomInt(750,1250);
 
 					if(pacing) {
@@ -962,7 +962,7 @@ function init() {
 
 											setTimeout(function(){
 												v(e['up'],{
-													top: 38,
+													top: 24,
 													opacity: 1
 												},{
 													duration: 750,
@@ -970,7 +970,7 @@ function init() {
 												});
 
 												v(e['down'],{
-													top: 38,
+													top: 24,
 													opacity: 1
 												},{
 													duration: 750,
@@ -984,7 +984,7 @@ function init() {
 
 
 											v(e['predict'],{
-												top: 38,
+												top: 24,
 												opacity: 1
 											},{
 												duration: 750,
@@ -1023,7 +1023,7 @@ function init() {
 														setTimeout(function() {
 															v(e['high'],{
 																opacity: 1,
-																top: 25
+																top: 14
 															},{
 																duration: 750,
 																easing: [.68,0,0,1]
@@ -1031,7 +1031,7 @@ function init() {
 
 															v(e['low'],{
 																opacity: 1,
-																top: 31
+																top: 19
 															},{
 																duration: 750,
 																easing: [.68,0,0,1]
@@ -1040,7 +1040,7 @@ function init() {
 															setTimeout(function(){
 																v(e['its-trading'],{
 																	opacity: 1,
-																	top: 40
+																	top: 24
 																},{
 																	duration: 750,
 																	easing: [.68,0,0,1]
@@ -1050,7 +1050,7 @@ function init() {
 															setTimeout(function() {
 																v(e['cta'],{
 																	opacity: 1,
-																	top: 19
+																	top: 10
 																},{
 																	duration: 750,
 																	easing: [.68,0,0,1]

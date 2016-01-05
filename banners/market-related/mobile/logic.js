@@ -245,8 +245,8 @@ function init() {
 
 			if(pacing) {
 
-				var width = getRandomInt(535,545),
-					duration = getRandomInt(750,1250);
+				var width = getRandomInt(625,635),
+					duration = getRandomInt(645,655);
 
 				v(e['chart-wrapper'],{
 					width: width,
@@ -255,7 +255,7 @@ function init() {
 					easing: [.67,0,.54,1]
 				}).then(function() {
 
-					var width = getRandomInt(555,575),
+					var width = getRandomInt(605,615),
 					duration = getRandomInt(750,1250);
 
 					if(pacing) {
@@ -561,7 +561,7 @@ function init() {
 				}).then(function(){
 
 					return v(e['chart-wrapper'],{
-						width: 550
+						width: 527
 					},{
 						duration: 75
 					});
@@ -654,7 +654,7 @@ function init() {
 
 									v(e['chart-2-zoom-position-offset'],{
 										top: '-30%',
-										left: '-5%'
+										left: '-15%'
 									},{
 										duration: 2250,
 										easing: [.92,.03,.4,.88],
@@ -962,7 +962,7 @@ function init() {
 
 											setTimeout(function(){
 												v(e['up'],{
-													top: 38,
+													top: 17,
 													opacity: 1
 												},{
 													duration: 750,
@@ -970,7 +970,7 @@ function init() {
 												});
 
 												v(e['down'],{
-													top: 38,
+													top: 17,
 													opacity: 1
 												},{
 													duration: 750,
@@ -984,7 +984,7 @@ function init() {
 
 
 											v(e['predict'],{
-												top: 38,
+												top: 17,
 												opacity: 1
 											},{
 												duration: 750,
@@ -1023,7 +1023,7 @@ function init() {
 														setTimeout(function() {
 															v(e['high'],{
 																opacity: 1,
-																top: 25
+																top: 13
 															},{
 																duration: 750,
 																easing: [.68,0,0,1]
@@ -1031,7 +1031,7 @@ function init() {
 
 															v(e['low'],{
 																opacity: 1,
-																top: 31
+																top: 17
 															},{
 																duration: 750,
 																easing: [.68,0,0,1]
@@ -1040,7 +1040,7 @@ function init() {
 															setTimeout(function(){
 																v(e['its-trading'],{
 																	opacity: 1,
-																	top: 40
+																	top: 9
 																},{
 																	duration: 750,
 																	easing: [.68,0,0,1]
@@ -1050,7 +1050,7 @@ function init() {
 															setTimeout(function() {
 																v(e['cta'],{
 																	opacity: 1,
-																	top: 19
+																	top: 7
 																},{
 																	duration: 750,
 																	easing: [.68,0,0,1]
