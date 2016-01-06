@@ -654,7 +654,7 @@ function init() {
 
 									v(e['chart-2-zoom-position-offset'],{
 										top: '-30%',
-										left: '-15%'
+										left: '-7%'
 									},{
 										duration: 2250,
 										easing: [.92,.03,.4,.88],
