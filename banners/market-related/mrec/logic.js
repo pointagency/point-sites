@@ -1086,7 +1086,7 @@ function init() {
 
 																	if(count<3) {
 																		rerun();
-																	}
+																	} else { emergencyStop(); }
 																},5000);
 
 															},750);
@@ -1143,20 +1143,25 @@ function init() {
 	function rerun () {
 		emergencyStop();
 
-		v(e['bg-1-wrapper'],{
-			scale: 1
-		},{
-			duration: 0
-		});
-
-		for(var i = 0; i < eArray.length; i++) {
-			var element = eArray[i];
-			if(element!=null) {
-				element.removeAttribute("style");
-			}
-		}
 		
-		run();
+
+		setTimeout(function(){
+
+			v(e['bg-1-wrapper'],{
+				scale: 1
+			},{
+				duration: 0
+			});
+			
+			for(var i = 0; i < eArray.length; i++) {
+				var element = eArray[i];
+				if(element!=null) {
+					element.removeAttribute("style");
+				}
+			}
+			
+			run();
+		},1000);
 
 	}
 
@@ -1180,7 +1185,63 @@ function init() {
 		document.getElementById('fallback').appendChild(img);
 
 	} else {
+
+
+
+		// page visibility 
+
+		(function() {
+		  var hidden = "hidden";
+
+		  // Standards:
+		  if (hidden in document)
+		    document.addEventListener("visibilitychange", onchange);
+		  else if ((hidden = "mozHidden") in document)
+		    document.addEventListener("mozvisibilitychange", onchange);
+		  else if ((hidden = "webkitHidden") in document)
+		    document.addEventListener("webkitvisibilitychange", onchange);
+		  else if ((hidden = "msHidden") in document)
+		    document.addEventListener("msvisibilitychange", onchange);
+		  // IE 9 and lower:
+		  else if ("onfocusin" in document)
+		    document.onfocusin = document.onfocusout = onchange;
+		  // All others:
+		  else
+		    window.onpageshow = window.onpagehide
+		    = window.onfocus = window.onblur = onchange;
+
+		  function onchange (evt) {
+		    var v = "visible", h = "hidden",
+		        evtMap = {
+		          focus:v, focusin:v, pageshow:v, blur:h, focusout:h, pagehide:h
+		        };
+
+		    evt = evt || window.event;
+		    if (evt.type in evtMap) {
+		      window.pageVisibility = evtMap[evt.type];
+		    } else {
+		      window.pageVisibility =  this[hidden] ? "hidden" : "visible";
+		    }
+
+		    if(window.pageVisibility=='hidden') {
+
+		    } else {
+		    	if(window.running) {
+		    		if(count<3) document.location.href=document.location.href;}
+		    }
+
+		    // alert("Page visibility: "+window.isSiteVisible);
+		  }
+
+		  // set the initial state (but only if browser supports the Page Visibility API)
+		  if( document[hidden] !== undefined )
+		    onchange({type: document[hidden] ? "blur" : "focus"});
+		})();
+
+		window.running = true;
+
 		run();
+
 	}
 	
 }
