@@ -1,393 +1,107 @@
 {% extends base %}
 
 
-{% block bodyClass %}root{% endblock %}
+{% block bodyClass %}
+{% endblock %}
 
 {% block content %}
 
-<!-- HighLow 2.0 It's time to make some serious money -->
-
-<input type="hidden" id="asset-path" value="assets/images/"/>
 
 
-<div id="make-serious-money" class="p-full-screen-slide active p-image-container-fade-in">
-	<div id="site-header" class="hl-lite-header">
-		<a href="http://highlow.net/" class="hl-lite-header--logo" title="Visit HighLow's homepage">
-		</a>
-	</div>
-	<div id="make-serious-money--floor-light" class="p-image-container-fade-in--content">
-		<img src="assets/images/floor-light.png" class=""/>
-	</div>
-	<div id="make-serious-money--platform" class="p-image-container-fade-in--content">
-		<img src="assets/images/platform.png" class=""/>
-	</div>
-	<div id="make-serious-money--spot-light" class="p-image-container-fade-in--content">
-		<img src="assets/images/spot-light.png" class=""/>
-	</div>
-	<h1 id="make-serious-money--heading" class="p-image-container-fade-in--content">
-		HIGHLOW 2.0
-	</h1>
-	<div id="make-serious-money--sub-heading" class="p-image-container-fade-in--content">
-		<span class="type-writer" 
-			data-type-writer-content='["It&rsquo;s time to make some serious money."]'
-			data-type-writer-delay="10"
-			data-type-writer-interval="3500"
-			data-type-writer-fade-delay="100"
-		>
-			<span class="type-writer-content-sizer">
-			</span>
-			<span class="type-writer-content">
-			</span>
-			<span class="type-writer-no-script-content">
-				It&rsquo;s time to make some serious money.
-			</span>
-		</span>
-	</div>
-	<div class="slide-selector" id="make-serious-money--slide-selector" data-target="#re-launch-soon"> 
-		<img src="assets/images/down.png"/>
-	</div>
-</div>
 
 
-<!-- end HighLow 2.0 It's time to make some serious money -->
-
-<!-- We're re-launching very soon -->
-
-<div id="re-launch-soon" class="p-full-screen-slide">
-
-	<div id="re-launch-soon--bg">
-	</div>
-
-	
-	<div id="re-launch-soon--fire">
-		<div id="re-launch-soon--fire-container">
-			<img src="assets/images/fire-1.png" id="re-launch-soon--fire-1"/>
-			<img src="assets/images/fire-2.png" id="re-launch-soon--fire-2"/>
-			<img src="assets/images/fire-3.png" id="re-launch-soon--fire-3"/>
-			<img src="assets/images/fire-4.png" id="re-launch-soon--fire-4"/>
-		</div>
-	</div>
-
-	<img src="assets/images/fire-mask.png" id="re-launch-soon--fire-mask"/>
-	
-	<div id="re-launch-soon--rocket">
-		<img src="assets/images/rocket.png"/>
-	</div>
 
 
-	<div id="re-launch-soon--big-smoke">
-	</div>
-
-	<div id="re-launch-soon--rocket-smoke">
-
-	</div>
-
-	<div id="re-launch-soon--clouds">
-		<img src="assets/images/dark-smoke-1.png" class="hidden"/>
-		<img src="assets/images/dark-smoke-2.png" class="hidden"/>
-		<img src="assets/images/white-smoke-1.png" class="hidden"/>
-		<img src="assets/images/white-smoke-2.png" class="hidden"/>
-	</div>
-
-	<div id="re-launch-soon--text">
-		<div class="css-table css-table-fill">
-			<div class="css-table-row">
-				<div class="css-table-cell css-table-cell-vcenter">
-					<div id="re-launch-soon--text-content">
-						We&rsquo;re <b>re-launching</b> very soon with our <b>brand new site</b>, an awesome new <b>trading platform</b> and the best <b>support</b> for your customers.
-						<br/>
-						<br/>
-						<span>
-							<span class="icon">
-								<img src="assets/images/icon-1.png"/>
-							</span><!--
-						 --><span class="icon">
-						 		<img src="assets/images/icon-2.png"/>
-						 	</span><!--
-						 --><span class="icon">
-						 		<img src="assets/images/icon-3.png"/>
-						    </span>
-					 	</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- end We're re-launching very soon -->
-
-<!-- We want to help -->
-
-<div id="we-want-to-help" class="p-full-screen-slide">
-	<div id="we-want-to-help--bg">
-	</div>
-	<div id="we-want-to-help--funnel">
-		<div id="we-want-to-help--funnel--disc">
-		</div>
-		<div id="we-want-to-help--leads">
-		</div>
-		<div id="we-want-to-help--coins">
-		</div>
-		<img src="assets/images/funnel.png" id="we-want-to-help--funnel-img"/>
-	</div>
-
-	<div id="we-want-to-help--text">
-		<div id="we-want-to-help--text-content">
-			And with the highest commissions in the industry (up to $400 per conversion!), we want to help you convert as many leads as possible.
-		</div>
-	</div>
-</div>
-
-<!-- end We want to help -->
-
-<!-- Sell HL Effectively -->
-
-<div id="sell-highlow-effectively" class="p-full-screen-slide">
-	<div id="sell-highlow-effectively--bg">
-	</div>
-	<div id="sell-highlow-effectively--text">
-		<div class="css-table css-table-fill">
-			<div class="css-table-row">
-				<div class="css-table-cell css-table-cell-vcenter">
-					<div id="sell-highlow-effectively--text-content">
-						<span class="unhighlighted-text">so</span> <span class="unhighlighted-text">it&rsquo;s</span> <span class="unhighlighted-text">important</span> <span class="unhighlighted-text">that</span> <span class="unhighlighted-text">you</span> <em id="sell-highlow-effectively--heading--sell">sell</em> <em id="sell-highlow-effectively--heading--highlow">highlow</em> <span class="unhighlighted-text">to</span> <span class="unhighlighted-text">your</span> <span class="unhighlighted-text">leads</span> <em id="sell-highlow-effectively--heading--effectively">effectively</em>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- end Sell HL Effectively -->
-
-<!-- Appropriate messaging -->
-
-<div id="appropriate-messaging" class="p-full-screen-slide">
-	<div id="appropriate-messaging--heading">
-		<span id="appropriate-messaging--heading--common">
-			<span id="appropriate-messaging--heading--sell">SELL</span>
-			<span id="appropriate-messaging--heading--highlow">HIGHLOW</span>
-			<span id="appropriate-messaging--heading--effectively">EFFECTIVELY</span>
-		</span>
-		<div id="appropriate-messaging--heading--variable">
-			
-		</div>
-		<div id="appropriate-messaging--messages">
-			<div class="appropriate-messaging--message-container">
-				<div class="appropriate-messaging--message">
-					<div class="appropriate-messaging--message--inner-wrap">
-						<div class="appropriate-messaging--message--icon">
-							<img src="assets/images/200.png"/>
-						</div>
-						<div class="appropriate-messaging--message--text">
-							HighLow offer industry-best payouts, with returns of up to 200% on your initial investment, quickly and securely.
-						</div>
-					</div>
-				</div>
-				<div class="appropriate-messaging--message">
-					<div class="appropriate-messaging--message--inner-wrap">
-						<div class="appropriate-messaging--message--icon">
-							<img src="assets/images/withdraw-yen.png"/>
-						</div>
-						<div class="appropriate-messaging--message--text">
-							HighLow is the only Broker who allow you to withdraw your funds in Yen, for free in real-time. No delays – no transactional fees.
-						</div>
-					</div>
-				</div>
-				<div class="appropriate-messaging--message">
-					<div class="appropriate-messaging--message--inner-wrap">
-						<div class="appropriate-messaging--message--icon">
-							<img src="assets/images/support.png"/>
-						</div>
-						<div class="appropriate-messaging--message--text">
-							HighLow has a Japanese phone support team who are highly skilled and dedicated. They exist to help whenever you need it.
-						</div>
-					</div>
-				</div>
-				<div class="appropriate-messaging--message active">
-					<div class="appropriate-messaging--message--inner-wrap">
-						<div class="appropriate-messaging--message--icon">
-							<img src="assets/images/withdraw-yen.png"/>
-						</div>
-						<div class="appropriate-messaging--message--text">
-							HighLow is the only Broker who allow you to withdraw your funds in Yen, for free in real-time. No delays – no transactional fees.
-						</div>
-					</div>
-				</div>
-				<div class="appropriate-messaging--message">
-					<div class="appropriate-messaging--message--inner-wrap">
-						<div class="appropriate-messaging--message--icon">
-							<img src="assets/images/support.png"/>
-						</div>
-						<div class="appropriate-messaging--message--text">
-							HighLow has a Japanese phone support team who are highly skilled and dedicated. They exist to help whenever you need it.
-						</div>
-					</div>
-				</div>
-				<div class="appropriate-messaging--message">
-					<div class="appropriate-messaging--message--inner-wrap">
-						<div class="appropriate-messaging--message--icon">
-							<img src="assets/images/withdraw-yen.png"/>
-						</div>
-						<div class="appropriate-messaging--message--text">
-							HighLow is the only Broker who allow you to withdraw your funds in Yen, for free in real-time. No delays – no transactional fees.
-						</div>
-					</div>
-				</div>
-				<div class="appropriate-messaging--message">
-					<div class="appropriate-messaging--message--inner-wrap">
-						<div class="appropriate-messaging--message--icon">
-							<img src="assets/images/support.png"/>
-						</div>
-						<div class="appropriate-messaging--message--text">
-							HighLow has a Japanese phone support team who are highly skilled and dedicated. They exist to help whenever you need it.
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="appropriate-messaging--arrows">
-		<div id="appropriate-messaging--arrows--left">
-			<img src="assets/images/left.png"/>
-		</div>
-		<div id="appropriate-messaging--arrows--right">
-			<img src="assets/images/right.png"/>
-		</div>
-	</div>
-</div>
-
-<!-- end Appropriate messaging -->
-
-<!-- Stunning creative -->
-
-<div id="stunning-creative" class="p-full-screen-slide">
-	<div id="stunning-creative--items">
-		<div class="stunning-creative--item-container">
-			<div class="stunning-creative--item playable">
-				<div class="stunning-creative--item--inner-wrap">
-					<img src="assets/images/sample-creative-1.png" class="stunning-creative--item--item"/>
-					<div class="stunning-creative--item--meta">
-						<span class="stunning-creative--item--meta--name">"Lorem ipsum"</span>
-						<span class="stunning-creative--item--meta--sizes">300x250px, 728x90px, 120x600px, 120x60</span>
-						<span class="stunning-creative--item--meta--formats">.swf, .jpg, .gif</span>
-					</div>
-				</div>
-			</div>
-			<div class="stunning-creative--item">
-				<div class="stunning-creative--item--inner-wrap">
-					<img src="assets/images/sample-creative-2.png" class="stunning-creative--item--item"/>
-					<div class="stunning-creative--item--meta">
-						<span class="stunning-creative--item--meta--name">"Lorem ipsum"</span>
-						<span class="stunning-creative--item--meta--sizes">300x250px, 728x90px, 120x600px, 120x60</span>
-						<span class="stunning-creative--item--meta--formats">.swf, .jpg, .gif</span>
-					</div>
-				</div>
-			</div>
-			<div class="stunning-creative--item playable">
-				<div class="stunning-creative--item--inner-wrap">
-					<img src="assets/images/sample-creative-3.png" class="stunning-creative--item--item"/>
-					<div class="stunning-creative--item--meta">
-						<span class="stunning-creative--item--meta--name">"Lorem ipsum"</span>
-						<span class="stunning-creative--item--meta--sizes">300x250px, 728x90px, 120x600px, 120x60</span>
-						<span class="stunning-creative--item--meta--formats">.swf, .jpg, .gif</span>
-					</div>
-				</div>
-			</div>
-			<div class="stunning-creative--item playable">
-				<div class="stunning-creative--item--inner-wrap">
-					<img src="assets/images/sample-creative-1.png" class="stunning-creative--item--item"/>
-					<div class="stunning-creative--item--meta">
-						<span class="stunning-creative--item--meta--name">"Lorem ipsum"</span>
-						<span class="stunning-creative--item--meta--sizes">300x250px, 728x90px, 120x600px, 120x60</span>
-						<span class="stunning-creative--item--meta--formats">.swf, .jpg, .gif</span>
-					</div>
-				</div>
-			</div>
-			<div class="stunning-creative--item active">
-				<div class="stunning-creative--item--inner-wrap">
-					<img src="assets/images/sample-creative-2.png" class="stunning-creative--item--item"/>
-					<div class="stunning-creative--item--meta">
-						<span class="stunning-creative--item--meta--name">"Lorem ipsum"</span>
-						<span class="stunning-creative--item--meta--sizes">300x250px, 728x90px, 120x600px, 120x60</span>
-						<span class="stunning-creative--item--meta--formats">.swf, .jpg, .gif</span>
-					</div>
-				</div>
-			</div>
-			<div class="stunning-creative--item playable">
-				<div class="stunning-creative--item--inner-wrap">
-					<img src="assets/images/sample-creative-3.png" class="stunning-creative--item--item"/>
-					<div class="stunning-creative--item--meta">
-						<span class="stunning-creative--item--meta--name">"Lorem ipsum"</span>
-						<span class="stunning-creative--item--meta--sizes">300x250px, 728x90px, 120x600px, 120x60</span>
-						<span class="stunning-creative--item--meta--formats">.swf, .jpg, .gif</span>
-					</div>
-				</div>
-			</div>
-			<div class="stunning-creative--item playable">
-				<div class="stunning-creative--item--inner-wrap">
-					<img src="assets/images/sample-creative-1.png" class="stunning-creative--item--item"/>
-					<div class="stunning-creative--item--meta">
-						<span class="stunning-creative--item--meta--name">"Lorem ipsum"</span>
-						<span class="stunning-creative--item--meta--sizes">300x250px, 728x90px, 120x600px, 120x60</span>
-						<span class="stunning-creative--item--meta--formats">.swf, .jpg, .gif</span>
-					</div>
-				</div>
-			</div>
-			<div class="stunning-creative--item">
-				<div class="stunning-creative--item--inner-wrap">
-					<img src="assets/images/sample-creative-2.png" class="stunning-creative--item--item"/>
-					<div class="stunning-creative--item--meta">
-						<span class="stunning-creative--item--meta--name">"Lorem ipsum"</span>
-						<span class="stunning-creative--item--meta--sizes">300x250px, 728x90px, 120x600px, 120x60</span>
-						<span class="stunning-creative--item--meta--formats">.swf, .jpg, .gif</span>
-					</div>
-				</div>
-			</div>
-			<div class="stunning-creative--item playable">
-				<div class="stunning-creative--item--inner-wrap">
-					<img src="assets/images/sample-creative-3.png" class="stunning-creative--item--item"/>
-					<div class="stunning-creative--item--meta">
-						<span class="stunning-creative--item--meta--name">"Lorem ipsum"</span>
-						<span class="stunning-creative--item--meta--sizes">300x250px, 728x90px, 120x600px, 120x60</span>
-						<span class="stunning-creative--item--meta--formats">.swf, .jpg, .gif</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="stunning-creative--arrows">
-		<div id="stunning-creative--arrows--left">
-			<img src="assets/images/left.png"/>
-		</div>
-		<div id="stunning-creative--arrows--right">
-			<img src="assets/images/right.png"/>
-		</div>
-	</div>
-</div>
-
-<!-- end Stunning creative -->
+<script src="//tstatic2.rtcm.com/acontent/scripts/main.js"></script>
+<script>
+	$(document).ready(function(){
+		$(".sidebar-toggler").click(function(){
+			if($('body').hasClass('show-sidebar')) {
+				$('body').removeClass('show-sidebar');
+				$('#side-menu').addClass('hidden-xs');
+			} else {
+				$('body').addClass('show-sidebar');
+				$('#side-menu').removeClass('hidden-xs');
+			}
+		});
 
 
-<div id="slide-selectors">
-	<div class="slide-selector active" data-target="#make-serious-money">
-	</div>
-	<div class="slide-selector" data-target="#re-launch-soon">
-	</div>
-	<div class="slide-selector" data-target="#we-want-to-help">
-	</div>
-	<div class="slide-selector" data-target="#sell-highlow-effectively">
-	</div>
-	<div class="slide-selector" data-target="#appropriate-messaging">
-	</div>
-	<div class="slide-selector" data-target="#stunning-creative">
-	</div>
-	{% comment %}<div class="slide-selector" data-target="">
-	</div>
-	<div class="slide-selector" data-target="">
-	</div>{% endcomment %}
-</div>
+		setTimeout(function(){
+			  $('.message-wrapper').each(function(){
+			   $(this).addClass('display').addClass($(this).data('type'));
+			  });
+			 },600);
+			 
+		 $('.message-wrapper .close').click(function(){
+		  $('.message-wrapper').removeClass('display').removeClass('fail').removeClass('success').removeClass('alert').removeClass('generic').removeClass('warning');
+		 });
+
+	});
+</script>
+    	
+<script type="text/javascript" src="//tstatic2.rtcm.com/acontent/scripts/jquery.zclip.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$('a.bannerOption').on('click',function(e){
+			e.preventDefault();
+			$(this).next('.subCodeDiv').show();
+		});
+
+		$('.applySubCode').on('click',function(e){				
+			var subCodeText =  $(this).prev('input.subCodeText').val();			
+			var textarea = $(this).closest('.banner-code-div').find('.banner-code-holder');
+			var textareaPrototype = textarea.data('prototype');
+			href = '';
+			if(subCodeText != '') {
+				href = "&amp;chan="+subCodeText;
+			}
+			textarea.val(textareaPrototype.replace('SUBCODE',href));								
+			$(this).parent('div').hide();		
+		});
+    
+		if (location.hash !== '') {
+			$('a[href="' + location.hash + '"]').tab('show');
+		} else {
+			$('.nav-tabs a:first').tab('show');
+		}
+		$('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
+			if(history.pushState)
+				history.pushState(null, null, '#'+$(e.target).attr('href').substr(1));
+			else
+				location.hash = '#'+$(e.target).attr('href').substr(1);
+		});
+
+		message = '<div class="highlow message-wrapper">'+
+			'<div class="message">'+
+				'クリップボードにバナーコードがコピーされました'+
+			'</div>'+
+			'<div class="close">'+
+			'</div>'+
+		'</div>';
+
+		$('.get-code').zclip({
+			path:'//tstatic2.rtcm.com/acontent/js/ZeroClipboard.swf',
+			copy: function() {
+				content = $(this).closest('.banner-code-div').find('.banner-code-holder').val(); 
+				return content;
+			},
+			afterCopy: function() {
+				$('.message-wrapper').remove();
+				$(this).closest('.media-body').prepend(message);
+				$('.message-wrapper').addClass('success').addClass('display');
+				setTimeout(function(){
+					$('.message-wrapper').each(function(){
+						$(this).removeClass('success').removeClass('display').remove();
+					});
+				},5000);
+			}
+		});
+
+		$('.message-wrapper .close').click(function(){
+			$('.message-wrapper').removeClass('display').removeClass('fail').removeClass('success').removeClass('alert').removeClass('generic').removeClass('warning');
+		});	
+
+	});
+</script>
 
 {% endblock %}
