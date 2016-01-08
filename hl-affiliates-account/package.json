@@ -1,0 +1,42 @@
+{
+  "name": "point-blank",
+  "version": "0.0.1",
+  "description": "Blank project with most used extensions and plugins for an efficient start",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Andrew-Fam/point-blank.git"
+  },
+  "author": "Andrew Pham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrew-Fam/point-blank/issues"
+  },
+  "homepage": "https://github.com/Andrew-Fam/point-blank",
+  "devDependencies": {
+    "compression": "^1.4.3",
+    "grunt": "~0.4.2",
+    "grunt-bless": "^0.2.0",
+    "grunt-concurrent": "latest",
+    "grunt-contrib-compress": "^0.13.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-connect": "latest",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-htmlmin": "^0.4.0",
+    "grunt-contrib-imagemin": "^0.9.4",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-requirejs": "latest",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "latest",
+    "grunt-copy-part-of-file": "^0.1.2",
+    "grunt-liquid": "^2.0.0",
+    "grunt-newer": "^0.7.0",
+    "grunt-spritesmith": "^2.1.1",
+    "grunt-text-replace": "^0.3.12",
+    "matchdep": "*",
+    "q": "^1.0.1"
+  }
+}
