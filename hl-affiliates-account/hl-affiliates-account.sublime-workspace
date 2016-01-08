@@ -525,6 +525,46 @@
 				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "templates/index.liquid",
+			"settings":
+			{
+				"buffer_size": 9269,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/includes/side-menu.liquid",
+			"settings":
+			{
+				"buffer_size": 2349,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 5707,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/includes/base.liquid",
+			"settings":
+			{
+				"buffer_size": 1510,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/includes/header.liquid",
+			"settings":
+			{
+				"buffer_size": 1221,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -579,10 +619,14 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account"
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/compiled/acontent/campaign/images",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/node_modules",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates"
 	],
 	"file_history":
 	[
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/affiliate/myaccount-promotion-view.html",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/affiliate/ja-myaccount-promotion-view.html",
 		"/Users/andrew-pham/development/point-sites/banners/share-investor/mrect/banner-old-platform.html",
 		"/Users/andrew-pham/development/point-sites/banners/share-investor/leaderboard/banner-old-platform.html",
 		"/Users/andrew-pham/development/point-sites/banners/share-investor/leaderboard/banner-new-platform.html",
@@ -708,13 +752,11 @@
 		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/modal.less",
 		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/footer.less",
 		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/mobile-my-account.less",
-		"/Users/andrew-pham/development/hl-my-account/common/less/component/contact.less",
-		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/highlow-common-header.less",
-		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/mega-menu.less"
+		"/Users/andrew-pham/development/hl-my-account/common/less/component/contact.less"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -856,6 +898,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"//tstatic2.rtcm.com/",
+			"https://tstatic2.rtcm.com/",
+			"location.hash",
 			"fallback",
 			"show-walk",
 			"safe-charge",
@@ -980,10 +1025,7 @@
 			"search-field",
 			".search-field",
 			"search-fie",
-			"mega-menu",
-			"modal {",
-			"modal-backgro",
-			"form-wrapper"
+			"mega-menu"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -991,6 +1033,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"height: 550px",
 			"90px",
 			"768px",
@@ -1117,8 +1160,7 @@
 			"800",
 			".opacity(55);",
 			"(100)",
-			"-2x);",
-			"2x);"
+			"-2x);"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1129,7 +1171,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1156,9 +1198,159 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/index.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6093,
+								6093
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2705.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/includes/side-menu.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								632,
+								632
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 1.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/includes/base.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1250,
+								1250
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "templates/includes/header.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1127,
+								1127
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -1179,11 +1371,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1200,7 +1399,7 @@
 	"project": "hl-affiliates-account.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1231,7 +1430,7 @@
 		],
 		"width": 953.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

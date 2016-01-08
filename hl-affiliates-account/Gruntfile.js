@@ -11,7 +11,7 @@ module.exports = function(grunt) {
 		connect: {
 			server: {
 				options: {
-					port: 9001,
+					port: 9004,
 					base: './compiled/',
 					keepalive: true,
 					hostname: '*',
@@ -142,17 +142,17 @@ module.exports = function(grunt) {
 				}]
 			}
 		},
-		// copy: {
-		// 	main: {
-		// 		files: [{
-		// 			expand: true,
-		// 			flatten: false,
-		// 			cwd: 'assets/images',
-		// 			src: ['**/*.*'],
-		// 			dest: 'compiled/assets/images/'
-		// 		}]
-		// 	}
-		// },
+		copy: {
+			main: {
+				files: [{
+					expand: true,
+					flatten: false,
+					cwd: 'acontents/',
+					src: ['**/*.*'],
+					dest: 'compiled/acontents/'
+				}]
+			}
+		},
 		// compress: {
 		// 	main: {
 		// 		options: {
@@ -213,12 +213,13 @@ module.exports = function(grunt) {
 			// 		livereload: false
 			// 	}
 			// },
+			acontent: {
+				files: ['acontents/**/*.*'],
+				task: ['newer:copy']
+			},
 			template: {
 				files: ['**/*.liquid'],
-				tasks: ['liquid'],
-				options: {
-					livereload: false
-				}
+				tasks: ['newer:liquid']
 			}
 		},
 		concurrent: {
@@ -232,7 +233,7 @@ module.exports = function(grunt) {
 	});
 	
 
-	grunt.registerTask('default', [ 'newer:liquid', 'concurrent:all']);
+	grunt.registerTask('default', [ 'newer:copy','newer:liquid', 'concurrent:all']);
 	// grunt.registerTask('default', ['sprite', 'newer:less', 'newer:concat', 'uglify','compress', 'newer:liquid', 'bless','copy',  'concurrent:all']);
 };
 

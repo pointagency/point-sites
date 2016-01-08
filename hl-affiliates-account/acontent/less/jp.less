@@ -1,0 +1,138 @@
+@import "bootstrap/variables.less";
+@import "highlow/variables.less";
+
+
+.std-cont {
+	padding-top: 3.5em;
+	padding-bottom: 3.5em;
+}
+
+.navbar-collapse {
+	max-height: 640px!important;
+}
+
+
+.dark-cta-strip .btn {
+	padding: 0;
+}
+
+.to-highlow-website .btn {
+	padding: 0;
+	width: 265px;
+	height: 50px;
+	display: block;
+	background-image: url(../images/jp/highlow-website-cta-sprite.png);
+	background-position: 0px -50px;
+	&:hover {
+		background-position: 0px 0px;
+	}
+}
+
+footer .affiliation h3 {
+	font-size: 12px;
+}
+
+#footer-mobile-app-cta .header, 
+#footer-mobile-app-cta-mobile .header {
+	font-size: 12px;
+	padding: 1em 1em 0.75em;
+	text-align: center;
+}
+
+.modal .modal-footer small {
+	font-style: normal;
+	font-size: 12px;
+	a {
+		text-decoration: none!important;
+		border-bottom: #9a9ca2 1px solid;
+	}
+}
+
+#signin-popup-label {
+	img {
+		width: 81%;
+		@media (min-width: @screen-xs) {
+			width: auto;
+		}
+	}
+	.icon {
+		width: 30px;
+	}
+}
+
+.visible-xl {
+	display: none!important;
+	@media (min-width: 1650px) {
+		display: block!important;
+	}
+}
+
+.visible-lg-only {
+	display: none!important;
+	@media (min-width: 1200px) and (max-width: 1649px) {
+		display: block!important;
+	}
+}
+
+.visible-sm {
+	display: none!important;
+	@media (max-width: 767px) {
+		display: block!important;
+	}
+}
+
+.visible-xs {
+	display: none!important;
+	@media (max-width: 569px) {
+		display: block!important
+	}
+}
+footer {
+	.affiliation {
+		@media (max-width: @screen-xs) {
+			padding-left: 22px;
+			padding-right: 22px;
+			width: auto;
+			text-align: center!important;
+			.icon {
+				display: inline-block;
+				float: none;
+			}
+		}
+	}
+	.affiliation-wrapper {
+		@media (max-width: @screen-md) and (min-width: @screen-sm) {
+			max-width: 320px;
+		}
+	}
+}
+.cta-strip .cta .btn {
+	font-weight: bold;
+	@media (max-width: 767px) {
+		min-width: 0px;
+	}
+}
+
+.cta-strip .cta-strip-title {
+	
+	@media (max-width: 767px) {
+		padding-top: 0;
+		margin-top: 0;
+		img {
+			margin-top: 0;
+		}
+	}
+
+}
+
+body.mac, body.mac * {
+}
+
+@import "jp/hero.less";
+@import "jp/fcs.less";
+@import "jp/nav.less";
+@import "jp/flow-explain.less";
+@import "jp/zoomed-in-features.less";
+@import "jp/typography.less";
+@import "jp/orange-header-panel.less";
+@import "jp/form.less";
