@@ -22,21 +22,22 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-		// less: {
-		// 	main: {
-		// 		files: {
-		// 			'compiled/assets/css/site.css': [
-		// 			'assets/less/site.less'
-		// 			]
-		// 		},
-		// 		options: {
-		// 			compress: true,
-		// 			sourceMap: true,
-		// 			sourceMapFilename: 'compiled/assets/css/site.css.map',
-		// 			sourceMapURL: 'compiled/assets/css/site.css.map',
-		// 			sourceMapRootpath: '/'
-		// 		}
-		// 	},
+		less: {
+			main: {
+				files: {
+					'compiled/acontent/css/post-login.css': [
+						'acontent/less/post-login.less'
+					]
+				},
+				options: {
+					compress: true,
+					sourceMap: true,
+					sourceMapFilename: 'post-login.css.map',
+					sourceMapURL: 'compiled/acontent/css/',
+					sourceMapRootpath: '/'
+				}
+			}
+		// ,
 		// 	page: {
 		// 		files: [{
 		// 			expand: true,
@@ -91,7 +92,7 @@ module.exports = function(grunt) {
 		// 		],
 		// 		dest: 'compiled/assets/js/home-made.js'
 		// 	}
-		// },
+		},
 		// bless: {
 		// 	main: {
 		// 		options: {
@@ -147,9 +148,9 @@ module.exports = function(grunt) {
 				files: [{
 					expand: true,
 					flatten: false,
-					cwd: 'acontents/',
+					cwd: 'acontent/',
 					src: ['**/*.*'],
-					dest: 'compiled/acontents/'
+					dest: 'compiled/acontent/'
 				}]
 			}
 		},
@@ -183,22 +184,22 @@ module.exports = function(grunt) {
 		// 	}
 		// },
 		watch: {
-			// styles: {
-			// 	files: ['assets/less/**/*.less','../shared/less/**/*.less'],
-			// 	tasks: ['less','bless'],
-			// 	options: {
-			// 		nospawn: false,
-			// 		livereload: false
-			// 	}
-			// },
-			// images: {
-			// 	files: ['assets/images/*.*'],
-			// 	tasks: ['copy'],
-			// 	options: {
-			// 		nospawn: false,
-			// 		livereload: false
-			// 	}
-			// },
+			styles: {
+				files: ['acontent/less/**/*.*'],
+				tasks: ['less'],
+				options: {
+					nospawn: false,
+					livereload: false
+				}
+			},
+			images: {
+				files: ['acontent/images/*.*'],
+				tasks: ['newer:copy'],
+				options: {
+					nospawn: false,
+					livereload: false
+				}
+			},
 			// sprite: {
 			// 	files: ['assets/images/spritesheet/*.*'],
 			// 	task: ['sprite','less','bless','imagemin'],
@@ -213,10 +214,6 @@ module.exports = function(grunt) {
 			// 		livereload: false
 			// 	}
 			// },
-			acontent: {
-				files: ['acontents/**/*.*'],
-				task: ['newer:copy']
-			},
 			template: {
 				files: ['**/*.liquid'],
 				tasks: ['newer:liquid']
@@ -233,7 +230,7 @@ module.exports = function(grunt) {
 	});
 	
 
-	grunt.registerTask('default', [ 'newer:copy','newer:liquid', 'concurrent:all']);
+	grunt.registerTask('default', [ 'less','newer:copy','newer:liquid', 'concurrent:all']);
 	// grunt.registerTask('default', ['sprite', 'newer:less', 'newer:concat', 'uglify','compress', 'newer:liquid', 'bless','copy',  'concurrent:all']);
 };
 

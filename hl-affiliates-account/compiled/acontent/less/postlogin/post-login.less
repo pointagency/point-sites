@@ -177,6 +177,10 @@ body {
 		.stats-title {
 			padding: 5px 10px;
 			font-size: 16px;
+			
+			span {
+				cursor: pointer;
+			}
 		}
 		
 		.stats-info {
@@ -301,17 +305,16 @@ ul.pagination {
 	}
 }
 
-@import "../../public/less/bootstrap/media.less";
+@import "../bootstrap/media.less";
 
 #banners {
 	margin: 20px 0; 
 	.media {
 		clear:both;
 		margin: 0px;
-		border-bottom: 1px solid #E8E8E8;
 		
 		> a {
-			background: #F1F2F4;
+			background: #f0f2f4;
 			padding: 20px;
 			width: 185px;
 			height: 185px;
