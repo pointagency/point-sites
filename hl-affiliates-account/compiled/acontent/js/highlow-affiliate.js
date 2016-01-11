@@ -1,3 +1,11 @@
+if(!window.console) {
+	var console = {
+		log: function() {
+
+		}
+	}
+}
+
 /* tCycle Modified */
 
 (function($){
@@ -597,8 +605,6 @@ window.UIinit = function () {
 
 
 
-	/* wrap select box with wrapper */
-	$('select').wrap('<div class="select-wrap"></div>');
 
 	-1!=navigator.userAgent.indexOf("Mac OS X")?$("body").addClass("mac"):$("body").addClass("pc");
 
@@ -702,7 +708,7 @@ window.normalizeHeight = function(selector){
 
 $(document).ready(function(){
 
-	$('body').addClass('hide');
+	// $('body').addClass('hide');
 
 	$window = $(window);
 	$hero  = $('.hero');

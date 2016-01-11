@@ -93,18 +93,18 @@ module.exports = function(grunt) {
 		// 		dest: 'compiled/assets/js/home-made.js'
 		// 	}
 		},
-		// bless: {
-		// 	main: {
-		// 		options: {
-		// 			cacheBuster: false,
-		// 			compress: true,
-		// 			force: true
-		// 		},
-		// 		files: {
-		// 			'compiled/assets/css/site-split.css': 'compiled/assets/css/site.css'
-		// 		}
-		// 	}
-		// },
+		bless: {
+			main: {
+				options: {
+					cacheBuster: false,
+					compress: true,
+					force: true
+				},
+				files: {
+					'compiled/acontent/css/post-login-split.css': 'compiled/acontent/css/post-login.css'
+				}
+			}
+		},
 		// uglify: {
 		// 	js: {
 		// 		files: {
@@ -186,7 +186,7 @@ module.exports = function(grunt) {
 		watch: {
 			styles: {
 				files: ['acontent/less/**/*.*'],
-				tasks: ['less'],
+				tasks: ['less','bless'],
 				options: {
 					nospawn: false,
 					livereload: false
@@ -207,16 +207,16 @@ module.exports = function(grunt) {
 			// 		livereload: false
 			// 	}
 			// },
-			// js: {
-			// 	files: ['assets/js/**/*.js','../shared/js/**/*.js'],
-			// 	tasks: ['concat','uglify','compress'],
-			// 	options: {
-			// 		livereload: false
-			// 	}
-			// },
+			js: {
+				files: ['acontent/js/**/*.js'],
+				tasks: ['copy'],
+				options: {
+					livereload: false
+				}
+			},
 			template: {
 				files: ['**/*.liquid'],
-				tasks: ['newer:liquid']
+				tasks: ['newer:liquid','copy']
 			}
 		},
 		concurrent: {
@@ -230,7 +230,7 @@ module.exports = function(grunt) {
 	});
 	
 
-	grunt.registerTask('default', [ 'less','newer:copy','newer:liquid', 'concurrent:all']);
+	grunt.registerTask('default', [ 'less','bless','newer:copy','newer:liquid', 'concurrent:all']);
 	// grunt.registerTask('default', ['sprite', 'newer:less', 'newer:concat', 'uglify','compress', 'newer:liquid', 'bless','copy',  'concurrent:all']);
 };
 
