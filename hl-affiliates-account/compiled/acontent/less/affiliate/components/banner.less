@@ -84,7 +84,7 @@
 }
 
 .banners--filter-list {
-	padding: 10px 0px 30px;
+	padding: 8px 0 30px;
 }
 
 .banners--filter {
@@ -101,7 +101,7 @@
 
 .banners-filter-option {
 	display: none;
-	background-color: #efefef;
+	background-color: #FCFCFC;
     position: relative;
     padding: 12px 20px 10px;
 	font-size: 12px;
@@ -325,9 +325,23 @@
 			margin: 40px auto;
 			float: none;
 			display: inline-block;
-			li {
+			> li {
 				display: inline-block;
 				float: none;
+				>span,
+				>a {
+					margin-right: 1px!important;
+					background-color: #ecebeb;
+					border: none!important;
+					color: #2c2f35;
+					font-size: 10px;
+				}
+
+				&.active {
+					> span {
+						background-color: #f0f2f4;
+					}
+				}
 			}
 		}
 	}

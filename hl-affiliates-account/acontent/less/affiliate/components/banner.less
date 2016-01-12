@@ -84,7 +84,7 @@
 }
 
 .banners--filter-list {
-	padding: 10px 0px 30px;
+	padding: 8px 0 30px;
 }
 
 .banners--filter {
@@ -325,9 +325,32 @@
 			margin: 40px auto;
 			float: none;
 			display: inline-block;
-			li {
+			> li {
 				display: inline-block;
 				float: none;
+				>span,
+				>a {
+					margin-right: 1px!important;
+					background-color: #ecebeb;
+					border: none!important;
+					color: #2c2f35;
+					font-size: 10px;
+				}
+
+				&.disabled {
+					>span,
+					>a {
+						img {
+							.opacity(0.5);
+						}
+					}
+				}
+
+				&.active {
+					> span {
+						background-color: #f0f2f4;
+					}
+				}
 			}
 		}
 	}
