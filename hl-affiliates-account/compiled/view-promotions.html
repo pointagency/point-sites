@@ -216,345 +216,366 @@
 					<!-- Tab panes -->
 					<div class="tab-content">
 						<div class="tab-pane active" id="banners">
-							<div class="clearfix banners--search-options">
-								<form>
-									<div class="banners--search">
-										<label for="banners-search-input">Search</label>
-										&nbsp;
-										&nbsp;
-										<input id="banners-search-input" type="text" class="form-control"/>
-									</div>
-									<div class="banners--sort">
-										<label>Sort by</label>
-										<div class="banners--sort--options">
-											<div class="banners--sort--option">
-												<label>
-													<input type="checkbox" name="sort" value="size"/>
-													Size
-												</label>
-												<select>
-													<option value="asc">ASC</option>
-													<option value="asc">DEC</option>
-												</select>
-											</div>
-											<div class="banners--sort--option">
-												<label>
-													<input type="checkbox" name="sort" value="name"/>
-													Name
-												</label>
-												<select>
-													<option value="asc">ASC</option>
-													<option value="asc">DEC</option>
-												</select>
-											</div>
-											<div class="banners--sort--option">
-												<div class="btn clear">
-													Clear
-												</div>
-											</div>
+							<form>
+								<div class="clearfix banners--search-options">
+									<form>
+										<div class="banners--search">
+											<label for="banners-search-input">Search</label>
+											&nbsp;
+											&nbsp;
+											<input id="banners-search-input" type="text" class="form-control"/>
 										</div>
-									</div>
-								</form>
-								<br/>
-							</div>
-							<div class="banners--panel clearfix">
-								<div class="col-md-3 banners--filters">
-									<div class="header-block-2">
-										FILTERS
-									</div>
-									<form class="banners--filter-list">
-										<div class="banners--filter">
-											<label>
-												<input type="checkbox" class="banners--filter--toggle">
-												&nbsp;&nbsp;By language
-											</label>
-											<div class="banners-filter-option">
-												<label>
-													<input type="checkbox" name="language[]" value="jp"/>
-													&nbsp;&nbsp;Japanese
-												</label>
-												&nbsp;
-												&nbsp;
-												&nbsp;
-												<label>
-													<input type="checkbox" name="language[]" value="eng"/>
-													&nbsp;&nbsp;English
-												</label>
+										<div class="banners--sort">
+											<label>Sort by</label>
+											<div class="banners--sort--options">
+												<div class="banners--sort--option">
+													<label>
+														<input type="checkbox" name="sort" value="size"/>
+														Size
+													</label>
+													<select>
+														<option value="asc">ASC</option>
+														<option value="asc">DEC</option>
+													</select>
+												</div>
+												<div class="banners--sort--option">
+													<label>
+														<input type="checkbox" name="sort" value="name"/>
+														Name
+													</label>
+													<select>
+														<option value="asc">ASC</option>
+														<option value="asc">DEC</option>
+													</select>
+												</div>
+												<div class="banners--sort--option">
+													<div class="btn clear">
+														Clear
+													</div>
+												</div>
 											</div>
 										</div>
 									</form>
+									<br/>
 								</div>
-								<div class="col-md-9 banners--list">
-									<div class="header-block-1">
-										Currently viewing 6 of 76 banners:
-									</div>
-									<div class="banner--item"
-
-										data-name="300x250 Market related"
-										data-format="(html5/png fallback)"
-										data-campaign-name="Australian affiliates campaign 2"
-										data-target="https://en2.highlow.net/account"
-										data-code='<a href="http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top"><iframe style="width: 300px; height: 250px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/mrec/banner.html"></iframe></a>'
-										data-width="300"
-										data-height="250"
-									>
-										<div class="p-css-table banner--item-content">
-											<div class="p-css-table-row">
-												<div class="p-css-table-cell banner--preview-container">
-													<div class="banner--preview banner--viewable banner--playable banner--view-code">
-														<a title="preview this banner" class="banner--viewable--cover">
-															<div class="banner--viewable--screenshot" style="background-image: url(acontent/images/banner1-asx-mRec-preview.png);"></div>
-														</a>
-													</div>
+								<div class="banners--panel clearfix">
+									<div class="col-md-3 banners--filters">
+										<div class="header-block-2">
+											FILTERS
+										</div>
+										<div class="banners--filter-list">
+											<div class="banners--filter">
+												<label for="language-filter-toggle">
+													<input id="language-filter-toggle" type="checkbox" class="banners--filter--toggle">
+													&nbsp;&nbsp;By language
+												</label>
+												<div class="banners-filter-option">
+													<label>
+														<input type="checkbox" name="language[]" value="jp"/>
+														&nbsp;&nbsp;Japanese
+													</label>
+													&nbsp;
+													&nbsp;
+													&nbsp;
+													<label>
+														<input type="checkbox" name="language[]" value="eng"/>
+														&nbsp;&nbsp;English
+													</label>
 												</div>
-												<div class="banner--details banner-code-div">
-													<h4 class="banner--details--banner-name">
-														<strong>300x250 Market related</strong> 
-														<span class="word banner--details--banner-format">
-															(html5/png fallback)
-														</span>
-													</h4>
-													<div class="banner--details--campaign-name">
-														Australian affiliates campaign 2
-													</div>
-													<div class="banner--details--target-link">	
-														https://en2.highlow.net/account
-													</div>
-													<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
-														<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
-													</button>
+											</div>
+											<div class="banners--filter">
+												<label for="banner-type-filter-toggle">
+													<input id="banner-type-filter-toggle" type="checkbox" class="banners--filter--toggle">
+													&nbsp;&nbsp;By banner type
+												</label>
+												<div class="banners-filter-option">
+													<label>
+														<input type="checkbox" name="type[]" value="animated"/>
+														&nbsp;&nbsp;Animated
+													</label>
+													&nbsp;
+													&nbsp;
+													&nbsp;
+													<label>
+														<input type="checkbox" name="type[]" value="static"/>
+														&nbsp;&nbsp;Static
+													</label>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="banner--item"
+									<div class="col-md-9 banners--list">
+										<div class="header-block-1">
+											Currently viewing 6 of 76 banners:
+										</div>
+										<div class="banner--item"
 
-										data-name="728x90 Market related"
-										data-format="(html5/png fallback)"
-										data-campaign-name="Australian affiliates campaign 2"
-										data-target="https://en2.highlow.net/account"
-										data-code='<a href="http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top"><iframe style="width: 728px; height: 90px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/leaderboard/banner.html"></iframe></a>'
-										data-width="728"
-										data-height="90"
-									>
-										<div class="p-css-table banner--item-content">
-											<div class="p-css-table-row">
-												<div class="p-css-table-cell banner--preview-container">
-													<div class="banner--preview banner--viewable banner--playable banner--view-code">
-														<a title="preview this banner" class="banner--viewable--cover">
-															<div class="banner--viewable--screenshot" style="background-image: url(acontent/images/banner1-asx-leaderboard-preview.png);"></div>
-														</a>
+											data-name="300x250 Market related"
+											data-format="(html5/png fallback)"
+											data-campaign-name="Australian affiliates campaign 2"
+											data-target="https://en2.highlow.net/account"
+											data-code='<a href="http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top"><iframe style="width: 300px; height: 250px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/mrec/banner.html"></iframe></a>'
+											data-width="300"
+											data-height="250"
+										>
+											<div class="p-css-table banner--item-content">
+												<div class="p-css-table-row">
+													<div class="p-css-table-cell banner--preview-container">
+														<div class="banner--preview banner--viewable banner--playable banner--view-code">
+															<a title="preview this banner" class="banner--viewable--cover">
+																<div class="banner--viewable--screenshot" style="background-image: url(acontent/images/banner1-asx-mRec-preview.png);"></div>
+															</a>
+														</div>
+													</div>
+													<div class="banner--details banner-code-div">
+														<h4 class="banner--details--banner-name">
+															<strong>300x250 Market related</strong> 
+															<span class="word banner--details--banner-format">
+																(html5/png fallback)
+															</span>
+														</h4>
+														<div class="banner--details--campaign-name">
+															Australian affiliates campaign 2
+														</div>
+														<div class="banner--details--target-link">	
+															https://en2.highlow.net/account
+														</div>
+														<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
+															<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
+														</button>
 													</div>
 												</div>
-												<div class="banner--details banner-code-div">
-													<h4 class="banner--details--banner-name">
-														<strong>728x90 Market related</strong> 
-														<span class="word banner--details--banner-format">
-															(html5/png fallback)
-														</span>
-													</h4>
-													<div class="banner--details--campaign-name">
-														Australian affiliates campaign 2
+											</div>
+										</div>
+										<div class="banner--item"
+
+											data-name="728x90 Market related"
+											data-format="(html5/png fallback)"
+											data-campaign-name="Australian affiliates campaign 2"
+											data-target="https://en2.highlow.net/account"
+											data-code='<a href="http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top"><iframe style="width: 728px; height: 90px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/leaderboard/banner.html"></iframe></a>'
+											data-width="728"
+											data-height="90"
+										>
+											<div class="p-css-table banner--item-content">
+												<div class="p-css-table-row">
+													<div class="p-css-table-cell banner--preview-container">
+														<div class="banner--preview banner--viewable banner--playable banner--view-code">
+															<a title="preview this banner" class="banner--viewable--cover">
+																<div class="banner--viewable--screenshot" style="background-image: url(acontent/images/banner1-asx-leaderboard-preview.png);"></div>
+															</a>
+														</div>
 													</div>
-													<div class="banner--details--target-link">	
-														https://en2.highlow.net/account
+													<div class="banner--details banner-code-div">
+														<h4 class="banner--details--banner-name">
+															<strong>728x90 Market related</strong> 
+															<span class="word banner--details--banner-format">
+																(html5/png fallback)
+															</span>
+														</h4>
+														<div class="banner--details--campaign-name">
+															Australian affiliates campaign 2
+														</div>
+														<div class="banner--details--target-link">	
+															https://en2.highlow.net/account
+														</div>
+														<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
+															<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
+														</button>
 													</div>
-													<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
-														<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
-													</button>
+												</div>
+											</div>
+										</div>
+										<div class="banner--item"
+
+											data-name="120x600 Market related"
+											data-format="(html5/png fallback)"
+											data-campaign-name="Australian affiliates campaign 2"
+											data-target="https://en2.highlow.net/account"
+											data-code='<a href="http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top"><iframe style="width: 120px; height: 600px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/skyscrapper/banner.html"></iframe></a>'
+											data-width="120"
+											data-height="600"
+										>
+											<div class="p-css-table banner--item-content">
+												<div class="p-css-table-row">
+													<div class="p-css-table-cell banner--preview-container">
+														<div class="banner--preview banner--viewable banner--playable banner--view-code">
+															<a title="preview this banner" class="banner--viewable--cover">
+																<div class="banner--viewable--screenshot" style="background-image: url(acontent/images/banner1-asx-skyscraper-preview.png);"></div>
+															</a>
+														</div>
+													</div>
+													<div class="banner--details banner-code-div">
+														<h4 class="banner--details--banner-name">
+															<strong>120x600 Market related</strong> 
+															<span class="word banner--details--banner-format">
+																(html5/png fallback)
+															</span>
+														</h4>
+														<div class="banner--details--campaign-name">
+															Australian affiliates campaign 2
+														</div>
+														<div class="banner--details--target-link">	
+															https://en2.highlow.net/account
+														</div>
+														<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
+															<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="banner--item"
+
+											data-name="320x50 Market related"
+											data-format="(html5/png fallback)"
+											data-campaign-name="Australian affiliates campaign 2"
+											data-target="https://en2.highlow.net/account"
+											data-code='<a href="http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top"><iframe style="width: 320px; height: 50px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/mobile/banner.html"></iframe></a>'
+											data-width="320"
+											data-height="50"
+										>
+											<div class="p-css-table banner--item-content">
+												<div class="p-css-table-row">
+													<div class="p-css-table-cell banner--preview-container">
+														<div class="banner--preview banner--viewable banner--playable banner--view-code">
+															<a title="preview this banner" class="banner--viewable--cover">
+																<div class="banner--viewable--screenshot" style="background-image: url(acontent/images/banner1-asx-mobile-preview.png);"></div>
+															</a>
+														</div>
+													</div>
+													<div class="banner--details banner-code-div">
+														<h4 class="banner--details--banner-name">
+															<strong>320x50 Market related</strong> 
+															<span class="word banner--details--banner-format">
+																(html5/png fallback)
+															</span>
+														</h4>
+														<div class="banner--details--campaign-name">
+															Australian affiliates campaign 2
+														</div>
+														<div class="banner--details--target-link">	
+															https://en2.highlow.net/account
+														</div>
+														<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
+															<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="banner--item"
+
+											data-name="468x60 DAX banner"
+											data-format="(html5/png fallback)"
+											data-campaign-name="Australian affiliates campaign 2"
+											data-target="https://en2.highlow.net/account"
+											data-code='<a href="http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top"><iframe style="width: 468px; height: 60px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/banner-dax/banner.html"></iframe></a>'
+											data-width="468"
+											data-height="60"
+										>
+											<div class="p-css-table banner--item-content">
+												<div class="p-css-table-row">
+													<div class="p-css-table-cell banner--preview-container">
+														<div class="banner--preview banner--viewable banner--playable banner--view-code">
+															<a title="preview this banner" class="banner--viewable--cover">
+																<div class="banner--viewable--screenshot" style="background-image: url(acontent/images/banner1-dax-banner-preview.png);"></div>
+															</a>
+														</div>
+													</div>
+													<div class="banner--details banner-code-div">
+														<h4 class="banner--details--banner-name">
+															<strong>468x60 DAX banner</strong> 
+															<span class="word banner--details--banner-format">
+																(html5/png fallback)
+															</span>
+														</h4>
+														<div class="banner--details--campaign-name">
+															Australian affiliates campaign 2
+														</div>
+														<div class="banner--details--target-link">	
+															https://en2.highlow.net/account
+														</div>
+														<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
+															<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="banner--item"
+
+											data-name="728x90 Sample image Campaign"
+											data-format="(html5/png fallback)"
+											data-campaign-name="Australian affiliates campaign 2"
+											data-target="https://jp2.highlow.net/account"
+											data-code='<a href="https://jp2.highlow.net/account?a_aid=568d490aad773&amp;a_cid=757a25f1&amp;a_bid=a7fbd113SUBCODE" target="_top"><img src="https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472927e4c164.gif" alt="1口１０００円からのバイナリーオプション一銭の値動きで利益が出る。お得なキャンペーン実施中！" title="1口１０００円からのバイナリーオプション一銭の値動きで利益が出る。お得なキャンペーン実施中！" /></a>'
+											data-width="728"
+											data-height="90"
+										>
+											<div class="p-css-table banner--item-content">
+												<div class="p-css-table-row">
+													<div class="p-css-table-cell banner--preview-container">
+														<div class="banner--preview banner--viewable banner--view-code">
+															<a title="preview this banner" class="banner--viewable--cover">
+																<div class="banner--viewable--screenshot" style="background-image: url(https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472927e4c164.gif);"></div>
+															</a>
+														</div>
+													</div>
+													<div class="banner--details banner-code-div">
+														<h4 class="banner--details--banner-name">
+															<strong>728x90 Sample image Campaign</strong> 
+															<span class="word banner--details--banner-format">
+																(gif)
+															</span>
+														</h4>
+														<div class="banner--details--campaign-name">
+															Australian affiliates campaign 2
+														</div>
+														<div class="banner--details--target-link">	
+															https://jp2.highlow.net/account
+														</div>
+														<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
+															<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
+														</button>
+													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="banner--item"
-
-										data-name="120x600 Market related"
-										data-format="(html5/png fallback)"
-										data-campaign-name="Australian affiliates campaign 2"
-										data-target="https://en2.highlow.net/account"
-										data-code='<a href="http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top"><iframe style="width: 120px; height: 600px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/skyscrapper/banner.html"></iframe></a>'
-										data-width="120"
-										data-height="600"
-									>
-										<div class="p-css-table banner--item-content">
-											<div class="p-css-table-row">
-												<div class="p-css-table-cell banner--preview-container">
-													<div class="banner--preview banner--viewable banner--playable banner--view-code">
-														<a title="preview this banner" class="banner--viewable--cover">
-															<div class="banner--viewable--screenshot" style="background-image: url(acontent/images/banner1-asx-skyscraper-preview.png);"></div>
-														</a>
-													</div>
-												</div>
-												<div class="banner--details banner-code-div">
-													<h4 class="banner--details--banner-name">
-														<strong>120x600 Market related</strong> 
-														<span class="word banner--details--banner-format">
-															(html5/png fallback)
-														</span>
-													</h4>
-													<div class="banner--details--campaign-name">
-														Australian affiliates campaign 2
-													</div>
-													<div class="banner--details--target-link">	
-														https://en2.highlow.net/account
-													</div>
-													<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
-														<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
-													</button>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="banner--item"
-
-										data-name="320x50 Market related"
-										data-format="(html5/png fallback)"
-										data-campaign-name="Australian affiliates campaign 2"
-										data-target="https://en2.highlow.net/account"
-										data-code='<a href="http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top"><iframe style="width: 320px; height: 50px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/mobile/banner.html"></iframe></a>'
-										data-width="320"
-										data-height="50"
-									>
-										<div class="p-css-table banner--item-content">
-											<div class="p-css-table-row">
-												<div class="p-css-table-cell banner--preview-container">
-													<div class="banner--preview banner--viewable banner--playable banner--view-code">
-														<a title="preview this banner" class="banner--viewable--cover">
-															<div class="banner--viewable--screenshot" style="background-image: url(acontent/images/banner1-asx-mobile-preview.png);"></div>
-														</a>
-													</div>
-												</div>
-												<div class="banner--details banner-code-div">
-													<h4 class="banner--details--banner-name">
-														<strong>320x50 Market related</strong> 
-														<span class="word banner--details--banner-format">
-															(html5/png fallback)
-														</span>
-													</h4>
-													<div class="banner--details--campaign-name">
-														Australian affiliates campaign 2
-													</div>
-													<div class="banner--details--target-link">	
-														https://en2.highlow.net/account
-													</div>
-													<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
-														<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
-													</button>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="banner--item"
-
-										data-name="468x60 DAX banner"
-										data-format="(html5/png fallback)"
-										data-campaign-name="Australian affiliates campaign 2"
-										data-target="https://en2.highlow.net/account"
-										data-code='<a href="http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top"><iframe style="width: 468px; height: 60px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/banner-dax/banner.html"></iframe></a>'
-										data-width="468"
-										data-height="60"
-									>
-										<div class="p-css-table banner--item-content">
-											<div class="p-css-table-row">
-												<div class="p-css-table-cell banner--preview-container">
-													<div class="banner--preview banner--viewable banner--playable banner--view-code">
-														<a title="preview this banner" class="banner--viewable--cover">
-															<div class="banner--viewable--screenshot" style="background-image: url(acontent/images/banner1-dax-banner-preview.png);"></div>
-														</a>
-													</div>
-												</div>
-												<div class="banner--details banner-code-div">
-													<h4 class="banner--details--banner-name">
-														<strong>468x60 DAX banner</strong> 
-														<span class="word banner--details--banner-format">
-															(html5/png fallback)
-														</span>
-													</h4>
-													<div class="banner--details--campaign-name">
-														Australian affiliates campaign 2
-													</div>
-													<div class="banner--details--target-link">	
-														https://en2.highlow.net/account
-													</div>
-													<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
-														<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
-													</button>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="banner--item"
-
-										data-name="728x90 Sample image Campaign"
-										data-format="(html5/png fallback)"
-										data-campaign-name="Australian affiliates campaign 2"
-										data-target="https://jp2.highlow.net/account"
-										data-code='<a href="https://jp2.highlow.net/account?a_aid=568d490aad773&amp;a_cid=757a25f1&amp;a_bid=a7fbd113SUBCODE" target="_top"><img src="https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472927e4c164.gif" alt="1口１０００円からのバイナリーオプション一銭の値動きで利益が出る。お得なキャンペーン実施中！" title="1口１０００円からのバイナリーオプション一銭の値動きで利益が出る。お得なキャンペーン実施中！" /></a>'
-										data-width="728"
-										data-height="90"
-									>
-										<div class="p-css-table banner--item-content">
-											<div class="p-css-table-row">
-												<div class="p-css-table-cell banner--preview-container">
-													<div class="banner--preview banner--viewable banner--view-code">
-														<a title="preview this banner" class="banner--viewable--cover">
-															<div class="banner--viewable--screenshot" style="background-image: url(https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472927e4c164.gif);"></div>
-														</a>
-													</div>
-												</div>
-												<div class="banner--details banner-code-div">
-													<h4 class="banner--details--banner-name">
-														<strong>728x90 Sample image Campaign</strong> 
-														<span class="word banner--details--banner-format">
-															(gif)
-														</span>
-													</h4>
-													<div class="banner--details--campaign-name">
-														Australian affiliates campaign 2
-													</div>
-													<div class="banner--details--target-link">	
-														https://jp2.highlow.net/account
-													</div>
-													<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
-														<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
-													</button>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>	
-							<div class="banners--pagination">
-								<ul class="pagination">
-									<li class="disabled">
-										<span>&laquo;</span>
-									</li><!--
-									--><li class="active">
-										<span>1</span>
-									</li><!--
-									--><li>
-										<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=2">2</a>
-									</li><!--
-									--><li>
-										<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=3">3</a>
-									</li><!--
-									--><li>
-										<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=4">4</a>
-									</li><!--
-									--><li>
-										<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=5">5</a>
-									</li><!--
-									--><li class="disabled">
-										<span>&hellip;</span>
-									</li><!--
-									--><li>
-										<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=8">8</a>
-									</li><!--
-									--><li>
-										<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=2">&raquo;</a>
-									</li>
-								</ul>
-							</div>  
+								</div>	
+								<div class="banners--pagination">
+									<ul class="pagination">
+										<li class="disabled">
+											<span>&laquo;</span>
+										</li><!--
+										--><li class="active">
+											<span>1</span>
+										</li><!--
+										--><li>
+											<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=2">2</a>
+										</li><!--
+										--><li>
+											<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=3">3</a>
+										</li><!--
+										--><li>
+											<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=4">4</a>
+										</li><!--
+										--><li>
+											<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=5">5</a>
+										</li><!--
+										--><li class="disabled">
+											<span>&hellip;</span>
+										</li><!--
+										--><li>
+											<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=8">8</a>
+										</li><!--
+										--><li>
+											<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=2">&raquo;</a>
+										</li>
+									</ul>
+								</div>  
+							</form>
 						</div>
 						<div class="tab-pane" id="directLink">
 							<br/>
