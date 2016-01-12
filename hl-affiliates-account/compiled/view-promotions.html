@@ -392,6 +392,34 @@
 													</label>
 												</div>
 											</div>
+											<div class="banners--filter">
+												<label for="banner-concept-filter-toggle">
+													<input id="banner-concept-filter-toggle" type="checkbox" class="banners--filter--toggle">
+													&nbsp;&nbsp;By concept
+												</label>
+												<div class="banners-filter-option">
+													<label>
+														<input type="checkbox" class="check-all" name="extension[]" value="all"/>
+														&nbsp;&nbsp;All
+													</label>
+													<label>
+														<input type="checkbox" name="extension[]" value="logo"/>
+														&nbsp;&nbsp;Logo/Brand
+													</label>
+													<label>
+														<input type="checkbox" name="extension[]" value="cashback"/>
+														&nbsp;&nbsp;Signup Cashback
+													</label>
+													<label>
+														<input type="checkbox" name="extension[]" value="traders"/>
+														&nbsp;&nbsp;Traders
+													</label>
+													<label>
+														<input type="checkbox" name="extension[]" value="etc"/>
+														&nbsp;&nbsp;.etc
+													</label>
+												</div>
+											</div>
 											<div class="banners--filter--apply">
 												<button class="banners--filter--apply-btn btn btn-alternate btn btn-extruded pull-left"><i class="fa fa-filter"></i>&nbsp;&nbsp;APPLY FILTER</button>
 											</div>
@@ -640,7 +668,15 @@
 								<div class="banners--pagination">
 									<ul class="pagination">
 										<li class="disabled">
-											<span>&laquo;</span>
+											<span>
+												<img src="acontent/images/left-v.png"/>
+												<img src="acontent/images/left-v.png"/>
+											</span>
+										</li><!--
+										--><li class="disabled">
+											<span>
+												<img src="acontent/images/left-v.png"/>
+											</span>
 										</li><!--
 										--><li class="active">
 											<span>1</span>
@@ -664,7 +700,15 @@
 											<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=8">8</a>
 										</li><!--
 										--><li>
-											<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=2">&raquo;</a>
+											<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=2">
+												<img src="acontent/images/right-v.png"/>
+											</a>
+										</li><!--
+										--><li>
+											<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=8">
+												<img src="acontent/images/right-v.png"/>
+												<img src="acontent/images/right-v.png"/>
+											</a>
 										</li>
 									</ul>
 								</div>  
@@ -899,18 +943,27 @@
 
 			if($self.is(':checked') == true) {
 				
-				$($filterOptions.find('input[type="checkbox"]')).not('.check-all').prop("checked", false);
+				$($filterOptions.find('input[type="checkbox"]')).not('.check-all').prop("checked", true);
 
+			} else {
+				$($filterOptions.find('input[type="checkbox"]')).not('.check-all').prop("checked", false);
 			}
 		});
 
-		$('.banners--filter .banners-filter-option input[type="checkbox"]').not('.check-all').click(function(){
+		$('.banners--filter .banners-filter-option input[type="checkbox"]').not('.check-all').change(function(){
 
 			var $self = $(this),
 				$filter = $($self.closest('.banners--filter')),
 				$filterAll = $($filter.find('.check-all'));
 
-			$filterAll.prop("checked", false);
+
+			if($self.is(':checked') == true) {
+
+			} else {
+				$filterAll.prop("checked", false);
+			}
+
+			
 		});
 
 		// banner sort 
