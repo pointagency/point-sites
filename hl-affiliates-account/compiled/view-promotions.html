@@ -208,11 +208,7 @@
 				<h3></h3>
 				<div class="col-lg-12">
 					<!-- Nav tabs -->
-					<ul class="nav nav-tabs" role="tablist">
-						<li class="active"><a href="#banners" role="tab" data-toggle="tab">Banners</a></li>
-						<li><a href="#directLink" role="tab" data-toggle="tab">Direct Links</a></li>			  
-					</ul>
-
+					
 					<!-- Tab panes -->
 					<div class="tab-content">
 						<div class="tab-pane active" id="banners">
@@ -708,12 +704,7 @@
 								</div>  
 							</form>
 						</div>
-						<div class="tab-pane" id="directLink">
-							<br/>
-							<div class="panel panel-default listing">	
-								<b>No Direct Link found for this promotion</b>
-							</div> 		
-						</div>			 
+									 
 					</div>
 				</div>
 			</div>
@@ -827,17 +818,17 @@
 			$(this).parent('div').hide();		
 		});
 
-		if (location.hash !== '') {
-			$('a[href="' + location.hash + '"]').tab('show');
-		} else {
-			$('.nav-tabs a:first').tab('show');
-		}
-		$('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
-			if(history.pushState)
-				history.pushState(null, null, '#'+$(e.target).attr('href').substr(1));
-			else
-				location.hash = '#'+$(e.target).attr('href').substr(1);
-		});
+		// if (location.hash !== '') {
+		// 	$('a[href="' + location.hash + '"]').tab('show');
+		// } else {
+		// 	$('.nav-tabs a:first').tab('show');
+		// }
+		// $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
+		// 	if(history.pushState)
+		// 		history.pushState(null, null, '#'+$(e.target).attr('href').substr(1));
+		// 	else
+		// 		location.hash = '#'+$(e.target).attr('href').substr(1);
+		// });
 
 		message = '<div class="highlow message-wrapper">'+
 		'<div class="message">'+
