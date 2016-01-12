@@ -189,7 +189,8 @@
 	position: relative;
 	.banner--item:hover & {
 		background-color: #f9fafb;
-		&:before {
+		&:before,
+		&:after {
 			content: "";
 			display: block;
 			position: absolute;
@@ -199,6 +200,11 @@
 			width: 2px;
 			background-color: #fff;
 			z-index: 100;
+		}
+
+		&:after {
+			left: auto;
+			right: 0px;
 		}
 	}
 }
