@@ -93,28 +93,24 @@
 		color: #2c2f35;
 		font-size: 12px;
 		padding: 13px 20px 13px;
-		border-bottom: 1px solid #e3e1e1;
 		display: block;
 		margin-bottom: 0px;
+		border-bottom: 1px solid #e3e1e1;
+	}
+	&.active {
+		> label {
+			border-bottom: none;
+		}
 	}
 }
 
 .banners-filter-option {
 	display: none;
-	background-color: #FCFCFC;
+	background-color: #F9F9F9;
     position: relative;
     padding: 12px 20px 10px;
 	font-size: 12px;
-	&:before {
-		display: block;
-		content: "";
-		width: 100%;
-		position: absolute;
-		bottom: 0px;
-		left: 0px;
-		height: 1px;
-		background-color: #e3e1e1;
-	}
+	border-bottom: 1px solid #e3e1e1;
 	label {
 		font-weight: 400;
 		display: inline-block;
@@ -232,7 +228,8 @@
 		float: left;
 	}
 
-	.banner--details--get-code-btn {
+	.banner--details--get-code-btn,
+	.banners--filter--apply-btn {
 		font-family: @font-mont;
 		font-size: 10px;
 		letter-spacing: 0.08em;
@@ -375,13 +372,17 @@
 	.banners--filter--apply {
 		text-align: center;
 		padding: 15px 20px;
-		.btn {
-			background-color: transparent!important;
-			width: 100%;
-			text-align: left;
-    		padding: 0px 0px;
-    		font-size: 10px;
-    		letter-spacing: 0.08em;
-    		font-family: @font-mont;
+		.btn.banners--filter--apply-btn {
+			background-color: #dedede;
+			color: #33363d!important;
+			margin-top: 0px;
+			border-bottom-color: #C3C3C3;
+			.transition(all 0.125s ease);
+			&:hover {
+				background-color: #fff!important;
+				border-bottom-color: #d3d3d3;
+			}
 		}
 	}
+
+	

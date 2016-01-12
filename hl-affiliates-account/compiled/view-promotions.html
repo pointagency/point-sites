@@ -377,7 +377,7 @@
 												</div>
 											</div>
 											<div class="banners--filter--apply">
-												<button class="btn btn-lg pull-right"><i class="fa fa-refresh"></i>&nbsp;&nbsp;APPLY FILTER</button>
+												<button class="banners--filter--apply-btn btn btn-alternate btn btn-extruded pull-left"><i class="fa fa-filter"></i>&nbsp;&nbsp;APPLY FILTER</button>
 											</div>
 										</div>
 									</div>
@@ -842,11 +842,14 @@
 
 		$('.banners--filter .banners--filter--toggle').change(function(){
 			var $self = $(this),
-				$filterOptions = $($(this).closest('.banners--filter').find('.banners-filter-option'));
+				$filter = $($self.closest('.banners--filter')),
+				$filterOptions = $($filter.find('.banners-filter-option'));
 			if($self.is(':checked') == true) {
+				$filter.addClass('active');
 				$filterOptions.slideDown(125);
 			} else {
 
+				$filter.removeClass('active');
 				$($filterOptions.find('input[type="checkbox"]')).prop("checked", false);
 
 				$filterOptions.slideUp(125);
@@ -857,11 +860,14 @@
 
 		$('.banners--filter .banners--filter--toggle').each(function(){
 			var $self = $(this),
-				$filterOptions = $($(this).closest('.banners--filter').find('.banners-filter-option'));
+				$filter = $($self.closest('.banners--filter')),
+				$filterOptions = $($filter.find('.banners-filter-option'));
 			if($self.is(':checked') == true) {
+				$filter.addClass('active');
 				$filterOptions.slideDown(125);
 			} else {
 
+				$filter.removeClass('active');
 				$($filterOptions.find('input[type="checkbox"]')).prop("checked", false);
 
 				$filterOptions.slideUp(125);
