@@ -132,9 +132,20 @@
 }
 
 .banners--panel {
-	background-color: #f0f2f4;
+	#banners & {
+		background-color: #f0f2f4;
+	}
 }
 
+.header-block-1 {
+	#banners & {
+		border-bottom: 1px solid #e3e1e1;
+	}
+}
+
+.header-block-2 {
+	border-bottom: 1px solid #e3e1e1;
+}
 
 .banner--item {
 	border-bottom: 1px solid #E8E8E8;
@@ -178,7 +189,8 @@
 	position: relative;
 	.banner--item:hover & {
 		background-color: #f9fafb;
-		&:before {
+		&:before,
+		&:after {
 			content: "";
 			display: block;
 			position: absolute;
@@ -188,6 +200,11 @@
 			width: 2px;
 			background-color: #fff;
 			z-index: 100;
+		}
+
+		&:after {
+			left: auto;
+			right: 0px;
 		}
 	}
 }
@@ -263,7 +280,7 @@
 
 	.banner--playable & {
 		&:before {
-			background-image: url(../images/play-btn.png);
+			// background-image: url(../images/play-btn.png);
 		}
 	}
 
@@ -335,6 +352,15 @@
 					border: none!important;
 					color: #2c2f35;
 					font-size: 10px;
+				}
+
+				&.disabled {
+					>span,
+					>a {
+						img {
+							.opacity(0.5);
+						}
+					}
 				}
 
 				&.active {

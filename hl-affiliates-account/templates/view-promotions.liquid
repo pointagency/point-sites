@@ -720,6 +720,9 @@
 			if($self.is(':checked') == true) {
 				$filterOptions.slideDown(125);
 			} else {
+
+				$($filterOptions.find('input[type="checkbox"]')).prop("checked", false);
+
 				$filterOptions.slideUp(125);
 			}
 		});
@@ -732,6 +735,9 @@
 			if($self.is(':checked') == true) {
 				$filterOptions.slideDown(125);
 			} else {
+
+				$($filterOptions.find('input[type="checkbox"]')).prop("checked", false);
+
 				$filterOptions.slideUp(125);
 			}
 		});

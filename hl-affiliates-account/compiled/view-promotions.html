@@ -621,10 +621,7 @@
 								<div class="banners--pagination">
 									<ul class="pagination">
 										<li class="disabled">
-											<span><img src="acontent/images/left-v.png"><img src="acontent/images/left-v.png"></span>
-										</li><!--
-										--><li class="disabled">
-											<span><img src="acontent/images/left-v.png"></span>
+											<span>&laquo;</span>
 										</li><!--
 										--><li class="active">
 											<span>1</span>
@@ -648,10 +645,7 @@
 											<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=8">8</a>
 										</li><!--
 										--><li>
-											<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=2"><img src="acontent/images/right-v.png"></a>
-										</li><!--
-										--><li>
-											<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=8"><img src="acontent/images/right-v.png"><img src="acontent/images/right-v.png"></a>
+											<a href="/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=2">&raquo;</a>
 										</li>
 									</ul>
 								</div>  
@@ -849,6 +843,9 @@
 			if($self.is(':checked') == true) {
 				$filterOptions.slideDown(125);
 			} else {
+
+				$($filterOptions.find('input[type="checkbox"]')).prop("checked", false);
+
 				$filterOptions.slideUp(125);
 			}
 		});
@@ -861,6 +858,9 @@
 			if($self.is(':checked') == true) {
 				$filterOptions.slideDown(125);
 			} else {
+
+				$($filterOptions.find('input[type="checkbox"]')).prop("checked", false);
+
 				$filterOptions.slideUp(125);
 			}
 		});
