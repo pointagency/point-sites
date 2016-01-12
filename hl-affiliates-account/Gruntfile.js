@@ -215,7 +215,7 @@ module.exports = function(grunt) {
 				}
 			},
 			template: {
-				files: ['**/*.liquid'],
+				files: ['templates/**/*.liquid'],
 				tasks: ['newer:liquid','copy']
 			}
 		},
