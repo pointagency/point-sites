@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"border-bo",
+				"border-bottom-color"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"filter",
+				"filterOptions"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"banner--",
+				"banner--playable-preview"
+			],
+			[
+				"bac",
+				"bs3-carousel	bs3-carousel"
+			],
+			[
+				"aco",
+				"acontent"
+			],
+			[
 				"is",
 				"isAndroidMobile"
 			],
@@ -16,19 +48,11 @@
 				"currentContainer"
 			],
 			[
-				"back",
-				"background-image"
-			],
-			[
 				"padd",
 				"padding"
 			],
 			[
 				"tex",
-				"text-align"
-			],
-			[
-				"text",
 				"text-align"
 			],
 			[
@@ -42,10 +66,6 @@
 			[
 				"marg",
 				"margin-left"
-			],
-			[
-				"bac",
-				"background-size"
 			],
 			[
 				"trans",
@@ -494,67 +514,80 @@
 			[
 				"di",
 				"display"
-			],
-			[
-				"remoev",
-				"removeClass"
-			],
-			[
-				"edita",
-				"editable-field"
-			],
-			[
-				"remove",
-				"removeClass"
-			],
-			[
-				"list-",
-				"list-style-type"
-			],
-			[
-				"list",
-				"list-style-type"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "templates/index.liquid",
 			"settings":
 			{
-				"buffer_size": 9269,
+				"buffer_size": 269,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/includes/side-menu.liquid",
+			"file": "templates/view-promotions.liquid",
 			"settings":
 			{
-				"buffer_size": 2349,
+				"buffer_size": 33743,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Gruntfile.js",
+			"file": "acontent/js/highlow-affiliate.js",
 			"settings":
 			{
-				"buffer_size": 5707,
+				"buffer_size": 18785,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/includes/base.liquid",
+			"file": "acontent/less/postlogin/post-login.less",
 			"settings":
 			{
-				"buffer_size": 1510,
+				"buffer_size": 6548,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "acontent/less/postlogin/side-menu.less",
+			"settings":
+			{
+				"buffer_size": 4005,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "compiled/view-promotions.html",
+			"settings":
+			{
+				"buffer_size": 37866,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andrew-pham/development/point-sites/banners/market-related/test.html",
+			"settings":
+			{
+				"buffer_size": 404,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "compiled/acontent/css/post-login.css",
+			"settings":
+			{
+				"buffer_size": 230302,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "compiled/index.html",
+			"settings":
+			{
+				"buffer_size": 1898,
 				"line_ending": "Unix"
 			}
 		},
@@ -562,7 +595,63 @@
 			"file": "templates/includes/header.liquid",
 			"settings":
 			{
-				"buffer_size": 1221,
+				"buffer_size": 1078,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "acontent/less/affiliate/components/p-css-table.less",
+			"settings":
+			{
+				"buffer_size": 435,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/includes/base.liquid",
+			"settings":
+			{
+				"buffer_size": 1757,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "acontent/js/html5shiv.min.js",
+			"settings":
+			{
+				"buffer_size": 2636,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/includes/side-menu.liquid",
+			"settings":
+			{
+				"buffer_size": 1821,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 5457,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "acontent/less/affiliate/point-hl-affiliate-account.less",
+			"settings":
+			{
+				"buffer_size": 353,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "acontent/less/affiliate/components/banner.less",
+			"settings":
+			{
+				"buffer_size": 6584,
 				"line_ending": "Unix"
 			}
 		}
@@ -619,13 +708,39 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/compiled/acontent/campaign/images",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/node_modules",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/postlogin",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/affiliate/acontent/less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/compiled",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/compiled/acontent",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/compiled/acontent/images",
 		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates"
 	],
 	"file_history":
 	[
+		"/Users/andrew-pham/Downloads/affiliate/view-promotion.html",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/get-code-modal.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/highlow/highlow.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/post-login.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/header-block.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/banner.less",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/point.base.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/compiled/acontent/js/highlow.min.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/highlow.min.js",
 		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/affiliate/myaccount-promotion-view.html",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/postlogin/post-login.less",
+		"/Users/andrew-pham/development/hl-my-account/common/less/ui-components/p-css-table.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/p-css-table.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/index.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/side-menu.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/Gruntfile.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/base.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/header.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/css/bootstrap-custom.css",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/affiliate/acontent/css/affiliate.css",
 		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/affiliate/ja-myaccount-promotion-view.html",
 		"/Users/andrew-pham/development/point-sites/banners/share-investor/mrect/banner-old-platform.html",
 		"/Users/andrew-pham/development/point-sites/banners/share-investor/leaderboard/banner-old-platform.html",
@@ -671,7 +786,6 @@
 		"/Users/andrew-pham/development/point-sites/banners/market-related/leaderboard/banner.html",
 		"/Users/andrew-pham/development/highlow-public-page/templates/index.liquid",
 		"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components/charting.js",
-		"/Users/andrew-pham/development/hl-my-account/common/scripts/point.base.js",
 		"/Users/andrew-pham/development/hl-my-account/templates/includes/demo-widget.liquid",
 		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-demo-widget.liquid",
 		"/Users/andrew-pham/development/highlow-public-page/public/css/highlow.less",
@@ -733,26 +847,7 @@
 		"/Users/andrew-pham/development/highlow-public-page/templates/includes/ja-signin-popup.liquid",
 		"/Users/andrew-pham/development/highlow-public-page/templates/layouts/layout.liquid",
 		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/menu-bar.less",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/extreme-alert.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/ja-extreme-alert.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/ja-common-nav.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/ja-main-navigation.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/ja-main-navigation-quick-demo.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/ja-main-navigation-demo.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/main-navigation.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/main-navigation-quick-demo.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/public/js/highlow.js",
-		"/Users/andrew-pham/development/hl-my-account/common/less/component/trade-walkthrough.less",
-		"/Users/andrew-pham/development/hl-my-account/templates/ja-home-lite.liquid",
-		"/Users/andrew-pham/development/hl-my-account/templates/home-lite.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/public/css/less/modals.less",
-		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/clearable.less",
-		"/Users/andrew-pham/development/hl-my-account/common/less/ui-components/clearable.less",
-		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-mega-menu.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/modal.less",
-		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/footer.less",
-		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/mobile-my-account.less",
-		"/Users/andrew-pham/development/hl-my-account/common/less/component/contact.less"
+		"/Users/andrew-pham/development/highlow-public-page/templates/includes/extreme-alert.liquid"
 	],
 	"find":
 	{
@@ -763,6 +858,12 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less",
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js",
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less",
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/compiled/acontent",
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less",
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate",
 			"/Users/andrew-pham/development/highlow-app/common/less",
 			"/Users/andrew-pham/development/hl-my-account/templates/includes",
 			"/Users/andrew-pham/development/hl-my-account/common/less",
@@ -884,13 +985,7 @@
 			"/Users/andrew-pham/development/umajin-landing-page/common/scripts/components",
 			"/Users/andrew-pham/development/umajin-landing-page/common/less",
 			"/Users/andrew-pham/development/hl-my-account/common/less",
-			"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components",
-			"/Users/andrew-pham/development/hl-my-account/common/less/component",
-			"/Users/andrew-pham/development/gpe/cdn/less/modules",
-			"/Users/andrew-pham/development/gpe/cdn/less",
-			"/Users/andrew-pham/development/hl-my-account/common/less",
-			"/Users/andrew-pham/development/hl-my-account/common/less/component",
-			"/Users/andrew-pham/development/hl-my-account/common/less"
+			"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components"
 		]
 	},
 	"find_state":
@@ -898,6 +993,50 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"width:",
+			"Traders",
+			"&nbsp;&nbsp;",
+			"Cashback",
+			"filter",
+			"pagination",
+			"\n													&nbsp;\n													&nbsp;\n													&nbsp;",
+			".page-heading",
+			"custom-nav",
+			"banner--item",
+			"--playable",
+			"banner--playable",
+			"images",
+			"%;\n",
+			"banner--playable",
+			"banner--preview",
+			"bless",
+			"sort",
+			"body",
+			"hide",
+			"input-wrap",
+			";\n",
+			"banners--filter",
+			";\n",
+			"banner--filter",
+			"banners--filters",
+			"<a",
+			"a",
+			"orientation",
+			"scrollTop",
+			"bannerOption",
+			"media",
+			"apply",
+			".fade",
+			".fade.in",
+			"Open Sans",
+			"'Montserrat",
+			"p-css-table-cell",
+			"<a class=\"banner--preview\"> href=\"https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472975b30e8f.gif\">\n											<img src=\"https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472975b30e8f.gif\">\n												</a>",
+			"css-table",
+			"<div class=\"media\">\n										<a class=\"pull-left\"",
+			"#banners",
+			"media.less",
+			"wolf",
 			"//tstatic2.rtcm.com/",
 			"https://tstatic2.rtcm.com/",
 			"location.hash",
@@ -981,51 +1120,7 @@
 			"blink",
 			"renderWrapper",
 			"currentContainer",
-			"rotate",
-			"%}",
-			"socialWidget",
-			"social",
-			"xml",
-			"/*************************************************************************************************",
-			"tmpl",
-			"cursor-2'",
-			"'",
-			"cursor-2",
-			"#cursor-2",
-			"cursor",
-			"cursor']",
-			"#fallback",
-			".fallback",
-			"console",
-			"bg-1-wrapper",
-			"cursor-2",
-			"#cursor-2",
-			"chart-wrapper",
-			"dot",
-			"<img   src=\"question-mark.png\"",
-			"question-mark",
-			"scale",
-			"question-mark",
-			"pacing",
-			"#chart-wrapper",
-			"2-pos",
-			"chart-wr",
-			"graph-wrapper",
-			"cursor",
-			"graph-wrapper",
-			"graph-wraper",
-			"panel-header",
-			"padding-top: 25px",
-			".trading-app-root",
-			"overflow-y: scroll;",
-			".modal {",
-			"overflow-y",
-			"custom-modal",
-			"clearable",
-			"search-field",
-			".search-field",
-			"search-fie",
-			"mega-menu"
+			"rotate"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1033,6 +1128,13 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"--viewable",
+			"layout",
+			"p-css-table-cell banner--preview-container",
+			"<div class=\"p-css-table-cell\"><a class=\"banner--preview\"> href=\"https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472975b30e8f.gif\">\n											<img src=\"https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472975b30e8f.gif\">\n												</a></div>",
+			"p-css-table",
+			"<div class=\"media\">\n										<div class=\"css-table\">\n											<div class=\"css-table-row\">\n												<a class=\"pull-left\">",
 			"",
 			"height: 550px",
 			"90px",
@@ -1153,14 +1255,7 @@
 			"</span><span class=\"word\">",
 			"_transaction-history",
 			"transactions-history-filter",
-			"_transaction-history",
-			"transaction_type_filter",
-			"800",
-			"801",
-			"800",
-			".opacity(55);",
-			"(100)",
-			"-2x);"
+			"_transaction-history"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1171,15 +1266,361 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "templates/index.liquid",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								269
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/view-promotions.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 33743,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29281,
+								29281
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3503.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "acontent/js/highlow-affiliate.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 958.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "acontent/less/postlogin/post-login.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1732,
+								1732
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1797.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "acontent/less/postlogin/side-menu.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4005,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								722,
+								722
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "compiled/view-promotions.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37866,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1828,
+								1828
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Enhanced HTML and CFML/EnhancedHTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/andrew-pham/development/point-sites/banners/market-related/test.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								266
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Enhanced HTML and CFML/EnhancedHTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "compiled/acontent/css/post-login.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 230302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227905,
+								227905
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "compiled/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1898,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1861,
+								1861
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Enhanced HTML and CFML/EnhancedHTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "templates/includes/header.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								940,
+								940
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "acontent/less/affiliate/components/p-css-table.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "templates/includes/base.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1757,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "acontent/js/html5shiv.min.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2636,
 						"regions":
 						{
 						},
@@ -1192,7 +1633,99 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "templates/includes/side-menu.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								835,
+								835
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5457,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5001,
+								5001
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2747.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 15,
+					"file": "acontent/less/affiliate/point-hl-affiliate-account.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								299,
+								299
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1202,155 +1735,34 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "templates/index.liquid",
+					"buffer": 16,
+					"file": "acontent/less/affiliate/components/banner.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9269,
+						"buffer_size": 6584,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6093,
-								6093
+								1840,
+								1840
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2705.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "templates/includes/side-menu.liquid",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2349,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								632,
-								632
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Gruntfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5707,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								289,
-								289
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 1.0,
-						"translation.y": 0.0,
+						"translation.y": 1416.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "templates/includes/base.liquid",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1510,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1250,
-								1250
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "templates/includes/header.liquid",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1221,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1127,
-								1127
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
@@ -1428,9 +1840,9 @@
 				"%.gz:"
 			]
 		],
-		"width": 953.0
+		"width": 816.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
