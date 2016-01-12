@@ -271,6 +271,10 @@
 												</label>
 												<div class="banners-filter-option">
 													<label>
+														<input type="checkbox" class="check-all" name="language[]" value="all"/>
+														&nbsp;&nbsp;All
+													</label>
+													<label>
 														<input type="checkbox" name="language[]" value="jp"/>
 														&nbsp;&nbsp;Japanese
 													</label>
@@ -287,6 +291,10 @@
 												</label>
 												<div class="banners-filter-option">
 													<label>
+														<input type="checkbox" class="check-all" name="type[]" value="all"/>
+														&nbsp;&nbsp;All
+													</label>
+													<label>
 														<input type="checkbox" name="type[]" value="animated"/>
 														&nbsp;&nbsp;Animated
 													</label>
@@ -302,6 +310,10 @@
 													&nbsp;&nbsp;By file extension
 												</label>
 												<div class="banners-filter-option">
+													<label>
+														<input type="checkbox" class="check-all" name="extension[]" value="all"/>
+														&nbsp;&nbsp;All
+													</label>
 													<label>
 														<input type="checkbox" name="extension[]" value="html5"/>
 														&nbsp;&nbsp;HTML5
@@ -326,6 +338,10 @@
 													&nbsp;&nbsp;By size
 												</label>
 												<div class="banners-filter-option">
+													<label>
+														<input type="checkbox" class="check-all" name="size[]" value="all"/>
+														&nbsp;&nbsp;All
+													</label>
 													<label>
 														<input type="checkbox" name="size[]" value="120x240"/>
 														&nbsp;&nbsp;120x240
@@ -872,6 +888,29 @@
 
 				$filterOptions.slideUp(125);
 			}
+		});
+
+		// "All" option for filters
+
+		$('.banners--filter .check-all').change(function(){
+			var $self = $(this),
+				$filter = $($self.closest('.banners--filter')),
+				$filterOptions = $($filter.find('.banners-filter-option'));
+
+			if($self.is(':checked') == true) {
+				
+				$($filterOptions.find('input[type="checkbox"]')).not('.check-all').prop("checked", false);
+
+			}
+		});
+
+		$('.banners--filter .banners-filter-option input[type="checkbox"]').not('.check-all').click(function(){
+
+			var $self = $(this),
+				$filter = $($self.closest('.banners--filter')),
+				$filterAll = $($filter.find('.check-all'));
+
+			$filterAll.prop("checked", false);
 		});
 
 		// banner sort 
