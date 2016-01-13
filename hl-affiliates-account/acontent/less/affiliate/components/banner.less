@@ -34,7 +34,7 @@
 	display: none;
 	top: 32px;
 	right: 0px;
-    width: 190px;
+    width: 230px;
 	background-color: #f0f2f4;
 	border: 1px solid #cccccc;
 	padding: 10px 0px 5px;
@@ -45,8 +45,8 @@
 	text-align: left;
 	position: relative;
 	label {
-		display: inline-block;
-		width: 75px;
+		display: inline-block;   
+		width: 124px;
 		font-weight: 400;
 	}
 	select {
@@ -249,7 +249,9 @@
 	}
 
 	.banner--details--get-code-btn,
-	.banners--filter--apply-btn {
+	.banners--filter--apply-btn,
+	.banners--sort--apply-btn,
+	.banners--sort--option .clear {
 		font-family: @font-mont;
 		font-size: 10px;
 		letter-spacing: 0.08em;
@@ -392,19 +394,25 @@
 	.banners--filter--apply {
 		text-align: center;
 		padding: 15px 20px;
-		.btn.banners--filter--apply-btn {
-			background-color: #dedede;
-			color: #33363d!important;
-			margin-top: 0px;
-			border: 0px solid #dedede;
-			border-bottom: 3px solid #C3C3C3;
-			.transition(all 0.125s ease); 
-			&:hover {
-				border: 0px solid #fff;
-				background-color: #fff!important;
-				border-bottom: 3px solid #d3d3d3;
-			}
+	}
+
+	.btn.banners--filter--apply-btn.btn-extruded,
+	.btn.banners--sort--apply-btn.btn-extruded {
+		background-color: #dedede;
+		color: #33363d!important;
+		margin-top: 0px;
+		border: 0px solid #dedede;
+		border-bottom: 3px solid #C3C3C3;
+		.transition(all 0.125s ease); 
+		&:hover {
+			border: 0px solid #fff;
+			background-color: #fff!important;
+			border-bottom: 3px solid #d3d3d3;
 		}
+	}
+
+	.banners--sort--option .clear {
+		margin: 0;
 	}
 
 	
