@@ -257,15 +257,15 @@
 								<div class="banners--panel clearfix">
 									<div class="col-md-3 banners--filters">
 										<div class="header-block-2">
-											FILTERS
+											FILTER
 										</div>
 										<div class="banners--filter-list">
 											<div class="banners--filter">
 												<label for="language-filter-toggle">
-													<input id="language-filter-toggle" type="checkbox" class="banners--filter--toggle">
+													<input id="language-filter-toggle" type="checkbox" class="banners--filter--toggle" checked>
 													&nbsp;&nbsp;By language
 												</label>
-												<div class="banners-filter-option">
+												<div class="banners-filter-option" style="display: block;">
 													<label>
 														<input type="checkbox" class="check-all" name="language[]" value="all"/>
 														All
@@ -275,7 +275,7 @@
 														Japanese
 													</label>
 													<label>
-														<input type="checkbox" name="language[]" value="eng"/>
+														<input type="checkbox" checked name="language[]" value="eng"/>
 														English
 													</label>
 													<label>
@@ -301,34 +301,6 @@
 													<label>
 														<input type="checkbox" name="type[]" value="static"/>
 														Static
-													</label>
-												</div>
-											</div>
-											<div class="banners--filter">
-												<label for="banner-extension-filter-toggle">
-													<input id="banner-extension-filter-toggle" type="checkbox" class="banners--filter--toggle">
-													&nbsp;&nbsp;By file extension
-												</label>
-												<div class="banners-filter-option">
-													<label>
-														<input type="checkbox" class="check-all" name="extension[]" value="all"/>
-														All
-													</label>
-													<label>
-														<input type="checkbox" name="extension[]" value="html5"/>
-														HTML5
-													</label>
-													<label>
-														<input type="checkbox" name="extension[]" value="gif"/>
-														.gif
-													</label>
-													<label>
-														<input type="checkbox" name="extension[]" value="png"/>
-														.png
-													</label>
-													<label>
-														<input type="checkbox" name="extension[]" value="jpg"/>
-														.jpg
 													</label>
 												</div>
 											</div>
@@ -388,6 +360,58 @@
 												</div>
 											</div>
 											<div class="banners--filter">
+												<label for="banner-orientation-filter-toggle">
+													<input id="banner-orientation-filter-toggle" type="checkbox" class="banners--filter--toggle">
+													&nbsp;&nbsp;By orientation
+												</label>
+												<div class="banners-filter-option">
+													<label>
+														<input type="checkbox" class="check-all" name="orientation[]" value="all"/>
+														All
+													</label>
+													<label>
+														<input type="checkbox" name="orientation[]" value="square"/>
+														Square
+													</label>
+													<label>
+														<input type="checkbox" name="orientation[]" value="Landscape"/>
+														Landscape
+													</label>
+													<label>
+														<input type="checkbox" name="orientation[]" value="portrait"/>
+														Portrait
+													</label>
+												</div>
+											</div>
+											<div class="banners--filter">
+												<label for="banner-extension-filter-toggle">
+													<input id="banner-extension-filter-toggle" type="checkbox" class="banners--filter--toggle">
+													&nbsp;&nbsp;By file type
+												</label>
+												<div class="banners-filter-option">
+													<label>
+														<input type="checkbox" class="check-all" name="extension[]" value="all"/>
+														All
+													</label>
+													<label>
+														<input type="checkbox" name="extension[]" value="html5"/>
+														HTML5
+													</label>
+													<label>
+														<input type="checkbox" name="extension[]" value="gif"/>
+														.gif
+													</label>
+													<label>
+														<input type="checkbox" name="extension[]" value="png"/>
+														.png
+													</label>
+													<label>
+														<input type="checkbox" name="extension[]" value="jpg"/>
+														.jpg
+													</label>
+												</div>
+											</div>
+											<div class="banners--filter">
 												<label for="banner-concept-filter-toggle">
 													<input id="banner-concept-filter-toggle" type="checkbox" class="banners--filter--toggle">
 													&nbsp;&nbsp;By concept
@@ -410,6 +434,42 @@
 													</label>
 												</div>
 											</div>
+											<div class="banners--filter">
+												<label for="banner-currency-filter-toggle">
+													<input id="banner-currency-filter-toggle" type="checkbox" class="banners--filter--toggle">
+													&nbsp;&nbsp;By currency
+												</label>
+												<div class="banners-filter-option">
+													<label>
+														<input type="checkbox" class="check-all" name="currency[]" value="all"/>
+														All
+													</label>
+													<label>
+														<input type="checkbox" name="currency[]" value="usd"/>
+														USD
+													</label>
+													<label>
+														<input type="checkbox" name="currency[]" value="aud"/>
+														AUD
+													</label>
+													<label>
+														<input type="checkbox" name="currency[]" value="gbp"/>
+														GBP
+													</label>
+													<label>
+														<input type="checkbox" name="currency[]" value="eur"/>
+														EUR
+													</label>
+													<label>
+														<input type="checkbox" name="currency[]" value="jpy"/>
+														JPY
+													</label>
+													<label>
+														<input type="checkbox" name="currency[]" value="uni"/>
+														Universal
+													</label>
+												</div>
+											</div>
 											<div class="banners--filter--apply">
 												<button class="banners--filter--apply-btn btn btn-alternate btn btn-extruded pull-left"><i class="fa fa-filter"></i>&nbsp;&nbsp;APPLY FILTER</button>
 											</div>
@@ -421,7 +481,7 @@
 										</div>
 										<div class="banner--item"
 
-											data-name="300x250 – Experienced Market Trader: ASX"
+											data-name="300x250 Market related"
 											data-format="(html5/png fallback)"
 											data-campaign-name="Australian affiliates campaign 2"
 											data-target="https://en2.highlow.net/account"
@@ -440,7 +500,7 @@
 													</div>
 													<div class="banner--details banner-code-div">
 														<h4 class="banner--details--banner-name">
-															<strong>300x250 – Experienced Market Trader: ASX</strong> 
+															<strong>300x250 Market related</strong> 
 															<span class="word banner--details--banner-format">
 																(html5/png fallback)
 															</span>
@@ -460,7 +520,7 @@
 										</div>
 										<div class="banner--item"
 
-											data-name="728x90 – Experienced Market Trader: ASX"
+											data-name="728x90 Market related"
 											data-format="(html5/png fallback)"
 											data-campaign-name="Australian affiliates campaign 2"
 											data-target="https://en2.highlow.net/account"
@@ -479,7 +539,7 @@
 													</div>
 													<div class="banner--details banner-code-div">
 														<h4 class="banner--details--banner-name">
-															<strong>728x90 – Experienced Market Trader: ASX</strong> 
+															<strong>728x90 Market related</strong> 
 															<span class="word banner--details--banner-format">
 																(html5/png fallback)
 															</span>
@@ -499,7 +559,7 @@
 										</div>
 										<div class="banner--item"
 
-											data-name="120x600 – Experienced Market Trader: ASX"
+											data-name="120x600 Market related"
 											data-format="(html5/png fallback)"
 											data-campaign-name="Australian affiliates campaign 2"
 											data-target="https://en2.highlow.net/account"
@@ -518,7 +578,7 @@
 													</div>
 													<div class="banner--details banner-code-div">
 														<h4 class="banner--details--banner-name">
-															<strong>120x600 – Experienced Market Trader: ASX</strong> 
+															<strong>120x600 Market related</strong> 
 															<span class="word banner--details--banner-format">
 																(html5/png fallback)
 															</span>
@@ -538,7 +598,7 @@
 										</div>
 										<div class="banner--item"
 
-											data-name="320x50 – Experienced Market Trader: ASX"
+											data-name="320x50 Market related"
 											data-format="(html5/png fallback)"
 											data-campaign-name="Australian affiliates campaign 2"
 											data-target="https://en2.highlow.net/account"
@@ -557,7 +617,7 @@
 													</div>
 													<div class="banner--details banner-code-div">
 														<h4 class="banner--details--banner-name">
-															<strong>320x50 – Experienced Market Trader: ASX</strong> 
+															<strong>320x50 Market related</strong> 
 															<span class="word banner--details--banner-format">
 																(html5/png fallback)
 															</span>
@@ -577,7 +637,7 @@
 										</div>
 										<div class="banner--item"
 
-											data-name="468x60 – Experienced Market Trader: DAX"
+											data-name="468x60 DAX banner"
 											data-format="(html5/png fallback)"
 											data-campaign-name="Australian affiliates campaign 2"
 											data-target="https://en2.highlow.net/account"
@@ -596,7 +656,7 @@
 													</div>
 													<div class="banner--details banner-code-div">
 														<h4 class="banner--details--banner-name">
-															<strong>468x60 – Experienced Market Trader: DAX</strong> 
+															<strong>468x60 DAX banner</strong> 
 															<span class="word banner--details--banner-format">
 																(html5/png fallback)
 															</span>
@@ -616,8 +676,8 @@
 										</div>
 										<div class="banner--item"
 
-											data-name="728x90 - Japanese leaderboard example"
-											data-format="(gif)"
+											data-name="728x90 Sample image Campaign"
+											data-format="(html5/png fallback)"
 											data-campaign-name="Australian affiliates campaign 2"
 											data-target="https://jp2.highlow.net/account"
 											data-code='<a href="https://jp2.highlow.net/account?a_aid=568d490aad773&amp;a_cid=757a25f1&amp;a_bid=a7fbd113SUBCODE" target="_top"><img src="https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472927e4c164.gif" alt="1口１０００円からのバイナリーオプション一銭の値動きで利益が出る。お得なキャンペーン実施中！" title="1口１０００円からのバイナリーオプション一銭の値動きで利益が出る。お得なキャンペーン実施中！" /></a>'
@@ -635,7 +695,7 @@
 													</div>
 													<div class="banner--details banner-code-div">
 														<h4 class="banner--details--banner-name">
-															<strong>728x90 - Japanese leaderboard example</strong> 
+															<strong>728x90 Sample image Campaign</strong> 
 															<span class="word banner--details--banner-format">
 																(gif)
 															</span>
