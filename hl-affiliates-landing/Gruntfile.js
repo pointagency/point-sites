@@ -11,7 +11,7 @@ module.exports = function(grunt) {
 		connect: {
 			server: {
 				options: {
-					port: 9001,
+					port: 9005,
 					base: './compiled/',
 					keepalive: true,
 					hostname: '*',
@@ -57,10 +57,17 @@ module.exports = function(grunt) {
 			},
 			js: {
 				src: [
-				'assets/js/site.base.js',
-				'assets/js/site-components/*.js'
+					'assets/js/site.base.js',
+					'assets/js/site-components/*.js'
 				],
 				dest: 'compiled/assets/js/site.js'
+			},
+			jsIframeVersion: {
+				src: [
+					'assets/js/site-iframe-version.base.js',
+					'assets/js/site-components/*.js'
+				],
+				dest: 'compiled/assets/js/site-iframe-version.js'
 			},
 			thirdPartiesJs: {
 				src: [
@@ -109,6 +116,13 @@ module.exports = function(grunt) {
 				files: {
 					'compiled/assets/js/site.min.js': [
 					'compiled/assets/js/site.js'
+					]
+				}
+			},
+			jsIframeVersion: {
+				files: {
+					'compiled/assets/js/site-iframe-version.min.js': [
+					'compiled/assets/js/site-iframe-version.js'
 					]
 				}
 			},

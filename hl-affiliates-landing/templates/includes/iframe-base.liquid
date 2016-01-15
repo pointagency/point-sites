@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <title>{% block title %}HighLow 2.0 - It's time to make some serious money{% endblock %}</title>
+
+	    <!-- Meta for viewport -->
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+	    <meta name="apple-mobile-web-app-capable" content="yes" />
+	    
+	    <link href='http://fonts.googleapis.com/css?family=Roboto:100,500,300,700,400' rel='stylesheet' type='text/css'>
+
+	    {% block commonStyle %}
+	    	<link rel="stylesheet" href="assets/css/site-split.css" media="all" />
+	    	<!--[if lt IE 9]>
+				<link rel="stylesheet" type="text/css" href="assets/css/site-ie8.css" />
+			<![endif]-->
+	    {% endblock %}
+
+	    <script type="text/javascript">
+		    // first, create the object that contains
+		    // configuration variables
+		    var MTIConfig = {
+			 EnableCustomFOUTHandler: true,
+			 UseTextIndent: true
+			};
+
+		</script>
+	    <script type="text/javascript" src="http://fast.fonts.net/jsapi/21d9f754-6257-4b0a-95a8-8dd04d55f8c1.js"></script>
+	   
+	    {% block pageStyle %}
+	    {% endblock %}
+
+	</head>
+	<body class="iframe {% block bodyClass %}{% endblock %}">
+		<!-- begin main content -->
+		{% block content %}{% endblock %}
+		<!-- end main content -->
+		
+		<!-- begin javascript -->
+
+
+		{% block defaultScript %}
+			<script type="text/javascript">
+				if(!window.console) {
+					window.console = {
+						log: function(){
+							
+						}
+					}
+				}
+			</script>
+
+			<script type="text/javascript" src="assets/js/third-parties.js"></script>
+			<script type="text/javascript" src="assets/js/home-made.js"></script>
+			
+			
+		{% endblock %}
+		
+
+		{% block scripts %}{% endblock %}
+		<!-- end javascript -->
+	</body>  
+</html>

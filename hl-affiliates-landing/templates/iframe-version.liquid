@@ -1,0 +1,54 @@
+{% extends base %}
+
+
+{% block bodyClass %}root{% endblock %}
+
+{% block content %}
+
+<!-- HighLow 2.0 It's time to make some serious money -->
+
+<input type="hidden" id="asset-path" value="assets/images/"/>
+
+<iframe id="make-serious-money" name="make-serious-money" class="slide-iframe" src="make-serious-money.html">
+</iframe>
+
+<!-- end Stunning creative -->
+
+
+<div id="slide-selectors">
+	<div class="slide-selector active" data-target="#make-serious-money">
+	</div>
+	<div class="slide-selector" data-target="#re-launch-soon">
+	</div>
+	<div class="slide-selector" data-target="#we-want-to-help">
+	</div>
+	<div class="slide-selector" data-target="#sell-highlow-effectively">
+	</div>
+	<div class="slide-selector" data-target="#appropriate-messaging">
+	</div>
+	<div class="slide-selector" data-target="#stunning-creative">
+	</div>
+	{% comment %}<div class="slide-selector" data-target="">
+	</div>
+	<div class="slide-selector" data-target="">
+	</div>{% endcomment %}
+</div>
+
+{% endblock %}
+
+{% block defaultScript %}
+	<script type="text/javascript">
+		if(!window.console) {
+			window.console = {
+				log: function(){
+					
+				}
+			}
+		}
+
+	</script>
+	<script type="text/javascript" src="assets/js/third-parties.js"></script>
+	<script type="text/javascript" src="assets/js/home-made.js"></script>
+	<script type="text/javascript" src="assets/js/site-iframe-version.js"></script>
+	
+{% endblock %}

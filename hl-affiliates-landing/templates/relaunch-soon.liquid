@@ -1,0 +1,97 @@
+{% extends iframe-base %}
+
+
+{% block bodyClass %}relaunch-soon{% endblock %}
+
+{% block content %}
+
+<div id="re-launch-soon" class="p-full-screen-slide">
+
+	<div id="re-launch-soon--bg">
+	</div>
+
+	
+	<div id="re-launch-soon--fire">
+		<div id="re-launch-soon--fire-container">
+			<img src="assets/images/fire-1.png" id="re-launch-soon--fire-1"/>
+			<img src="assets/images/fire-2.png" id="re-launch-soon--fire-2"/>
+			<img src="assets/images/fire-3.png" id="re-launch-soon--fire-3"/>
+			<img src="assets/images/fire-4.png" id="re-launch-soon--fire-4"/>
+		</div>
+	</div>
+
+	<img src="assets/images/fire-mask.png" id="re-launch-soon--fire-mask"/>
+	
+	<div id="re-launch-soon--rocket">
+		<img src="assets/images/rocket.png"/>
+	</div>
+
+
+	<div id="re-launch-soon--big-smoke">
+	</div>
+
+	<div id="re-launch-soon--rocket-smoke">
+
+	</div>
+
+	<div id="re-launch-soon--clouds">
+		<img src="assets/images/dark-smoke-1.png" class="hidden"/>
+		<img src="assets/images/dark-smoke-2.png" class="hidden"/>
+		<img src="assets/images/white-smoke-1.png" class="hidden"/>
+		<img src="assets/images/white-smoke-2.png" class="hidden"/>
+	</div>
+
+	<div id="re-launch-soon--text">
+		<div class="css-table css-table-fill">
+			<div class="css-table-row">
+				<div class="css-table-cell css-table-cell-vcenter">
+					<div id="re-launch-soon--text-content">
+						We&rsquo;re <b>re-launching</b> very soon with our <b>brand new site</b>, an awesome new <b>trading platform</b> and the best <b>support</b> for your customers.
+						<br/>
+						<br/>
+						<span>
+							<span class="icon">
+								<img src="assets/images/icon-1.png"/>
+							</span><!--
+						 --><span class="icon">
+						 		<img src="assets/images/icon-2.png"/>
+						 	</span><!--
+						 --><span class="icon">
+						 		<img src="assets/images/icon-3.png"/>
+						    </span>
+					 	</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+
+	<script>
+
+		$(document).ready(function(){
+
+			ImageContainerFadeIn();
+
+			var $frame = $('#relaunch-soon');
+				
+			window.reset = function() {
+				
+				window.location.reload();
+
+			}
+
+			window.enter = function() {
+
+			}
+
+		});
+
+
+	</script>
+
+{% endblock %}

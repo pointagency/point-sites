@@ -1,0 +1,132 @@
+{% extends iframe-base %}
+
+
+{% block bodyClass %}make-serious-money{% endblock %}
+
+{% block content %}
+
+<div id="make-serious-money" class="p-full-screen-slide active p-image-container-fade-in">
+	<div id="site-header" class="hl-lite-header">
+		<a href="http://highlow.net/" class="hl-lite-header--logo" title="Visit HighLow's homepage">
+		</a>
+	</div>
+	<div id="make-serious-money--floor-light" class="p-image-container-fade-in--content">
+		<img src="assets/images/floor-light.png" class=""/>
+	</div>
+	<div id="make-serious-money--platform" class="p-image-container-fade-in--content">
+		<img src="assets/images/platform.png" class=""/>
+	</div>
+	<div id="make-serious-money--spot-light" class="p-image-container-fade-in--content">
+		<img src="assets/images/spot-light.png" class=""/>
+	</div>
+	<h1 id="make-serious-money--heading" class="p-image-container-fade-in--content">
+		HIGHLOW 2.0
+	</h1>
+	<div id="make-serious-money--sub-heading" class="p-image-container-fade-in--content">
+		<span class="type-writer" 
+			data-type-writer-content='["It&rsquo;s time to make some serious money."]'
+			data-type-writer-delay="10"
+			data-type-writer-interval="3500"
+			data-type-writer-fade-delay="100"
+		>
+			<span class="type-writer-content-sizer">
+			</span>
+			<span class="type-writer-content">
+			</span>
+			<span class="type-writer-no-script-content">
+				It&rsquo;s time to make some serious money.
+			</span>
+		</span>
+	</div>
+	<div class="slide-selector" id="make-serious-money--slide-selector" data-target="#re-launch-soon"> 
+		<img src="assets/images/down.png"/>
+	</div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+
+	<script>
+
+
+		$(document).ready(function(){
+
+			var $frame = $('#make-serious-money'),
+				$header = $('#site-header'),
+				$makeSeriousMoneyHeading = $('#make-serious-money--heading'),
+				$makeSeriousMoneyPlatform = $('#make-serious-money--platform'),
+				$makeSeriousMoneySubHeading = $('#make-serious-money--sub-heading');
+
+			window.reset = function() {
+				window.location.reload();
+			}
+
+			window.exit = function() {
+				var wH = $(window).height();
+
+				$header.velocity({
+					top: - $header.outerHeight()
+				},{
+					duration: 500,
+					easing: "ease"
+				});
+
+				$makeSeriousMoneyHeading.velocity({
+					top: -wH
+				}, {
+					duration: 500,
+					easing: "ease"
+				});
+
+				$makeSeriousMoneySubHeading.velocity({
+					top: -wH
+				}, {
+					duration: 500,
+					easing: "ease"
+				});
+
+				$makeSeriousMoneyPlatform.velocity({
+					top: -wH
+				}, {
+					duration: 500,
+					easing: "ease"
+				});
+
+				setTimeout(function(){
+					if(callback)
+						callback();
+				},450);
+			}
+
+			$('#make-serious-money--slide-selector').click(function() {
+				window.exit();
+				window.parent.nextSlide();
+			});
+
+			window.enter = function () {
+				ImageContainerFadeIn();
+
+				$frame.imagesLoaded (function(){
+					console.log("WHAAT");
+					TypeWriter({
+						delay: 1000,
+						callback: function(){
+							// setup Slides here
+							$frame.addClass('entered'); 
+							$frame.addClass('images-loaded');
+							if(window.parent.highlightControls)
+								window.parent.highlightControls();
+
+						},
+					});
+				});
+			}
+
+
+		});
+
+
+	</script>
+
+{% endblock %}

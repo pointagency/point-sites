@@ -5,7 +5,7 @@
 	<head>
 		<meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <title>{% block title %}HighLow 2.0 - It's time to make some serious money{% endblock %}</title>
+	    <title>HighLow 2.0 - It's time to make some serious money</title>
 
 	    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
@@ -32,12 +32,12 @@
 	    
 	    <link href='http://fonts.googleapis.com/css?family=Roboto:100,500,300,700,400' rel='stylesheet' type='text/css'>
 
-	    {% block commonStyle %}
+	    
 	    	<link rel="stylesheet" href="assets/css/site-split.css" media="all" />
 	    	<!--[if lt IE 9]>
 				<link rel="stylesheet" type="text/css" href="assets/css/site-ie8.css" />
 			<![endif]-->
-	    {% endblock %}
+	    
 
 	    <script type="text/javascript">
 		    // first, create the object that contains
@@ -50,40 +50,68 @@
 		</script>
 	    <script type="text/javascript" src="http://fast.fonts.net/jsapi/21d9f754-6257-4b0a-95a8-8dd04d55f8c1.js"></script>
 	   
-	    {% block pageStyle %}
-	    {% endblock %}
+	    
+	    
 
 	    <style>
 	    	
 	    </style>
 	</head>
-	<body class="{% block bodyClass %}{% endblock %}">
+	<body class="root">
 		<!-- begin main content -->
-		{% block content %}{% endblock %}
+		
+
+<!-- HighLow 2.0 It's time to make some serious money -->
+
+<input type="hidden" id="asset-path" value="assets/images/"/>
+
+<iframe id="make-serious-money" name="make-serious-money" class="slide-iframe" src="make-serious-money.html">
+</iframe>
+
+<!-- end Stunning creative -->
+
+
+<div id="slide-selectors">
+	<div class="slide-selector active" data-target="#make-serious-money">
+	</div>
+	<div class="slide-selector" data-target="#re-launch-soon">
+	</div>
+	<div class="slide-selector" data-target="#we-want-to-help">
+	</div>
+	<div class="slide-selector" data-target="#sell-highlow-effectively">
+	</div>
+	<div class="slide-selector" data-target="#appropriate-messaging">
+	</div>
+	<div class="slide-selector" data-target="#stunning-creative">
+	</div>
+	
+</div>
+
+
 		<!-- end main content -->
 		
 		<!-- begin javascript -->
 
 
-		{% block defaultScript %}
-			<script type="text/javascript">
-				if(!window.console) {
-					window.console = {
-						log: function(){
-							
-						}
-					}
+		
+	<script type="text/javascript">
+		if(!window.console) {
+			window.console = {
+				log: function(){
+					
 				}
+			}
+		}
 
-			</script>
-			<script type="text/javascript" src="assets/js/third-parties.js"></script>
-			<script type="text/javascript" src="assets/js/home-made.js"></script>
-			<script type="text/javascript" src="assets/js/site.js"></script>
-			
-		{% endblock %}
+	</script>
+	<script type="text/javascript" src="assets/js/third-parties.js"></script>
+	<script type="text/javascript" src="assets/js/home-made.js"></script>
+	<script type="text/javascript" src="assets/js/site-iframe-version.js"></script>
+	
+
 		
 
-		{% block scripts %}{% endblock %}
+		
 		<!-- end javascript -->
 	</body>  
 </html>

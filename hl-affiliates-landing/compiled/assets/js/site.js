@@ -4,10 +4,6 @@ $(document).ready(function(){
 
 	ImageContainerFadeIn();
 
-	
-
-
-
 	var slides = [];
 
 	/* slide 1 */
@@ -183,27 +179,45 @@ $(document).ready(function(){
 
 		slides['#re-launch-soon'] = {
 			index: 1,
-			reset: function() {
+			reset: function(params) {
 
 				console.log('re-lauch reset');
 
+				slides['#re-launch-soon'].animating = false;
+
 				$relaunchBg.velocity('stop');
 				// .removeAttr('style');
-				$relaunchRocket.velocity('stop');
+				$relaunchRocket.velocity('stop',true);
 				$('body').removeClass('rumble');
-				$slideControls.velocity('stop');
-				$relaunchCloud.velocity('stop');
-				$relaunchRocketSmoke.velocity('stop');
-				$relaunchText.velocity('stop');
-				$relaunchBigSmoke.velocity('stop');
+				$slideControls.velocity('stop',true);
+				$relaunchCloud.velocity('stop',true);
+				$relaunchRocketSmoke.velocity('stop',true);
+				$relaunchText.velocity('stop',true);
+				$relaunchBigSmoke.velocity('stop',true);
 				$relaunchBigSmoke.removeClass('float');
-				$('#re-launch-soon--fire, #re-launch-soon--rocket').velocity('stop');
-				$fireMask.velocity('stop');
-				$slide2.velocity('stop');
+				$('#re-launch-soon--fire, #re-launch-soon--rocket').velocity('stop',true);
+				$fireMask.velocity('stop',true);
+				$slide2.velocity('stop',true);
+
+				$relaunchText.velocity({
+					top: '-20%',
+					opacity: 0
+				},{
+					duration: 500,
+					easing: 'easing-out',
+					complete: function(){
+
+						$relaunchText.removeClass('highlight');
+					}
+				});
+				
 				launched = true;
 				stopSmoke = true;
 
+				for(var i=0; i<300; i++) clearTimeout(i);
+
 				setTimeout(function(){
+
 					$relaunchBg.removeAttr('style');
 					$relaunchRocket.removeAttr('style');
 					$slideControls.removeAttr('style');
@@ -214,7 +228,13 @@ $(document).ready(function(){
 					$('#re-launch-soon--fire, #re-launch-soon--rocket').removeAttr('style');
 					$fireMask.removeAttr('style');
 					$slide2.removeAttr('style');
-				},100);
+
+
+					if(params.callback) {
+						params.callback();
+					}
+
+				},0);
 				
 			},
 			enter: function(callback) {
@@ -227,7 +247,13 @@ $(document).ready(function(){
 				$relaunchCloud.empty();
 				$relaunchRocketSmoke.empty();
 
+				slides['#re-launch-soon'].animating = true;
+
 				function addCloud(direction) {
+
+					if(!slides['#re-launch-soon'].animating) {
+						return;
+					}
 
 					var fileName = smokeFileNames[Utils.getRandomInt(0,smokeFileNames.length-1)];
 
@@ -254,6 +280,9 @@ $(document).ready(function(){
 						duration: 5500,
 						easing: [.3,.55,.63,.85],
 						complete: function(){
+							if(!slides['#re-launch-soon'].animating) {
+								return;
+							}
 							$cloudElement.animate({
 								opacity: 0
 							},500, function(){
@@ -281,6 +310,10 @@ $(document).ready(function(){
 				}
 
 				function addRocketSmoke(direction) {
+
+					if(!slides['#re-launch-soon'].animating) {
+						return;
+					}
 
 					var fileName = whiteSmokeFileNames[Utils.getRandomInt(0,whiteSmokeFileNames.length-1)];
 
@@ -343,6 +376,11 @@ $(document).ready(function(){
 
 
 				function execute() {	
+
+					if(!slides['#re-launch-soon'].animating) {
+						return;
+					}
+
 					$('.p-full-screen-slide.active').removeClass('active');
 					$slide2.addClass('active');
 					$slide2.addClass('enter');
@@ -401,6 +439,11 @@ $(document).ready(function(){
 							duration: 6000,
 							easing: [.52,.07,.86,.41],
 							complete: function() {
+
+								if(!slides['#re-launch-soon'].animating) {
+									return;
+								}
+
 								rocketSmokeWidth = 1000;
 								rocketSmokeInterval = 250;
 
@@ -489,6 +532,9 @@ $(document).ready(function(){
 				}
 			},
 			exit: function(callback) {
+
+				slides['#re-launch-soon'].animating = true;
+
 				$('#re-launch-soon--fire, #re-launch-soon--rocket').velocity({
 					opacity: 0
 				},{
@@ -503,6 +549,7 @@ $(document).ready(function(){
 					duration: 500,
 					easing: 'easing-out',
 					complete: function(){
+
 						$relaunchText.removeClass('highlight');
 					}
 				});
@@ -514,6 +561,7 @@ $(document).ready(function(){
 						duration: 750,
 						easing: 'easing-out',
 						complete: function() {
+
 							$relaunchBigSmoke.removeClass('float');
 						}
 					});
@@ -548,10 +596,15 @@ $(document).ready(function(){
 		slides['#we-want-to-help'] = {
 			index: 2,
 			reset: function() {
+
+				slides['#we-want-to-help'].animating = false;
+
 				$wantToHelpBG.attr('style','');
 				$wantToHelpFunnelImg.attr('style','');
 				$wantToHelpText.attr('style','');
 				$wantToHelpDisc.attr('style','');
+
+				for(var i=0; i<300; i++) clearTimeout(i);
 
 				setTimeout(function(){
 					$wantToHelpBG.removeAttr('style');
@@ -915,8 +968,11 @@ $(document).ready(function(){
 
 		slides['#appropriate-messaging'] = {
 			index: 4,
-			reset: function(prev,next) {
-				if(next==5) {
+			reset: function(params) {
+
+				console.log(params);
+
+				if(params.nextIndex==5) {
 					$('.appropriate-messaging--message').removeClass('in');
 
 					$('.appropriate-messaging--message').velocity('stop');
@@ -1211,11 +1267,14 @@ $(document).ready(function(){
 				var previousIndex = slides[currentSlide].index;
 				var nextIndex = slides[slideName].index;
 
+				console.log('previous: '+currentSlide);
+				console.log('next: '+slideName);
+
 				if(forward) {
 					slides[currentSlide].exit(function(){
 						if(slides[currentSlide].reset) {
 							
-							slides[currentSlide].reset(previousIndex,nextIndex);
+							slides[currentSlide].reset({ prevIndex: previousIndex, nextIndex: nextIndex });
 
 							currentSlide = slideName;
 							slides[currentSlide].enter(function(){
@@ -1235,7 +1294,7 @@ $(document).ready(function(){
 						console.log("Go backward");
 						slides[currentSlide].back(function(){
 							if(slides[currentSlide].reset) {
-								slides[currentSlide].reset(previousIndex,nextIndex);
+								slides[currentSlide].reset({ prevIndex: previousIndex, nextIndex: nextIndex });
 								currentSlide = slideName;
 
 								if(slides[currentSlide].reverse) {
@@ -1265,11 +1324,15 @@ $(document).ready(function(){
 						});
 					} else {
 						console.log("Exit");
+					
+
 						slides[currentSlide].exit(function(){
-							console.log('after exit');
+							
+							console.log('exiting: '+currentSlide);
+
 							if(slides[currentSlide].reset) {
-								console.log('reset');
-								slides[currentSlide].reset(previousIndex,nextIndex);
+								console.log('resetting: '+currentSlide);
+								slides[currentSlide].reset({ prevIndex: previousIndex, nextIndex: nextIndex });
 								currentSlide = slideName;
 
 								if(slides[currentSlide].reverse) {
@@ -1282,8 +1345,6 @@ $(document).ready(function(){
 									});
 								}
 
-								
-								
 							} else {
 								currentSlide = slideName;
 								if(slides[currentSlide].reverse) {
@@ -1291,38 +1352,20 @@ $(document).ready(function(){
 										animating = false;
 									});
 								} else {
-									slides[currentSlide].enter(function(){
-										animating = false;
-									});
+									if(slides[currentSlide].reset) {
+										slides[currentSlide].reset({
+											callback : function(){
+												slides[currentSlide].enter(function(){
+													animating = false;
+												});
+											}
+										});
+									}
 								}
 							}
 						},slides[slideName].index);
 					}
 				}
-
-				// slides[currentSlide].exit(function(){
-
-				// 	currentSlide = slideName;
-					
-				// 	if(slides[currentSlide].back){
-				// 		slides[currentSlide].back(function(){
-				// 			slides[currentSlide].enter(function(){
-				// 				animating = false;
-				// 			});
-				// 		});
-				// 	} else {
-
-				// 		if(slides[currentSlide].reset){
-				// 			slides[currentSlide].reset();
-				// 		}
-				// 		slides[currentSlide].enter(function(){
-				// 			animating = false;
-				// 		});
-
-				// 	}
-					
-
-				// });
 
 				$('.slide-selector').removeClass('active');
 
@@ -1479,11 +1522,9 @@ $(document).ready(function(){
 
 			var totalWidth = 0;
 
-
 			messages.each(function(){
 				totalWidth+= $(this).outerWidth();
 			});
-
 
 			self.css({
 				width: totalWidth+'px',
@@ -1499,12 +1540,9 @@ $(document).ready(function(){
 
 			var totalWidth = 0;
 
-
 			messages.each(function(){
 				totalWidth+= $(this).outerWidth();
 			});
-
-
 
 			self.css({
 				width: totalWidth+'px',

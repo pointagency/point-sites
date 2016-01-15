@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <title>HighLow 2.0 - It's time to make some serious money</title>
+
+	    <!-- Meta for viewport -->
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+	    <meta name="apple-mobile-web-app-capable" content="yes" />
+	    
+	    <link href='http://fonts.googleapis.com/css?family=Roboto:100,500,300,700,400' rel='stylesheet' type='text/css'>
+
+	    
+	    	<link rel="stylesheet" href="assets/css/site-split.css" media="all" />
+	    	<!--[if lt IE 9]>
+				<link rel="stylesheet" type="text/css" href="assets/css/site-ie8.css" />
+			<![endif]-->
+	    
+
+	    <script type="text/javascript">
+		    // first, create the object that contains
+		    // configuration variables
+		    var MTIConfig = {
+			 EnableCustomFOUTHandler: true,
+			 UseTextIndent: true
+			};
+
+		</script>
+	    <script type="text/javascript" src="http://fast.fonts.net/jsapi/21d9f754-6257-4b0a-95a8-8dd04d55f8c1.js"></script>
+	   
+	    
+	    
+
+	</head>
+	<body class="iframe make-serious-money">
+		<!-- begin main content -->
+		
+
+<div id="make-serious-money" class="p-full-screen-slide active p-image-container-fade-in">
+	<div id="site-header" class="hl-lite-header">
+		<a href="http://highlow.net/" class="hl-lite-header--logo" title="Visit HighLow's homepage">
+		</a>
+	</div>
+	<div id="make-serious-money--floor-light" class="p-image-container-fade-in--content">
+		<img src="assets/images/floor-light.png" class=""/>
+	</div>
+	<div id="make-serious-money--platform" class="p-image-container-fade-in--content">
+		<img src="assets/images/platform.png" class=""/>
+	</div>
+	<div id="make-serious-money--spot-light" class="p-image-container-fade-in--content">
+		<img src="assets/images/spot-light.png" class=""/>
+	</div>
+	<h1 id="make-serious-money--heading" class="p-image-container-fade-in--content">
+		HIGHLOW 2.0
+	</h1>
+	<div id="make-serious-money--sub-heading" class="p-image-container-fade-in--content">
+		<span class="type-writer" 
+			data-type-writer-content='["It&rsquo;s time to make some serious money."]'
+			data-type-writer-delay="10"
+			data-type-writer-interval="3500"
+			data-type-writer-fade-delay="100"
+		>
+			<span class="type-writer-content-sizer">
+			</span>
+			<span class="type-writer-content">
+			</span>
+			<span class="type-writer-no-script-content">
+				It&rsquo;s time to make some serious money.
+			</span>
+		</span>
+	</div>
+	<div class="slide-selector" id="make-serious-money--slide-selector" data-target="#re-launch-soon"> 
+		<img src="assets/images/down.png"/>
+	</div>
+</div>
+
+
+		<!-- end main content -->
+		
+		<!-- begin javascript -->
+
+
+		
+			<script type="text/javascript">
+				if(!window.console) {
+					window.console = {
+						log: function(){
+							
+						}
+					}
+				}
+			</script>
+
+			<script type="text/javascript" src="assets/js/third-parties.js"></script>
+			<script type="text/javascript" src="assets/js/home-made.js"></script>
+			
+			
+		
+		
+
+		
+
+	<script>
+
+
+		$(document).ready(function(){
+
+			var $frame = $('#make-serious-money'),
+				$header = $('#site-header'),
+				$makeSeriousMoneyHeading = $('#make-serious-money--heading'),
+				$makeSeriousMoneyPlatform = $('#make-serious-money--platform'),
+				$makeSeriousMoneySubHeading = $('#make-serious-money--sub-heading');
+
+			window.reset = function() {
+				window.location.reload();
+			}
+
+			window.exit = function() {
+				var wH = $(window).height();
+
+				$header.velocity({
+					top: - $header.outerHeight()
+				},{
+					duration: 500,
+					easing: "ease"
+				});
+
+				$makeSeriousMoneyHeading.velocity({
+					top: -wH
+				}, {
+					duration: 500,
+					easing: "ease"
+				});
+
+				$makeSeriousMoneySubHeading.velocity({
+					top: -wH
+				}, {
+					duration: 500,
+					easing: "ease"
+				});
+
+				$makeSeriousMoneyPlatform.velocity({
+					top: -wH
+				}, {
+					duration: 500,
+					easing: "ease"
+				});
+
+				setTimeout(function(){
+					if(callback)
+						callback();
+				},450);
+			}
+
+			$('#make-serious-money--slide-selector').click(function() {
+				window.exit();
+				window.parent.nextSlide();
+			});
+
+			window.enter = function () {
+				ImageContainerFadeIn();
+
+				$frame.imagesLoaded (function(){
+					console.log("WHAAT");
+					TypeWriter({
+						delay: 1000,
+						callback: function(){
+							// setup Slides here
+							$frame.addClass('entered'); 
+							$frame.addClass('images-loaded');
+							if(window.parent.highlightControls)
+								window.parent.highlightControls();
+
+						},
+					});
+				});
+			}
+
+
+		});
+
+
+	</script>
+
+
+		<!-- end javascript -->
+	</body>  
+</html>
