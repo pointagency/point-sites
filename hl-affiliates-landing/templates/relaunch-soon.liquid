@@ -5,11 +5,12 @@
 
 {% block content %}
 
+<input type="hidden" id="asset-path" value="assets/images/"/>
+
 <div id="re-launch-soon" class="p-full-screen-slide">
 
 	<div id="re-launch-soon--bg">
 	</div>
-
 	
 	<div id="re-launch-soon--fire">
 		<div id="re-launch-soon--fire-container">
@@ -75,9 +76,46 @@
 
 		$(document).ready(function(){
 
-			ImageContainerFadeIn();
+			
 
-			var $frame = $('#relaunch-soon');
+			window.finishedAnimating = false;
+
+			var slide2Loaded = false;
+			var assetPath = $('#asset-path').val();
+			var smokeFileNames = [
+				'dark-smoke-1.png',
+				'dark-smoke-2.png',
+				'white-smoke-1.png',
+				'white-smoke-2.png',
+				'white-smoke-1.png',
+				'white-smoke-2.png',
+				'white-smoke-1.png',
+				'white-smoke-2.png',
+				'white-smoke-1.png',
+				'white-smoke-2.png',
+				'white-smoke-1.png',
+				'white-smoke-2.png'
+			];
+
+			var whiteSmokeFileNames = [
+				'white-smoke-1.png',
+				'white-smoke-2.png'
+			];
+
+			var $frame = $('#relaunch-soon'),
+				$relaunchBg = $('#re-launch-soon--bg'),
+				$relaunchRocket = $('#re-launch-soon--rocket'),
+				$relaunchRocketImg = $('#re-launch-soon--rocket > img'),
+				$relaunchCloud = $('#re-launch-soon--clouds'),
+				$relaunchFire = $('#re-launch-soon--fire'),
+				$relaunchRocketSmoke = $('#re-launch-soon--rocket-smoke'),
+				$relaunchBigSmoke = $('#re-launch-soon--big-smoke'),
+				$fire1 = $('#re-launch-soon--fire-1'),
+				$fire2 = $('#re-launch-soon--fire-2'),
+				$fire3 = $('#re-launch-soon--fire-3'),
+				$fire4 = $('#re-launch-soon--fire-4'),
+				$fireMask = $('#re-launch-soon--fire-mask'),
+				$relaunchText = $('#re-launch-soon--text');
 				
 			window.reset = function() {
 				
@@ -85,9 +123,345 @@
 
 			}
 
-			window.enter = function() {
+			window.exit = function(callback,parallelCallback) {
+
+				$('#re-launch-soon--fire, #re-launch-soon--rocket').velocity({
+					opacity: 0
+				},{
+					duration: 250,
+					easing: 'ease'
+				});
+
+				$relaunchText.velocity({
+					top: '-20%',
+					opacity: 0
+				},{
+					duration: 500,
+					easing: 'easing-out',
+					complete: function(){
+
+						$relaunchText.removeClass('highlight');
+					}
+				});
+			
+				setTimeout(function(){
+					$relaunchBigSmoke.velocity({
+						top: '-120%'
+					},{
+						duration: 750,
+						easing: 'easing-out',
+						complete: function() {
+
+							$relaunchBigSmoke.removeClass('float');
+						}
+					});
+					window.parent.normalControlsColor();
+				},250);
+
+				$frame.velocity({
+					opacity: 0
+				},{
+					duration: 2500,
+					easing: 'ease'
+				});
+
+				setTimeout(callback, 1500);
+				setTimeout(parallelCallback, 1000);
 
 			}
+
+			window.enter = function(callback) {
+
+				ImageContainerFadeIn();
+
+
+				$('#re-launch-soon').imagesLoaded(function(){
+						$('#re-launch-soon').addClass('active');
+				});
+
+
+				console.log('relaunch-soon enter');
+
+				var launched = false;
+				var stopSmoke = false;
+				var rocketSmokeWidth = 200;
+				var rocketSmokeInterval = 150;
+
+				$relaunchCloud.empty();
+				$relaunchRocketSmoke.empty();
+
+				window.finishedAnimating = false;
+
+				function addCloud(direction) {
+
+					var fileName = smokeFileNames[Utils.getRandomInt(0,smokeFileNames.length-1)];
+
+					var $cloudElement = $('<div class="smoke"><div class="smoke-img-container"><img src="'+assetPath+fileName+'"/></div></div>');
+
+					var $cloudImg = $cloudElement.find('img');
+
+					var $cloudImgContainer = $cloudElement.find('.smoke-img-container');
+					
+
+					$relaunchCloud.append($cloudElement);
+
+					var value = 360; //animate to  
+				    var steps = 6; //animation steps per frame (1/60sec.) 
+				    var time = Utils.getRandomInt(7,10)*(1000/60)*(value/steps); //animation time
+
+
+				    $cloudImg.velocity({rotateZ: value}, {duration:time,easing:'linear',loop:true});
+
+
+					$cloudElement.velocity({
+						marginLeft: (direction*60)+"%"
+					},{
+						duration: 5500,
+						easing: [.3,.55,.63,.85],
+						complete: function(){
+							$cloudElement.animate({
+								opacity: 0
+							},500, function(){
+								$cloudElement.remove();
+							});
+						}
+					});
+
+					$cloudImgContainer.velocity({
+						width: '500%',
+						marginLeft: '-250%',
+						top: '-1000%',
+						opacity: 0.5
+					},{
+						duration: 12000,
+						easing: [.3,.55,.63,.85]
+					});
+
+					setTimeout(function(){
+						if(!launched) {
+							addCloud(direction*-1);
+						}
+					},250);
+
+				}
+
+				function addRocketSmoke(direction) {
+
+					var fileName = whiteSmokeFileNames[Utils.getRandomInt(0,whiteSmokeFileNames.length-1)];
+
+					var $cloudElement = $('<div class="smoke"><div class="smoke-img-container"><img src="'+assetPath+fileName+'"/></div></div>');
+
+					var $cloudImg = $cloudElement.find('img');
+
+					var $cloudImgContainer = $cloudElement.find('.smoke-img-container');
+					
+					$relaunchRocketSmoke.append($cloudElement);
+
+					var value = 360; //animate to  
+				    var steps = 6; //animation steps per frame (1/60sec.) 
+				    var time = Utils.getRandomInt(7,10)*(1000/60)*(value/steps); //animation time
+
+
+				    $cloudImg.velocity({rotateZ: value}, {duration:time,easing:'linear',loop:true});
+
+				    var top = $relaunchRocketImg.offset().top+$relaunchRocketImg.outerHeight();
+
+				    if(top < 0) {
+				    	stopSmoke = true;
+				    } else {
+				    	$cloudElement.css({
+					    	top: top
+					    });
+
+						// $cloudElement.velocity({
+						// 	marginLeft: (direction*10)+"%"
+						// },{
+						// 	duration: 3000,
+						// 	easing: [.3,.55,.63,.85],
+						// 	complete: function(){
+						// 		// $cloudElement.animate({
+						// 		// 	opacity: 0
+						// 		// },750, function(){
+						// 		// 	$cloudElement.remove();
+						// 		// });
+						// 	}
+						// });
+
+						$cloudImgContainer.velocity({
+							width: rocketSmokeWidth+'%',
+							marginLeft: (-(rocketSmokeWidth-100)/2)+'%',
+							top: -rocketSmokeWidth/2,
+							opacity: 0.5
+						},{
+							duration: 12000,
+							easing: [.3,.55,.63,.85]
+						});
+
+						setTimeout(function(){
+							if(!stopSmoke) {
+								addRocketSmoke(direction*-1);
+							}
+						},rocketSmokeInterval);
+				    }
+
+				}
+
+
+				function execute() {	
+
+
+					console.log("Relaunch soon executed");
+
+					// $('.p-full-screen-slide.active').removeClass('active');
+					$('.p-full-screen-slide').addClass('active');
+					$('.p-full-screen-slide').addClass('enter');
+
+					$frame.velocity({
+						opacity: 1
+					},{
+						duration: 250,
+						easing: 'ease'
+					});
+
+					$relaunchBg.velocity({
+						opacity: 1,
+						top: 0
+					},{
+						duration: 1250,
+						easing: "ease"
+					});
+
+					setTimeout(function(){
+						$('body').addClass('rumble');
+						$relaunchRocket.velocity({
+							opacity: 1,
+							bottom: -$relaunchRocket.outerHeight()*0.05
+						},{
+							duration: 750,
+							easing: [.11,1.2,.53,.92]
+						});
+					},250);
+
+					setTimeout(function(){
+
+						/* rocket smoke animation */
+
+						$relaunchCloud.empty();
+
+						$relaunchCloud.velocity({
+							opacity: 1
+						},{
+							duration: 250,
+							easing: "ease"
+						});
+
+						addCloud(1);
+
+					},750);
+
+
+					setTimeout(function(){
+
+						/* rocket launch */
+
+						$('#re-launch-soon--fire, #re-launch-soon--rocket').velocity({
+							bottom: '250%'
+						},{
+							duration: 6000,
+							easing: [.52,.07,.86,.41],
+							complete: function() {
+
+								rocketSmokeWidth = 1000;
+								rocketSmokeInterval = 250;
+
+								setTimeout(function(){
+									launched = true;
+									$('#re-launch-soon--rocket-smoke .smoke').velocity({
+										opacity: 0
+									}, {
+										duration: 1500,
+										complete: function() {
+											$('#re-launch-soon--rocket-smoke .smoke').remove();
+										}
+									});
+								},1500);
+							}
+						});
+
+						setTimeout(function(){
+
+							$fireMask.velocity({
+								height: '800%'
+							},{
+								duration: 1500,
+								easing: [.52,.07,.86,.41]
+							});
+
+						},4500);	
+
+						setTimeout(function(){
+							$relaunchBg.velocity({
+								opacity: 0
+							},250);
+							window.parent.alternateControlsColor();
+						},5750);
+
+						setTimeout(function(){
+							$('body').removeClass('rumble');
+						},500);
+
+						setTimeout(function(){
+							$relaunchBigSmoke.velocity({
+								opacity: 1,
+								width: '110%',
+								height: '110%',
+								top: '0%',
+								left: '-5%'
+							},{
+								duration: 1750,
+								easing: 'ease',
+								complete: function() {
+									stopSmoke = true;
+								}
+							});
+
+							$relaunchText.velocity({
+								top: 0,
+								opacity: 1
+							},{
+								duration: 2500,
+								easing: [0,.96,.48,1]
+							});
+
+							setTimeout(function(){
+								$relaunchText.addClass('highlight');
+								$relaunchBigSmoke.addClass('float');
+								if(callback) {
+									callback();
+								}
+								window.finishedAnimating = true;
+							},750);
+
+						},5000);
+
+						addRocketSmoke(-1);
+
+					},1000);
+					
+				}
+
+				if(!slide2Loaded) {
+					$frame.imagesLoaded (function(){
+						execute();
+						slide2Loaded = true;
+					});
+				} else {
+					execute();
+				}
+
+			}
+
+			window.isReady = true;
 
 		});
 

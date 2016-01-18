@@ -105,8 +105,9 @@
 
 	<script>
 
-
 		$(document).ready(function(){
+
+			window.finishedAnimating = false;
 
 			var $frame = $('#make-serious-money'),
 				$header = $('#site-header'),
@@ -118,7 +119,7 @@
 				window.location.reload();
 			}
 
-			window.exit = function() {
+			window.exit = function(callback,parallelCallback) {
 				var wH = $(window).height();
 
 				$header.velocity({
@@ -146,21 +147,26 @@
 					top: -wH
 				}, {
 					duration: 500,
-					easing: "ease"
+					easing: "ease",
 				});
 
 				setTimeout(function(){
-					if(callback)
-						callback();
-				},450);
+					if(parallelCallback)
+						parallelCallback();
+				},250);
+
+				setTimeout(function() {
+					callback();
+				},550);
 			}
 
 			$('#make-serious-money--slide-selector').click(function() {
 				window.exit();
-				window.parent.nextSlide();
+				window.parent.enterSlide('#relaunch-soon');
 			});
 
-			window.enter = function () {
+			window.enter = function (callback) {
+
 				ImageContainerFadeIn();
 
 				$frame.imagesLoaded (function(){
@@ -171,14 +177,19 @@
 							// setup Slides here
 							$frame.addClass('entered'); 
 							$frame.addClass('images-loaded');
-							if(window.parent.highlightControls)
+							window.finishedAnimating = true;
+							if(window.parent.highlightControls) {
 								window.parent.highlightControls();
+							}
 
 						},
 					});
 				});
 			}
 
+			window.parent.imReady('make-serious-money');
+
+			window.isReady = true;
 
 		});
 
