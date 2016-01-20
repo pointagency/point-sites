@@ -5,8 +5,6 @@
 
 {% block content %}
 
-<input type="hidden" id="asset-path" value="assets/images/"/>
-
 <div id="re-launch-soon" class="p-full-screen-slide">
 
 	<div id="re-launch-soon--bg">
@@ -80,6 +78,8 @@
 
 			window.finishedAnimating = false;
 
+			window.exitBeforeReset = false;
+
 			var slide2Loaded = false;
 			var assetPath = $('#asset-path').val();
 			var smokeFileNames = [
@@ -136,7 +136,7 @@
 					top: '-20%',
 					opacity: 0
 				},{
-					duration: 500,
+					duration: 250,
 					easing: 'easing-out',
 					complete: function(){
 
@@ -148,10 +148,9 @@
 					$relaunchBigSmoke.velocity({
 						top: '-120%'
 					},{
-						duration: 750,
+						duration: 500,
 						easing: 'easing-out',
 						complete: function() {
-
 							$relaunchBigSmoke.removeClass('float');
 						}
 					});
@@ -161,7 +160,7 @@
 				$frame.velocity({
 					opacity: 0
 				},{
-					duration: 2500,
+					duration: 1500,
 					easing: 'ease'
 				});
 
@@ -184,8 +183,8 @@
 
 				var launched = false;
 				var stopSmoke = false;
-				var rocketSmokeWidth = 200;
-				var rocketSmokeInterval = 150;
+				var rocketSmokeWidth = 300;
+				var rocketSmokeInterval = 100;
 
 				$relaunchCloud.empty();
 				$relaunchRocketSmoke.empty();
@@ -202,16 +201,13 @@
 
 					var $cloudImgContainer = $cloudElement.find('.smoke-img-container');
 					
-
 					$relaunchCloud.append($cloudElement);
 
 					var value = 360; //animate to  
 				    var steps = 6; //animation steps per frame (1/60sec.) 
 				    var time = Utils.getRandomInt(7,10)*(1000/60)*(value/steps); //animation time
 
-
 				    $cloudImg.velocity({rotateZ: value}, {duration:time,easing:'linear',loop:true});
-
 
 					$cloudElement.velocity({
 						marginLeft: (direction*60)+"%"
@@ -241,7 +237,7 @@
 						if(!launched) {
 							addCloud(direction*-1);
 						}
-					},250);
+					},350);
 
 				}
 
@@ -273,27 +269,13 @@
 					    	top: top
 					    });
 
-						// $cloudElement.velocity({
-						// 	marginLeft: (direction*10)+"%"
-						// },{
-						// 	duration: 3000,
-						// 	easing: [.3,.55,.63,.85],
-						// 	complete: function(){
-						// 		// $cloudElement.animate({
-						// 		// 	opacity: 0
-						// 		// },750, function(){
-						// 		// 	$cloudElement.remove();
-						// 		// });
-						// 	}
-						// });
-
 						$cloudImgContainer.velocity({
 							width: rocketSmokeWidth+'%',
 							marginLeft: (-(rocketSmokeWidth-100)/2)+'%',
 							top: -rocketSmokeWidth/2,
 							opacity: 0.5
 						},{
-							duration: 12000,
+							duration: 8500,
 							easing: [.3,.55,.63,.85]
 						});
 
@@ -340,7 +322,7 @@
 							duration: 750,
 							easing: [.11,1.2,.53,.92]
 						});
-					},250);
+					},125);
 
 					setTimeout(function(){
 
@@ -367,8 +349,8 @@
 						$('#re-launch-soon--fire, #re-launch-soon--rocket').velocity({
 							bottom: '250%'
 						},{
-							duration: 6000,
-							easing: [.52,.07,.86,.41],
+							duration: 3000,
+							easing: [.52,.07,1,.25],
 							complete: function() {
 
 								rocketSmokeWidth = 1000;
@@ -393,22 +375,22 @@
 							$fireMask.velocity({
 								height: '800%'
 							},{
-								duration: 1500,
+								duration: 3000,
 								easing: [.52,.07,.86,.41]
 							});
 
-						},4500);	
+						},1000);	
 
 						setTimeout(function(){
 							$relaunchBg.velocity({
 								opacity: 0
 							},250);
 							window.parent.alternateControlsColor();
-						},5750);
+						},2750);
 
 						setTimeout(function(){
 							$('body').removeClass('rumble');
-						},500);
+						},1000);
 
 						setTimeout(function(){
 							$relaunchBigSmoke.velocity({
@@ -442,11 +424,11 @@
 								window.finishedAnimating = true;
 							},750);
 
-						},5000);
+						},2500);
 
 						addRocketSmoke(-1);
 
-					},1000);
+					},250);
 					
 				}
 
@@ -460,6 +442,16 @@
 				}
 
 			}
+
+			function imReady() {
+				if(window.parent.imReady) {
+					window.parent.imReady('relaunch-soon');
+				} else {
+					setTimeout(imReady,250);
+				}
+			};
+
+			imReady();
 
 			window.isReady = true;
 

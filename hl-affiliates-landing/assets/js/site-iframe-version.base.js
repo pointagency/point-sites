@@ -1,3 +1,11 @@
+if(!window.console) {
+	var console = {
+		log: function() {
+			
+		}
+	}
+}
+
 $(document).ready(function(){
 
 	FastClick.attach(document.body);
@@ -29,7 +37,7 @@ $(document).ready(function(){
 	var checkNewFrameReadyInterval,
 		checkPreviousFrameInterval;
 
-	window.enterSlide = function(target) {
+	window.enterSlide = function(target,step,reload) {
 
 		$frame = $(target),
 		frameWindow = window.frames[target.replace('#','')];
@@ -40,20 +48,71 @@ $(document).ready(function(){
 
 		previousFrameWindow = window.frames[$('.slide-iframe.active').attr('name')];
 
-		checkPreviousFrameInterval = setInterval(function(){
-			if(previousFrameWindow.isReady) {
-				window.clearInterval(checkPreviousFrameInterval);
 
-				if(previousFrameWindow.finishedAnimating) {
+		if(reload) {
 
-					if(previousFrameWindow.exit) {
+			previousFrameWindow.reset();
+			$('.slide-iframe').removeClass('active');
+			$frame.addClass('active');
 
-						console.log('--TRANSITIONING: previous Frame has exit');
+			function restartFrame() {
 
-						previousFrameWindow.exit(function(){
-							console.log("--TRANSITIONING: reset previous Frame");
-							previousFrameWindow.reset();
-						},function() {
+				if(previousFrameWindow.isReady) {
+
+					console.log($frame);
+
+					setTimeout(function(){
+						previousFrameWindow.enter();
+					},250);
+
+
+				} else {
+					setTimeout(restartFrame,125);
+				}
+			}
+
+			setTimeout(restartFrame,125);
+
+		} else {
+
+			if(previousFrameWindow==frameWindow) { //select current frame again
+				if(step) {
+					frameWindow.steps[step]();
+				}
+				return;
+			}
+
+			checkPreviousFrameInterval = setInterval(function(){
+				if(previousFrameWindow.isReady) {
+					window.clearInterval(checkPreviousFrameInterval);
+
+					if(previousFrameWindow.finishedAnimating) {
+
+						if(previousFrameWindow.exit) {
+
+							console.log('--TRANSITIONING: previous Frame has exit');
+
+							previousFrameWindow.exit(function(){
+								console.log("--TRANSITIONING: reset previous Frame");
+								previousFrameWindow.reset();
+							},function() {
+
+								$('.slide-iframe').removeClass('active');
+
+								$frame.addClass('active');
+
+								checkNewFrameReadyInterval = setInterval(function(){
+									if(frameWindow.isReady) {
+										frameWindow.enter();
+										clearInterval(checkNewFrameReadyInterval);
+									}
+								},100);
+
+								
+							});
+						} else {
+
+							console.log('--TRANSITIONING: previous Frame doesn\'t have exit');
 
 							$('.slide-iframe').removeClass('active');
 
@@ -66,11 +125,16 @@ $(document).ready(function(){
 								}
 							},100);
 
-							
-						});
+							setTimeout(function() {
+								console.log("--TRANSITIONING: reset previous Frame");
+								previousFrameWindow.reset();
+							},previousFrameWindow.resetDelay || 250);
+
+						}
+
 					} else {
 
-						console.log('--TRANSITIONING: previous Frame doesn\'t have exit');
+						console.log('--TRANSITIONING: previous Frame hasn\'t finished yet');
 
 						$('.slide-iframe').removeClass('active');
 
@@ -85,36 +149,19 @@ $(document).ready(function(){
 
 						setTimeout(function() {
 							console.log("--TRANSITIONING: reset previous Frame");
-							previousFrameWindow.reset();
+							if(previousFrameWindow.exitBeforeReset) {
+								previousFrameWindow.exit(function(){
+									previousFrameWindow.reset();
+								});
+							} else {
+								previousFrameWindow.reset();
+							}
 						},250);
 
 					}
-
-				} else {
-
-					console.log('--TRANSITIONING: previous Frame hasn\'t finished yet');
-
-					$('.slide-iframe').removeClass('active');
-
-					$frame.addClass('active');
-
-					checkNewFrameReadyInterval = setInterval(function(){
-						if(frameWindow.isReady) {
-							frameWindow.enter();
-							clearInterval(checkNewFrameReadyInterval);
-						}
-					},100);
-
-					setTimeout(function() {
-						console.log("--TRANSITIONING: reset previous Frame");
-						previousFrameWindow.reset();
-					},250);
-
 				}
-			}
-
-			
-		},100);
+			},100);
+		}
 
 	}
 
@@ -126,15 +173,29 @@ $(document).ready(function(){
 		}
 	}
 
+	var slideAvailable = true;
+
 	$('.slide-selector').click(function(){
 		
 		var $self = $(this);
 
-		$('.slide-selector').removeClass('active');
+		if(slideAvailable) {
+			slideAvailable = false;
 
-		$self.addClass('active');
+			$('#slide-selectors').addClass('animating');
 
-		enterSlide($self.data('target'));
+			$('.slide-selector').removeClass('active');
+
+			$self.addClass('active');
+
+			enterSlide($self.data('target'),$self.data('step'));
+
+			slideSelectorTimeout = setTimeout(function(){
+				slideAvailable = true;
+				$('#slide-selectors').removeClass('animating');
+			},1500);
+		}
+
 
 	});
 

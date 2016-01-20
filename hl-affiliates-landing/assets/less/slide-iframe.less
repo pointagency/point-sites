@@ -6,12 +6,15 @@
 	left: 0;
 	border: none;
 	.opacity(0);
-	.transition(all 0.25s ease);
+	.transition(all 0.625s ease);
 	z-index: 1;
+	background-image: url(../images/loading-lighter.gif);
+	background-position: center;
+	background-repeat: no-repeat;
 
 	&.active {
 		.opacity(1);
-		.transition(opacity 0.25s ease);
+		.transition(opacity 0.625s ease);
 		// .transition-delay(0.25s);
 	}
 }

@@ -942,7 +942,9 @@ $(document).ready(function(){
 					setTimeout(function(){
 						callback();
 					},2000);
+
 				} else {
+
 					$sellEffectiveBG.velocity({
 						opacity: 0
 					},{
@@ -1021,7 +1023,6 @@ $(document).ready(function(){
 					} else {
 						$('.p-full-screen-slide.active').removeClass('active');
 					}
-
 					
 					$slide5.addClass('active');
 					$slide5.addClass('enter');
@@ -1130,9 +1131,9 @@ $(document).ready(function(){
 		slides['#stunning-creative'] = {
 			index: 5,
 			reset: function() {
-				$('.stunning-creative--item').removeClass('in');
 				$('#stunning-creative--arrows').velocity('stop');
 				$('.stunning-creative--item').velocity('stop');
+				$('.stunning-creative--item').removeClass('in');
 				setTimeout(function(){
 					$('.stunning-creative--item').attr('style','');
 					$('#stunning-creative--arrows').attr('style','');

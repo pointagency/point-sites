@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <title>HighLow 2.0 - It's time to make some serious money</title>
+
+	    <!-- Meta for viewport -->
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+	    <meta name="apple-mobile-web-app-capable" content="yes" />
+	    
+	    <link href='http://fonts.googleapis.com/css?family=Roboto:100,500,300,700,400' rel='stylesheet' type='text/css'>
+
+	    
+	    	<link rel="stylesheet" href="assets/css/site-split.css" media="all" />
+	    	<!--[if lt IE 9]>
+				<link rel="stylesheet" type="text/css" href="assets/css/site-ie8.css" />
+			<![endif]-->
+	    
+
+	    <script type="text/javascript">
+		    // first, create the object that contains
+		    // configuration variables
+		    var MTIConfig = {
+			 EnableCustomFOUTHandler: true,
+			 UseTextIndent: true
+			};
+
+		</script>
+	    <script type="text/javascript" src="http://fast.fonts.net/jsapi/21d9f754-6257-4b0a-95a8-8dd04d55f8c1.js"></script>
+	   
+	    
+	    
+
+	</head>
+	<body class="iframe we-want-to-help">
+
+		<input type="hidden" id="asset-path" value="assets/images/"/>
+		
+		<!-- begin main content -->
+		
+
+<div id="we-want-to-help" class="p-full-screen-slide">
+	<div id="we-want-to-help--bg">
+	</div>
+	<div id="we-want-to-help--funnel">
+		<div id="we-want-to-help--funnel--disc">
+		</div>
+		<div id="we-want-to-help--leads">
+		</div>
+		<div id="we-want-to-help--coins">
+		</div>
+		<img src="assets/images/funnel.png" id="we-want-to-help--funnel-img"/>
+	</div>
+
+	<div id="we-want-to-help--text">
+		<div id="we-want-to-help--text-content">
+			And with the highest commissions in the industry (up to $400 per conversion!), we want to help you convert as many leads as possible.
+		</div>
+	</div>
+</div>
+
+
+		<!-- end main content -->
+		
+		<!-- begin javascript -->
+
+
+		
+			<script type="text/javascript">
+				if(!window.console) {
+					window.console = {
+						log: function(){
+							
+						}
+					}
+				}
+			</script>
+
+			<script type="text/javascript" src="assets/js/third-parties.js"></script>
+			<script type="text/javascript" src="assets/js/home-made.js"></script>
+			
+			
+		
+		
+
+		
+
+	<script>
+
+		$(document).ready(function(){
+
+			window.finishedAnimating = false;
+
+			window.resetDelay = 750;
+
+			var slide3Loaded = false;
+			var assetPath = $('#asset-path').val();
+
+			var leadFileNames = [
+				'lead-red.png',
+				'lead-yellow.png'
+			];
+
+			var coinFileNames = [
+				'coin.png'
+			];
+
+			var $frame = $('#we-want-to-help'),
+				$wantToHelpBG = $('#we-want-to-help--bg'),
+				$wantToHelpLeads = $('#we-want-to-help--leads'),
+				$wantToHelpCoins = $('#we-want-to-help--coins'),
+				$wantToHelpFunnel = $('#we-want-to-help--funnel'),
+				$wantToHelpDisc = $('#we-want-to-help--funnel--disc'),
+				$wantToHelpFunnelImg = $('#we-want-to-help--funnel-img'),
+				$wantToHelpText = $('#we-want-to-help--text');
+
+			window.reset = function() {
+				window.location.reload();
+			}
+
+			window.exitBeforeReset = true;
+
+			window.exit = function(callback,parallelCallback) {
+				
+				$wantToHelpFunnelImg.velocity({
+					top: (-$wantToHelpFunnelImg.outerHeight())+'px'
+				},{
+					duration: 750,
+					easing: [.87,-0.13,1,.07],
+					complete: function() {
+						stopLead = true;
+					}
+				});
+
+				$wantToHelpDisc.velocity({
+					opacity: 1,
+					top: '100%',
+					marginTop: 0
+				},{
+					duration: 750,
+					easing: [.87,-0.13,1,.07]
+				});
+
+				$wantToHelpText.velocity({
+					top: '100%',
+					opacity: 0
+				},{
+					duration: 750,
+					easing: [.87,-0.13,1,.07]
+				});
+
+				setTimeout(function(){
+					if(parallelCallback)
+						parallelCallback();
+				},250);
+
+				setTimeout(function() {
+					callback();
+				},750);
+			}
+
+			$('#make-serious-money--slide-selector').click(function() {
+				window.exit();
+				window.parent.enterSlide('#we-want-to-help');
+			});
+
+			window.enter = function (callback) {
+
+				ImageContainerFadeIn();
+
+				stopLead = false;
+
+				var leadCount = 0;
+
+				var wobble = false;
+
+				function addLead() {
+					var fileName = leadFileNames[Utils.getRandomInt(0,leadFileNames.length-1)];
+
+					var $leadElement = $('<div class="lead"><div class="lead-img-container"><img src="'+assetPath+fileName+'"/></div></div>');
+
+					var $leadImg = $leadElement.find('img');
+
+					var $leadImgContainer = $leadElement.find('.lead-img-container');
+					
+					$wantToHelpLeads.append($leadElement);
+
+
+					var size = Utils.getRandomInt(30,73),
+						left = Utils.getRandomInt(0,100);
+
+					$leadElement.css({
+						left: left+'%',
+						width: size+'px',
+						zIndex: size,
+						blur: 73/size*10-10,
+						marginLeft: (left<=50?0:-size)+"px"
+					});
+
+					$leadElement.velocity({
+						top: '150%'
+					},{
+						duration: 18250/size*8,
+						easing: 'linear',
+						complete: function(){
+							$leadElement.remove();
+						},
+						progress: function() {
+							if($leadElement.offset().top>=$wantToHelpFunnelImg.offset().top) {
+								$leadElement.velocity('stop');
+								$leadElement.remove();
+
+								if(!wobble) {
+									wobble = true;
+									$wantToHelpFunnelImg.addClass('wobble');
+								}
+
+								leadCount++;
+
+								if(leadCount>8) {
+									leadCount = 0;
+									addCoin();
+								}
+							}
+						}
+					});
+
+					if(!stopLead) {
+						setTimeout(function(){
+							addLead();
+						},100);
+					}
+
+					
+				};
+
+
+				function addCoin() {
+					var fileName = coinFileNames[Utils.getRandomInt(0,coinFileNames.length-1)];
+
+					var $coinElement = $('<div class="coin"><div class="coin-img-container"><img src="'+assetPath+fileName+'"/></div></div>');
+
+					var $coinImg = $coinElement.find('img');
+
+					var $coinImgContainer = $coinElement.find('.coin-img-container');
+
+					$coinElement.css({
+						top: $wantToHelpFunnelImg.offset().top
+					});
+
+					$wantToHelpCoins.append($coinElement);
+
+					$coinElement.velocity({
+						top: '110%'
+					}, {
+						duration: 1250,
+						easing: 'linear',
+						complete: function() {
+							$coinElement.remove();
+						}
+					});
+
+				}
+				
+
+				function execute() {
+					
+					$('.p-full-screen-slide.active').removeClass('active');
+					$frame.addClass('active');
+					$frame.addClass('enter');
+
+					$wantToHelpBG.velocity({
+						opacity: 1
+					},{
+						duration: 250,
+						easing: 'ease',
+						complete: function() {
+							addLead();
+						}
+					});
+
+					setTimeout(function(){
+
+						$wantToHelpFunnelImg.velocity({
+							opacity: 1,
+							top: '50%'
+						},{
+							duration: 750,
+							easing: 'easing-out'
+						});
+
+						$wantToHelpText.velocity({
+							opacity: 1
+						},500);
+
+						$wantToHelpDisc.velocity({
+							opacity: 1,
+							top: '50%',
+							complete: function(){
+								
+								window.finishedAnimating = true;
+
+								if(callback) {
+									callback();
+								}
+
+							}
+						},1000);
+
+					},250);
+					
+				}
+
+
+				if(!slide3Loaded) {
+					$frame.imagesLoaded (function(){
+						execute();
+						slide3Loaded = true;
+					});
+				} else {
+					execute();
+				}
+
+			}
+
+			function imReady() {
+				if(window.parent.imReady) {
+					window.parent.imReady('we-want-to-help');
+				} else {
+					setTimeout(imReady,250);
+				}
+			};
+
+			imReady();
+
+			window.isReady = true;
+
+		});
+
+
+	</script>
+
+
+		<!-- end javascript -->
+	</body>  
+</html>

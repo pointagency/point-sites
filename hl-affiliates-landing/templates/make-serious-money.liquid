@@ -52,6 +52,7 @@
 		$(document).ready(function(){
 
 			window.finishedAnimating = false;
+			window.exitBeforeReset = false;
 
 			var $frame = $('#make-serious-money'),
 				$header = $('#site-header'),
@@ -131,7 +132,15 @@
 				});
 			}
 
-			window.parent.imReady('make-serious-money');
+			function imReady() {
+				if(window.parent.imReady) {
+					window.parent.imReady('make-serious-money');
+				} else {
+					setTimeout(imReady,250);
+				}
+			};
+
+			imReady();
 
 			window.isReady = true;
 
