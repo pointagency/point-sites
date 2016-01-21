@@ -1,0 +1,146 @@
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path;
+*/
+@down-grey-sm-x: 130px;
+@down-grey-sm-y: 29px;
+@down-grey-sm-offset-x: -130px;
+@down-grey-sm-offset-y: -29px;
+@down-grey-sm-width: 10px;
+@down-grey-sm-height: 5px;
+@down-grey-sm-total-width: 178px;
+@down-grey-sm-total-height: 86px;
+@down-grey-sm-image: '../images/a-spritesheet.png';
+@down-grey-sm: 130px 29px -130px -29px 10px 5px 178px 86px '../images/a-spritesheet.png';
+@down-pink-sm-x: 142px;
+@down-pink-sm-y: 29px;
+@down-pink-sm-offset-x: -142px;
+@down-pink-sm-offset-y: -29px;
+@down-pink-sm-width: 10px;
+@down-pink-sm-height: 5px;
+@down-pink-sm-total-width: 178px;
+@down-pink-sm-total-height: 86px;
+@down-pink-sm-image: '../images/a-spritesheet.png';
+@down-pink-sm: 142px 29px -142px -29px 10px 5px 178px 86px '../images/a-spritesheet.png';
+@down-white-sm-x: 154px;
+@down-white-sm-y: 29px;
+@down-white-sm-offset-x: -154px;
+@down-white-sm-offset-y: -29px;
+@down-white-sm-width: 10px;
+@down-white-sm-height: 5px;
+@down-white-sm-total-width: 178px;
+@down-white-sm-total-height: 86px;
+@down-white-sm-image: '../images/a-spritesheet.png';
+@down-white-sm: 154px 29px -154px -29px 10px 5px 178px 86px '../images/a-spritesheet.png';
+@error-close-x: 0px;
+@error-close-y: 0px;
+@error-close-offset-x: 0px;
+@error-close-offset-y: 0px;
+@error-close-width: 42px;
+@error-close-height: 42px;
+@error-close-total-width: 178px;
+@error-close-total-height: 86px;
+@error-close-image: '../images/a-spritesheet.png';
+@error-close: 0px 0px 0px 0px 42px 42px 178px 86px '../images/a-spritesheet.png';
+@error-icon-x: 88px;
+@error-icon-y: 29px;
+@error-icon-offset-x: -88px;
+@error-icon-offset-y: -29px;
+@error-icon-width: 12px;
+@error-icon-height: 12px;
+@error-icon-total-width: 178px;
+@error-icon-total-height: 86px;
+@error-icon-image: '../images/a-spritesheet.png';
+@error-icon: 88px 29px -88px -29px 12px 12px 178px 86px '../images/a-spritesheet.png';
+@header-logo-x: 88px;
+@header-logo-y: 0px;
+@header-logo-offset-x: -88px;
+@header-logo-offset-y: 0px;
+@header-logo-width: 90px;
+@header-logo-height: 27px;
+@header-logo-total-width: 178px;
+@header-logo-total-height: 86px;
+@header-logo-image: '../images/a-spritesheet.png';
+@header-logo: 88px 0px -88px 0px 90px 27px 178px 86px '../images/a-spritesheet.png';
+@success-close-x: 44px;
+@success-close-y: 0px;
+@success-close-offset-x: -44px;
+@success-close-offset-y: 0px;
+@success-close-width: 42px;
+@success-close-height: 42px;
+@success-close-total-width: 178px;
+@success-close-total-height: 86px;
+@success-close-image: '../images/a-spritesheet.png';
+@success-close: 44px 0px -44px 0px 42px 42px 178px 86px '../images/a-spritesheet.png';
+@success-icon-x: 102px;
+@success-icon-y: 29px;
+@success-icon-offset-x: -102px;
+@success-icon-offset-y: -29px;
+@success-icon-width: 12px;
+@success-icon-height: 12px;
+@success-icon-total-width: 178px;
+@success-icon-total-height: 86px;
+@success-icon-image: '../images/a-spritesheet.png';
+@success-icon: 102px 29px -102px -29px 12px 12px 178px 86px '../images/a-spritesheet.png';
+@warning-close-x: 0px;
+@warning-close-y: 44px;
+@warning-close-offset-x: 0px;
+@warning-close-offset-y: -44px;
+@warning-close-width: 42px;
+@warning-close-height: 42px;
+@warning-close-total-width: 178px;
+@warning-close-total-height: 86px;
+@warning-close-image: '../images/a-spritesheet.png';
+@warning-close: 0px 44px 0px -44px 42px 42px 178px 86px '../images/a-spritesheet.png';
+@warning-icon-x: 116px;
+@warning-icon-y: 29px;
+@warning-icon-offset-x: -116px;
+@warning-icon-offset-y: -29px;
+@warning-icon-width: 12px;
+@warning-icon-height: 12px;
+@warning-icon-total-width: 178px;
+@warning-icon-total-height: 86px;
+@warning-icon-image: '../images/a-spritesheet.png';
+@warning-icon: 116px 29px -116px -29px 12px 12px 178px 86px '../images/a-spritesheet.png';
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+*/
+.sprite-width(@sprite) {
+  width: ~`"@{sprite}".split(', ')[4]`;
+}
+
+.sprite-height(@sprite) {
+  height: ~`"@{sprite}".split(', ')[5]`;
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: ~`"@{sprite}".split(', ')[2]`;
+  @sprite-offset-y: ~`"@{sprite}".split(', ')[3]`;
+  background-position: @sprite-offset-x  @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: ~`"@{sprite}".split(', ')[8].slice(1, -2)`;
+  background-image: url(@sprite-image);
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}

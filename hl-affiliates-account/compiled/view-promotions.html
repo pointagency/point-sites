@@ -32,7 +32,7 @@
 	
 
 <header>
-	<nav class="navbar navbar-default splash-nav navbar-fixed-top" role="navigation">
+	<nav class="navbar navbar-default post-login navbar-fixed-top" role="navigation">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -47,13 +47,9 @@
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
-					<li ><a href="#">AFFILIATES</a></li>
-					<li ><a href="#">FAQ</a></li>
-					<li ><a href="#">CONTACT US</a></li>
-					<li ><a href="#">MY ACCOUNT</a></li>
-					<li><a href="#" class="highlight">SIGN OUT</a></li>
-				</ul>
+				<div class="commission-status pull-right">
+				This month: <span class="commission-status--value">$875</span>
+				</div>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
@@ -71,7 +67,7 @@
 					<span>
 						Hi, Hamish!
 					</span>
-					<i class="fa fa-angle-down user-arrow"></i>
+					<i class="sprite-icon__down-pink-sm menu-list--dropdown-icon"></i>
 				</a>
 				<ul class="dropdown-menu">
 					<li>
@@ -91,6 +87,11 @@
 					</li>
 				</ul>
 			</li>
+			<li>
+				<div class="side-content--header">
+					MENU
+				</div>
+			</li>
 			<li >
 				<a href="#">
 					<i class="fa fa-globe fa-icon"></i> <span>Dashboard</span>
@@ -101,21 +102,21 @@
 					<i class="fa fa-star fa-icon"></i> <span>Promotions</span>
 				</a>
 			</li>
-			<li class="menu-list ">
+			<li class="menu-list">
 				<a href="javascript:void(0);">
 					<i class="fa fa-signal fa-icon"></i> 
 					<span>Reports</span> 
-					<i class="fa fa-angle-down pull-right"></i>
+					<i class="sprite-icon__down-grey-sm menu-list--dropdown-icon"></i>
 				</a>
 				<ul class="sub-menu-list">
 					<li class="">
 						<a href="#">
-							<i class="fa fa-hand-o-up fa-icon"></i> <span>Clicks</span>
+							<span>Clicks</span>
 						</a>
 					</li>
 					<li class="">
 						<a href="#">
-							<i class="fa fa-star fa-icon"></i> <span>Conversion</span>
+							<span>Conversion</span>
 						</a>
 					</li>
 				</ul>

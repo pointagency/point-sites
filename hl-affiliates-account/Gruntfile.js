@@ -165,24 +165,25 @@ module.exports = function(grunt) {
 		// 		dest: '/assets/js/'
 		// 	}
 		// },
-		// sprite: {
-		// 	all: {
-		// 		src: ['assets/spritesheet/*.png'],
-		// 		destImg: 'compiled/assets/images/spritesheet.png',
-		// 		destCSS: 'assets/less/spritesheet.less',
-		// 		algorithm: 'binary-tree',
-		// 		padding: 2,
-		// 		imgPath: "../images/spritesheet.png"
-		// 	},
-		// 	all2x: {
-		// 		src: ['assets/spritesheet-2x/*.png'],
-		// 		destImg: 'compiled/assets/images/spritesheet-2x.png',
-		// 		destCSS: 'assets/less/spritesheet-2x.less',
-		// 		algorithm: 'binary-tree',
-		// 		padding: 2,
-		// 		imgPath: "../images/spritesheet-2x.png"
-		// 	}
-		// },
+		sprite: {
+			all: {
+				src: ['acontent/images/sprite-src/*.png'],
+				destImg: 'compiled/acontent/images/a-spritesheet.png',
+				destCSS: 'acontent/less/affiliate/aff-spritesheet.less',
+				algorithm: 'binary-tree',
+				padding: 2,
+				imgPath: "../images/a-spritesheet.png"
+			}
+			// ,
+			// all2x: {
+			// 	src: ['assets/spritesheet-2x/*.png'],
+			// 	destImg: 'compiled/assets/images/spritesheet-2x.png',
+			// 	destCSS: 'assets/less/spritesheet-2x.less',
+			// 	algorithm: 'binary-tree',
+			// 	padding: 2,
+			// 	imgPath: "../images/spritesheet-2x.png"
+			// }
+		},
 		watch: {
 			styles: {
 				files: ['acontent/less/**/*.*'],
@@ -200,13 +201,13 @@ module.exports = function(grunt) {
 					livereload: false
 				}
 			},
-			// sprite: {
-			// 	files: ['assets/images/spritesheet/*.*'],
-			// 	task: ['sprite','less','bless','imagemin'],
-			// 	options: {
-			// 		livereload: false
-			// 	}
-			// },
+			sprite: {
+				files: ['acontent/images/sprite-src/*.*'],
+				task: ['sprite','less','bless','imagemin'],
+				options: {
+					livereload: false
+				}
+			},
 			js: {
 				files: ['acontent/js/**/*.js'],
 				tasks: ['copy'],
@@ -216,7 +217,7 @@ module.exports = function(grunt) {
 			},
 			template: {
 				files: ['templates/**/*.liquid'],
-				tasks: ['newer:liquid','copy']
+				tasks: ['liquid','copy']
 			}
 		},
 		concurrent: {
@@ -230,7 +231,7 @@ module.exports = function(grunt) {
 	});
 	
 
-	grunt.registerTask('default', [ 'less','bless','newer:copy','newer:liquid', 'concurrent:all']);
+	grunt.registerTask('default', [ 'sprite','less','bless','newer:copy','newer:liquid', 'concurrent:all']);
 	// grunt.registerTask('default', ['sprite', 'newer:less', 'newer:concat', 'uglify','compress', 'newer:liquid', 'bless','copy',  'concurrent:all']);
 };
 
