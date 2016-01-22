@@ -150,7 +150,7 @@
 	}
 
 	#pip {
-	    top: 53px;
+	    top: 54px;
 	    left: 50%;
 	    margin-left: 18px;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)";
@@ -827,6 +827,36 @@ function init() {
 
 	var count = 0;
 
+	function rerun () {
+		v(e['first-screen'],{
+			scale: 1
+		},{
+			duration: 0
+		});
+
+		v(e['wrapper'],{
+			opacity: 0
+		},{
+			duration: 500,
+			complete: function(){
+				for(var i = 0; i < eArray.length; i++) {
+					var element = eArray[i];
+					element.removeAttribute("style");
+				}
+
+				v(e['wrapper'],{
+					opacity: 1
+				},{
+					duration: 500,
+					complete: function(){
+						run();
+					}
+				});
+			}
+		});
+		
+	}
+
 	function getSupportedTransform() {
 	    var prefixes = 'transform WebkitTransform MozTransform OTransform msTransform'.split(' ');
 	    var div = document.createElement('div');
@@ -842,7 +872,7 @@ function init() {
 		document.getElementById('fallback').style.display = 'block';
 
 		var img = document.createElement("img");
-		img.setAttribute("src", "static-new.png");
+		img.setAttribute("src", "static.png");
 
 		document.getElementById('fallback').appendChild(img);
 

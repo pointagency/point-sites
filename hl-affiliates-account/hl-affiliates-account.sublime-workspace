@@ -1,0 +1,2134 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"border-bo",
+				"border-bottom-color"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"filter",
+				"filterOptions"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"banner--",
+				"banner--playable-preview"
+			],
+			[
+				"bac",
+				"bs3-carousel	bs3-carousel"
+			],
+			[
+				"aco",
+				"acontent"
+			],
+			[
+				"is",
+				"isAndroidMobile"
+			],
+			[
+				"succes",
+				"successHandler"
+			],
+			[
+				"curretn",
+				"currentContainer"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"lp-traders--bi",
+				"lp-traders--big-stock--content"
+			],
+			[
+				"menu-bar",
+				"menu-bar__landing-page-traders"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"lp-traders",
+				"lp-traders--dual-cta--bg"
+			],
+			[
+				"in",
+				"inProgressMessageTimeout"
+			],
+			[
+				"report",
+				"reportInProgress"
+			],
+			[
+				"comi",
+				"coming-soon"
+			],
+			[
+				"coming-soon",
+				"coming-soon-overlay"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"cus",
+				"custom-dropdown-item-label"
+			],
+			[
+				"run",
+				"runCursor"
+			],
+			[
+				"bg-1-wrappe",
+				"bg-1-wrapper-inner"
+			],
+			[
+				"left",
+				"left"
+			],
+			[
+				"curs",
+				"cursor-2"
+			],
+			[
+				"graph",
+				"graph-wrapper"
+			],
+			[
+				"name",
+				"nameWithSpace"
+			],
+			[
+				"trulioo",
+				"truliooAddressFieldWrapper"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"transition",
+				"transition-delay"
+			],
+			[
+				"show",
+				"show-tooltip"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"change",
+				"change-password-form"
+			],
+			[
+				"profi",
+				"profile-details-form"
+			],
+			[
+				"avata",
+				"avatar-pickder-heading"
+			],
+			[
+				"mouseM",
+				"mouseMovementY"
+			],
+			[
+				"mouse",
+				"mouseMovementX"
+			],
+			[
+				"mov",
+				"movingCanvas"
+			],
+			[
+				"canvas",
+				"canvasContainer"
+			],
+			[
+				"paddn",
+				"padding-left"
+			],
+			[
+				"overf",
+				"overflow-x"
+			],
+			[
+				"tradeFfe",
+				"tradeEffectWonCaption"
+			],
+			[
+				"cash",
+				"cashbackEffectCaption"
+			],
+			[
+				"ac",
+				"accountAfterTradeLostCaption"
+			],
+			[
+				"coun",
+				"countryISOCode"
+			],
+			[
+				"white",
+				"white-plate"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"d",
+				"duration"
+			],
+			[
+				"getE",
+				"getElementById"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"stop",
+				"stopPropagation"
+			],
+			[
+				"cr",
+				"cursor"
+			],
+			[
+				"if",
+				"ifChecked"
+			],
+			[
+				"p",
+				"p-horizontal-full-width-tab--tab"
+			],
+			[
+				"te-x",
+				"text-align"
+			],
+			[
+				"i-hl",
+				"i-hl-points-tier--index"
+			],
+			[
+				"loyalty-",
+				"loyalty-cash-back__landing-page-rich"
+			],
+			[
+				"fun",
+				"wantToHelpFunnelImg"
+			],
+			[
+				"w",
+				"wantToHelpFunnel"
+			],
+			[
+				"wna",
+				"wantToHelpFunnelImg"
+			],
+			[
+				"wanto",
+				"wantToHelpFunnelImg"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"roc",
+				"relaunchRocket"
+			],
+			[
+				"relaunchB",
+				"relaunchBigSmoke"
+			],
+			[
+				"re",
+				"relaunchBg"
+			],
+			[
+				"ro",
+				"relaunchRocket"
+			],
+			[
+				"laun",
+				"launched"
+			],
+			[
+				"reluanch",
+				"relaunchCloud"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"o",
+				"opacity"
+			],
+			[
+				"site",
+				"siteHeader"
+			],
+			[
+				"images",
+				"images-loaded"
+			],
+			[
+				"p-ticker-",
+				"p-ticker__news-scroller--expand"
+			],
+			[
+				"Verti",
+				"VerticalScrollTogglerCommon"
+			],
+			[
+				"sele",
+				"selectBoxit"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"backgorund-",
+				"background-image"
+			],
+			[
+				"backgrund-",
+				"background-color"
+			],
+			[
+				"dropdown",
+				"dropdown-menu"
+			],
+			[
+				"footer-linsk-",
+				"footer-links-group-heading"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"p-h",
+				"p-horizontal-tabs-block--tab-selector"
+			],
+			[
+				"p-horizontal-tabs-block__banking--inf",
+				"p-horizontal-tabs-block__banking--infograph--element--tooltip"
+			],
+			[
+				"p-hor",
+				"p-horizontal-tabs-block__banking--item"
+			],
+			[
+				"bacgr",
+				"background-image"
+			],
+			[
+				"bak",
+				"background-repeat"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"reach",
+				"reach-left-double"
+			],
+			[
+				"p-horizon",
+				"p-horizontal-tabs-block--tab-selector"
+			],
+			[
+				"status-bar-demo",
+				"status-bar-demo-countdown--days"
+			],
+			[
+				"demo-",
+				"demo-mega-menu-item__full-demo"
+			],
+			[
+				"p-f",
+				"p-form--control-wrapper"
+			],
+			[
+				"expi",
+				"expiry-time-col"
+			],
+			[
+				"col",
+				"collapsible-header"
+			],
+			[
+				"process",
+				"processedTable"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"box-s",
+				"box-shadow"
+			],
+			[
+				"boxs",
+				"box-shadow"
+			],
+			[
+				"modal-d",
+				"modal-dialog-center"
+			],
+			[
+				"modal-di",
+				"modal-dialog-wrapper"
+			],
+			[
+				"plat",
+				"platform-overview--intro"
+			],
+			[
+				"ove",
+				"overviewBanner"
+			],
+			[
+				"add",
+				"addResizeHandler"
+			],
+			[
+				"on",
+				"onTheGo"
+			],
+			[
+				"overview",
+				"overview-banner--content"
+			],
+			[
+				"resources-",
+				"resources-landing-downloads"
+			],
+			[
+				"backgrounc-",
+				"background-color"
+			],
+			[
+				"option",
+				"option-types-block--slide-item-wrapper"
+			],
+			[
+				"optio",
+				"option-types-block--slide-item--close"
+			],
+			[
+				"collapsi",
+				"collapsible-body"
+			],
+			[
+				"type",
+				"typeWritterElements"
+			],
+			[
+				"block",
+				"blockquote	Tag"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"for",
+				"form-group"
+			],
+			[
+				"bacg",
+				"background"
+			],
+			[
+				"demo-si",
+				"demo-signup-success"
+			],
+			[
+				"demo",
+				"demo-signup-wrapper"
+			],
+			[
+				"cta-b",
+				"cta-block-text"
+			],
+			[
+				"curren",
+				"currentStep"
+			],
+			[
+				"hi",
+				"highlightElementId"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"walk-th",
+				"walk-through-hot-spot"
+			],
+			[
+				"seuqn",
+				"sequenceID"
+			],
+			[
+				"di",
+				"display"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "{% extends base %}\n\n\n{% block bodyClass %}\n{% endblock %}\n\n{% block content %}\n<br/>\n<br/>\n<br/>\n<div class=\"container\">\n	<h3>HighLow Affiliates Account UI</h3>\n	<hl></hl>\n	<h5>Screen list:</h5>\n	<a href=\"view-promotions.html\">View Promotions</a>\n</div>\n\n{% endblock %}",
+			"file": "templates/index.liquid",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 269,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{% extends base %}\n\n\n{% block bodyClass %}\n{% endblock %}\n\n{% block content %}\n\n{% include header %}\n\n{% assign promotion='active' %}\n\n{% include side-menu %}\n\n{% assign promotion='active' %}\n\n<div class=\"main-content\">\n	<div class=\"wrapper clearfix\">\n		<div class=\"clearfix\">\n		</div>\n		<div class=\"page-heading clearfix\">\n			<div class=\"pull-left\">\n				<button type=\"button\" class=\"sidebar-toggler navbar-toggle visible-xs\">\n					<span class=\"sr-only\"></span>\n					<span class=\"icon-bar\"></span>\n					<span class=\"icon-bar\"></span>\n					<span class=\"icon-bar\"></span>\n				</button>\n			</div>\n			<div class=\"pull-left\">\n				<h3>\n					Australian Affiliates Campaign 2		            \n				</h3>\n			</div>\n			<div class=\"pull-right\">\n				<div class=\"page-actions\">\n					<ul>\n						<li><a class=\"affiliate-btn affiliate-btn-default\" href=\"#\"><i class=\"fa fa-chevron-left\"></i> Back to List</a></li>		\n					</ul>\n				</div>\n			</div>\n		</div>\n		<div class=\"container\">\n			<h3></h3>\n			<div class=\"row\">\n				<div class=\"col-lg-12\">\n					<p>Default Promotion URL : <a href=\"#\">https://en2.highlow.net/account?a_aid=568d490aad773&amp;a_cid=757a25f1</a> </p>\n				</div>\n			</div>\n			<div class=\"row\">\n				<div class=\"col-lg-6\">\n					<table class=\"table table-striped\">\n						<tbody>\n							<tr>\n								<td><strong>Promotion Name</strong></td>\n								<td>Australian Affiliates Campaign 2</td>\n							</tr>\n							<tr>\n								<td><strong>Promotion Code</strong></td>\n								<td>757a25f1</td>\n							</tr>\n						</tbody>\n					</table>			\n				</div>\n				<div class=\"col-lg-6\">\n					<table class=\"table table-striped\">\n						<tbody>   \n							<tr>\n								<td width=\"25%\"><strong>Commission Details</strong></td>\n								<td>       \n									1 - 10 Accounts <b>AU$300.00</b>\n									<br/>\n									11 - 100 Accounts <b>AU$350.00</b>\n									<br/>\n									&gt;=101 Accounts <b>AU$400.00</b>\n									<br/>\n								</td>\n							</tr>\n						</tbody>\n					</table>			\n				</div>\n			</div>	\n\n			<div class=\"row\">\n				<h3></h3>\n				<div class=\"col-lg-12\">\n					<!-- Nav tabs -->\n					{% comment %}\n					<ul class=\"nav nav-tabs\" role=\"tablist\">\n						<li class=\"active\"><a href=\"#banners\" role=\"tab\" data-toggle=\"tab\">Banners</a></li>\n						<li><a href=\"#directLink\" role=\"tab\" data-toggle=\"tab\">Direct Links</a></li>		\n					</ul>\n					{% endcomment %}\n					<!-- Tab panes -->\n					<div class=\"tab-content\">\n						<div class=\"tab-pane active\" id=\"banners\">\n							<form>\n								<div class=\"clearfix banners--search-options\">\n									<form>\n										<div class=\"banners--search\">\n											<label for=\"banners-search-input\">Search</label>\n											&nbsp;\n											&nbsp;\n											<input id=\"banners-search-input\" type=\"text\" class=\"form-control\"/>\n										</div>\n										<div class=\"banners--sort\">\n											<label>Sort by</label>\n											<div class=\"banners--sort--options\">\n												<div class=\"banners--sort--option\">\n													<label>\n														<input type=\"checkbox\" name=\"sort-alphabet\"/>\n														&nbsp;&nbsp;Alphabetically\n													</label>\n													<select>\n														<option value=\"asc\">ASC</option>\n														<option value=\"asc\">DEC</option>\n													</select>\n												</div>\n												<div class=\"banners--sort--option\">\n													<label>\n														<input type=\"checkbox\" name=\"sort-recent\"/>\n														&nbsp;&nbsp;Most recent\n													</label>\n													<select>\n														<option value=\"asc\">ASC</option>\n														<option value=\"asc\">DEC</option>\n													</select>\n												</div>\n												<div class=\"banners--sort--option\">\n													<label>\n														<input type=\"checkbox\" name=\"sort-type\"/>\n														&nbsp;&nbsp;File type\n													</label>\n													<select>\n														<option value=\"asc\">ASC</option>\n														<option value=\"asc\">DEC</option>\n													</select>\n												</div>\n												<div class=\"banners--sort--option clearfix\">\n													<button class=\"banners--sort--apply-btn btn btn-alternate btn btn-extruded pull-left\">\n														<i class=\"fa fa-check\"></i>&nbsp;&nbsp;SORT\n													</button>\n													<div class=\"btn clear pull-right\">\n														CLEAR\n													</div>\n												</div>\n											</div>\n										</div>\n									</form>\n									<br/>\n								</div>\n								<div class=\"banners--panel clearfix\">\n									<div class=\"col-md-3 banners--filters\">\n										<div class=\"header-block-2\">\n											FILTER\n										</div>\n										<div class=\"banners--filter-list\">\n											<div class=\"banners--filter\">\n												<label for=\"language-filter-toggle\">\n													<input id=\"language-filter-toggle\" type=\"checkbox\" class=\"banners--filter--toggle\" checked>\n													&nbsp;&nbsp;By language\n												</label>\n												<div class=\"banners-filter-option\" style=\"display: block;\">\n													<label>\n														<input type=\"checkbox\" class=\"check-all\" name=\"language[]\" value=\"all\"/>\n														All\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"language[]\" value=\"jp\"/>\n														Japanese\n													</label>\n													<label>\n														<input type=\"checkbox\" checked name=\"language[]\" value=\"eng\"/>\n														English\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"language[]\" value=\"uni\"/>\n														Generic\n													</label>\n												</div>\n											</div>\n											<div class=\"banners--filter\">\n												<label for=\"banner-type-filter-toggle\">\n													<input id=\"banner-type-filter-toggle\" type=\"checkbox\" class=\"banners--filter--toggle\">\n													&nbsp;&nbsp;By banner type\n												</label>\n												<div class=\"banners-filter-option\">\n													<label>\n														<input type=\"checkbox\" class=\"check-all\" name=\"type[]\" value=\"all\"/>\n														All\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"type[]\" value=\"animated\"/>\n														Animated\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"type[]\" value=\"static\"/>\n														Static\n													</label>\n												</div>\n											</div>\n											<div class=\"banners--filter\">\n												<label for=\"banner-size-filter-toggle\">\n													<input id=\"banner-size-filter-toggle\" type=\"checkbox\" class=\"banners--filter--toggle\">\n													&nbsp;&nbsp;By size\n												</label>\n												<div class=\"banners-filter-option\">\n													<label>\n														<input type=\"checkbox\" class=\"check-all\" name=\"size[]\" value=\"all\"/>\n														All\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"120x240\"/>\n														120x240\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"120x90\"/>\n														120x90\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"120x60\"/>\n														120x60\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"120x600\"/>\n														120x600\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"125x125\"/>\n														125x125\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"160x600\"/>\n														160x600\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"234x60\"/>\n														234x60\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"300x250\"/>300x250\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"320x50\"/>320x50\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"468x60\"/>468x60\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"500x147\"/>500x147\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"728x90\"/>728x90\n													</label>\n												</div>\n											</div>\n											<div class=\"banners--filter\">\n												<label for=\"banner-orientation-filter-toggle\">\n													<input id=\"banner-orientation-filter-toggle\" type=\"checkbox\" class=\"banners--filter--toggle\">\n													&nbsp;&nbsp;By orientation\n												</label>\n												<div class=\"banners-filter-option\">\n													<label>\n														<input type=\"checkbox\" class=\"check-all\" name=\"orientation[]\" value=\"all\"/>\n														All\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"orientation[]\" value=\"square\"/>\n														Square\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"orientation[]\" value=\"Landscape\"/>\n														Landscape\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"orientation[]\" value=\"portrait\"/>\n														Portrait\n													</label>\n												</div>\n											</div>\n											<div class=\"banners--filter\">\n												<label for=\"banner-extension-filter-toggle\">\n													<input id=\"banner-extension-filter-toggle\" type=\"checkbox\" class=\"banners--filter--toggle\">\n													&nbsp;&nbsp;By file type\n												</label>\n												<div class=\"banners-filter-option\">\n													<label>\n														<input type=\"checkbox\" class=\"check-all\" name=\"extension[]\" value=\"all\"/>\n														All\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"extension[]\" value=\"html5\"/>\n														HTML5\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"extension[]\" value=\"gif\"/>\n														.gif\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"extension[]\" value=\"png\"/>\n														.png\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"extension[]\" value=\"jpg\"/>\n														.jpg\n													</label>\n												</div>\n											</div>\n											<div class=\"banners--filter\">\n												<label for=\"banner-concept-filter-toggle\">\n													<input id=\"banner-concept-filter-toggle\" type=\"checkbox\" class=\"banners--filter--toggle\">\n													&nbsp;&nbsp;By concept\n												</label>\n												<div class=\"banners-filter-option\">\n													<label>\n														<input type=\"checkbox\" class=\"check-all\" name=\"extension[]\" value=\"all\"/>All\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"extension[]\" value=\"logo\"/>Logo/Brand\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"extension[]\" value=\"cashback\"/>Signup Cashback\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"extension[]\" value=\"traders\"/>Traders\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"extension[]\" value=\"etc\"/>etc.\n													</label>\n												</div>\n											</div>\n											<div class=\"banners--filter\">\n												<label for=\"banner-currency-filter-toggle\">\n													<input id=\"banner-currency-filter-toggle\" type=\"checkbox\" class=\"banners--filter--toggle\">\n													&nbsp;&nbsp;By currency\n												</label>\n												<div class=\"banners-filter-option\">\n													<label>\n														<input type=\"checkbox\" class=\"check-all\" name=\"currency[]\" value=\"all\"/>\n														All\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"currency[]\" value=\"usd\"/>\n														USD\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"currency[]\" value=\"aud\"/>\n														AUD\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"currency[]\" value=\"gbp\"/>\n														GBP\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"currency[]\" value=\"eur\"/>\n														EUR\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"currency[]\" value=\"jpy\"/>\n														JPY\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"currency[]\" value=\"uni\"/>\n														Generic\n													</label>\n												</div>\n											</div>\n											<div class=\"banners--filter--apply\">\n												<button class=\"banners--filter--apply-btn btn btn-alternate btn-extruded pull-left\"><i class=\"fa fa-filter\"></i>&nbsp;&nbsp;APPLY FILTER</button>\n											</div>\n										</div>\n									</div>\n									<div class=\"col-md-9 banners--list\">\n										<div class=\"header-block-1\">\n											Currently viewing 6 of 76 banners:\n										</div>\n										<div class=\"banner--item\"\n\n											data-name=\"Experienced Market Trader: ASX\"\n											data-format=\"(html5)\"\n											data-campaign-name=\"Australian affiliates campaign 2\"\n											data-target=\"https://en2.highlow.net/account\"\n											data-code='<a href=\"http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\"><iframe style=\"width: 300px; height: 250px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/market-related/mrec/banner.html\"></iframe></a>'\n											data-width=\"300\"\n											data-height=\"250\"\n										>\n											<div class=\"p-css-table banner--item-content\">\n												<div class=\"p-css-table-row\">\n													<div class=\"p-css-table-cell banner--preview-container\">\n														<div class=\"banner--preview banner--viewable banner--playable banner--view-code\">\n															<a title=\"preview this banner\" class=\"banner--viewable--cover\">\n																<div class=\"banner--viewable--screenshot\" style=\"background-image: url(acontent/images/banner1-asx-mRec-preview.png);\"></div>\n															</a>\n														</div>\n													</div>\n													<div class=\"banner--details banner-code-div\">\n														<h4 class=\"banner--details--banner-name\">\n															<strong><span class=\"banner--dimensions\"><span class=\"banner--dimensions\">300x250</span> - Experienced Market Trader: ASX</strong> \n															<span class=\"word banner--details--banner-format\">\n																(html5)\n															</span>\n														</h4>\n														<div class=\"banner--details--campaign-name\">\n															Australian affiliates campaign 2\n														</div>\n														<div class=\"banner--details--target-link\">	\n															https://en2.highlow.net/account\n														</div>\n														<button type=\"button\" class=\"banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code\">\n															<img src=\"acontent/images/hl-icon-white.png\"/>&nbsp;&nbsp;&nbsp;GET CODE\n														</button>\n													</div>\n												</div>\n											</div>\n										</div>\n										<div class=\"banner--item\"\n\n											data-name=\"Experienced Market Trader: ASX\"\n											data-format=\"(html5)\"\n											data-campaign-name=\"Australian affiliates campaign 2\"\n											data-target=\"https://en2.highlow.net/account\"\n											data-code='<a href=\"http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\"><iframe style=\"width: 728px; height: 90px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/market-related/leaderboard/banner.html\"></iframe></a>'\n											data-width=\"728\"\n											data-height=\"90\"\n										>\n											<div class=\"p-css-table banner--item-content\">\n												<div class=\"p-css-table-row\">\n													<div class=\"p-css-table-cell banner--preview-container\">\n														<div class=\"banner--preview banner--viewable banner--playable banner--view-code\">\n															<a title=\"preview this banner\" class=\"banner--viewable--cover\">\n																<div class=\"banner--viewable--screenshot\" style=\"background-image: url(acontent/images/banner1-asx-leaderboard-preview.png);\"></div>\n															</a>\n														</div>\n													</div>\n													<div class=\"banner--details banner-code-div\">\n														<h4 class=\"banner--details--banner-name\">\n															<strong><span class=\"banner--dimensions\">728x90</span> - Experienced Market Trader: ASX</strong> \n															<span class=\"word banner--details--banner-format\">\n																(html5)\n															</span>\n														</h4>\n														<div class=\"banner--details--campaign-name\">\n															Australian affiliates campaign 2\n														</div>\n														<div class=\"banner--details--target-link\">	\n															https://en2.highlow.net/account\n														</div>\n														<button type=\"button\" class=\"banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code\">\n															<img src=\"acontent/images/hl-icon-white.png\"/>&nbsp;&nbsp;&nbsp;GET CODE\n														</button>\n													</div>\n												</div>\n											</div>\n										</div>\n										<div class=\"banner--item\"\n\n											data-name=\"Experienced Market Trader: ASX\"\n											data-format=\"(html5)\"\n											data-campaign-name=\"Australian affiliates campaign 2\"\n											data-target=\"https://en2.highlow.net/account\"\n											data-code='<a href=\"http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\"><iframe style=\"width: 120px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/market-related/skyscrapper/banner.html\"></iframe></a>'\n											data-width=\"120\"\n											data-height=\"600\"\n										>\n											<div class=\"p-css-table banner--item-content\">\n												<div class=\"p-css-table-row\">\n													<div class=\"p-css-table-cell banner--preview-container\">\n														<div class=\"banner--preview banner--viewable banner--playable banner--view-code\">\n															<a title=\"preview this banner\" class=\"banner--viewable--cover\">\n																<div class=\"banner--viewable--screenshot\" style=\"background-image: url(acontent/images/banner1-asx-skyscraper-preview.png);\"></div>\n															</a>\n														</div>\n													</div>\n													<div class=\"banner--details banner-code-div\">\n														<h4 class=\"banner--details--banner-name\">\n															<strong><span class=\"banner--dimensions\">120x600</span> - Experienced Market Trader: ASX</strong> \n															<span class=\"word banner--details--banner-format\">\n																(html5)\n															</span>\n														</h4>\n														<div class=\"banner--details--campaign-name\">\n															Australian affiliates campaign 2\n														</div>\n														<div class=\"banner--details--target-link\">	\n															https://en2.highlow.net/account\n														</div>\n														<button type=\"button\" class=\"banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code\">\n															<img src=\"acontent/images/hl-icon-white.png\"/>&nbsp;&nbsp;&nbsp;GET CODE\n														</button>\n													</div>\n												</div>\n											</div>\n										</div>\n										<div class=\"banner--item\"\n\n											data-name=\"Experienced Market Trader: ASX\"\n											data-format=\"(html5)\"\n											data-campaign-name=\"Australian affiliates campaign 2\"\n											data-target=\"https://en2.highlow.net/account\"\n											data-code='<a href=\"http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\"><iframe style=\"width: 320px; height: 50px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/market-related/mobile/banner.html\"></iframe></a>'\n											data-width=\"320\"\n											data-height=\"50\"\n										>\n											<div class=\"p-css-table banner--item-content\">\n												<div class=\"p-css-table-row\">\n													<div class=\"p-css-table-cell banner--preview-container\">\n														<div class=\"banner--preview banner--viewable banner--playable banner--view-code\">\n															<a title=\"preview this banner\" class=\"banner--viewable--cover\">\n																<div class=\"banner--viewable--screenshot\" style=\"background-image: url(acontent/images/banner1-asx-mobile-preview.png);\"></div>\n															</a>\n														</div>\n													</div>\n													<div class=\"banner--details banner-code-div\">\n														<h4 class=\"banner--details--banner-name\">\n															<strong><span class=\"banner--dimensions\">320x50</span> - Experienced Market Trader: ASX</strong> \n															<span class=\"word banner--details--banner-format\">\n																(html5)\n															</span>\n														</h4>\n														<div class=\"banner--details--campaign-name\">\n															Australian affiliates campaign 2\n														</div>\n														<div class=\"banner--details--target-link\">	\n															https://en2.highlow.net/account\n														</div>\n														<button type=\"button\" class=\"banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code\">\n															<img src=\"acontent/images/hl-icon-white.png\"/>&nbsp;&nbsp;&nbsp;GET CODE\n														</button>\n													</div>\n												</div>\n											</div>\n										</div>\n										<div class=\"banner--item\"\n\n											data-name=\"Experienced Market Trader: DAX\"\n											data-format=\"(html5)\"\n											data-campaign-name=\"Australian affiliates campaign 2\"\n											data-target=\"https://en2.highlow.net/account\"\n											data-code='<a href=\"http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\"><iframe style=\"width: 468px; height: 60px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/market-related/banner-dax/banner.html\"></iframe></a>'\n											data-width=\"468\"\n											data-height=\"60\"\n										>\n											<div class=\"p-css-table banner--item-content\">\n												<div class=\"p-css-table-row\">\n													<div class=\"p-css-table-cell banner--preview-container\">\n														<div class=\"banner--preview banner--viewable banner--playable banner--view-code\">\n															<a title=\"preview this banner\" class=\"banner--viewable--cover\">\n																<div class=\"banner--viewable--screenshot\" style=\"background-image: url(acontent/images/banner1-dax-banner-preview.png);\"></div>\n															</a>\n														</div>\n													</div>\n													<div class=\"banner--details banner-code-div\">\n														<h4 class=\"banner--details--banner-name\">\n															<strong><span class=\"banner--dimensions\">468x60</span> - Experienced Market Trader: DAX</strong> \n															<span class=\"word banner--details--banner-format\">\n																(html5)\n															</span>\n														</h4>\n														<div class=\"banner--details--campaign-name\">\n															Australian affiliates campaign 2\n														</div>\n														<div class=\"banner--details--target-link\">	\n															https://en2.highlow.net/account\n														</div>\n														<button type=\"button\" class=\"banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code\">\n															<img src=\"acontent/images/hl-icon-white.png\"/>&nbsp;&nbsp;&nbsp;GET CODE\n														</button>\n													</div>\n												</div>\n											</div>\n										</div>\n										<div class=\"banner--item\"\n\n											data-name=\"Japanese landscape example\"\n											data-format=\"(html5)\"\n											data-campaign-name=\"Australian affiliates campaign 2\"\n											data-target=\"https://jp2.highlow.net/account\"\n											data-code='<a href=\"https://jp2.highlow.net/account?a_aid=568d490aad773&amp;a_cid=757a25f1&amp;a_bid=a7fbd113SUBCODE\" target=\"_top\"><img src=\"https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472927e4c164.gif\" alt=\"1口１０００円からのバイナリーオプション一銭の値動きで利益が出る。お得なキャンペーン実施中！\" title=\"1口１０００円からのバイナリーオプション一銭の値動きで利益が出る。お得なキャンペーン実施中！\" /></a>'\n											data-width=\"728\"\n											data-height=\"90\"\n										>\n											<div class=\"p-css-table banner--item-content\">\n												<div class=\"p-css-table-row\">\n													<div class=\"p-css-table-cell banner--preview-container\">\n														<div class=\"banner--preview banner--viewable banner--view-code\">\n															<a title=\"preview this banner\" class=\"banner--viewable--cover\">\n																<div class=\"banner--viewable--screenshot\" style=\"background-image: url(https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472927e4c164.gif);\"></div>\n															</a>\n														</div>\n													</div>\n													<div class=\"banner--details banner-code-div\">\n														<h4 class=\"banner--details--banner-name\">\n															<strong><span class=\"banner--dimensions\">728x90</span> - Japanese landscape example</strong> \n															<span class=\"word banner--details--banner-format\">\n																(gif)\n															</span>\n														</h4>\n														<div class=\"banner--details--campaign-name\">\n															Australian affiliates campaign 2\n														</div>\n														<div class=\"banner--details--target-link\">	\n															https://jp2.highlow.net/account\n														</div>\n														<button type=\"button\" class=\"banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code\">\n															<img src=\"acontent/images/hl-icon-white.png\"/>&nbsp;&nbsp;&nbsp;GET CODE\n														</button>\n													</div>\n												</div>\n											</div>\n										</div>\n									</div>\n								</div>	\n								<div class=\"banners--pagination\">\n									<ul class=\"pagination\">\n										<li class=\"disabled\">\n											<span>\n												<img src=\"acontent/images/left-v.png\"/><!--\n												--><img src=\"acontent/images/left-v.png\"/>\n											</span>\n										</li><!--\n										--><li class=\"disabled\">\n											<span>\n												<img src=\"acontent/images/left-v.png\"/>\n											</span>\n										</li><!--\n										--><li class=\"active\">\n											<span>1</span>\n										</li><!--\n										--><li>\n											<a href=\"/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=2\">2</a>\n										</li><!--\n										--><li>\n											<a href=\"/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=3\">3</a>\n										</li><!--\n										--><li>\n											<a href=\"/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=4\">4</a>\n										</li><!--\n										--><li>\n											<a href=\"/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=5\">5</a>\n										</li><!--\n										--><li class=\"disabled\">\n											<span>&hellip;</span>\n										</li><!--\n										--><li>\n											<a href=\"/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=8\">8</a>\n										</li><!--\n										--><li>\n											<a href=\"/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=2\">\n												<img src=\"acontent/images/right-v.png\"/>\n											</a>\n										</li><!--\n										--><li>\n											<a href=\"/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=8\">\n												<img src=\"acontent/images/right-v.png\"/><!--\n												--><img src=\"acontent/images/right-v.png\"/>\n											</a>\n										</li>\n									</ul>\n								</div>  \n							</form>\n						</div>\n						{% comment %}<div class=\"tab-pane\" id=\"directLink\">\n							<br/>\n							<div class=\"panel panel-default listing\">	\n								<b>No Direct Link found for this promotion</b>\n							</div> 		\n						</div>{% endcomment %}			 \n					</div>\n				</div>\n			</div>\n		</div>\n\n	</div>\n</div>\n\n<div class=\"modal fade\" id=\"get-code-modal\" tabindex=\"-1\" role=\"dialog\">\n	<div class=\"p-css-table__fill p-css-table\">\n		<div class=\"p-css-table-row\">\n			<div class=\"p-css-table-cell p-css-table-cell__center\">\n				<div class=\"modal-dialog\">\n					<div class=\"modal-content\">\n						<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n						<div class=\"modal-body\">\n							<div id=\"get-code-modal--layout\">\n								<div class=\"p-css-table\">\n									<div class=\"p-css-table-row\">\n										<div id=\"get-code-modal--banner-preview\" class=\"p-css-table-cell\">\n											\n										</div>\n										<div class=\"p-css-table-cell get-code-modal--banner-details\">\n											<div class=\"get-code-modal--banner-details--header\">\n												<strong id=\"get-code-modal--banner-details--dimensions\"></strong> - <strong id=\"get-code-modal--banner-details--name\"></strong> <span class=\"word\" id=\"get-code-modal--banner-details--format\"></span>\n											</div>\n											<p>\n												Paste the below code into your website. It contains your personal Affiliate ID and all conversions will be tracked automatically.\n											</p>\n											<br/>\n											<br/>\n											<textarea class=\"banner-code-holder\" id=\"get-code-modal--banner-details--code\" readonly=\"readonly\">\n				<a href=\"http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeab\" target=\"_top\"><iframe style=\"width: 300px; height: 250px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/market-related/mrec/banner.html\"></iframe></a>\n											</textarea>\n											<a class=\"get-code-modal--banner-details--add-custom-code bannerOption\" href=\"#\"><i class=\"fa fa-plus\"></i> &nbsp;Add your own code</a>\n											<div class=\"subCodeDiv\" style=\"display: none;\">\n												<input type=\"text\" name=\"subCodeText\" class=\"form-control subCodeText\" placeholder=\"Sub Code\" value=\"\">\n												<br/>\n												<br/>\n												<button type=\"button\" class=\"btn-alternate btn btn-extruded applySubCode\" data-target=\"#get-code-modal--banner-details--code\">APPLY</button>\n											</div>					\n										</div>\n									</div>\n								</div>\n							</div>\n						</div>\n					</div>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n\n<script src=\"https://cdn.highlow.net/admin/js/jquery-1.8.3.js\"></script>\n<script src=\"https://cdn.highlow.net/admin/js/ui/jquery-ui-1.9.2.custom.js\"></script>    	\n<script src=\"https://cdn.highlow.net/admin/js/ui/jquery-ui-timepicker.js\"></script>\n<script src=\"https://cdn.highlow.net/admin/bootstrap/dist/js/bootstrap.min.js\"></script>\n<script src=\"https://cdn.highlow.net/common/js/jquery.validate.min.js\"></script>\n<script src=\"https://cdn.highlow.net/common/js/additional-methods.min.js\"></script>\n<script src=\"acontent/js/custom.js\"></script>\n<script src=\"acontent/js/datepicker.loader.js\"></script>\n<script src=\"https://cdn.highlow.net/admin/js/daterangepicker.js\"></script>\n<script src=\"acontent/js/highlow-affiliate.js\"></script>\n\n<script>\n	$(document).ready(function(){\n		$(\".sidebar-toggler\").click(function(){\n			if($('body').hasClass('show-sidebar')) {\n				$('body').removeClass('show-sidebar');\n				$('#side-menu').addClass('hidden-xs');\n			} else {\n				$('body').addClass('show-sidebar');\n				$('#side-menu').removeClass('hidden-xs');\n			}\n		});\n\n\n		setTimeout(function(){\n			$('.message-wrapper').each(function(){\n				$(this).addClass('display').addClass($(this).data('type'));\n			});\n		},600);\n\n		$('.message-wrapper .close').click(function(){\n			$('.message-wrapper').removeClass('display').removeClass('fail').removeClass('success').removeClass('alert').removeClass('generic').removeClass('warning');\n		});\n\n\n	});\n</script>\n\n<script type=\"text/javascript\" src=\"https://cdn.highlow.net/acontent/js/jquery.zclip.min.js\"></script>\n<script>\n	$(document).ready(function(){\n		$('a.bannerOption').on('click',function(e){\n			e.preventDefault();\n			$(this).next('.subCodeDiv').show();\n		});\n\n		$('.applySubCode').on('click',function(e){				\n			var subCodeText =  $(this).siblings('input.subCodeText').val();			\n			var textarea = $($(this).data('target'));\n			var textareaPrototype = textarea.data('prototype');\n			href = '';\n			if(subCodeText != '') {\n				href = \"&amp;chan=\"+subCodeText;\n			}\n\n			console.log(href);\n			textarea.val(textareaPrototype.replace('SUBCODE',href));								\n			$(this).parent('div').hide();		\n		});\n\n		// if (location.hash !== '') {\n		// 	$('a[href=\"' + location.hash + '\"]').tab('show');\n		// } else {\n		// 	$('.nav-tabs a:first').tab('show');\n		// }\n		// $('a[data-toggle=\"tab\"]').on('shown.bs.tab', function(e) {\n		// 	if(history.pushState)\n		// 		history.pushState(null, null, '#'+$(e.target).attr('href').substr(1));\n		// 	else\n		// 		location.hash = '#'+$(e.target).attr('href').substr(1);\n		// });\n\n		message = '<div class=\"highlow message-wrapper\">'+\n		'<div class=\"message\">'+\n		'Banner code has been copied to clipboard'+\n		'</div>'+\n		'<div class=\"close\">'+\n		'</div>'+\n		'</div>';\n\n		$('.get-code').zclip({\n			path:'https://cdn.highlow.net/acontent/js/ZeroClipboard.swf',\n			copy: function() {\n				content = $(this).closest('.banner-code-div').find('.banner-code-holder').val(); \n				return content;\n			},\n			afterCopy: function() {\n				$('.message-wrapper').remove();\n				$(this).closest('.media-body').prepend(message);\n				$('.message-wrapper').addClass('success').addClass('display');\n				setTimeout(function(){\n					$('.message-wrapper').each(function(){\n						$(this).removeClass('success').removeClass('display').remove();\n					});\n				},5000);\n			}\n		});\n\n		$('.message-wrapper .close').click(function(){\n			$('.message-wrapper').removeClass('display').removeClass('fail').removeClass('success').removeClass('alert').removeClass('generic').removeClass('warning');\n		});	\n\n		//new banner item code\n\n		$('.banner--view-code').click(function(){\n			var $self = $(this),\n				$bannerItem = $($self.closest('.banner--item'));\n\n			var bannerName = $bannerItem.data('name'),\n				bannerFormat = $bannerItem.data('format'),\n				bannerTarget = $bannerItem.data('target'),\n				bannerCampaignName = $bannerItem.data('campaignName'),\n				bannerCode = $bannerItem.data('code'),\n				bannerLayout = $bannerItem.data('width')<=320?'horizontal':'vertical';\n			\n			$('#get-code-modal--banner-details--dimensions').html($bannerItem.data('width')+'x'+$bannerItem.data('height'));\n			$('#get-code-modal--banner-details--name').html(bannerName);\n			$('#get-code-modal--banner-details--format').html(bannerFormat);\n			$('#get-code-modal--banner-details--code').data('prototype',bannerCode);\n			$('#get-code-modal--banner-details--code').val(bannerCode.replace('SUBCODE',''));\n			$('#get-code-modal--banner-preview').empty().append($(bannerCode.replace('SUBCODE','')));\n			$('#get-code-modal--layout').removeClass().addClass(bannerLayout)\n			$('#get-code-modal').modal('show');\n		});\n\n		//banner filter code\n\n		$('.banners--filter .banners--filter--toggle').change(function(){\n			var $self = $(this),\n				$filter = $($self.closest('.banners--filter')),\n				$filterOptions = $($filter.find('.banners-filter-option'));\n			if($self.is(':checked') == true) {\n				$filter.addClass('active');\n				$filterOptions.slideDown(125);\n			} else {\n\n				$filter.removeClass('active');\n				$($filterOptions.find('input[type=\"checkbox\"]')).prop(\"checked\", false);\n\n				$filterOptions.slideUp(125);\n			}\n		});\n\n		// check if filter already checked\n\n		$('.banners--filter .banners--filter--toggle').each(function(){\n			var $self = $(this),\n				$filter = $($self.closest('.banners--filter')),\n				$filterOptions = $($filter.find('.banners-filter-option'));\n			if($self.is(':checked') == true) {\n				$filter.addClass('active');\n				$filterOptions.slideDown(125);\n			} else {\n\n				$filter.removeClass('active');\n				$($filterOptions.find('input[type=\"checkbox\"]')).prop(\"checked\", false);\n\n				$filterOptions.slideUp(125);\n			}\n		});\n\n		// \"All\" option for filters\n\n		$('.banners--filter .check-all').change(function(){\n			var $self = $(this),\n				$filter = $($self.closest('.banners--filter')),\n				$filterOptions = $($filter.find('.banners-filter-option'));\n\n			if($self.is(':checked') == true) {\n				\n				$($filterOptions.find('input[type=\"checkbox\"]')).not('.check-all').prop(\"checked\", true);\n\n			} else {\n				$($filterOptions.find('input[type=\"checkbox\"]')).not('.check-all').prop(\"checked\", false);\n			}\n		});\n\n		$('.banners--filter .banners-filter-option input[type=\"checkbox\"]').not('.check-all').change(function(){\n\n			var $self = $(this),\n				$filter = $($self.closest('.banners--filter')),\n				$filterAll = $($filter.find('.check-all'));\n\n\n			if($self.is(':checked') == true) {\n\n			} else {\n				$filterAll.prop(\"checked\", false);\n			}\n\n			\n		});\n\n		// banner sort \n\n		$('.banners--sort label').click(function(){\n			var $self = $(this),\n				$options = $self.siblings('.banners--sort--options');\n\n			$options.slideToggle(125);\n		});\n\n		$('.banners--sort--options .clear').click(function(){\n\n			var $self = $(this),\n				$options = $self.closest('.banners--sort--options');\n\n			$($options.find('input[type=\"checkbox\"]')).prop(\"checked\", false);\n		});\n\n		$('body').click(function(e){\n\n			if($(e.target).closest('.banners--sort').length<=0) {\n				$('.banners--sort--options').slideUp(125);\n			}\n		});\n\n	});\n</script>\n\n{% endblock %}",
+			"file": "templates/view-promotions.liquid",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 37010,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "if(!window.console) {\n	var console = {\n		log: function() {\n\n		}\n	}\n}\n\n/* tCycle Modified */\n\n(function($){\n\n	\"use strict\";\n\n	$.fn.tcycle = function(command){\n\n\n		function cycle(skipPrepend) {\n\n			var i=0, c=$(this), s=c.children(), o=$.extend({speed:500,timeout:4000},c.data()), f=o.fx!='scroll',\n				l=s.length, w=c.width(), z=o.speed, t=o.timeout, css={overflow:'hidden'}, p='position', a='absolute',\n				tfn=function(){ c.data('recursiveTimeout',setTimeout(tx,t));}, scss = $.extend({position:a,top:0}, f?{left:0}:{left:w}, o.scss);\n			if (c.css(p)=='static')\n				css[p]='relative';\n\n\n			s.css(scss);\n			if(f)\n				s.hide().eq(0).show();\n			else\n				s.eq(0).css('left',0);\n			c.data('initTimeout',setTimeout(tx,t));\n\n			function tx(){\n				var n = i==(l-1) ? 0 : (i+1), w=c.width(), a=$(s[i]), b=$(s[n]);\n				c.data('currentSlide',n);\n				if (f){\n					a.fadeOut(z);\n					b.fadeIn(z,tfn);\n				}else{\n					a.animate({left:-w},{duration: z, easing: \"easeInOutBack\", complete: function(){\n						a.hide();\n						a.addClass('out');\n					}});\n					b.css({'left':w,display:'block'}).animate({left:0},z,tfn);\n					b.removeClass('out');\n				}\n				i = i==(l-1) ? 0 : (i+1);\n			}\n\n		}\n\n		if(command == \"reset\") {\n			this.each(function(){\n				window.clearTimeout($(this).data('initTimeout'));\n				window.clearTimeout($(this).data('recursiveTimout'));\n				$(this).tcycle(true);\n			});\n\n			return;\n		}\n\n\n		this.each(cycle);\n\n		return this;\n\n	};\n\n\n	$(function(){\n		$('.tcycle').tcycle();\n	});\n\n})(jQuery)\n\n/* END tCycle Modified */\n\n\n/* web-font deferrer */ \n\nfunction waitForWebfonts(fonts, callback) {\n    var loadedFonts = 0;\n    for(var i = 0, l = fonts.length; i < l; ++i) {\n        (function(font) {\n            var node = document.createElement('span');\n            // Characters that vary significantly among different fonts\n            node.innerHTML = 'giItT1WQy@!-/#';\n            // Visible - so we can measure it - but not on the screen\n            node.style.position      = 'absolute';\n            node.style.left          = '-10000px';\n            node.style.top           = '-10000px';\n            // Large font size makes even subtle changes obvious\n            node.style.fontSize      = '300px';\n            // Reset any font properties\n            node.style.fontFamily    = 'sans-serif';\n            node.style.fontVariant   = 'normal';\n            node.style.fontStyle     = 'normal';\n            node.style.fontWeight    = 'normal';\n            node.style.letterSpacing = '0';\n            document.body.appendChild(node);\n\n            // Remember width with no applied web font\n            var width = node.offsetWidth;\n\n            node.style.fontFamily = font;\n\n            var interval;\n            function checkFont() {\n                // Compare current width with original width\n                if(node && node.offsetWidth != width) {\n                    ++loadedFonts;\n                    node.parentNode.removeChild(node);\n                    node = null;\n                }\n\n                // If all fonts have been loaded\n                if(loadedFonts >= fonts.length) {\n                    if(interval) {\n                        clearInterval(interval);\n                    }\n                    if(loadedFonts == fonts.length) {\n                        callback();\n                        return true;\n                    }\n                }\n            };\n\n            if(!checkFont()) {\n                interval = setInterval(checkFont, 50);\n            }\n        })(fonts[i]);\n    }\n};\n\n/* rotating strip on top of footer */\n\nwindow.rotatingStripInit = function () {\n	$('.kapitall-strip').each(function () {\n		var self = $(this);\n		var stripWidth = 0,\n			$strip = $(self.find('.rotating-strip ul')),\n			$testi = $(self.find('.testi')),\n			$stripRoot = $(self.find('.rotating-strip')),\n			pixelPerSecond = 90;\n		$(self.find('.rotating-strip ul > li')).each(function(){\n			stripWidth += $(this).outerWidth();\n		});\n		$strip.css('width',stripWidth);\n\n		function toggleTesti() {\n\n			if($testi.hasClass('faded')){\n				$testi.removeClass('faded');\n				$stripRoot.addClass('faded');\n				setTimeout(function() {\n					toggleTesti();\n				},14000);\n			} else {\n				$strip.css('margin-left',0);\n				rotateInterval = setInterval(rotateStrip, 1000/pixelPerSecond);\n				$testi.addClass('faded');\n				$stripRoot.removeClass('faded');\n			}\n			\n		};\n		var rotating = true;\n\n		function rotateStrip() {\n			if(rotating) {\n				$strip.css('margin-left',parseInt($strip.css('margin-left'))-1);\n				\n				if(parseInt($strip.css('margin-left')) <= $($strip.parent()).width() - $strip.outerWidth() && $strip.css('margin-left') != '0px') {\n					clearInterval(rotateInterval);\n					toggleTesti();\n				}\n			}\n		}\n\n		\n		var rotateInterval = setInterval(rotateStrip, 1000/pixelPerSecond);\n	});\n	\n	window.resizeHandler.addHandler(function(){\n		$('.tcycle .out').css('left',-$('.tcycle').width());\n	});\n	// $strip.animate({\n	// 	\"margin-left\": -stripWidth\n	// },{easing: \"linear\",duration:stripWidth/pixelPerSecond*1000}, function(){\n	// 	alert('pull testi in now');\n	// // });\n\n	// window.scrollHandler.addHandler(function (){\n	// 	if($window.scrollTop() > $stripRoot.offset().top - $window.height() && $window.scrollTop() < $stripRoot.offset().top + $stripRoot.outerHeight() + $window.height() ) {\n	// 		rotating = true;\n	// 	} else {\n	// 		rotating = false;\n	// 	}\n	// });\n}\n\n/* end rotating strip */\n\n/* full-height hero */\n\nwindow.fullHeightHeroInit = function () {\n	if($hero.length > 0 || $('.single-page.std-cont').length>0){\n		window.resizeHandler.addHandler(function (){\n			var aspectRatio = $window.width()/$window.height();\n			var isAffiliatePage = $('.hero.affiliate').length<=0;\n\n		\n			$('.hero.affiliate .bg').css({\n				bottom : $('.hero-content .cta').outerHeight()\n			});\n			\n\n\n\n			$('.hero-content').each(function(){\n				var $header = $('header'),\n					$strip = $('.kapitall-strip'),\n					$landingHeadline = $($(this).find('.headline')),\n					$cta = $($(this).find('.cta')),\n					$bg = $('.hero .bg'),\n					$realContentBlock = $($(this).find('.headline-content-inner-wrap')),\n					contentH = 0,\n					heroH = 0;\n					if($(this).data('disableFullHeight')) {\n						contentH = ($window.height()>640||$window.width()>480)?($realContentBlock.outerHeight()*(1.2)):($realContentBlock.outerHeight()+60);\n						heroH = contentH;\n					} else {\n						if($window.height()>=680 ) {\n							heroH = $window.height()-$header.outerHeight()-$strip.outerHeight();\n						} else {\n							heroH = $window.height()-$header.outerHeight();\n						}\n						if(aspectRatio < 4/3 && isAffiliatePage) {\n							if($bg.outerHeight()-$header.outerHeight()<heroH-$cta.outerHeight() && $bg.outerHeight()!=0) {\n								heroH = $bg.outerHeight()-$header.outerHeight();\n							}\n						}\n\n						/* if the calculated hero height is less than the real height of the content + 1/10th of the windo's width \n						(the amount of padding we want for the real content to be had) + the yellow cta height, set it to that exact height (the real height of the content + 1/10th of the windo's width \n						(the amount of padding we want for the real content to be had) + the yellow cta height).\n						*/\n\n						if( (heroH <= $realContentBlock.outerHeight()+$window.width()*0.2+$cta.outerHeight() && $window.width()<768 )|| (heroH <= $realContentBlock.outerHeight() && $window.width()>= 768)) {\n							heroH = $realContentBlock.outerHeight()+$window.width()*0.2+$cta.outerHeight();\n						}\n\n						contentH = heroH-$cta.outerHeight();\n						\n					}\n					\n					$(this).css('min-height',heroH);\n					$landingHeadline.css('height',contentH);\n					\n\n					\n\n\n			});\n			\n			if($(window).height()>640 && $(window).width()>480) {\n				$('.hero-content.affiliate-login, .hero-content.affiliate-login .headline, .std-cont.single-page').css({\n					'min-height' : $(window).height() - $('footer').outerHeight() - $('header').outerHeight()\n				});\n			}\n\n			$('body').removeClass('hide');	\n			waitForWebfonts(['Montserrat'], function() {\n			   $('.flow-explain').addClass('in');\n			});\n\n			if($('html[lang=\"ja-JP\"]').length>0) {\n				setTimeout(function(){\n					$('.flow-explain').addClass('in');\n				},500);\n			}\n		});\n	}	\n}\n\n/* end full-height hero */\n\n\n/* landing navigation */\n\nwindow.goToDemo = function () {\n	var easing = \"easeInOutExpo\";\n	$('.hero-content.landing').removeClass('active');\n	$('.hero-content.demo').addClass('active');\n	var $landingHeadline  = $('.headline.landing'),\n		$cta = $('.landing .cta'),\n		$demoHeadline = $('.headline.demo'),\n		$demoCta = $('.demo .cta'),\n		$demoBlock = $('#demo-block');\n\n	$landingHeadline.animate({\n		\"margin-top\": -$landingHeadline.outerHeight(),\n		\"opacity\": 0\n	},{\n		duration: 500,\n		easing: easing\n	});\n	\n	$cta.animate({\n		\"margin-bottom\": -$cta.outerHeight(),\n		\"opacity\": 0\n	},{\n		duration: 500,\n		easing: easing\n		\n	});\n\n	$demoHeadline.animate({\n		\"margin-top\": 0,\n		\"opacity\": 1\n	},{\n		duration: 500,\n		easing: easing\n	});\n\n	$demoCta.animate({\n		\"margin-left\": 0,\n		\"opacity\": 1\n	},{\n		duration: 500,\n		easing: easing\n	});\n\n	$demoBlock.animate({\n		\"margin-left\": 0,\n		\"opacity\": 1 \n	},{\n		duration: 1000,\n		easing: easing\n	});\n	\n\n	$('html, body').animate({\n		scrollTop : 0\n	},{duration: 250});\n}\n\nwindow.returnToMainPage = function (duration) {\n	var easing = \"easeInOutExpo\";\n\n	$('.hero-content.landing').addClass('active');\n	$('.hero-content.demo').removeClass('active');\n	var $landingHeadline  = $('.headline.landing'),\n		$cta = $('.landing .cta'),\n		$demoHeadline = $('.headline.demo'),\n		$demoCta = $('.demo .cta'),\n		$demoBlock = $('#demo-block');	\n\n	$landingHeadline.animate({\n		\"margin-top\": 0,\n		\"opacity\": 1\n	},{\n		duration: duration,\n		easing: easing\n	});\n\n	$cta.animate({\n		\"margin-bottom\": 0,\n		\"opacity\": 1\n	},{\n		duration: duration,\n		easing: easing,\n		complete:  function () {\n			\n		}\n	});\n	$demoCta.animate({\n		\"margin-left\": -$demoCta.outerWidth(),\n		\"opacity\": 0\n	},{\n		duration: duration,\n		easing: easing\n	});\n	$demoBlock.animate({\n		\"margin-left\": -$demoBlock.outerWidth(),\n		\"opacity\": 0\n	},{\n		duration: duration,\n		easing: easing\n	});\n	$demoHeadline.animate({\n		\"margin-top\": -$demoHeadline.outerWidth(),\n		\"opacity\": 0\n	},{\n		duration: duration,\n		easing: easing\n	});\n	\n	$('html, body').animate({\n		scrollTop : 0\n	},{duration: 250});\n}\n\nwindow.landingNavigationInit = function () {\n\n	returnToMainPage(0);\n\n	$('#return-to-main-page').click(function (){\n		returnToMainPage(600);\n	});\n\n	$('#im-new').click(function(){\n		goToDemo();\n	});\n\n}\n\n/* end splash navigation */\n\n/* sticky-strip */ \n\nwindow.stickyStripInit = function () {\n	if($('.sticky-strip').length> 0) {\n		window.scrollHandler.addHandler(function () {\n			$('.sticky-strip').each(function(){\n				var self = $(this);\n				content = $(self.find('.content'));\n				self.css('min-height',content.outerHeight());\n				if($window.scrollTop()>=self.offset().top && $window.outerWidth()>767) {\n					content.addClass('sticky');\n				} else {\n					content.removeClass('sticky');\n				}\n			});\n		});\n	}\n}\n\n/* end sticky-strip */\n\n/* expandable */\n\nwindow.expandableInit = function () {\n	$('.expandable').each(function(){\n		var self = $(this);\n		$(self.find('.expandable-header')).click(function(){\n			if(self.hasClass('expanded')) {\n				self.removeClass('expanded');\n			} else {\n				self.addClass('expanded');\n			}\n		});\n	});\n}\n\n/* end expandable */\n\n/* blog list cards layout */\n\nwindow.blogListInit = function () {\n	if($('.blog-list').length >0) {\n		$('.blog-list').isotope({\n			masonry: {\n			  columnWidth: '.blog-item-wrapper'\n			},\n			itemSelector: '.blog-item-wrapper'\n		});\n	}\n\n	// window.resizeHandler.addHandler(function(){\n\n	// });\n}\n\n/* end blog list cards layout */\n\n\n/* tab (both side bar and full-width tabs) responsive */\n\nwindow.tabViewInit = function () {\n\n	var breakpoint = 768;\n	$('.tab-side-bar').each(function(){\n		var self = $(this);\n		$(this).on('click','.nav.nav-tabs li', function(){\n			if(self.hasClass('selecting')) {\n				// if($window.outerWidth() < breakpoint){\n				// 	$('html, body').animate({\n				// 		scrollTop: self.offset().top\n				// 	},{duration: 250, ease: \"easeInOutQuad\"});\n				// }\n				self.removeClass('selecting');\n			} else {\n				if($window.outerWidth() < breakpoint){\n					$('html, body').animate({\n						scrollTop: self.offset().top\n					},{duration: 250, ease: \"easeInOutQuad\"});\n				}\n				if($window.outerWidth() < breakpoint){\n					self.addClass('selecting');\n				}\n			}\n		});\n	});\n\n	$('.tab-full-width').each(function(){\n		var self = $(this);\n\n\n		/* click handler (for when tab view collapse) */\n\n		$(this).on('click','> .tab-selector-wrap .nav.nav-tabs li', function(){\n			if(self.hasClass('selecting')) {\n				// if($window.outerWidth() < breakpoint){\n				// 	$('html, body').animate({\n				// 		scrollTop: self.offset().top\n				// 	},{duration: 250, ease: \"easeInOutQuad\"});\n				// }\n				self.removeClass('selecting');\n			} else {\n				if($window.outerWidth() < breakpoint){\n					$('html, body').animate({\n						scrollTop: self.offset().top\n					},{duration: 250, ease: \"easeInOutQuad\"});\n				}\n				if($window.outerWidth() < breakpoint){\n					self.addClass('selecting');\n				}\n			}\n		});\n\n\n		/* normalize tab width */\n\n		var tabs = $($(this).find('> .tab-selector-wrap .nav.nav-tabs li'));\n\n		tabs.css('width',(100/tabs.length)+\"%\");\n\n	});\n\n\n\n\n	window.resizeHandler.addHandler(function(){\n		if(breakpoint<=$window.width()){\n			$('.selecting').removeClass('selecting');\n		}\n	});\n\n}\n\n/* end tab-side-bar responsive */\n\n/* app download mobile handler */\n\nwindow.appDownloadInit = function () {\n	var $appDownloadSection = $('.app-download');\n	$('.download-panel').each(function(){\n		var self = $(this);\n		self.on('click','.download-panel-header', function(){\n			if($window.width()<768) {\n				if(self.hasClass('open')) {\n					self.removeClass('open');\n\n					$('html, body').animate({\n						scrollTop: $appDownloadSection.offset().top\n					},{duration: 250, easing: 'easeInOutQuad'});\n\n				} else {\n					$('.download-panel.open').removeClass('open');\n					self.addClass('open');\n\n					$('html, body').animate({\n						scrollTop: self.offset().top\n					},{duration: 250, easing: 'easeInOutQuad'});\n				}\n			}\n		});\n	});\n}\n\n/* demo block mock */\n\nwindow.demoBlockInit = function () {\n	$('#demo-block .step').click(function(){\n		$('#demo-block .step').removeClass('in');\n		$($(this).data('next')).addClass('in');\n		if($(this).data('focus')) {\n			$('.hero-content.demo .overlay').addClass('in');\n		} else {\n			$('.hero-content.demo .overlay').removeClass('in');\n		}\n	}); \n}\n\n/* end demo block mock */\n\nwindow.UIinit = function () {\n	rotatingStripInit();\n\n	$(':first-child').addClass('first-child');\n	$(':last-child').addClass('last-child');\n	$('tr:nth-child(odd)').addClass('odd');\n	$('tr:nth-child(even)').addClass('even');\n\n\n\n\n	-1!=navigator.userAgent.indexOf(\"Mac OS X\")?$(\"body\").addClass(\"mac\"):$(\"body\").addClass(\"pc\");\n\n	window.normalizeHeight('.js-commission-structure');\n\n	window.resizeHandler.addHandler(function(){\n		window.normalizeHeight('.js-commission-structure');\n	});\n\n\n	//landingNavigationInit();\n	expandableInit();\n	fullHeightHeroInit();\n	stickyStripInit();\n	blogListInit();\n	//demoBlockInit();\n	tabViewInit();\n	appDownloadInit();\n//	setupSystemMessageFramework();\n}\n\n\n\nwindow.resizeHandler = {\n	handlers : [],\n	addHandler : function (handler){\n		this.handlers.push(handler);\n	},\n	removeHandler : function (handler){\n		this.handlers.splice(this.handlers.indexOf(handler));\n	},\n	execute: function () {\n		var self = window.resizeHandler;\n		for (var i = 0; i < self.handlers.length; i++) {\n			self.handlers[i]();\n		}\n	},\n	init : function  () {\n		var self = this;\n		$window.unbind('resize', self.execute);\n		self.execute();\n		$window.bind('resize',self.execute);\n	}\n}\n\nwindow.scrollHandler = {\n	handlers : [],\n	addHandler : function (handler){\n		this.handlers.push(handler);\n	},\n	removeHandler : function (handler){\n		this.handlers.splice(this.handlers.indexOf(handler));\n	},\n	execute: function () {\n		var self = window.scrollHandler;\n		for (var i = 0; i < self.handlers.length; i++) {\n			self.handlers[i]();\n		}\n	},\n	init : function  () {\n		var self = this;\n		$window.unbind('scroll', self.execute);\n		self.execute();\n		$window.bind('scroll',self.execute);\n	}\n}\n\n$.validator.setDefaults({\n    highlight: function(element) {\n    	$(element).closest('.input-wrap').find('.error-message').remove();\n        $(element).closest('.input-wrap').addClass('error');\n    },\n    unhighlight: function(element) {\n        $(element).closest('.input-wrap').removeClass('error');\n        $(element).closest('.input-wrap').find('.error-message').remove();\n    },\n    errorElement: 'span',\n    errorClass: 'error-message',\n    errorPlacement: function(error, element) {\n        if(element.parent('.input-wrap').length) {\n        	error.insertAfter(element);\n        } else {\n        	error.insertAfter(element.parent().parent());\n        }\n    }\n});\n\nwindow.normalizeHeight = function(selector){\n	var maxHeight = 0;\n	$(selector).css('min-height','0');\n	$(selector).each(function(){\n		var self = $(this);\n		if ( self.outerHeight() > maxHeight ) {\n			$(selector).css('min-height',self.outerHeight());\n			maxHeight = self.outerHeight();\n		}\n	});\n}\n\n\n\n$(document).ready(function(){\n\n	// $('body').addClass('hide');\n\n	$window = $(window);\n	$hero  = $('.hero');\n\n	$('#tour-down').click(function(){\n		$('html,body').animate(\n			{\n				scrollTop: $('#explanation').offset().top \n			},\n			{\n				duration: 500,\n				easing: 'easeInOutExpo'\n			}\n		);\n	});\n	$(\".error-message\").each(function(){\n		inputwrap = $(this).parent().find('.input-wrap');\n		inputwrap.append($(this)).addClass('error');\n	});\n	\n	$(\"#form-login\").submit(function() {\n\n		var url = $(this).attr('action'); // the script where you handle the form input.\n\n		$.ajax({\n			type: \"POST\",\n			url: url,\n			dataType: 'json',\n			data: $(\"#form-login\").serialize(), // serializes the form's elements.\n			success: function(data){\n				if(data.has_error == true) {\n					$(\"#form-login-error\").html('<div class=\"errorMsg\">' + data.error  +'</div>');\n				} else {\n					location.href = data.target_path;\n				}\n			}\n		});\n\n			return false; // avoid to execute the actual submit of the form.\n	});\n	\n    $('form.validate').validate();\n\n		$(\"#login-trigger-button\").click(function(){\n			$('#form-login').trigger('submit');\n		});\n	\n	UIinit();\n	resizeHandler.init();\n	scrollHandler.init();\n\n	$('.flow-explain').addClass('concealed');\n\n\n	setTimeout(function(){\n		$window.resize();\n	},100);\n\n	setTimeout(function(){\n		$('.message-wrapper').each(function(){\n			$(this).addClass('display').addClass($(this).data('type'));\n		});\n	},600);\n	\n	$('.message-wrapper .close').click(function(){\n		$('.message-wrapper').removeClass('display').removeClass('fail').removeClass('success').removeClass('alert').removeClass('generic').removeClass('warning');\n	});	\n\n});",
+			"file": "acontent/js/highlow-affiliate.js",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 18785,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "acontent/less/postlogin/post-login.less",
+			"settings":
+			{
+				"buffer_size": 6548,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->\n<html>\n	<head>\n		<meta charset=\"utf-8\">\n	    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n	    <title>Promotion View | HighLow Affiliates</title>\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\" />\n		<meta name=\"description\" content=\"Welcome!\" />\n		<meta name=\"keywords\" content=\"Welcome!\" />\n		<meta name=\"robots\" content=\"index, follow\" />\n		<link type=\"text/css\" rel=\"stylesheet\" href=\"//fast.fonts.net/cssapi/521a1bbb-4492-4625-bae8-58bf3edd68bf.css\"/>\n		<link href=\"acontent/css/post-login-split.css\" rel=\"stylesheet\"/>\n        <!--[if lt IE 9]>\n  		<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n  		<![endif]-->\n  		<link rel=\"shortcut icon\" href=\"https://cdn.highlow.net/common/img/highlow_favicon.ico\">\n  		<link rel=\"icon\" type=\"image/x-icon\" href=\"https://cdn.highlow.net/common/img/highlow_favicon.ico\" />\n	</head>\n	<body class=\"splash en\">\n	<!-- HL Google Tag Manager -->\n		<noscript><iframe src=\"//www.googletagmanager.com/ns.html?id=GTM-WX2M5K\"\n			height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n			<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n		})(window,document,'script','dataLayer','GTM-WX2M5K');</script>\n		<!-- End HL Google Tag Manager -->\n\n	\n\n<header>\n	<nav class=\"navbar navbar-default post-login navbar-fixed-top\" role=\"navigation\">\n		<div class=\"container-fluid\">\n			<!-- Brand and toggle get grouped for better mobile display -->\n			<div class=\"navbar-header\">\n				<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\">\n					<span class=\"sr-only\"></span>\n					<span class=\"icon-bar\"></span>\n					<span class=\"icon-bar\"></span>\n					<span class=\"icon-bar\"></span>\n				</button>\n				\n				<a href='/en/' class=\"high-low pull-left icon\"></a>\n			</div>\n			<!-- Collect the nav links, forms, and other content for toggling -->\n			<div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n				<div class=\"commission-status pull-right\">\n				This month: <span class=\"commission-status--value\">$875</span>\n				</div>\n			</div><!-- /.navbar-collapse -->\n		</div><!-- /.container-fluid -->\n	</nav>\n</header>		\n\n\n\n<div class=\"side-content sticky-side-content hidden-xs\" id=\"side-menu\">\n	<div class=\"side-content-inner\">\n		<!--sidebar nav start-->\n		<ul class=\"nav nav-pills nav-stacked custom-nav\">\n			<li class=\"user dropdown\">\n				<a href=\"#\" data-toggle=\"dropdown\" class=\"dropdown-toggle\">\n					<img class=\"avatar\" src=\"https://cdn.highlow.net/acontent/images/default.jpg\" />\n					<span>\n						Hi, Hamish!\n					</span>\n					<i class=\"sprite-icon__down-pink-sm menu-list--dropdown-icon\"></i>\n				</a>\n				<ul class=\"dropdown-menu\">\n					<li>\n						<a href=\"#\">\n							<i class=\"fa fa-user\"></i> My Profile\n						</a>\n					</li>\n					<li>\n						<a href=\"#\">\n							<i class=\"fa fa-key\"></i> Change Password\n						</a>\n					</li>\n					<li>\n						<a href=\"#\">\n							<i class=\"fa fa-sign-out\"></i> SIGN OUT\n						</a>\n					</li>\n				</ul>\n			</li>\n			<li>\n				<div class=\"side-content--header\">\n					MENU\n				</div>\n			</li>\n			<li >\n				<a href=\"#\">\n					<i class=\"fa fa-globe fa-icon\"></i> <span>Dashboard</span>\n				</a>\n			</li>\n			<li class=\"active\">\n				<a href=\"#\">\n					<i class=\"fa fa-star fa-icon\"></i> <span>Promotions</span>\n				</a>\n			</li>\n			<li class=\"menu-list\">\n				<a href=\"javascript:void(0);\">\n					<i class=\"fa fa-signal fa-icon\"></i> \n					<span>Reports</span> \n					<i class=\"sprite-icon__down-grey-sm menu-list--dropdown-icon\"></i>\n				</a>\n				<ul class=\"sub-menu-list\">\n					<li class=\"\">\n						<a href=\"#\">\n							<span>Clicks</span>\n						</a>\n					</li>\n					<li class=\"\">\n						<a href=\"#\">\n							<span>Conversion</span>\n						</a>\n					</li>\n				</ul>\n			</li>\n			<li class=\"\">\n				<a href=\"#\">\n					<i class=\"fa fa-link fa-icon\"></i> <span>Direct Links</span>\n				</a>\n			</li>\n			<li class=\"\">\n				<a href=\"#\">\n					<i class=\"fa fa-dollar fa-icon\"></i> <span>Payout</span>\n				</a>\n			</li>\n		</ul>\n		<!--sidebar nav end-->\n	</div>\n</div>\n\n\n\n<div class=\"main-content\">\n	<div class=\"wrapper clearfix\">\n		<div class=\"clearfix\">\n		</div>\n		<div class=\"page-heading clearfix\">\n			<div class=\"pull-left\">\n				<button type=\"button\" class=\"sidebar-toggler navbar-toggle visible-xs\">\n					<span class=\"sr-only\"></span>\n					<span class=\"icon-bar\"></span>\n					<span class=\"icon-bar\"></span>\n					<span class=\"icon-bar\"></span>\n				</button>\n			</div>\n			<div class=\"pull-left\">\n				<h3>\n					Australian Affiliates Campaign 2		            \n				</h3>\n			</div>\n			<div class=\"pull-right\">\n				<div class=\"page-actions\">\n					<ul>\n						<li><a class=\"affiliate-btn affiliate-btn-default\" href=\"#\"><i class=\"fa fa-chevron-left\"></i> Back to List</a></li>		\n					</ul>\n				</div>\n			</div>\n		</div>\n		<div class=\"container\">\n			<h3></h3>\n			<div class=\"row\">\n				<div class=\"col-lg-12\">\n					<p>Default Promotion URL : <a href=\"#\">https://en2.highlow.net/account?a_aid=568d490aad773&amp;a_cid=757a25f1</a> </p>\n				</div>\n			</div>\n			<div class=\"row\">\n				<div class=\"col-lg-6\">\n					<table class=\"table table-striped\">\n						<tbody>\n							<tr>\n								<td><strong>Promotion Name</strong></td>\n								<td>Australian Affiliates Campaign 2</td>\n							</tr>\n							<tr>\n								<td><strong>Promotion Code</strong></td>\n								<td>757a25f1</td>\n							</tr>\n						</tbody>\n					</table>			\n				</div>\n				<div class=\"col-lg-6\">\n					<table class=\"table table-striped\">\n						<tbody>   \n							<tr>\n								<td width=\"25%\"><strong>Commission Details</strong></td>\n								<td>       \n									1 - 10 Accounts <b>AU$300.00</b>\n									<br/>\n									11 - 100 Accounts <b>AU$350.00</b>\n									<br/>\n									&gt;=101 Accounts <b>AU$400.00</b>\n									<br/>\n								</td>\n							</tr>\n						</tbody>\n					</table>			\n				</div>\n			</div>	\n\n			<div class=\"row\">\n				<h3></h3>\n				<div class=\"col-lg-12\">\n					<!-- Nav tabs -->\n					\n					<!-- Tab panes -->\n					<div class=\"tab-content\">\n						<div class=\"tab-pane active\" id=\"banners\">\n							<form>\n								<div class=\"clearfix banners--search-options\">\n									<form>\n										<div class=\"banners--search\">\n											<label for=\"banners-search-input\">Search</label>\n											&nbsp;\n											&nbsp;\n											<input id=\"banners-search-input\" type=\"text\" class=\"form-control\"/>\n										</div>\n										<div class=\"banners--sort\">\n											<label>Sort by</label>\n											<div class=\"banners--sort--options\">\n												<div class=\"banners--sort--option\">\n													<label>\n														<input type=\"checkbox\" name=\"sort-alphabet\"/>\n														&nbsp;&nbsp;Alphabetically\n													</label>\n													<select>\n														<option value=\"asc\">ASC</option>\n														<option value=\"asc\">DEC</option>\n													</select>\n												</div>\n												<div class=\"banners--sort--option\">\n													<label>\n														<input type=\"checkbox\" name=\"sort-recent\"/>\n														&nbsp;&nbsp;Most recent\n													</label>\n													<select>\n														<option value=\"asc\">ASC</option>\n														<option value=\"asc\">DEC</option>\n													</select>\n												</div>\n												<div class=\"banners--sort--option\">\n													<label>\n														<input type=\"checkbox\" name=\"sort-type\"/>\n														&nbsp;&nbsp;File type\n													</label>\n													<select>\n														<option value=\"asc\">ASC</option>\n														<option value=\"asc\">DEC</option>\n													</select>\n												</div>\n												<div class=\"banners--sort--option clearfix\">\n													<button class=\"banners--sort--apply-btn btn btn-alternate btn btn-extruded pull-left\">\n														<i class=\"fa fa-check\"></i>&nbsp;&nbsp;SORT\n													</button>\n													<div class=\"btn clear pull-right\">\n														CLEAR\n													</div>\n												</div>\n											</div>\n										</div>\n									</form>\n									<br/>\n								</div>\n								<div class=\"banners--panel clearfix\">\n									<div class=\"col-md-3 banners--filters\">\n										<div class=\"header-block-2\">\n											FILTER\n										</div>\n										<div class=\"banners--filter-list\">\n											<div class=\"banners--filter\">\n												<label for=\"language-filter-toggle\">\n													<input id=\"language-filter-toggle\" type=\"checkbox\" class=\"banners--filter--toggle\" checked>\n													&nbsp;&nbsp;By language\n												</label>\n												<div class=\"banners-filter-option\" style=\"display: block;\">\n													<label>\n														<input type=\"checkbox\" class=\"check-all\" name=\"language[]\" value=\"all\"/>\n														All\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"language[]\" value=\"jp\"/>\n														Japanese\n													</label>\n													<label>\n														<input type=\"checkbox\" checked name=\"language[]\" value=\"eng\"/>\n														English\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"language[]\" value=\"uni\"/>\n														Generic\n													</label>\n												</div>\n											</div>\n											<div class=\"banners--filter\">\n												<label for=\"banner-type-filter-toggle\">\n													<input id=\"banner-type-filter-toggle\" type=\"checkbox\" class=\"banners--filter--toggle\">\n													&nbsp;&nbsp;By banner type\n												</label>\n												<div class=\"banners-filter-option\">\n													<label>\n														<input type=\"checkbox\" class=\"check-all\" name=\"type[]\" value=\"all\"/>\n														All\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"type[]\" value=\"animated\"/>\n														Animated\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"type[]\" value=\"static\"/>\n														Static\n													</label>\n												</div>\n											</div>\n											<div class=\"banners--filter\">\n												<label for=\"banner-size-filter-toggle\">\n													<input id=\"banner-size-filter-toggle\" type=\"checkbox\" class=\"banners--filter--toggle\">\n													&nbsp;&nbsp;By size\n												</label>\n												<div class=\"banners-filter-option\">\n													<label>\n														<input type=\"checkbox\" class=\"check-all\" name=\"size[]\" value=\"all\"/>\n														All\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"120x240\"/>\n														120x240\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"120x90\"/>\n														120x90\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"120x60\"/>\n														120x60\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"120x600\"/>\n														120x600\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"125x125\"/>\n														125x125\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"160x600\"/>\n														160x600\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"234x60\"/>\n														234x60\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"300x250\"/>300x250\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"320x50\"/>320x50\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"468x60\"/>468x60\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"500x147\"/>500x147\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"size[]\" value=\"728x90\"/>728x90\n													</label>\n												</div>\n											</div>\n											<div class=\"banners--filter\">\n												<label for=\"banner-orientation-filter-toggle\">\n													<input id=\"banner-orientation-filter-toggle\" type=\"checkbox\" class=\"banners--filter--toggle\">\n													&nbsp;&nbsp;By orientation\n												</label>\n												<div class=\"banners-filter-option\">\n													<label>\n														<input type=\"checkbox\" class=\"check-all\" name=\"orientation[]\" value=\"all\"/>\n														All\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"orientation[]\" value=\"square\"/>\n														Square\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"orientation[]\" value=\"Landscape\"/>\n														Landscape\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"orientation[]\" value=\"portrait\"/>\n														Portrait\n													</label>\n												</div>\n											</div>\n											<div class=\"banners--filter\">\n												<label for=\"banner-extension-filter-toggle\">\n													<input id=\"banner-extension-filter-toggle\" type=\"checkbox\" class=\"banners--filter--toggle\">\n													&nbsp;&nbsp;By file type\n												</label>\n												<div class=\"banners-filter-option\">\n													<label>\n														<input type=\"checkbox\" class=\"check-all\" name=\"extension[]\" value=\"all\"/>\n														All\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"extension[]\" value=\"html5\"/>\n														HTML5\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"extension[]\" value=\"gif\"/>\n														.gif\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"extension[]\" value=\"png\"/>\n														.png\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"extension[]\" value=\"jpg\"/>\n														.jpg\n													</label>\n												</div>\n											</div>\n											<div class=\"banners--filter\">\n												<label for=\"banner-concept-filter-toggle\">\n													<input id=\"banner-concept-filter-toggle\" type=\"checkbox\" class=\"banners--filter--toggle\">\n													&nbsp;&nbsp;By concept\n												</label>\n												<div class=\"banners-filter-option\">\n													<label>\n														<input type=\"checkbox\" class=\"check-all\" name=\"extension[]\" value=\"all\"/>All\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"extension[]\" value=\"logo\"/>Logo/Brand\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"extension[]\" value=\"cashback\"/>Signup Cashback\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"extension[]\" value=\"traders\"/>Traders\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"extension[]\" value=\"etc\"/>etc.\n													</label>\n												</div>\n											</div>\n											<div class=\"banners--filter\">\n												<label for=\"banner-currency-filter-toggle\">\n													<input id=\"banner-currency-filter-toggle\" type=\"checkbox\" class=\"banners--filter--toggle\">\n													&nbsp;&nbsp;By currency\n												</label>\n												<div class=\"banners-filter-option\">\n													<label>\n														<input type=\"checkbox\" class=\"check-all\" name=\"currency[]\" value=\"all\"/>\n														All\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"currency[]\" value=\"usd\"/>\n														USD\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"currency[]\" value=\"aud\"/>\n														AUD\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"currency[]\" value=\"gbp\"/>\n														GBP\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"currency[]\" value=\"eur\"/>\n														EUR\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"currency[]\" value=\"jpy\"/>\n														JPY\n													</label>\n													<label>\n														<input type=\"checkbox\" name=\"currency[]\" value=\"uni\"/>\n														Generic\n													</label>\n												</div>\n											</div>\n											<div class=\"banners--filter--apply\">\n												<button class=\"banners--filter--apply-btn btn btn-alternate btn-extruded pull-left\"><i class=\"fa fa-filter\"></i>&nbsp;&nbsp;APPLY FILTER</button>\n											</div>\n										</div>\n									</div>\n									<div class=\"col-md-9 banners--list\">\n										<div class=\"header-block-1\">\n											Currently viewing 6 of 76 banners:\n										</div>\n										<div class=\"banner--item\"\n\n											data-name=\"Experienced Market Trader: ASX\"\n											data-format=\"(html5)\"\n											data-campaign-name=\"Australian affiliates campaign 2\"\n											data-target=\"https://en2.highlow.net/account\"\n											data-code='<a href=\"http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\"><iframe style=\"width: 300px; height: 250px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/market-related/mrec/banner.html\"></iframe></a>'\n											data-width=\"300\"\n											data-height=\"250\"\n										>\n											<div class=\"p-css-table banner--item-content\">\n												<div class=\"p-css-table-row\">\n													<div class=\"p-css-table-cell banner--preview-container\">\n														<div class=\"banner--preview banner--viewable banner--playable banner--view-code\">\n															<a title=\"preview this banner\" class=\"banner--viewable--cover\">\n																<div class=\"banner--viewable--screenshot\" style=\"background-image: url(acontent/images/banner1-asx-mRec-preview.png);\"></div>\n															</a>\n														</div>\n													</div>\n													<div class=\"banner--details banner-code-div\">\n														<h4 class=\"banner--details--banner-name\">\n															<strong><span class=\"banner--dimensions\"><span class=\"banner--dimensions\">300x250</span> - Experienced Market Trader: ASX</strong> \n															<span class=\"word banner--details--banner-format\">\n																(html5)\n															</span>\n														</h4>\n														<div class=\"banner--details--campaign-name\">\n															Australian affiliates campaign 2\n														</div>\n														<div class=\"banner--details--target-link\">	\n															https://en2.highlow.net/account\n														</div>\n														<button type=\"button\" class=\"banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code\">\n															<img src=\"acontent/images/hl-icon-white.png\"/>&nbsp;&nbsp;&nbsp;GET CODE\n														</button>\n													</div>\n												</div>\n											</div>\n										</div>\n										<div class=\"banner--item\"\n\n											data-name=\"Experienced Market Trader: ASX\"\n											data-format=\"(html5)\"\n											data-campaign-name=\"Australian affiliates campaign 2\"\n											data-target=\"https://en2.highlow.net/account\"\n											data-code='<a href=\"http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\"><iframe style=\"width: 728px; height: 90px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/market-related/leaderboard/banner.html\"></iframe></a>'\n											data-width=\"728\"\n											data-height=\"90\"\n										>\n											<div class=\"p-css-table banner--item-content\">\n												<div class=\"p-css-table-row\">\n													<div class=\"p-css-table-cell banner--preview-container\">\n														<div class=\"banner--preview banner--viewable banner--playable banner--view-code\">\n															<a title=\"preview this banner\" class=\"banner--viewable--cover\">\n																<div class=\"banner--viewable--screenshot\" style=\"background-image: url(acontent/images/banner1-asx-leaderboard-preview.png);\"></div>\n															</a>\n														</div>\n													</div>\n													<div class=\"banner--details banner-code-div\">\n														<h4 class=\"banner--details--banner-name\">\n															<strong><span class=\"banner--dimensions\">728x90</span> - Experienced Market Trader: ASX</strong> \n															<span class=\"word banner--details--banner-format\">\n																(html5)\n															</span>\n														</h4>\n														<div class=\"banner--details--campaign-name\">\n															Australian affiliates campaign 2\n														</div>\n														<div class=\"banner--details--target-link\">	\n															https://en2.highlow.net/account\n														</div>\n														<button type=\"button\" class=\"banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code\">\n															<img src=\"acontent/images/hl-icon-white.png\"/>&nbsp;&nbsp;&nbsp;GET CODE\n														</button>\n													</div>\n												</div>\n											</div>\n										</div>\n										<div class=\"banner--item\"\n\n											data-name=\"Experienced Market Trader: ASX\"\n											data-format=\"(html5)\"\n											data-campaign-name=\"Australian affiliates campaign 2\"\n											data-target=\"https://en2.highlow.net/account\"\n											data-code='<a href=\"http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\"><iframe style=\"width: 120px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/market-related/skyscrapper/banner.html\"></iframe></a>'\n											data-width=\"120\"\n											data-height=\"600\"\n										>\n											<div class=\"p-css-table banner--item-content\">\n												<div class=\"p-css-table-row\">\n													<div class=\"p-css-table-cell banner--preview-container\">\n														<div class=\"banner--preview banner--viewable banner--playable banner--view-code\">\n															<a title=\"preview this banner\" class=\"banner--viewable--cover\">\n																<div class=\"banner--viewable--screenshot\" style=\"background-image: url(acontent/images/banner1-asx-skyscraper-preview.png);\"></div>\n															</a>\n														</div>\n													</div>\n													<div class=\"banner--details banner-code-div\">\n														<h4 class=\"banner--details--banner-name\">\n															<strong><span class=\"banner--dimensions\">120x600</span> - Experienced Market Trader: ASX</strong> \n															<span class=\"word banner--details--banner-format\">\n																(html5)\n															</span>\n														</h4>\n														<div class=\"banner--details--campaign-name\">\n															Australian affiliates campaign 2\n														</div>\n														<div class=\"banner--details--target-link\">	\n															https://en2.highlow.net/account\n														</div>\n														<button type=\"button\" class=\"banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code\">\n															<img src=\"acontent/images/hl-icon-white.png\"/>&nbsp;&nbsp;&nbsp;GET CODE\n														</button>\n													</div>\n												</div>\n											</div>\n										</div>\n										<div class=\"banner--item\"\n\n											data-name=\"Experienced Market Trader: ASX\"\n											data-format=\"(html5)\"\n											data-campaign-name=\"Australian affiliates campaign 2\"\n											data-target=\"https://en2.highlow.net/account\"\n											data-code='<a href=\"http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\"><iframe style=\"width: 320px; height: 50px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/market-related/mobile/banner.html\"></iframe></a>'\n											data-width=\"320\"\n											data-height=\"50\"\n										>\n											<div class=\"p-css-table banner--item-content\">\n												<div class=\"p-css-table-row\">\n													<div class=\"p-css-table-cell banner--preview-container\">\n														<div class=\"banner--preview banner--viewable banner--playable banner--view-code\">\n															<a title=\"preview this banner\" class=\"banner--viewable--cover\">\n																<div class=\"banner--viewable--screenshot\" style=\"background-image: url(acontent/images/banner1-asx-mobile-preview.png);\"></div>\n															</a>\n														</div>\n													</div>\n													<div class=\"banner--details banner-code-div\">\n														<h4 class=\"banner--details--banner-name\">\n															<strong><span class=\"banner--dimensions\">320x50</span> - Experienced Market Trader: ASX</strong> \n															<span class=\"word banner--details--banner-format\">\n																(html5)\n															</span>\n														</h4>\n														<div class=\"banner--details--campaign-name\">\n															Australian affiliates campaign 2\n														</div>\n														<div class=\"banner--details--target-link\">	\n															https://en2.highlow.net/account\n														</div>\n														<button type=\"button\" class=\"banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code\">\n															<img src=\"acontent/images/hl-icon-white.png\"/>&nbsp;&nbsp;&nbsp;GET CODE\n														</button>\n													</div>\n												</div>\n											</div>\n										</div>\n										<div class=\"banner--item\"\n\n											data-name=\"Experienced Market Trader: DAX\"\n											data-format=\"(html5)\"\n											data-campaign-name=\"Australian affiliates campaign 2\"\n											data-target=\"https://en2.highlow.net/account\"\n											data-code='<a href=\"http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\"><iframe style=\"width: 468px; height: 60px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/market-related/banner-dax/banner.html\"></iframe></a>'\n											data-width=\"468\"\n											data-height=\"60\"\n										>\n											<div class=\"p-css-table banner--item-content\">\n												<div class=\"p-css-table-row\">\n													<div class=\"p-css-table-cell banner--preview-container\">\n														<div class=\"banner--preview banner--viewable banner--playable banner--view-code\">\n															<a title=\"preview this banner\" class=\"banner--viewable--cover\">\n																<div class=\"banner--viewable--screenshot\" style=\"background-image: url(acontent/images/banner1-dax-banner-preview.png);\"></div>\n															</a>\n														</div>\n													</div>\n													<div class=\"banner--details banner-code-div\">\n														<h4 class=\"banner--details--banner-name\">\n															<strong><span class=\"banner--dimensions\">468x60</span> - Experienced Market Trader: DAX</strong> \n															<span class=\"word banner--details--banner-format\">\n																(html5)\n															</span>\n														</h4>\n														<div class=\"banner--details--campaign-name\">\n															Australian affiliates campaign 2\n														</div>\n														<div class=\"banner--details--target-link\">	\n															https://en2.highlow.net/account\n														</div>\n														<button type=\"button\" class=\"banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code\">\n															<img src=\"acontent/images/hl-icon-white.png\"/>&nbsp;&nbsp;&nbsp;GET CODE\n														</button>\n													</div>\n												</div>\n											</div>\n										</div>\n										<div class=\"banner--item\"\n\n											data-name=\"Japanese landscape example\"\n											data-format=\"(html5)\"\n											data-campaign-name=\"Australian affiliates campaign 2\"\n											data-target=\"https://jp2.highlow.net/account\"\n											data-code='<a href=\"https://jp2.highlow.net/account?a_aid=568d490aad773&amp;a_cid=757a25f1&amp;a_bid=a7fbd113SUBCODE\" target=\"_top\"><img src=\"https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472927e4c164.gif\" alt=\"1口１０００円からのバイナリーオプション一銭の値動きで利益が出る。お得なキャンペーン実施中！\" title=\"1口１０００円からのバイナリーオプション一銭の値動きで利益が出る。お得なキャンペーン実施中！\" /></a>'\n											data-width=\"728\"\n											data-height=\"90\"\n										>\n											<div class=\"p-css-table banner--item-content\">\n												<div class=\"p-css-table-row\">\n													<div class=\"p-css-table-cell banner--preview-container\">\n														<div class=\"banner--preview banner--viewable banner--view-code\">\n															<a title=\"preview this banner\" class=\"banner--viewable--cover\">\n																<div class=\"banner--viewable--screenshot\" style=\"background-image: url(https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472927e4c164.gif);\"></div>\n															</a>\n														</div>\n													</div>\n													<div class=\"banner--details banner-code-div\">\n														<h4 class=\"banner--details--banner-name\">\n															<strong><span class=\"banner--dimensions\">728x90</span> - Japanese landscape example</strong> \n															<span class=\"word banner--details--banner-format\">\n																(gif)\n															</span>\n														</h4>\n														<div class=\"banner--details--campaign-name\">\n															Australian affiliates campaign 2\n														</div>\n														<div class=\"banner--details--target-link\">	\n															https://jp2.highlow.net/account\n														</div>\n														<button type=\"button\" class=\"banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code\">\n															<img src=\"acontent/images/hl-icon-white.png\"/>&nbsp;&nbsp;&nbsp;GET CODE\n														</button>\n													</div>\n												</div>\n											</div>\n										</div>\n									</div>\n								</div>	\n								<div class=\"banners--pagination\">\n									<ul class=\"pagination\">\n										<li class=\"disabled\">\n											<span>\n												<img src=\"acontent/images/left-v.png\"/><!--\n												--><img src=\"acontent/images/left-v.png\"/>\n											</span>\n										</li><!--\n										--><li class=\"disabled\">\n											<span>\n												<img src=\"acontent/images/left-v.png\"/>\n											</span>\n										</li><!--\n										--><li class=\"active\">\n											<span>1</span>\n										</li><!--\n										--><li>\n											<a href=\"/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=2\">2</a>\n										</li><!--\n										--><li>\n											<a href=\"/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=3\">3</a>\n										</li><!--\n										--><li>\n											<a href=\"/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=4\">4</a>\n										</li><!--\n										--><li>\n											<a href=\"/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=5\">5</a>\n										</li><!--\n										--><li class=\"disabled\">\n											<span>&hellip;</span>\n										</li><!--\n										--><li>\n											<a href=\"/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=8\">8</a>\n										</li><!--\n										--><li>\n											<a href=\"/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=2\">\n												<img src=\"acontent/images/right-v.png\"/>\n											</a>\n										</li><!--\n										--><li>\n											<a href=\"/en/my-account/5402f0f8ce0670930e7b23d3/view-promotion?page=8\">\n												<img src=\"acontent/images/right-v.png\"/><!--\n												--><img src=\"acontent/images/right-v.png\"/>\n											</a>\n										</li>\n									</ul>\n								</div>  \n							</form>\n						</div>\n									 \n					</div>\n				</div>\n			</div>\n		</div>\n\n	</div>\n</div>\n\n<div class=\"modal fade\" id=\"get-code-modal\" tabindex=\"-1\" role=\"dialog\">\n	<div class=\"p-css-table__fill p-css-table\">\n		<div class=\"p-css-table-row\">\n			<div class=\"p-css-table-cell p-css-table-cell__center\">\n				<div class=\"modal-dialog\">\n					<div class=\"modal-content\">\n						<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n						<div class=\"modal-body\">\n							<div id=\"get-code-modal--layout\">\n								<div class=\"p-css-table\">\n									<div class=\"p-css-table-row\">\n										<div id=\"get-code-modal--banner-preview\" class=\"p-css-table-cell\">\n											\n										</div>\n										<div class=\"p-css-table-cell get-code-modal--banner-details\">\n											<div class=\"get-code-modal--banner-details--header\">\n												<strong id=\"get-code-modal--banner-details--dimensions\"></strong> - <strong id=\"get-code-modal--banner-details--name\"></strong> <span class=\"word\" id=\"get-code-modal--banner-details--format\"></span>\n											</div>\n											<p>\n												Paste the below code into your website. It contains your personal Affiliate ID and all conversions will be tracked automatically.\n											</p>\n											<br/>\n											<br/>\n											<textarea class=\"banner-code-holder\" id=\"get-code-modal--banner-details--code\" readonly=\"readonly\">\n				<a href=\"http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeab\" target=\"_top\"><iframe style=\"width: 300px; height: 250px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/market-related/mrec/banner.html\"></iframe></a>\n											</textarea>\n											<a class=\"get-code-modal--banner-details--add-custom-code bannerOption\" href=\"#\"><i class=\"fa fa-plus\"></i> &nbsp;Add your own code</a>\n											<div class=\"subCodeDiv\" style=\"display: none;\">\n												<input type=\"text\" name=\"subCodeText\" class=\"form-control subCodeText\" placeholder=\"Sub Code\" value=\"\">\n												<br/>\n												<br/>\n												<button type=\"button\" class=\"btn-alternate btn btn-extruded applySubCode\" data-target=\"#get-code-modal--banner-details--code\">APPLY</button>\n											</div>					\n										</div>\n									</div>\n								</div>\n							</div>\n						</div>\n					</div>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n\n<script src=\"https://cdn.highlow.net/admin/js/jquery-1.8.3.js\"></script>\n<script src=\"https://cdn.highlow.net/admin/js/ui/jquery-ui-1.9.2.custom.js\"></script>    	\n<script src=\"https://cdn.highlow.net/admin/js/ui/jquery-ui-timepicker.js\"></script>\n<script src=\"https://cdn.highlow.net/admin/bootstrap/dist/js/bootstrap.min.js\"></script>\n<script src=\"https://cdn.highlow.net/common/js/jquery.validate.min.js\"></script>\n<script src=\"https://cdn.highlow.net/common/js/additional-methods.min.js\"></script>\n<script src=\"acontent/js/custom.js\"></script>\n<script src=\"acontent/js/datepicker.loader.js\"></script>\n<script src=\"https://cdn.highlow.net/admin/js/daterangepicker.js\"></script>\n<script src=\"acontent/js/highlow-affiliate.js\"></script>\n\n<script>\n	$(document).ready(function(){\n		$(\".sidebar-toggler\").click(function(){\n			if($('body').hasClass('show-sidebar')) {\n				$('body').removeClass('show-sidebar');\n				$('#side-menu').addClass('hidden-xs');\n			} else {\n				$('body').addClass('show-sidebar');\n				$('#side-menu').removeClass('hidden-xs');\n			}\n		});\n\n\n		setTimeout(function(){\n			$('.message-wrapper').each(function(){\n				$(this).addClass('display').addClass($(this).data('type'));\n			});\n		},600);\n\n		$('.message-wrapper .close').click(function(){\n			$('.message-wrapper').removeClass('display').removeClass('fail').removeClass('success').removeClass('alert').removeClass('generic').removeClass('warning');\n		});\n\n\n	});\n</script>\n\n<script type=\"text/javascript\" src=\"https://cdn.highlow.net/acontent/js/jquery.zclip.min.js\"></script>\n<script>\n	$(document).ready(function(){\n		$('a.bannerOption').on('click',function(e){\n			e.preventDefault();\n			$(this).next('.subCodeDiv').show();\n		});\n\n		$('.applySubCode').on('click',function(e){				\n			var subCodeText =  $(this).siblings('input.subCodeText').val();			\n			var textarea = $($(this).data('target'));\n			var textareaPrototype = textarea.data('prototype');\n			href = '';\n			if(subCodeText != '') {\n				href = \"&amp;chan=\"+subCodeText;\n			}\n\n			console.log(href);\n			textarea.val(textareaPrototype.replace('SUBCODE',href));								\n			$(this).parent('div').hide();		\n		});\n\n		// if (location.hash !== '') {\n		// 	$('a[href=\"' + location.hash + '\"]').tab('show');\n		// } else {\n		// 	$('.nav-tabs a:first').tab('show');\n		// }\n		// $('a[data-toggle=\"tab\"]').on('shown.bs.tab', function(e) {\n		// 	if(history.pushState)\n		// 		history.pushState(null, null, '#'+$(e.target).attr('href').substr(1));\n		// 	else\n		// 		location.hash = '#'+$(e.target).attr('href').substr(1);\n		// });\n\n		message = '<div class=\"highlow message-wrapper\">'+\n		'<div class=\"message\">'+\n		'Banner code has been copied to clipboard'+\n		'</div>'+\n		'<div class=\"close\">'+\n		'</div>'+\n		'</div>';\n\n		$('.get-code').zclip({\n			path:'https://cdn.highlow.net/acontent/js/ZeroClipboard.swf',\n			copy: function() {\n				content = $(this).closest('.banner-code-div').find('.banner-code-holder').val(); \n				return content;\n			},\n			afterCopy: function() {\n				$('.message-wrapper').remove();\n				$(this).closest('.media-body').prepend(message);\n				$('.message-wrapper').addClass('success').addClass('display');\n				setTimeout(function(){\n					$('.message-wrapper').each(function(){\n						$(this).removeClass('success').removeClass('display').remove();\n					});\n				},5000);\n			}\n		});\n\n		$('.message-wrapper .close').click(function(){\n			$('.message-wrapper').removeClass('display').removeClass('fail').removeClass('success').removeClass('alert').removeClass('generic').removeClass('warning');\n		});	\n\n		//new banner item code\n\n		$('.banner--view-code').click(function(){\n			var $self = $(this),\n				$bannerItem = $($self.closest('.banner--item'));\n\n			var bannerName = $bannerItem.data('name'),\n				bannerFormat = $bannerItem.data('format'),\n				bannerTarget = $bannerItem.data('target'),\n				bannerCampaignName = $bannerItem.data('campaignName'),\n				bannerCode = $bannerItem.data('code'),\n				bannerLayout = $bannerItem.data('width')<=320?'horizontal':'vertical';\n			\n			$('#get-code-modal--banner-details--dimensions').html($bannerItem.data('width')+'x'+$bannerItem.data('height'));\n			$('#get-code-modal--banner-details--name').html(bannerName);\n			$('#get-code-modal--banner-details--format').html(bannerFormat);\n			$('#get-code-modal--banner-details--code').data('prototype',bannerCode);\n			$('#get-code-modal--banner-details--code').val(bannerCode.replace('SUBCODE',''));\n			$('#get-code-modal--banner-preview').empty().append($(bannerCode.replace('SUBCODE','')));\n			$('#get-code-modal--layout').removeClass().addClass(bannerLayout)\n			$('#get-code-modal').modal('show');\n		});\n\n		//banner filter code\n\n		$('.banners--filter .banners--filter--toggle').change(function(){\n			var $self = $(this),\n				$filter = $($self.closest('.banners--filter')),\n				$filterOptions = $($filter.find('.banners-filter-option'));\n			if($self.is(':checked') == true) {\n				$filter.addClass('active');\n				$filterOptions.slideDown(125);\n			} else {\n\n				$filter.removeClass('active');\n				$($filterOptions.find('input[type=\"checkbox\"]')).prop(\"checked\", false);\n\n				$filterOptions.slideUp(125);\n			}\n		});\n\n		// check if filter already checked\n\n		$('.banners--filter .banners--filter--toggle').each(function(){\n			var $self = $(this),\n				$filter = $($self.closest('.banners--filter')),\n				$filterOptions = $($filter.find('.banners-filter-option'));\n			if($self.is(':checked') == true) {\n				$filter.addClass('active');\n				$filterOptions.slideDown(125);\n			} else {\n\n				$filter.removeClass('active');\n				$($filterOptions.find('input[type=\"checkbox\"]')).prop(\"checked\", false);\n\n				$filterOptions.slideUp(125);\n			}\n		});\n\n		// \"All\" option for filters\n\n		$('.banners--filter .check-all').change(function(){\n			var $self = $(this),\n				$filter = $($self.closest('.banners--filter')),\n				$filterOptions = $($filter.find('.banners-filter-option'));\n\n			if($self.is(':checked') == true) {\n				\n				$($filterOptions.find('input[type=\"checkbox\"]')).not('.check-all').prop(\"checked\", true);\n\n			} else {\n				$($filterOptions.find('input[type=\"checkbox\"]')).not('.check-all').prop(\"checked\", false);\n			}\n		});\n\n		$('.banners--filter .banners-filter-option input[type=\"checkbox\"]').not('.check-all').change(function(){\n\n			var $self = $(this),\n				$filter = $($self.closest('.banners--filter')),\n				$filterAll = $($filter.find('.check-all'));\n\n\n			if($self.is(':checked') == true) {\n\n			} else {\n				$filterAll.prop(\"checked\", false);\n			}\n\n			\n		});\n\n		// banner sort \n\n		$('.banners--sort label').click(function(){\n			var $self = $(this),\n				$options = $self.siblings('.banners--sort--options');\n\n			$options.slideToggle(125);\n		});\n\n		$('.banners--sort--options .clear').click(function(){\n\n			var $self = $(this),\n				$options = $self.closest('.banners--sort--options');\n\n			$($options.find('input[type=\"checkbox\"]')).prop(\"checked\", false);\n		});\n\n		$('body').click(function(e){\n\n			if($(e.target).closest('.banners--sort').length<=0) {\n				$('.banners--sort--options').slideUp(125);\n			}\n		});\n\n	});\n</script>\n\n\n\n	</body>\n</html>",
+			"file": "compiled/view-promotions.html",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 40841,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andrew-pham/development/point-sites/banners/market-related/test.html",
+			"settings":
+			{
+				"buffer_size": 404,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "compiled/acontent/css/post-login.css",
+			"settings":
+			{
+				"buffer_size": 228606,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->\n<html>\n	<head>\n		<meta charset=\"utf-8\">\n	    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n	    <title>Promotion View | HighLow Affiliates</title>\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\" />\n		<meta name=\"description\" content=\"Welcome!\" />\n		<meta name=\"keywords\" content=\"Welcome!\" />\n		<meta name=\"robots\" content=\"index, follow\" />\n		<link type=\"text/css\" rel=\"stylesheet\" href=\"//fast.fonts.net/cssapi/521a1bbb-4492-4625-bae8-58bf3edd68bf.css\"/>\n		<link href=\"acontent/css/post-login-split.css\" rel=\"stylesheet\"/>\n        <!--[if lt IE 9]>\n  		<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n  		<![endif]-->\n  		<link rel=\"shortcut icon\" href=\"https://cdn.highlow.net/common/img/highlow_favicon.ico\">\n  		<link rel=\"icon\" type=\"image/x-icon\" href=\"https://cdn.highlow.net/common/img/highlow_favicon.ico\" />\n	</head>\n	<body class=\"splash en\">\n	<!-- HL Google Tag Manager -->\n		<noscript><iframe src=\"//www.googletagmanager.com/ns.html?id=GTM-WX2M5K\"\n			height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n			<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n		})(window,document,'script','dataLayer','GTM-WX2M5K');</script>\n		<!-- End HL Google Tag Manager -->\n\n	\n<br/>\n<br/>\n<br/>\n<div class=\"container\">\n	<h3>HighLow Affiliates Account UI</h3>\n	<hl></hl>\n	<h5>Screen list:</h5>\n	<a href=\"view-promotions.html\">View Promotions</a>\n</div>\n\n\n\n	</body>\n</html>",
+			"file": "compiled/index.html",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 1898,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<header>\n	<nav class=\"navbar navbar-default post-login navbar-fixed-top\" role=\"navigation\">\n		<div class=\"container-fluid\">\n			<!-- Brand and toggle get grouped for better mobile display -->\n			<div class=\"navbar-header\">\n				<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\">\n					<span class=\"sr-only\"></span>\n					<span class=\"icon-bar\"></span>\n					<span class=\"icon-bar\"></span>\n					<span class=\"icon-bar\"></span>\n				</button>\n				\n				<a href='/en/' class=\"high-low pull-left icon\"></a>\n			</div>\n			<!-- Collect the nav links, forms, and other content for toggling -->\n			<div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n				<div class=\"commission-status pull-right\">\n				This month: <span class=\"commission-status--value\">$875</span>\n				</div>\n			</div><!-- /.navbar-collapse -->\n		</div><!-- /.container-fluid -->\n	</nav>\n</header>		",
+			"file": "templates/includes/header.liquid",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 930,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": ".p-css-table {\n	display: table;\n	width: 100%;\n    border-collapse:collapse;\n}\n\n	.p-css-table-row {\n		display: table-row;\n	}\n\n	.p-css-table-cell {\n		display: table-cell;\n	}\n	.p-css-table-cell__center {\n		vertical-align: middle;\n	}\n	.p-css-table-cell__bottom {\n		vertical-align: bottom;\n	}\n\n.p-css-table__fill {\n	position: absolute;\n	width: 100%;\n	height: 100%;\n	top: 0;\n	left: 0;\n	.p-css-table-row  {\n		height: 100%;\n		width: 100%;\n	}\n}",
+			"file": "acontent/less/affiliate/components/p-css-table.less",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 435,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->\n<html>\n	<head>\n		<meta charset=\"utf-8\">\n	    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n	    <title>Promotion View | HighLow Affiliates</title>\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\" />\n		<meta name=\"description\" content=\"Welcome!\" />\n		<meta name=\"keywords\" content=\"Welcome!\" />\n		<meta name=\"robots\" content=\"index, follow\" />\n		<link type=\"text/css\" rel=\"stylesheet\" href=\"//fast.fonts.net/cssapi/521a1bbb-4492-4625-bae8-58bf3edd68bf.css\"/>\n		<link href=\"acontent/css/post-login-split.css\" rel=\"stylesheet\"/>\n        <!--[if lt IE 9]>\n  		<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n  		<![endif]-->\n  		<link rel=\"shortcut icon\" href=\"https://cdn.highlow.net/common/img/highlow_favicon.ico\">\n  		<link rel=\"icon\" type=\"image/x-icon\" href=\"https://cdn.highlow.net/common/img/highlow_favicon.ico\" />\n	</head>\n	<body class=\"splash en\">\n	<!-- HL Google Tag Manager -->\n		<noscript><iframe src=\"//www.googletagmanager.com/ns.html?id=GTM-WX2M5K\"\n			height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n			<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n		})(window,document,'script','dataLayer','GTM-WX2M5K');</script>\n		<!-- End HL Google Tag Manager -->\n\n	{% block content %}\n\n	{% endblock %}\n\n	</body>\n</html>",
+			"file": "templates/includes/base.liquid",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 1757,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/**\n* @preserve HTML5 Shiv 3.7.2 | @afarkas @jdalton @jon_neal @rem | MIT/GPL2 Licensed\n*/\n!function(a,b){function c(a,b){var c=a.createElement(\"p\"),d=a.getElementsByTagName(\"head\")[0]||a.documentElement;return c.innerHTML=\"x<style>\"+b+\"</style>\",d.insertBefore(c.lastChild,d.firstChild)}function d(){var a=t.elements;return\"string\"==typeof a?a.split(\" \"):a}function e(a,b){var c=t.elements;\"string\"!=typeof c&&(c=c.join(\" \")),\"string\"!=typeof a&&(a=a.join(\" \")),t.elements=c+\" \"+a,j(b)}function f(a){var b=s[a[q]];return b||(b={},r++,a[q]=r,s[r]=b),b}function g(a,c,d){if(c||(c=b),l)return c.createElement(a);d||(d=f(c));var e;return e=d.cache[a]?d.cache[a].cloneNode():p.test(a)?(d.cache[a]=d.createElem(a)).cloneNode():d.createElem(a),!e.canHaveChildren||o.test(a)||e.tagUrn?e:d.frag.appendChild(e)}function h(a,c){if(a||(a=b),l)return a.createDocumentFragment();c=c||f(a);for(var e=c.frag.cloneNode(),g=0,h=d(),i=h.length;i>g;g++)e.createElement(h[g]);return e}function i(a,b){b.cache||(b.cache={},b.createElem=a.createElement,b.createFrag=a.createDocumentFragment,b.frag=b.createFrag()),a.createElement=function(c){return t.shivMethods?g(c,a,b):b.createElem(c)},a.createDocumentFragment=Function(\"h,f\",\"return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&(\"+d().join().replace(/[\\w\\-:]+/g,function(a){return b.createElem(a),b.frag.createElement(a),'c(\"'+a+'\")'})+\");return n}\")(t,b.frag)}function j(a){a||(a=b);var d=f(a);return!t.shivCSS||k||d.hasCSS||(d.hasCSS=!!c(a,\"article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}mark{background:#FF0;color:#000}template{display:none}\")),l||i(a,d),a}var k,l,m=\"3.7.2\",n=a.html5||{},o=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i,p=/^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$/i,q=\"_html5shiv\",r=0,s={};!function(){try{var a=b.createElement(\"a\");a.innerHTML=\"<xyz></xyz>\",k=\"hidden\"in a,l=1==a.childNodes.length||function(){b.createElement(\"a\");var a=b.createDocumentFragment();return\"undefined\"==typeof a.cloneNode||\"undefined\"==typeof a.createDocumentFragment||\"undefined\"==typeof a.createElement}()}catch(c){k=!0,l=!0}}();var t={elements:n.elements||\"abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output picture progress section summary template time video\",version:m,shivCSS:n.shivCSS!==!1,supportsUnknownElements:l,shivMethods:n.shivMethods!==!1,type:\"default\",shivDocument:j,createElement:g,createDocumentFragment:h,addElements:e};a.html5=t,j(b)}(this,document);",
+			"file": "acontent/js/html5shiv.min.js",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 2636,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<div class=\"side-content sticky-side-content hidden-xs\" id=\"side-menu\">\n	<div class=\"side-content-inner\">\n		<!--sidebar nav start-->\n		<ul class=\"nav nav-pills nav-stacked custom-nav\">\n			<li class=\"user dropdown\">\n				<a href=\"#\" data-toggle=\"dropdown\" class=\"dropdown-toggle\">\n					<img class=\"avatar\" src=\"https://cdn.highlow.net/acontent/images/default.jpg\" />\n					<span>\n						Hi, Hamish!\n					</span>\n					<i class=\"sprite-icon__down-pink-sm menu-list--dropdown-icon\"></i>\n				</a>\n				<ul class=\"dropdown-menu\">\n					<li>\n						<a href=\"#\">\n							<i class=\"fa fa-user\"></i> My Profile\n						</a>\n					</li>\n					<li>\n						<a href=\"#\">\n							<i class=\"fa fa-key\"></i> Change Password\n						</a>\n					</li>\n					<li>\n						<a href=\"#\">\n							<i class=\"fa fa-sign-out\"></i> SIGN OUT\n						</a>\n					</li>\n				</ul>\n			</li>\n			<li>\n				<div class=\"side-content--header\">\n					MENU\n				</div>\n			</li>\n			<li >\n				<a href=\"#\">\n					<i class=\"fa fa-globe fa-icon\"></i> <span>Dashboard</span>\n				</a>\n			</li>\n			<li class=\"{{ promotion }}\">\n				<a href=\"#\">\n					<i class=\"fa fa-star fa-icon\"></i> <span>Promotions</span>\n				</a>\n			</li>\n			<li class=\"menu-list\">\n				<a href=\"javascript:void(0);\">\n					<i class=\"fa fa-signal fa-icon\"></i> \n					<span>Reports</span> \n					<i class=\"sprite-icon__down-grey-sm menu-list--dropdown-icon\"></i>\n				</a>\n				<ul class=\"sub-menu-list\">\n					<li class=\"\">\n						<a href=\"#\">\n							<span>Clicks</span>\n						</a>\n					</li>\n					<li class=\"\">\n						<a href=\"#\">\n							<span>Conversion</span>\n						</a>\n					</li>\n				</ul>\n			</li>\n			<li class=\"\">\n				<a href=\"#\">\n					<i class=\"fa fa-link fa-icon\"></i> <span>Direct Links</span>\n				</a>\n			</li>\n			<li class=\"\">\n				<a href=\"#\">\n					<i class=\"fa fa-dollar fa-icon\"></i> <span>Payout</span>\n				</a>\n			</li>\n		</ul>\n		<!--sidebar nav end-->\n	</div>\n</div>",
+			"file": "templates/includes/side-menu.liquid",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 1868,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "*[class^=sprite-icon] {\n	display: inline-block;\n	vertical-align: middle;\n	&:before {\n		content: \"\";\n		display: inline-block;\n		vertical-align: middle;\n	}\n}\n\n.sprite-icon__down-grey-sm {\n	&:before {\n		.sprite(@down-grey-sm);\n	}\n}\n\n.sprite-icon__down-pink-sm {\n	&:before {\n		.sprite(@down-pink-sm);\n	}\n}\n\n.sprite-icon__down-white-sm {\n	&:before {\n		.sprite(@down-white-sm);\n	}\n}",
+			"file": "acontent/less/affiliate/components/sprite-icon.less",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 376,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "module.exports = function(grunt) {\n	\"use strict\";\n	\n	require(\"matchdep\").filterDev(\"grunt-*\").forEach(grunt.loadNpmTasks);\n\n\n	var compression = require('compression');\n\n	grunt.initConfig({\n		pkg: grunt.file.readJSON(\"package.json\"),\n		connect: {\n			server: {\n				options: {\n					port: 9004,\n					base: './compiled/',\n					keepalive: true,\n					hostname: '*',\n					middleware: function(connect, options, middlewares) { \n						middlewares.unshift(compression()); \n						return middlewares; \n					}\n				}\n			}\n		},\n		less: {\n			main: {\n				files: {\n					'compiled/acontent/css/post-login.css': [\n						'acontent/less/post-login.less'\n					]\n				},\n				options: {\n					compress: true,\n					sourceMap: true,\n					sourceMapFilename: 'post-login.css.map',\n					sourceMapURL: 'compiled/acontent/css/',\n					sourceMapRootpath: '/'\n				}\n			}\n		// ,\n		// 	page: {\n		// 		files: [{\n		// 			expand: true,\n		// 			cwd: 'assets/less/page-specific/',\n		// 			src: ['*.less'],\n		// 			dest: 'compiled/assets/css/',\n		// 			ext: '.css'\n		// 		}\n		// 		],\n		// 		options: {\n		// 			compress: true\n		// 		}\n		// 	}\n		// },\n		// concat : {\n		// 	options: {\n		// 		separator: grunt.util.linefeed + ';' + grunt.util.linefeed\n		// 	},\n		// 	js: {\n		// 		src: [\n		// 		'assets/js/site.base.js',\n		// 		'assets/js/site-components/*.js'\n		// 		],\n		// 		dest: 'compiled/assets/js/site.js'\n		// 	},\n		// 	thirdPartiesJs: {\n		// 		src: [\n		// 			'../shared/js/modernizr-2.8.3.js',\n		// 			'../shared/js/jquery-1.11.1.min.js',\n		// 			'../shared/js/jquery-ui.min.js',\n		// 			'../shared/js/jquery.placeholder.min.js',\n		// 			'../shared/js/jquery.selectBoxIt.js',\n		// 			'../shared/js/jquery.touchSwipe.min.js',\n		// 			'../shared/js/jquery.icheck.min.js',\n		// 			'../shared/js/jquery.validate.min.js',\n		// 			'../shared/js/imagesloaded.pkgd.min.js',\n		// 			'../shared/js/fastclick.js',\n		// 			'../shared/js/selectivizr.js',\n		// 			'../shared/js/velocity.min.js'\n		// 		],\n		// 		dest: 'compiled/assets/js/third-parties.js'\n		// 	},\n		// 	homeMade: {\n		// 		src: [\n		// 			'../shared/js/home-made/VerticalScrollToggler.js',\n		// 			'../shared/js/home-made/FullScreenSlide.js',\n		// 			'../shared/js/home-made/TypeWriter.js',\n		// 			'../shared/js/home-made/ImageContainerFadeIn.js',\n		// 			'../shared/js/home-made/Toggler.js',\n		// 			'../shared/js/home-made/ClickScrollTo.js',\n		// 			'../shared/js/home-made/Utils.js'\n		// 		],\n		// 		dest: 'compiled/assets/js/home-made.js'\n		// 	}\n		},\n		bless: {\n			main: {\n				options: {\n					cacheBuster: false,\n					compress: true,\n					force: true\n				},\n				files: {\n					'compiled/acontent/css/post-login-split.css': 'compiled/acontent/css/post-login.css'\n				}\n			}\n		},\n		// uglify: {\n		// 	js: {\n		// 		files: {\n		// 			'compiled/assets/js/site.min.js': [\n		// 			'compiled/assets/js/site.js'\n		// 			]\n		// 		}\n		// 	},\n		// 	thirdParties: {\n		// 		files: {\n		// 			'compiled/assets/js/third-parties.min.js': [\n		// 				'compiled/assets/js/third-parties.js'\n		// 			]\n		// 		}\n		// 	},\n		// 	homeMade: {\n		// 		files: {\n		// 			'compiled/assets/js/home-made.min.js': [\n		// 				'compiled/assets/js/home-made.js'\n		// 			]\n		// 		}\n		// 	}\n		// },\n		liquid: {\n			options: {\n				includes: 'templates/includes'\n			},\n			pages: {\n				files: [{\n					cwd: 'templates/',\n					expand: true,\n					flatten: false,\n					src: ['**/*.liquid', \"!includes/**/*.liquid\"],\n					dest: 'compiled/',\n					ext: '.html'\n				}]\n			}\n		},\n		copy: {\n			main: {\n				files: [{\n					expand: true,\n					flatten: false,\n					cwd: 'acontent/',\n					src: ['**/*.*'],\n					dest: 'compiled/acontent/'\n				}]\n			}\n		},\n		// compress: {\n		// 	main: {\n		// 		options: {\n		// 			mode: 'gzip'\n		// 		},\n		// 		expand: true,\n		// 		cwd: '/assets/js/',\n		// 		src: ['**/*'],\n		// 		dest: '/assets/js/'\n		// 	}\n		// },\n		sprite: {\n			all: {\n				src: ['acontent/images/sprite-src/*.png'],\n				destImg: 'compiled/acontent/images/a-spritesheet.png',\n				destCSS: 'acontent/less/affiliate/aff-spritesheet.less',\n				algorithm: 'binary-tree',\n				padding: 2,\n				imgPath: \"../images/a-spritesheet.png\"\n			}\n			// ,\n			// all2x: {\n			// 	src: ['assets/spritesheet-2x/*.png'],\n			// 	destImg: 'compiled/assets/images/spritesheet-2x.png',\n			// 	destCSS: 'assets/less/spritesheet-2x.less',\n			// 	algorithm: 'binary-tree',\n			// 	padding: 2,\n			// 	imgPath: \"../images/spritesheet-2x.png\"\n			// }\n		},\n		watch: {\n			styles: {\n				files: ['acontent/less/**/*.*'],\n				tasks: ['less','bless'],\n				options: {\n					nospawn: false,\n					livereload: false\n				}\n			},\n			images: {\n				files: ['acontent/images/*.*'],\n				tasks: ['newer:copy'],\n				options: {\n					nospawn: false,\n					livereload: false\n				}\n			},\n			sprite: {\n				files: ['acontent/images/sprite-src/*.*'],\n				task: ['sprite','less','bless','imagemin'],\n				options: {\n					livereload: false\n				}\n			},\n			js: {\n				files: ['acontent/js/**/*.js'],\n				tasks: ['copy'],\n				options: {\n					livereload: false\n				}\n			},\n			template: {\n				files: ['templates/**/*.liquid'],\n				tasks: ['liquid','copy']\n			}\n		},\n		concurrent: {\n			all: {\n				tasks: ['connect:server', 'watch'],\n				options: {\n					logConcurrentOutput: true\n				}\n			}\n		}\n	});\n	\n\n	grunt.registerTask('default', [ 'sprite','less','bless','newer:copy','newer:liquid', 'concurrent:all']);\n	// grunt.registerTask('default', ['sprite', 'newer:less', 'newer:concat', 'uglify','compress', 'newer:liquid', 'bless','copy',  'concurrent:all']);\n};\n\n\n",
+			"file": "Gruntfile.js",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 5447,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": ".navbar-fixed-top {\n	position: fixed !important;\n	z-index: @zindex-navbar-fixed;\n	\n	.navbar-nav.navbar-right:last-child {\n		margin-right: 0;\n	}\n}\n",
+			"file": "acontent/less/postlogin/header.less",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 146,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "@media (max-width: 767px) {\n	\n	.show-sidebar {\n		.main-content {\n			z-index: 1029;\n			transform: translate3d(230px, 0px, 0px);\n			position: relative;\n		}\n	}\n\n	.main-content {\n		margin-left: 0;\n		\n		.wrapper {\n			padding: 30px 15px;\n			\n			.container {\n				padding: 0;\n			}\n			\n			.container.with-padding {\n				padding: 0 15px;\n			}\n		}\n		\n		.form-group {\n			.btn {\n				width: 100%;\n			}\n		}\n		\n	}\n	\n	.widget-stats {\n		.stats {\n			border-right: none;\n			padding: 10px;\n			border-bottom: solid 1px #fff;\n		}\n		\n		.stats:last-child {\n			border-bottom: none;\n		}\n	}\n	\n	.page-actions {\n		font-size: 11px;\n		margin-top: 8px;\n		\n		> ul > li .affiliate-btn {\n			padding: 4px 8px;\n			font-size: 10px;\n		}	\n	}\n	\n	.download {\n		margin-bottom: 2px;\n	}\n	\n	#banners {\n		.media {\n			> a {\n				width: 100%;\n			}\n		}\n	}\n}",
+			"file": "acontent/less/postlogin/responsive.less",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 804,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": ".side-content {\n    left: 0;\n    position: absolute;\n    top: 0;\n    width: @main-nav-width;\n    background: #222529;\n}\n\n.side-content--header {\n	color: #939393;\n	font-family: @font-mont;\n	font-size: 10px;\n    padding: 22px 24px 14px;\n	letter-spacing: 0.2em;\n}\n\n.sticky-side-content {\n    height: 100%;\n    overflow-y: auto;\n    position: fixed;\n    z-index: 100;\n}\n.sticky-side-content .custom-nav {\n    margin-top: 54px;\n}\n.side-content-collapsed .sticky-side-content {\n    overflow-y: visible;\n}\n\n.side-content-inner {\n    margin-bottom: 50px;\n    padding: 0;\n}\n\n.custom-nav {\n    margin-bottom: 10px;\n    \n    .user .dropdown-menu {\n    	left: 30px;\n\n	    a {\n	    	padding: 10px !important; \n	    }\n	}\n    \n    li .fa {\n	    font-size: 16px;\n	    margin-right: 10px;\n	    text-align: center;\n	    vertical-align: middle;\n	    width: 16px;\n	    color: #dcdcdc;\n	}\n\n	li {\n		.menu-list--dropdown-icon {\n			float: right;\n		}\n		&:hover {\n			.sprite-icon__down-grey-sm {\n				&:before {\n					.sprite(@down-white-sm);\n				}\n			}\n		}\n	}\n    \n	> li + li {\n    	margin-top: 0px;\n	}\n\n    > li {\n    	margin-top: 0px;\n    	&.user {\n    		background: #ee683a;\n    		color: #fff;\n			height: 63px;\n    		padding: 0 24px;\n    		.menu-list--dropdown-icon {\n				float: right;\n				padding-top: 11px;\n			}\n    		> a {\n    			display: block;\n    			.clearfix();\n    		}\n    		> a, > a:hover, > a:active, > a:focus {\n    			background: transparent;\n    			color: #fff;\n    			padding: 10px 0 !important;\n    			position: relative;\n    			text-decoration: none;\n    			text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);\n    			\n    			.avatar {\n    				border-radius: 50%;\n    				/* margin-right: 12px; */\n    				max-width: 44px;\n    				position: relative;\n    				display: inline-block;\n    				vertical-align: top;\n    			}\n    			\n    			.user-arrow {\n					float: right; \n    				position: relative; \n    				top: 15px; \n    			}\n    			\n    			span {\n    				position: relative;\n    				display: inline-block;\n    				vertical-align: initial;\n    				top: 13px;\n    				text-overflow: ellipsis;\n    				width: 90px !important;\n    				margin-left: 12px;\n    			}\n    		}\n    	}\n    	\n	     > a {\n		    border-radius: 0;\n		    color: #a2a2a2;\n		    font-size: 13px;\n		    font-weight: 500;\n		    padding: 13px 24px 11px!important;\n		    \n		    &:hover, &:active, &:focus {\n			    background-color: @main-nav-link-bg;\n			    border-radius: 0;\n			    color: #fff;\n		    }\n\n		    &:active, &:focus {\n		    	.fa-icon {\n			    	color: @main-nav-link-color-active;\n			    }\n		    }\n		}\n		\n		&.nav-active {\n			> a, > a:hover, > a:active, > a:focus {\n				background-color: @main-nav-link-bg;\n			    color: #fff;\n			    \n			    .fa-icon {\n			    	color: @main-nav-link-color-active;\n			    }\n			}\n			\n			> ul {\n				display: block;\n			}\n		}\n		\n		&.active {\n			 > a, > a:hover, > a:active, > a:focus {\n				background: none repeat scroll 0 0 @main-nav-link-bg;\n	    		color: #fff;\n	    		text-decoration: none;\n	    		\n	    		.fa-icon {\n			    	color: @main-nav-link-color-active;\n			    }\n			}\n		}\n	}\n\n	\n	.menu-list.active ul {\n	    display: block;\n	}\n	\n	.sub-menu-list {\n	    background: #2c2f35;\n		display: none;\n	    list-style: none outside none;\n	    margin: 0;\n	    padding: 0;\n	    text-transform: capitalize;\n	    \n	    ul {\n		    border: 0 none;\n		    margin-left: 12px;\n		}\n	    \n		> li {\n			\n			\n			\n			&:last-child {\n				> a {\n					border-bottom: none;\n				}\n			}\n\n			&:hover {\n				background: none repeat scroll 0 0 @main-nav-link-bg;\n				> a {\n					border-bottom-color: transparent;\n				}\n			}\n\n			.fa {\n			    font-size: 12px;\n			    margin-right: 5px;\n			    opacity: 0.5;\n			    text-align: left;\n			    vertical-align: baseline;\n			    width: auto;\n			}\n		\n		 	> a {\n			    color: @main-nav-link-color;\n			    display: block;\n			    font-size: 13px;\n			   	padding: 12px 0px 12px;\n			   	padding-left: 29px;\n			   	margin: 0 24px;\n			    transition: all 0.2s ease-out 0s;\n			    border-bottom: 1px solid #373b42;\n			    &:hover, &:active, &:focus {\n	    			\n	    			color: #fff;\n	    			text-decoration: none;\n	    			\n	    			.fa-icon {\n			    		color: @main-nav-link-color-active;\n			    	}\n				}\n			}\n			\n			&.active{\n				> a, > a:hover, > a:active, > a:focus {\n	    			background: none repeat scroll 0 0 @main-nav-link-bg;\n	    			color: #fff;\n	    			text-decoration: none;\n	    			\n	    			.fa-icon {\n			    		color: @main-nav-link-color-active;\n			    	}\n				}\n			}\n		}\n	}\n	\n}\n\n.sidebar-toggler, .sidebar-toggler:focus, .sidebar-toggler:hover {\n	background: none;\n	border: medium none;\n	border-radius: 0;\n	padding: 6px 0;\n	position: relative;\n	float: left;\n	\n	.icon-bar {\n		background-color: #ee683a;\n	}\n}",
+			"file": "acontent/less/postlogin/side-menu.less",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 4698,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "@import \"aff-spritesheet.less\";\n@import \"components/sprite-icon.less\";\n@import \"components/p-css-table.less\";\n@import \"components/banner.less\";\n@import \"components/header-block.less\";\n@import \"components/header.less\";\n@import \"components/get-code-modal.less\";\n\n\nbody {\n	font-family: 'Roboto', 'Helvetica', Arial, sans-serif!important;\n}\n\n.word {\n	display: inline-block;\n}\n\n\n\n.btn {\n	outline: none!important;\n	&:active {\n		top : auto;\n		.translate(0px,1px);\n	}\n}",
+			"file": "acontent/less/affiliate/point-hl-affiliate-account.less",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 461,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": ".header-block-1 {\n	padding: 17px 25px 12px; \n	background-color: #ecebeb;\n	color: #2c2f35;\n	font-size: 14px;\n	line-height: 15px;\n}\n\n.header-block-2 {\n	padding: 17px 25px 12px 20px; \n	background-color: #ecebeb;\n	color: #939393;\n	font-family: @font-mont;\n	font-size: 10px;\n	line-height: 15px;\n	letter-spacing: 0.2em;\n}",
+			"file": "acontent/less/affiliate/components/header-block.less",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 315,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "header {\n	.high-low {\n		.sprite(@header-logo);\n	}\n}\n\n.navbar.post-login {\n	padding-top: 13px;\n	padding-bottom: 12px;\n\n}\n\n.container-fluid {\n	.navbar.post-login & {\n		padding-left: 24px;\n		padding-right: 24px;\n	}\n}\n\n.commission-status {\n	font-size: 14px;\n	line-height: 28px;\n	font-weight: 400;\n	color: #9a9ca2;\n}\n\n	.commission-status--value {\n		color: #fff;\n	}",
+			"file": "acontent/less/affiliate/components/header.less",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 359,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": ".banners--search {\n	font-size: 14px;\n	display: inline-block;\n	margin-right: 15px;\n	label {\n		font-weight: 400;\n	}\n}\n\n.banners--sort {\n	display: inline-block;\n	cursor: pointer;\n	position: relative;\n	> label {\n		width: 93px;\n		cursor: pointer;\n		height: 31px;\n		border: 1px solid #cccccc;\n		text-align: left;\n		font-weight: 400;\n		font-size: 13px;\n		line-height: 31px;\n		display: block;\n		padding: 0px 15px;\n		background-image: url(../images/sort.png);\n		background-repeat: no-repeat;\n   	 	background-position: 70px 9px;\n		background-color: #f0f2f4;\n	}\n}\n\n.banners--sort--options {\n	position: absolute;\n	display: none;\n	top: 32px;\n	right: 0px;\n    width: 230px;\n	background-color: #f0f2f4;\n	border: 1px solid #cccccc;\n	padding: 10px 0px 5px;\n}\n\n.banners--sort--option {\n    padding: 10px 20px;\n	text-align: left;\n	position: relative;\n	label {\n		display: inline-block;   \n		width: 124px;\n		font-weight: 400;\n	}\n	select {\n		background-image: none;\n    	position: relative;\n    	height: 25px;\n    	border: 1px solid #ccc;	\n    	display: inline-block;\n		vertical-align: middle;\n	}\n}\n\n.banners--search-options {\n	text-align: right;\n	position: relative;\n    margin-bottom: 15px;\n	z-index: 10;\n}\n\n#banners-search-input {\n	display: inline-block;\n	width: 146px;\n	height: 28px;\n	padding: 5px 15px;\n	font-size: 14px;\n}\n\n.banners--filters {\n	@media (min-width: 991px) {\n		float: right;\n		padding-left: 0px;\n		padding-right: 0px;\n		margin-right: 0px;\n	}\n}\n\n.banners--filter-list {\n	padding: 8px 0 30px;\n	@media (max-width: 768px) {\n		background-color: #f0f2f4;\n	}\n}\n\n.banners--filter {\n	> label {\n		font-weight: 500;\n		color: #2c2f35;\n		font-size: 12px;\n		padding: 13px 20px 13px;\n		display: block;\n		margin-bottom: 0px;\n		border-bottom: 1px solid #e3e1e1;\n	}\n	&.active {\n		> label {\n			border-bottom: none;\n		}\n	}\n}\n\n.banners-filter-option {\n	display: none;\n	background-color: #F9F9F9;\n    position: relative;\n    padding: 12px 20px 10px;\n	font-size: 12px;\n	border-bottom: 1px solid #e3e1e1;\n	label {\n	    font-weight: 400;\n	    display: inline-block;\n	    margin-right: 1em;\n	    width: 40%;    \n	    padding-left: 21px;\n	    text-align: left;\n	    position: relative;\n    	vertical-align: top;\n	    input {\n	    	position: absolute;\n	    	top: -1px;\n	    	left: 0px;\n	    }\n	}\n}\n\n.banners--list {\n	background-color: #fff;\n	@media (min-width: 991px) {\n		padding-right: 0px;\n		padding-left: 0px;\n	}\n}\n\n.banners--panel {\n	@media (max-width: 768px) {\n		margin-left: -15px;\n		margin-right: -15px;\n	}\n	#banners & {\n		background-color: #f0f2f4;\n		@media (max-width: 768px) {\n			background-color: transparent;\n		}\n	}\n}\n\n.header-block-1 {\n	#banners & {\n		border-bottom: 1px solid #e3e1e1;\n	}\n}\n\n.header-block-2 {\n	border-bottom: 1px solid #e3e1e1;\n}\n\n.banner--item {\n	border-bottom: 1px solid #E8E8E8;\n	&.first-child {\n		border-top: 1px solid #E8E8E8;\n	}\n\n	&:hover {\n		background-color: #f9fafb;\n	}\n}\n\n	.banner--item-content {\n		min-height: 187px;\n	}\n\n.banner--preview-container {\n	vertical-align: middle;\n	background-color: #f0f2f4;\n	width: 240px!important;\n	min-height: 210px!important;\n	text-align: center;\n	position: relative;\n\n	.banner--item:hover & {\n		background-color: #f9fafb;\n	}\n}\n\n.banner--preview {\n	display: block;\n	position: relative;\n	width: 240px!important;\n	height: 210px!important;\n	top: 0px;\n	left: 0px;\n}\n\n.banner--details {\n	padding: 30px 33px 26px;\n	position: relative;\n    min-height: 210px;\n	.banner--item:hover & {\n		background-color: #f9fafb;\n		&:before,\n		&:after {\n			content: \"\";\n			display: block;\n			position: absolute;\n			height: 100%;\n			left: 0;\n			top: 0;\n			width: 2px;\n			background-color: #fff;\n			z-index: 100;\n		}\n\n		&:after {\n			left: auto;\n			right: 0px;\n		}\n	}\n}\n	.banner--details--banner-name {\n		color: #33363d;\n		font-weight: 400;\n		font-size: 16px;\n		margin: 0px 0px 10px;\n		strong {\n			font-weight: 700;\n		}\n	}\n	.banner--details--banner-format {\n		font-style: italic;\n	}\n	.banner--details--campaign-name {\n		color: #ee683a;\n		font-size: 14px;    \n		min-height: 106px;\n	}\n\n	.banner--details--target-link {\n		color: #868686;\n		font-size: 12px;\n		float: left;\n	}\n\n	.banner--details--get-code-btn,\n	.banners--filter--apply-btn,\n	.banners--sort--apply-btn,\n	.banners--sort--option .clear {\n		font-family: @font-mont;\n		font-size: 10px;\n		letter-spacing: 0.08em;\n		padding: 9px 19px 7px 16px;\n		float: right;        \n		margin-top: -19px;\n	}\n\n.banner--viewable-preview {\n	position: absolute;\n	&.mrec {\n		width: 300px;\n		height: 250px;\n	}\n}\n\n.banner--viewable--cover {\n	width: 100%;\n	height: 100%;\n	display: block;\n}\n\n.banner--viewable--cover {\n	position: absolute;\n	cursor: pointer;\n	width: 100%;\n	height: 100%;\n	z-index: 9;\n	top: 0;\n	left: 0;\n	&:before {\n		content: \"\";\n		position: absolute;\n		display: block;\n		width: 100%;\n		height: 100%;\n		top: 0px;\n		left: 0px;\n		z-index: 1;\n		background-repeat: no-repeat;\n		background-position: center center;\n		background-image: url(../images/preview-btn.png);\n		.opacity(00);\n	}\n\n	.banner--playable & {\n		&:before {\n			// background-image: url(../images/play-btn.png);\n		}\n	}\n\n	&:hover {\n		&:before {\n			.opacity(80);\n		}\n	}\n\n	.banner--item:hover & {\n		&:before {\n			.opacity(100);\n		}\n	}\n}\n\n	.banner--viewable--screenshot {\n		display: block;\n		z-index: 0;\n		position: absolute;\n		top: 15px;\n		left: 15px;\n		right: 15px;\n		bottom: 15px;\n		background-repeat: no-repeat;\n		background-size: contain;\n		background-position: center center;\n	}\n\n\n.banner--viewable-preview-container {\n	position: absolute;\n	z-index: -1;\n	left: 0;\n	top: 0;\n	background-color: #fff;\n	.opacity(0);\n	.transition(opacity 0.125s ease);\n	&.active {\n		z-index: 10;\n		.transition(all 0.125s ease);\n		.opacity(100);\n	}\n}\n\n.banner-code-holder {\n	.banner--item & {\n		display: none;\n	}\n}\n\n.banners--pagination {\n	background-color: #fff;\n	text-align: center;\n}\n\n	.pagination {\n		.banners--pagination & {\n			margin: 40px auto;\n			float: none;\n			display: inline-block;\n			> li {\n				display: inline-block;\n				float: none;\n				>span,\n				>a {\n					margin-right: 1px!important;\n					background-color: #ecebeb;\n					border: none!important;\n					color: #2c2f35;\n					font-size: 10px;\n				}\n\n				&.disabled {\n					>span,\n					>a {\n						img {\n							.opacity(0.5);\n						}\n					}\n				}\n\n				&.active {\n					> span {\n						background-color: #f0f2f4;\n					}\n				}\n			}\n		}\n	}\n\n	.banners--filter--apply {\n		text-align: center;\n		padding: 15px 20px;\n	}\n\n	.btn.banners--filter--apply-btn.btn-extruded,\n	.btn.banners--sort--apply-btn.btn-extruded {\n		background-color: #dedede;\n		color: #33363d!important;\n		margin-top: 0px;\n		border: 0px solid #dedede;\n		border-bottom: 3px solid #C3C3C3;\n		.transition(all 0.125s ease); \n		&:hover {\n			border: 0px solid #fff;\n			background-color: #fff!important;\n			border-bottom: 3px solid #d3d3d3;\n		}\n	}\n\n	.banners--sort--option .clear {\n		margin: 0;\n	}\n\n	",
+			"file": "acontent/less/affiliate/components/banner.less",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 6810,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#get-code-modal {\n	// background-color: #3e424a;\n	height: 100%;\n	width: 100%;\n}\n	.modal-dialog {\n		#get-code-modal & {\n			width: 100%;\n			margin: 0 auto;\n			max-width: 728px + 66px;\n		}\n	}\n\n	.modal-body {\n		#get-code-modal & {\n			font-size: 14px;\n			padding: 0px;\n			color: #2c2f35;\n			line-height: 24px;\n		}\n	}\n\n	.modal-content {\n		#get-code-modal & {\n			padding: 3px;\n			border-radius: 0px;\n			box-shadow: none;\n			border: none;\n		}\n	}\n\n	.close {\n		#get-code-modal & {\n			position: absolute;\n			top: 20px;\n			right: 20px;\n    		z-index: 1000;\n		}\n	}\n\n	iframe {\n		#get-code-modal & {\n			background-color: #fff;\n			background-image: url(../images/loading-lighter.gif);\n			background-repeat: no-repeat;\n			background-position: center center;\n			display: block;\n			margin: 0 auto;\n		}\n	}\n\n	textarea {\n		#get-code-modal & {\n			width: 100%;\n			height: 190px; \n			resize: none;\n			margin-bottom: 22px;\n		}\n	}\n\n	.btn {\n		#get-code-modal & {\n			font-size: 10px;\n			letter-spacing: 0.08em;\n			padding: 9px 15px 8px;\n			line-height: 15px;\n		}\n	}\n\n	p {\n		#get-code-modal & {\n			font-size: 14px;\n		}\n	}\n\n	#get-code-modal--banner-preview {\n		vertical-align: middle;\n		padding: 33px;\n		background-color: #f0f2f4;\n		background-image: url(../images/loading-lighter.gif);\n		background-repeat: no-repeat;\n		background-position: center center;\n	}\n\n	.get-code-modal--banner-details {\n		vertical-align: top;\n		padding: 33px;\n	}\n\n	.get-code-modal--banner-details--add-custom-code {\n		font-size: 12px;\n		color: #16171a!important;\n		text-decoration: none!important;\n		margin-bottom: 15px;\n		display: inline-block;\n		i {\n			font-size: 16px;\n			color: #ee683a;\n			vertical-align: middle;\n			position: relative;\n			display: inline-block;\n			top: -1px;\n		}\n		&:hover {\n			i {\n				color: #f07843;\n			}\n		}\n	}\n\n	#get-code-modal--banner-preview {\n		#get-code-modal .vertical & {\n			padding-top: 48px;\n		}\n	}\n\n	#get-code-modal--banner-preview {\n		@media (max-width: 793px) {\n			padding-top: 48px;\n		}\n	}\n\n	.p-css-table {\n		#get-code-modal .vertical & {\n			display: block!important;\n		}\n	}\n\n	.p-css-table-row,\n	.p-css-table-cell {\n		#get-code-modal .vertical & {\n			display: block!important;\n		}\n	}\n\n	#get-code-modal .p-css-table,\n	#get-code-modal .p-css-table-row,\n	#get-code-modal .p-css-table-cell {\n		@media (max-width: 793px) {\n			display: block!important;\n		}\n	}",
+			"file": "acontent/less/affiliate/components/get-code-modal.less",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 2336,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Pa",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"Package Control: Remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"INstall",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/postlogin",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/compiled",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates"
+	],
+	"file_history":
+	[
+		"/Users/andrew-pham/Downloads/affiliate/view-promotion.html",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/get-code-modal.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/highlow/highlow.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/post-login.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/header-block.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/banner.less",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/point.base.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/compiled/acontent/js/highlow.min.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/highlow.min.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/affiliate/myaccount-promotion-view.html",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/postlogin/post-login.less",
+		"/Users/andrew-pham/development/hl-my-account/common/less/ui-components/p-css-table.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/p-css-table.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/index.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/side-menu.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/Gruntfile.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/base.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/header.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/css/bootstrap-custom.css",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/affiliate/acontent/css/affiliate.css",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/affiliate/ja-myaccount-promotion-view.html",
+		"/Users/andrew-pham/development/point-sites/banners/share-investor/mrect/banner-old-platform.html",
+		"/Users/andrew-pham/development/point-sites/banners/share-investor/leaderboard/banner-old-platform.html",
+		"/Users/andrew-pham/development/point-sites/banners/share-investor/leaderboard/banner-new-platform.html",
+		"/Users/andrew-pham/development/point-sites/banners/share-investor/mrect/banner-new-platform.html",
+		"/Users/andrew-pham/development/hl-my-account/templates/ja-deposit-iframe.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-deposit-iframe.liquid",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/banner/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/banner/logic.js",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/iframe/iframe.js",
+		"/Users/andrew-pham/development/hl-my-account/common/deposit-iframe/scripts/iframe.min.js",
+		"/Users/andrew-pham/development/hl-my-account/common/less/component/reasons.less",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/animated-banner__landing-page-traders.liquid",
+		"/Users/andrew-pham/development/hl-my-account/common/less/pages/animated-banner.less",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components/utils.js",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/leaderboard-usd-sgd-shareInvestor/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/leaderboard-usd-sgd-shareInvestor/logic.js",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/test.html",
+		"/Users/andrew-pham/development/highlow-app/templates/index.liquid",
+		"/Users/andrew-pham/development/highlow-app/common/less/components/popup.less",
+		"/Users/andrew-pham/development/highlow-public-page/Gruntfile.js",
+		"/Users/andrew-pham/development/highlow-app/Gruntfile.js",
+		"/Users/andrew-pham/development/highlow-public-page/live-test/public/trade-platform/css/main.min.css",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/mrec-usd-sgd-shareInvestor/logic.js",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/mrec-usd-sgd-shareInvestor/banner.html",
+		"/Users/andrew-pham/development/hl-my-account/common/less/pages/lp-traders.less",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/animated-banner.liquid",
+		"/Users/andrew-pham/development/hl-my-account/common/less/deposit-iframe/iframe.less",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/trade-layout.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/trade-layout-new-features.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-trade-layout.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-trade-layout-new-features.liquid",
+		"/Users/andrew-pham/development/hl-my-account/common/less/walk-through/walk-through.less",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/trade-platform.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/trade-platform-walkthrough-example.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-trade-platform.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/deposit-iframe.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/deposit-iframe-no-neteller.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/deposit-iframe-disabled.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-deposit-iframe-safecharge-off.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-deposit-iframe-no-neteller.liquid",
+		"/Users/andrew-pham/development/hl-my-account/Gruntfile.js",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/leaderboard/banner.html",
+		"/Users/andrew-pham/development/highlow-public-page/templates/index.liquid",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components/charting.js",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/demo-widget.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-demo-widget.liquid",
+		"/Users/andrew-pham/development/highlow-public-page/public/css/highlow.less",
+		"/Users/andrew-pham/development/hl-my-account/common/less/component/kapitall.less",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components/p-ticker__rates-scroller.js",
+		"/Users/andrew-pham/development/hl-my-account/common/less/lp-logos-icon.less",
+		"/Users/andrew-pham/development/hl-my-account/common/less/main.less",
+		"/Users/andrew-pham/development/hl-my-account/common/less/flags-2x.less",
+		"/Users/andrew-pham/development/hl-my-account/common/less/full-news-feed.less",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/landing-page-traders--template.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/p-footer.liquid",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components/p-ticker.js",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/p-ticker__rates-scroller.liquid",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/point.lp-traders.base.js",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/point.lp-rich.main.js",
+		"/Users/andrew-pham/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/BAF22C8F-9CC6-4CAF-B55E-348A3D3EA3DD/MarketRates 5.js",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/third-party/jquery.xdomainrequest.min.js",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/third-party/MarketRates.js",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/p-ticker__news-scroller.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/p-ticker__news-scroller__platform.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/p-ticker__news-scroller--logged-in.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-p-ticker__news-scroller.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-p-ticker__news-scroller__platform.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-p-ticker__news-scroller--logged-in.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/layout.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-layout.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-layout-home.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-status-bar.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-status-bar-signed-in.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/status-bar.liquid",
+		"/Users/andrew-pham/development/hl-my-account/common/less/ui-components-extended/p-ticker__rates-scroller.less",
+		"/Users/andrew-pham/development/hl-my-account/common/less/ui-components-extended/p-ticker__news-scroller.less",
+		"/Users/andrew-pham/development/hl-my-account/common/less/ui-components/p-ticker.less",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-signup-layout.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-login-layout.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/demo-signup-layout.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/login-layout.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/signup-layout.liquid",
+		"/Users/andrew-pham/development/hl-my-account/common/less/ui-components/p-fill.less",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/point.main.js",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ticker.liquid",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components/animation.js",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/leaderboard/logic.js",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components/p-ticker__news-scroller.js",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/mrec/logic.js",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/skyscrapper/logic.js",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/widescrapper/logic.js",
+		"/Users/andrew-pham/development/highlow-public-page/templates/layouts/mobile-app-landing-layout.liquid",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/widescrapper/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/skyscrapper/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/mrec/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/leaderboard/bluebird.js",
+		"/Users/andrew-pham/development/highlow-public-page/templates/includes/signin-popup.liquid",
+		"/Users/andrew-pham/development/highlow-public-page/templates/includes/common-nav.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/menu-bar.liquid",
+		"/Users/andrew-pham/development/highlow-public-page/templates/includes/main-navigation-demo.liquid",
+		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/form.less",
+		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/btn.less",
+		"/Users/andrew-pham/development/highlow-public-page/templates/includes/ja-signin-popup.liquid",
+		"/Users/andrew-pham/development/highlow-public-page/templates/layouts/layout.liquid",
+		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/menu-bar.less",
+		"/Users/andrew-pham/development/highlow-public-page/templates/includes/extreme-alert.liquid"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less",
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js",
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less",
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/compiled/acontent",
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less",
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate",
+			"/Users/andrew-pham/development/highlow-app/common/less",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/highlow-public-page/public/css",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/highlow-public-page/public/css",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/highlow-public-page/public",
+			"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less",
+			"/Users/andrew-pham/development/highlow-public-page/public/css",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/hl-my-account/common/less/component",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/hl-my-account/common/less/component",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/hl-my-account/common/scripts",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/templates",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/common",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/highlow-public-page/public",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/hl-my-account/templates",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Volumes/Design server/• HighLow/• Website reLaunch Project/0013_Main website work/Point design/• eDMs/_html",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Volumes/Design server/• HighLow/• Website reLaunch Project/0013_Main website work/Point design/• eDMs/_html",
+			"/Users/andrew-pham/development/server-examples-master/php/traditional",
+			"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/hl-my-account/common/scripts",
+			"/Users/andrew-pham/development/hl-my-account/common",
+			"/Users/andrew-pham/development/hl-my-account/live-test/common/scripts",
+			"/Users/andrew-pham/development/hl-my-account/live-test/common/scripts/point-components",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/hl-my-account/common/less/component",
+			"/Users/andrew-pham/development/hl-my-account/common/less/ui-components",
+			"/Users/andrew-pham/development/hl-my-account/common/less/ui-components-extended",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/hl-my-account/common",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/hl-my-account/common/less/independent-blocks",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/hl-my-account/common/less/component",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/umajin-landing-page/common/less",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/common/scripts",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/highlow-signup-rework/common/scripts",
+			"/Users/andrew-pham/development/highlow-signup-rework/common/less/components",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/templates",
+			"/Users/andrew-pham/development/highlow-public-page/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components",
+			"/Users/andrew-pham/development/highlow-public-page/public/css",
+			"/Users/andrew-pham/development/highlow-public-page/public/trade-platform/scripts/src",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/highlow-public-page/templates/layouts",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/templates",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/templates",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/hl-my-account/common/less/component",
+			"/Users/andrew-pham/development/hl-my-account/templates",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/highlow-app/common/scripts",
+			"/Users/andrew-pham/development/hl-my-account/templates",
+			"/Users/andrew-pham/development/hl-my-account/common/trade-platform/scripts",
+			"/Users/andrew-pham/development/hl-my-account",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/common/scripts",
+			"/Users/andrew-pham/development/highlow-app/common/scripts",
+			"/Users/andrew-pham/development/hl-my-account/common/less/component",
+			"/Users/andrew-pham/development/hl-my-account/templates",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/templates",
+			"/Users/andrew-pham/development/highlow-app/common/less",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/umajin-landing-page/common/less/sign-up",
+			"/Users/andrew-pham/development/umajin-landing-page/common/less/components",
+			"/Volumes/Design server/• HighLow/0083_Churn project/• Wed 12 August/_frontEnd",
+			"/Users/andrew-pham/development/hl-my-account/common/less/bootstrap",
+			"/Users/andrew-pham/development/hl-my-account/common/less/component",
+			"/Users/andrew-pham/development/hl-my-account/common/less/bootstrap",
+			"/Users/andrew-pham/development/hl-my-account/common/scripts",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/hl-my-account/common/less/component",
+			"/Users/andrew-pham/development/hl-my-account/common/scripts",
+			"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/common/less/component",
+			"/Users/andrew-pham/development/hl-my-account/common/less/base",
+			"/Users/andrew-pham/development/hl-my-account/common/less/component",
+			"/Users/andrew-pham/development/umajin-landing-page/common/less/components",
+			"/Users/andrew-pham/development/umajin-landing-page/templates/includes",
+			"/Users/andrew-pham/development/umajin-landing-page/common/less/components",
+			"/Users/andrew-pham/development/hl-my-account/common/less/component",
+			"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components",
+			"/Users/andrew-pham/development/umajin-landing-page/common/less/components",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Users/andrew-pham/development/umajin-landing-page/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/templates",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/common/less/component",
+			"/Users/andrew-pham/development/hl-my-account/templates/includes",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/umajin-landing-page/common/less",
+			"/Users/andrew-pham/development/umajin-landing-page/common/scripts/components",
+			"/Users/andrew-pham/development/umajin-landing-page/common/less",
+			"/Users/andrew-pham/development/hl-my-account/common/less",
+			"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"menu-list",
+			"avatar",
+			".page-actions",
+			"margin-top: 2px;",
+			"side-content--header",
+			"h3",
+			".high-low",
+			"(html5/png fallback",
+			"<h4 class=\"banner--details--banner-name\">\n															<strong>",
+			"name",
+			".banners--filter--apply-btn",
+			"clear {",
+			".btn",
+			"width:",
+			"Traders",
+			"&nbsp;&nbsp;",
+			"Cashback",
+			"filter",
+			"pagination",
+			"\n													&nbsp;\n													&nbsp;\n													&nbsp;",
+			".page-heading",
+			"custom-nav",
+			"banner--item",
+			"--playable",
+			"banner--playable",
+			"images",
+			"%;\n",
+			"banner--playable",
+			"banner--preview",
+			"bless",
+			"sort",
+			"body",
+			"hide",
+			"input-wrap",
+			";\n",
+			"banners--filter",
+			";\n",
+			"banner--filter",
+			"banners--filters",
+			"<a",
+			"a",
+			"orientation",
+			"scrollTop",
+			"bannerOption",
+			"media",
+			"apply",
+			".fade",
+			".fade.in",
+			"Open Sans",
+			"'Montserrat",
+			"p-css-table-cell",
+			"<a class=\"banner--preview\"> href=\"https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472975b30e8f.gif\">\n											<img src=\"https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472975b30e8f.gif\">\n												</a>",
+			"css-table",
+			"<div class=\"media\">\n										<a class=\"pull-left\"",
+			"#banners",
+			"media.less",
+			"wolf",
+			"//tstatic2.rtcm.com/",
+			"https://tstatic2.rtcm.com/",
+			"location.hash",
+			"fallback",
+			"show-walk",
+			"safe-charge",
+			"#make-withdrawal-popup",
+			"trading-platform-maximum-return",
+			"trading-platform-main-controls-payout-rate",
+			"panel {",
+			"current-rate",
+			"trading-platform-main-controls-instrument-title",
+			"eng",
+			"select",
+			"Cashback Balance",
+			"#start-line",
+			"method-dropdown-item",
+			"method-selector",
+			"view-all-trade-actions",
+			"left: -",
+			"question-mark {",
+			"question-mark",
+			"bg-2",
+			"320",
+			"cursor",
+			"chart-wrapper",
+			"bg-1-wrapper-inner",
+			"bg1-wrapper-inner",
+			"predict",
+			"trading-platform-popup-header",
+			"height: 520px",
+			"popup-close",
+			"popup-",
+			"android",
+			"Android",
+			"banner-3",
+			"#banner-3-disc",
+			"banner-3",
+			"banner--asx-shadow",
+			"overflow: hidden",
+			".content {",
+			"console",
+			"60px",
+			"468px",
+			"graph-wrapper",
+			"where-",
+			"SGD",
+			"MarketRates",
+			"Gold",
+			"GOLD",
+			"USDSGD",
+			"USD",
+			"precision",
+			"', precision:",
+			"', precision: 2 }",
+			"{ name: '",
+			"css(",
+			"cancelAnimationFrame",
+			"\n<!--[if gt IE 8]><!--> <html class=\"no-js\"> <!--<![endif]-->",
+			"<select",
+			"grunt",
+			"console.log(",
+			"rotate",
+			"'",
+			"speed",
+			"toFixedHtml",
+			"BID",
+			"arrow",
+			"Bid",
+			"BId",
+			"instruments"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"(html5",
+			"<h4 class=\"banner--details--banner-name\">\n															<strong><span class=\"banner--dimensions\">",
+			"",
+			"--viewable",
+			"layout",
+			"p-css-table-cell banner--preview-container",
+			"<div class=\"p-css-table-cell\"><a class=\"banner--preview\"> href=\"https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472975b30e8f.gif\">\n											<img src=\"https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472975b30e8f.gif\">\n												</a></div>",
+			"p-css-table",
+			"<div class=\"media\">\n										<div class=\"css-table\">\n											<div class=\"css-table-row\">\n												<a class=\"pull-left\">",
+			"",
+			"height: 550px",
+			"90px",
+			"768px",
+			"\"precision\"",
+			"\" : { precision:",
+			"\" : { precision: 2 }",
+			"\"",
+			"immediateCancelAnimationFrame",
+			"",
+			"\"",
+			"<img class=\"question-mark-image\"  src=\"question-mark.png\"",
+			".opacity(100",
+			".opacity(80",
+			"(100)",
+			"80)",
+			"jnb-qn",
+			"jnb_qn_",
+			"height: 90px;",
+			"width: 728px;",
+			"160",
+			"",
+			"\"http://point.agency/highlow/public/ja-trade-platform-quick-demo.html\"",
+			"\"http://point.agency/highlow/public/trade-platform-quick-demo.html\"",
+			"price-down",
+			"price-up",
+			"",
+			"<img alt=\"image\" ",
+			"http://en.demo.highlow.net/Account/QuickDemoLogin?language=en-US",
+			" href=\"http://en.demo.highlow.net/\" demo-link",
+			"href=\"https://en2.highlow.net/account\" signup-link",
+			" href=\"http://en.demo.highlow.net/\" demo-link",
+			"https://en2.highlow.net/account",
+			"http://en.demo.highlow.net/",
+			"https://en2.highlow.net/account",
+			"0.6",
+			"0.8",
+			"",
+			"secondary_id",
+			"primary_id",
+			"secondary_prefix",
+			"primary_prefix",
+			"2A2A2A",
+			"2a2a2a",
+			".opacity(1",
+			"href=\"https://en2.highlow.net/landing?utm_source=ShareInvestor&utm_medium=email&utm_campaign=EDM1",
+			"href=\"https://cdn.highlow.net/campaign/images/",
+			"https://cdn.highlow.net/campaign/images/",
+			"/dec1000",
+			"/dec500",
+			"/dec25",
+			"/dec15",
+			"/dec1",
+			"dec5000",
+			"/3",
+			"jpy",
+			"eur",
+			"<span class=\"em_hide\">&#8203;</span>",
+			"font-size:12px; line-height:18px;",
+			"動画ライブラリー",
+			"用語集",
+			"取引ツール <br />クイックガイド",
+			"よくあるご質問",
+			"<a style=\"display: block; margin: 0; padding: 0; border: none; outline: none; text-decoration: none;",
+			"</span>&#8203;<span class=\"word\">",
+			"font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro',Osaka, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;",
+			"</span>&#8203;<span class=\"word\">",
+			"font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro',Osaka, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;",
+			"</span>&#8203;<span class=\"word\">",
+			"font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro',Osaka, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;",
+			"</span>&#8203;<span class=\"word\">",
+			"font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro',Osaka, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;",
+			"</span>&#8203;<span class=\"word\">",
+			"'Montserrat', Helvetica, Arial, sans-serif;",
+			"'Roboto', Helvetica, Arial, sans-serif;",
+			"</span><span class=\"word\">",
+			"font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro',Osaka, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;",
+			"</span><span class=\"word\">",
+			"font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro',Osaka, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;",
+			"</span><span class=\"word\">",
+			"font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro',Osaka, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;",
+			"</span><span class=\"word\">",
+			"font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro',Osaka, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;",
+			"</span><span class=\"word\">",
+			"<a style=\"display: block; margin: 0; padding: 0; border: none; outline: none;\"",
+			"src=\"",
+			"url(",
+			"src=\"",
+			"url(",
+			"src=\"",
+			"src=\"/",
+			"<img alt=\"\"",
+			"img alt=\"\"",
+			"url(/",
+			"src=\"/",
+			"url(/",
+			"",
+			"-trade))",
+			"currency+cashback))",
+			"currency+account))",
+			"currency+account)",
+			"currency+trade)",
+			"point.utils.getDisplayMoney(currency+",
+			"<span class='eng'>{s}</span>",
+			"90px",
+			"728px",
+			"//console.",
+			"vel(e",
+			"'].velocity({",
+			"",
+			"250",
+			"300",
+			"",
+			"name=\"status_filter[]\"",
+			"name=\"type_filter[]\"",
+			"name=\"type_",
+			"1.2",
+			"</span><span class=\"word\">",
+			"_transaction-history"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 12,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "templates/index.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								269
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/view-promotions.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37010,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1159,
+								1159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 36.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "acontent/js/highlow-affiliate.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "acontent/less/postlogin/post-login.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								745,
+								745
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 515.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "compiled/view-promotions.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40841,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Enhanced HTML and CFML/EnhancedHTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/andrew-pham/development/point-sites/banners/market-related/test.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								266
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Enhanced HTML and CFML/EnhancedHTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "compiled/acontent/css/post-login.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 228606,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227905,
+								227905
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "compiled/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1898,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1861,
+								1861
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Enhanced HTML and CFML/EnhancedHTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "templates/includes/header.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 930,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								818,
+								818
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "acontent/less/affiliate/components/p-css-table.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "templates/includes/base.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1757,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "acontent/js/html5shiv.min.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2636,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "templates/includes/side-menu.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1868,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								900,
+								900
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 27.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "acontent/less/affiliate/components/sprite-icon.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3794,
+								3794
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2579.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "acontent/less/postlogin/header.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "acontent/less/postlogin/responsive.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 804,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								563,
+								563
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 17,
+					"file": "acontent/less/postlogin/side-menu.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4698,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3200,
+								3200
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2796.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "acontent/less/affiliate/point-hl-affiliate-account.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								461,
+								461
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "acontent/less/affiliate/components/header-block.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "acontent/less/affiliate/components/header.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								253,
+								253
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "acontent/less/affiliate/components/banner.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6810,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6141,
+								6141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5772.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "acontent/less/affiliate/components/get-code-modal.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								906,
+								910
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "hl-affiliates-account.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"%.gz:"
+			]
+		],
+		"width": 816.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 499.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
