@@ -4,6 +4,7 @@
     top: 0;
     width: @main-nav-width;
     background: #222529;
+    overflow-y: auto;
 }
 
 .side-content--header {
@@ -16,12 +17,23 @@
 
 .sticky-side-content {
     height: 100%;
-    overflow-y: auto;
     position: fixed;
     z-index: 100;
+    overflow: hidden;
+}
+.stick-side-content--inner-wrapper {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: -30px;
+    overflow-y: auto;
+    position: absolute;
 }
 .sticky-side-content .custom-nav {
     margin-top: 54px;
+    @media (max-width: 767px) {
+    	margin-top: 75px;
+    }
 }
 .side-content-collapsed .sticky-side-content {
     overflow-y: visible;
@@ -30,6 +42,11 @@
 .side-content-inner {
     margin-bottom: 50px;
     padding: 0;
+    position: absolute;
+    left: 0;
+   	width: 230px;
+    z-index: 1;
+    background-color: #222529;
 }
 
 .custom-nav {
@@ -196,9 +213,10 @@
 			}
 
 			&:hover {
-				background: none repeat scroll 0 0 @main-nav-link-bg;
+				//background: none repeat scroll 0 0 @main-nav-link-bg;
 				> a {
-					border-bottom-color: transparent;
+					color: #fff;
+					// border-bottom-color: transparent;
 				}
 			}
 
@@ -216,7 +234,7 @@
 			    display: block;
 			    font-size: 13px;
 			   	padding: 12px 0px 12px;
-			   	padding-left: 29px;
+			    padding-left: 23px;
 			   	margin: 0 24px;
 			    transition: all 0.2s ease-out 0s;
 			    border-bottom: 1px solid #373b42;
@@ -246,6 +264,177 @@
 	}
 	
 }
+
+.side-menu-item-icon {
+	display: inline-block;
+	width: 20px;
+	height: 16px;
+	position: relative;
+
+	.side-menu-item-icon--default,
+	.side-menu-item-icon--hover,
+	.side-menu-item-icon--active {
+		position: absolute;
+		left: 0px;
+		top: 1px;
+	}
+
+	*[class*='sprite-icon__dollar'] {
+		top: 0px;
+	}
+
+	.side-menu-item-icon--default {
+		.opacity(1);
+	}
+	.side-menu-item-icon--hover {
+		.opacity(0);
+	}
+	.side-menu-item-icon--active {
+		.opacity(0);
+	}
+	li:hover & {
+		.side-menu-item-icon--default {
+			.opacity(0);
+		}
+		.side-menu-item-icon--hover {
+			.opacity(1);
+		}
+		.side-menu-item-icon--active {
+			.opacity(0);
+		}
+	}
+	li.active &,
+	li.nav-active & {
+		.side-menu-item-icon--default {
+			.opacity(0);
+		}
+		.side-menu-item-icon--hover {
+			.opacity(0);
+		}
+		.side-menu-item-icon--active {
+			.opacity(1);
+		}
+	}
+}
+
+.side-menu--help-toggle--icon {
+	display: inline-block;
+	width: 25px;
+	height: 15px;
+	top: -3px;
+	position: relative;
+	.side-menu--help-toggle--icon--default,
+	.side-menu--help-toggle--icon--hover {
+		position: absolute;
+		left: 0px;
+		top: 1px;
+	}
+
+	.side-menu--help-toggle--icon--default {
+		.opacity(1);
+	}
+
+	.side-menu--help-toggle--icon--hover {
+		.opacity(0);
+	}
+
+	.side-menu--help-toggle:hover & {
+		.side-menu--help-toggle--icon--default {
+			.opacity(0);
+		}
+		.side-menu--help-toggle--icon--hover {
+			.opacity(1);
+		}
+	}
+}
+
+
+.side-menu--help-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    min-height: 444px;
+    right: 30px;
+    left: 0px;
+    z-index: 0;
+}
+	.side-menu--help-toggle {
+	    background-color: #33363d;
+	    height: 42px;
+	    position: absolute;
+	    left: 0;
+	    bottom: 2px;
+	    width: 230px;
+	    padding: 12px 21px;
+	    color: #939393;
+	    font-size: 10px;
+	    letter-spacing: .2em;
+	    cursor: pointer!important;
+	    font-family: @font-mont;
+	    * {
+	    	cursor: pointer!important;
+	    }
+	    &:before {
+	    	content: "";
+	    	display: block;
+	    	position: absolute;
+	    	right: 21px;
+	    	top: 16px;
+	    	.sprite(@plus-white);
+	    	.opacity(0.2);
+	    }
+	    &:hover {
+	    	color: #fff;
+	    	&:before {
+	    		.opacity(1);
+	    	}
+	    }
+	}
+
+	.side-menu--help--sub-menu {
+		position: fixed;
+		background-color: #33363d;
+		padding: 11px 21px;
+		left: 257px;
+		bottom: -200px;
+		.opacity(0);
+		z-index: -1;
+		&:before {
+			content: "";
+			display: block;
+			position: absolute;
+			bottom: 15px;
+			width: 0;
+			height: 0;
+			border: 14px solid transparent;
+			border-right-color: #33363d;
+			left: -28px;
+		}
+
+		.transition(all 0.25s cubic-bezier(.55,0,0,1));
+
+		&.active {
+			.transition(all 0.6s cubic-bezier(.55,0,0,1));
+			
+			bottom: 21px;
+			z-index: 1000000;
+			.opacity(1);
+		}
+	}
+		.side-menu--help--sub-menu--item {
+			font-size: 12px;
+			color: #bfbfbf;
+			padding: 11px 0px;
+			border-bottom: 1px solid #474950;
+			min-width: 180px;
+			&:hover {
+				color: #fff;
+			}
+			&:last-child {
+				border-bottom: none;
+			}
+		}
+
 
 .sidebar-toggler, .sidebar-toggler:focus, .sidebar-toggler:hover {
 	background: none;

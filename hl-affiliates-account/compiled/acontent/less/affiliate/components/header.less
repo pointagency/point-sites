@@ -7,6 +7,9 @@ header {
 .navbar.post-login {
 	padding-top: 13px;
 	padding-bottom: 12px;
+}
+
+.navbar-collapse {
 
 }
 
@@ -19,11 +22,54 @@ header {
 
 .commission-status {
 	font-size: 14px;
-	line-height: 28px;
+	line-height: 19px;
 	font-weight: 400;
 	color: #9a9ca2;
+	padding-right: 20px;
+	border-right: #40444c 1px solid;
+	height: 19px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	top: 4px;
+	cursor: pointer;
+	&:hover {
+		color: #fff;
+		.transition(color 0.125s ease);
+	}
 }
 
 	.commission-status--value {
 		color: #fff;
+		.commission-status:hover & {
+			.transition(color 0.125s ease);
+			color: #fff;
+		}
 	}
+
+	.sprite-icon {
+		.commission-status & {
+			position: relative;
+			top: -2px;
+			margin-left: 4px;
+			.sprite(@down-grey-sm);
+		}
+
+		.commission-status:hover & {
+			.sprite(@down-white-sm);
+		}
+	}
+
+.navbar-logout-link {
+	display: inline-block;
+	float: right;
+	color: #646973;
+	font-size: 12px;
+	text-decoration: none!important;
+	padding-top: 6px;
+	padding-left: 21px;
+	cursor: pointer;
+	&:hover {
+		color: #fff;
+	}
+}
