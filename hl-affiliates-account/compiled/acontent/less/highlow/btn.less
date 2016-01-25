@@ -3,10 +3,25 @@
 	font-weight: 400;
 	display: inline-block;
 	text-align: center;
+	background-color: rgb(225, 225, 225);
 	&:hover {
 		text-decoration: none;
 	}
 	.transition(@button-transition);
+
+
+	&.btn-extruded {
+		border-bottom: 3px solid rgb(210, 210, 210);
+		&:active {
+			border-top: 2px solid transparent;
+			border-bottom-width: 1px;
+		}
+	}
+
+	&:hover {
+		background-color: rgb(230, 230, 230);
+	}
+
 	&.btn-alternate {
 		background-color: @btn-alternate-bg;
 		color: @btn-alternate-color!important;

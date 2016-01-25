@@ -113,7 +113,9 @@
     			.avatar {
     				border-radius: 50%;
     				/* margin-right: 12px; */
-    				max-width: 44px;
+    				width: 44px;
+    				height: 44px;
+    				border-radius: 44px;
     				position: relative;
     				display: inline-block;
     				vertical-align: top;
@@ -240,7 +242,8 @@
 			   	margin: 0 20px 0px 24px;
 			    transition: all 0.2s ease-out 0s;
 			    border-bottom: 1px solid #373b42;
-			    &:hover, &:active, &:focus {
+			    text-decoration: none!important;
+			    &:hover {
 	    			
 	    			color: #fff;
 	    			text-decoration: none;
@@ -253,7 +256,6 @@
 			
 			&.active{
 				> a, > a:hover, > a:active, > a:focus {
-	    			background: none repeat scroll 0 0 @main-nav-link-bg;
 	    			color: #fff;
 	    			text-decoration: none;
 	    			
@@ -340,11 +342,12 @@
 		.opacity(0);
 	}
 
-	.side-menu--help-toggle:hover & {
-		.side-menu--help-toggle--icon--default {
+	.side-menu--help-toggle:hover &,
+	.side-menu--user-toggle:hover & {
+		.side-menu--toggle--icon--default {
 			.opacity(0);
 		}
-		.side-menu--help-toggle--icon--hover {
+		.side-menu--toggle--icon--hover {
 			.opacity(1);
 		}
 	}
@@ -393,7 +396,8 @@
 	    }
 	}
 
-	.side-menu--help--sub-menu {
+	.side-menu--help--sub-menu,
+	.side-menu--user--sub-menu {
 		position: fixed;
 		background-color: #33363d;
 		padding: 11px 21px;
@@ -419,22 +423,63 @@
 			.transition(all 0.6s cubic-bezier(.55,0,0,1));
 			
 			bottom: 21px;
-			z-index: 1000000;
+			z-index: 99;
 			.opacity(1);
 		}
 	}
-		.side-menu--help--sub-menu--item {
+		.side-menu--help--sub-menu--item,
+		.side-menu--user--sub-menu--item {
 			font-size: 12px;
 			color: #bfbfbf;
 			padding: 11px 0px;
 			border-bottom: 1px solid #474950;
 			min-width: 180px;
+			a {
+				color: inherit;
+				text-decoration: none!important;
+			}
 			&:hover {
 				color: #fff;
 			}
 			&:last-child {
 				border-bottom: none;
 			}
+		}
+
+	.side-menu--user--sub-menu {
+		background: #ee683a;
+		color: #fff;
+	    top: 60px;
+		bottom: auto;
+		left: 23px;
+		@tr: 0.25s cubic-bezier(.55,0,0,1);
+		z-index: 99;
+		.transition(all @tr);
+		&.active {
+		    left: 23px;
+		    top: 135px;
+			bottom: auto;
+			z-index: 101;
+			@t: top @tr, opacity @tr, left @tr;
+			.transition(@t);
+		}
+		&:before {
+		    border-right-color: transparent;
+		    border-bottom-color: #ee683a;
+		    top: -24px;
+		    left: 9px;
+		}
+	}
+		.side-menu--user--sub-menu--item {
+		    color: #FFCDBC;
+		    border-bottom: 1px solid #FF836E;
+		    min-width: 145px;
+		    width: 145px;
+		    a {
+		    	&:hover {
+		    		color: #fff;
+		    	}
+		    }
 		}
 
 
