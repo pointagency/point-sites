@@ -237,6 +237,7 @@
 			    color: @main-nav-link-color;
 			    display: block;
 			    font-size: 13px;
+			    font-weight: 500;
 			   	padding: 12px 0px 12px;
 			    padding-left: 23px;
 			   	margin: 0 20px 0px 24px;
@@ -272,7 +273,8 @@
 .side-menu-item-icon {
 	display: inline-block;
 	width: 20px;
-	height: 16px;
+	height: 16px;    
+	top: 1px;
 	position: relative;
 
 	.side-menu-item-icon--default,
@@ -307,6 +309,7 @@
 			.opacity(0);
 		}
 	}
+	li:active &,
 	li.active &,
 	li.nav-active & {
 		.side-menu-item-icon--default {
@@ -322,11 +325,11 @@
 }
 
 .side-menu--help-toggle--icon {
-	display: inline-block;
-	width: 25px;
-	height: 15px;
-	top: -3px;
-	position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    top: 1px;
+    position: relative;
 	.side-menu--help-toggle--icon--default,
 	.side-menu--help-toggle--icon--hover {
 		position: absolute;

@@ -14,6 +14,8 @@
 	> label {
 		width: 93px;
 		cursor: pointer;
+		margin: 0px;
+		display: block;
 		height: 31px;
 		border: 1px solid #cccccc;
 		text-align: left;
@@ -62,13 +64,19 @@
 .banners--search-options {
 	text-align: right;
 	position: relative;
-    margin-bottom: 15px;
 	z-index: 10;
+	font-size: 13px;
 }
+
+	.banners--search {
+		float: left;
+		margin-top: 2px;
+	}
 
 #banners-search-input {
 	display: inline-block;
-	width: 146px;
+	width: 200px;
+	max-width: 100%;
 	height: 28px;
 	padding: 5px 5px;
 	font-size: 14px;
@@ -89,6 +97,14 @@
 		background-color: #f0f2f4;
 	}
 }
+
+	.banners--filter-list--title {
+		font-family: @font-mont;
+	    font-size: 10px;
+	    letter-spacing: 0.2em;
+	    color: #939393;
+	    padding: 17px 18px 3px 20px;
+	}
 
 .banners--filter {
 	> label {
@@ -224,6 +240,38 @@
 		}
 	}
 }
+
+	.banner--details--favourite {
+		position: absolute;
+		right: 32px;
+		top: 39px;
+		cursor: pointer!important;
+		&:hover {
+			cursor: pointer!important;
+		}
+		input {
+			display: none;
+		}
+
+		* {
+			cursor: pointer!important;
+			&:hover {
+				cursor: pointer!important;
+			}
+		}
+	}
+
+	.banner--details--favourite--icon {
+		display: block;
+		cursor: pointer!important;
+		.sprite(@star-grey-sm);
+	}
+
+	input:checked + .banner--details--favourite--icon {
+		.sprite(@star-yellow-sm);
+		cursor: pointer!important;
+	}
+
 	.banner--details--banner-name {
 		color: #33363d;
 		font-weight: 400;
@@ -245,7 +293,43 @@
 	.banner--details--target-link {
 		color: #868686;
 		font-size: 12px;
+		font-weight: 400;
 		float: left;
+		cursor: pointer!important;
+		position: relative;
+		a {
+			color: inherit;
+			text-decoration: none!important;
+			cursor: pointer!important;
+			&:hover {
+				cursor: pointer!important;
+			}
+		}
+		&:before {
+			content: "";
+			display: inline-block;
+			vertical-align: sub;
+			margin-right: 5px;
+			.sprite(@crosshair-grey-sm);
+		}
+		&:after {
+			content: "";
+			display: inline-block;
+			position: absolute;
+		    right: -20px;
+		    top: 6px;
+		    .opacity(0.5);
+			.sprite(@down-grey-sm);
+		}
+
+		&:hover {
+			a {
+				color: #656565;
+			}
+			&:after {			    
+				.opacity(1);
+			}
+		}
 	}
 
 	.banner--details--get-code-btn,
