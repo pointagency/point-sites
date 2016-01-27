@@ -902,6 +902,8 @@ $(document).ready(function(){
 	resizeHandler.init();
 	scrollHandler.init();
 	window.toggler.init();
+	window.uploadCropper.init();
+	window.appStrings.init();
 
 	$('.flow-explain').addClass('concealed');
 

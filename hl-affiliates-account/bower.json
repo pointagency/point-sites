@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "jquery.selectBoxIt.js": "https://github.com/gfranko/jquery.selectBoxIt.js.git#^3.8.1"
+    "jquery.selectBoxIt.js": "https://github.com/gfranko/jquery.selectBoxIt.js.git#^3.8.1",
+    "fine-uploader": "https://github.com/FineUploader/fine-uploader.git#^5.5.0"
   }
 }

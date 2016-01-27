@@ -109,7 +109,10 @@ module.exports = function(grunt) {
 			thirdParties: {
 				files: {
 					'acontent/js/third-parties.min.js': [
-						'acontent/js/third-parties/jquery.selectBoxIt.min.js'
+						'acontent/js/third-parties/jquery.selectBoxIt.min.js',
+						'acontent/js/third-parties/jquery.fine-uploader.min.js',
+						'acontent/js/third-parties/cropper.min.js',
+						'acontent/js/third-parties/strings.js'
 					]
 				}
 			}
