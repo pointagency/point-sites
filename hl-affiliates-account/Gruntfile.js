@@ -105,29 +105,15 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-		// uglify: {
-		// 	js: {
-		// 		files: {
-		// 			'compiled/assets/js/site.min.js': [
-		// 			'compiled/assets/js/site.js'
-		// 			]
-		// 		}
-		// 	},
-		// 	thirdParties: {
-		// 		files: {
-		// 			'compiled/assets/js/third-parties.min.js': [
-		// 				'compiled/assets/js/third-parties.js'
-		// 			]
-		// 		}
-		// 	},
-		// 	homeMade: {
-		// 		files: {
-		// 			'compiled/assets/js/home-made.min.js': [
-		// 				'compiled/assets/js/home-made.js'
-		// 			]
-		// 		}
-		// 	}
-		// },
+		uglify: {
+			thirdParties: {
+				files: {
+					'acontent/js/third-parties.min.js': [
+						'acontent/js/third-parties/jquery.selectBoxIt.min.js'
+					]
+				}
+			}
+		},
 		liquid: {
 			options: {
 				includes: 'templates/includes'
@@ -144,6 +130,22 @@ module.exports = function(grunt) {
 			}
 		},
 		copy: {
+			bowerJS: {
+				files: [
+					{
+						src: 'bower_components/jquery.selectBoxIt.js/src/javascripts/jquery.selectBoxIt.min.js',
+						dest: 'acontent/js/third-parties/jquery.selectBoxIt.min.js'
+					}
+				]
+			},
+			bowerCSS: {
+				files: [
+					{
+						src: 'bower_components/jquery.selectBoxIt.js/src/stylesheets/jquery.selectBoxIt.css',
+						dest: 'acontent/less/third-parties/jquery.selectBoxIt.less'
+					}
+				]
+			},
 			main: {
 				files: [{
 					expand: true,
@@ -231,7 +233,7 @@ module.exports = function(grunt) {
 	});
 	
 
-	grunt.registerTask('default', [ 'sprite','less','bless','newer:copy','newer:liquid', 'concurrent:all']);
+	grunt.registerTask('default', [ 'sprite','copy:bowerJS','copy:bowerCSS','uglify','less','bless','newer:copy:main','newer:liquid', 'concurrent:all']);
 	// grunt.registerTask('default', ['sprite', 'newer:less', 'newer:concat', 'uglify','compress', 'newer:liquid', 'bless','copy',  'concurrent:all']);
 };
 
