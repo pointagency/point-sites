@@ -300,7 +300,7 @@ var uploadCropper = {
 		$(domSelector).each(function(){
 			var self = $(this);
 			self.submit(function(event){
-
+				event.preventDefault();
 				console.log("YOU SHOULD BE SUBMITTING THIS FORM VIA AJAX HERE");
 
 				//For demo, I jsut set a brief delay before 
@@ -310,15 +310,19 @@ var uploadCropper = {
 
 					// this is how you get the data url of the user uploaded avatar (cropped and resized to 192x192):
 
-					console.log($('#custom-avatar-uploader .cropping-area > img').cropper('getCroppedCanvas',{
-						width: 192,
-						height: 192
-					}).toDataURL());
+					if($('#upload-own-avatar').hasClass('active') && $('#custom-avatar-uploader .cropping-area').length>0) {
+						console.log($('#custom-avatar-uploader .cropping-area > img').cropper('getCroppedCanvas',{
+							width: 192,
+							height: 192
+						}).toDataURL());
+					}
 
 
 					self.trigger('submitComplete'); 
 
 				},750);
+
+				return false;
 
 			}).on('submitComplete',function(){
 				$('#custom-avatar-uploader').fineUploader('reset');
