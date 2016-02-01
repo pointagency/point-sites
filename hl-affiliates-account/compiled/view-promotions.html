@@ -37,19 +37,12 @@
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				
 				<a href='/en/' class="high-low pull-left icon"></a>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<div class="navbar-right">
 				<a class="navbar-logout-link" href="">Log-out</a>
-				<div class="commission-status pull-right">
+				<div class="commission-status pull-right hidden-xs">
 					This month: <span class="commission-status--value">$875</span>
 					<span class="sprite-icon"></span>
 				</div>
@@ -239,13 +232,6 @@
 					Banners  
 				</h3>
 			</div>
-			<div class="pull-right">
-				<div class="page-actions">
-					<ul>
-						<li><a class="affiliate-btn affiliate-btn-default" href="#"><i class="fa fa-chevron-left"></i> Back to List</a></li>		
-					</ul>
-				</div>
-			</div>
 		</div>
 		<div class="container">
 			<h3 class="page-sub-heading">Find and use compelling creative assets to drive traffic</h3>
@@ -260,14 +246,12 @@
 						<div class="tab-pane active" id="banners">
 							<form>
 								<div class="banners--panel clearfix">
-									<div class="col-md-3 banners--filters">
+									<div class="col-lg-3 banners--filters">
 										<div class="header-block-2 banners--filters--panel-header">
 											<div class="clearfix banners--search-options">
 												<div class="banners--search">
 													<label for="banners-search-input">Search</label>
-													&nbsp;
-													&nbsp;
-													<input id="banners-search-input" type="text" class="form-control"/>
+													<input id="banners-search-input" type="text" placeholder="Keywords" class="form-control"/>
 												</div>
 												<div class="banners--sort">
 													<label>Sort by</label>
@@ -315,231 +299,237 @@
 											</div>
 										</div>
 										<div class="banners--filter-list">
-											<div class="banners--filter-list--title">
+											<div class="banners--filter-list--title toggler" data-toggle-target=".banners--filter-container" data-toggle-class="active">
 												FILTER
 											</div>
-											<div class="banners--filter">
-												<label for="language-filter-toggle">
-													<input id="language-filter-toggle" type="checkbox" class="banners--filter--toggle" checked>
-													&nbsp;&nbsp;By language
-												</label>
-												<div class="banners-filter-option" style="display: block;">
-													<label>
-														<input type="checkbox" class="check-all" name="language[]" value="all"/>
-														All
-													</label>
-													<label>
-														<input type="checkbox" name="language[]" value="jp"/>
-														Japanese
-													</label>
-													<label>
-														<input type="checkbox" checked name="language[]" value="eng"/>
-														English
-													</label>
-													<label>
-														<input type="checkbox" name="language[]" value="uni"/>
-														Generic
-													</label>
+											<div class="clearfix banners--filter-container">
+												<div class="banners--filter--group">
+													<div class="banners--filter">
+														<label for="language-filter-toggle">
+															<input id="language-filter-toggle" type="checkbox" class="banners--filter--toggle" checked>
+															&nbsp;&nbsp;By language
+														</label>
+														<div class="banners-filter-option" style="display: block;">
+															<label>
+																<input type="checkbox" class="check-all" name="language[]" value="all"/>
+																All
+															</label>
+															<label>
+																<input type="checkbox" name="language[]" value="jp"/>
+																Japanese
+															</label>
+															<label>
+																<input type="checkbox" checked name="language[]" value="eng"/>
+																English
+															</label>
+															<label>
+																<input type="checkbox" name="language[]" value="uni"/>
+																Generic
+															</label>
+														</div>
+													</div>
+													<div class="banners--filter">
+														<label for="banner-type-filter-toggle">
+															<input id="banner-type-filter-toggle" type="checkbox" class="banners--filter--toggle">
+															&nbsp;&nbsp;By banner type
+														</label>
+														<div class="banners-filter-option">
+															<label>
+																<input type="checkbox" class="check-all" name="type[]" value="all"/>
+																All
+															</label>
+															<label>
+																<input type="checkbox" name="type[]" value="animated"/>
+																Animated
+															</label>
+															<label>
+																<input type="checkbox" name="type[]" value="static"/>
+																Static
+															</label>
+														</div>
+													</div>
+													<div class="banners--filter">
+														<label for="banner-size-filter-toggle">
+															<input id="banner-size-filter-toggle" type="checkbox" class="banners--filter--toggle">
+															&nbsp;&nbsp;By size
+														</label>
+														<div class="banners-filter-option">
+															<label>
+																<input type="checkbox" class="check-all" name="size[]" value="all"/>
+																All
+															</label>
+															<label>
+																<input type="checkbox" name="size[]" value="120x240"/>
+																120x240
+															</label>
+															<label>
+																<input type="checkbox" name="size[]" value="120x90"/>
+																120x90
+															</label>
+															<label>
+																<input type="checkbox" name="size[]" value="120x60"/>
+																120x60
+															</label>
+															<label>
+																<input type="checkbox" name="size[]" value="120x600"/>
+																120x600
+															</label>
+															<label>
+																<input type="checkbox" name="size[]" value="125x125"/>
+																125x125
+															</label>
+															<label>
+																<input type="checkbox" name="size[]" value="160x600"/>
+																160x600
+															</label>
+															<label>
+																<input type="checkbox" name="size[]" value="234x60"/>
+																234x60
+															</label>
+															<label>
+																<input type="checkbox" name="size[]" value="300x250"/>300x250
+															</label>
+															<label>
+																<input type="checkbox" name="size[]" value="320x50"/>320x50
+															</label>
+															<label>
+																<input type="checkbox" name="size[]" value="468x60"/>468x60
+															</label>
+															<label>
+																<input type="checkbox" name="size[]" value="500x147"/>500x147
+															</label>
+															<label>
+																<input type="checkbox" name="size[]" value="728x90"/>728x90
+															</label>
+														</div>
+													</div>
+													<div class="banners--filter">
+														<label for="banner-orientation-filter-toggle">
+															<input id="banner-orientation-filter-toggle" type="checkbox" class="banners--filter--toggle">
+															&nbsp;&nbsp;By orientation
+														</label>
+														<div class="banners-filter-option">
+															<label>
+																<input type="checkbox" class="check-all" name="orientation[]" value="all"/>
+																All
+															</label>
+															<label>
+																<input type="checkbox" name="orientation[]" value="square"/>
+																Square
+															</label>
+															<label>
+																<input type="checkbox" name="orientation[]" value="Landscape"/>
+																Landscape
+															</label>
+															<label>
+																<input type="checkbox" name="orientation[]" value="portrait"/>
+																Portrait
+															</label>
+														</div>
+													</div>
 												</div>
-											</div>
-											<div class="banners--filter">
-												<label for="banner-type-filter-toggle">
-													<input id="banner-type-filter-toggle" type="checkbox" class="banners--filter--toggle">
-													&nbsp;&nbsp;By banner type
-												</label>
-												<div class="banners-filter-option">
-													<label>
-														<input type="checkbox" class="check-all" name="type[]" value="all"/>
-														All
-													</label>
-													<label>
-														<input type="checkbox" name="type[]" value="animated"/>
-														Animated
-													</label>
-													<label>
-														<input type="checkbox" name="type[]" value="static"/>
-														Static
-													</label>
+												<div class="banners--filter--group">
+													<div class="banners--filter">
+														<label for="banner-extension-filter-toggle">
+															<input id="banner-extension-filter-toggle" type="checkbox" class="banners--filter--toggle">
+															&nbsp;&nbsp;By file type
+														</label>
+														<div class="banners-filter-option">
+															<label>
+																<input type="checkbox" class="check-all" name="extension[]" value="all"/>
+																All
+															</label>
+															<label>
+																<input type="checkbox" name="extension[]" value="html5"/>
+																HTML5
+															</label>
+															<label>
+																<input type="checkbox" name="extension[]" value="gif"/>
+																.gif
+															</label>
+															<label>
+																<input type="checkbox" name="extension[]" value="png"/>
+																.png
+															</label>
+															<label>
+																<input type="checkbox" name="extension[]" value="jpg"/>
+																.jpg
+															</label>
+														</div>
+													</div>
+													<div class="banners--filter">
+														<label for="banner-concept-filter-toggle">
+															<input id="banner-concept-filter-toggle" type="checkbox" class="banners--filter--toggle">
+															&nbsp;&nbsp;By concept
+														</label>
+														<div class="banners-filter-option">
+															<label>
+																<input type="checkbox" class="check-all" name="extension[]" value="all"/>All
+															</label>
+															<label>
+																<input type="checkbox" name="extension[]" value="logo"/>Logo/Brand
+															</label>
+															<label>
+																<input type="checkbox" name="extension[]" value="cashback"/>Signup Cashback
+															</label>
+															<label>
+																<input type="checkbox" name="extension[]" value="traders"/>Traders
+															</label>
+															<label>
+																<input type="checkbox" name="extension[]" value="etc"/>etc.
+															</label>
+														</div>
+													</div>
+													<div class="banners--filter">
+														<label for="banner-currency-filter-toggle">
+															<input id="banner-currency-filter-toggle" type="checkbox" class="banners--filter--toggle">
+															&nbsp;&nbsp;By currency
+														</label>
+														<div class="banners-filter-option">
+															<label>
+																<input type="checkbox" class="check-all" name="currency[]" value="all"/>
+																All
+															</label>
+															<label>
+																<input type="checkbox" name="currency[]" value="usd"/>
+																USD
+															</label>
+															<label>
+																<input type="checkbox" name="currency[]" value="aud"/>
+																AUD
+															</label>
+															<label>
+																<input type="checkbox" name="currency[]" value="gbp"/>
+																GBP
+															</label>
+															<label>
+																<input type="checkbox" name="currency[]" value="eur"/>
+																EUR
+															</label>
+															<label>
+																<input type="checkbox" name="currency[]" value="jpy"/>
+																JPY
+															</label>
+															<label>
+																<input type="checkbox" name="currency[]" value="uni"/>
+																Generic
+															</label>
+														</div>
+													</div>
+													<div class="banners--filter active">
+														<label for="banner-favourite-filter-toggle">
+															<input id="banner-favourite-filter-toggle" type="checkbox">
+															&nbsp;&nbsp;By favourite
+														</label>
+													</div>
 												</div>
-											</div>
-											<div class="banners--filter">
-												<label for="banner-size-filter-toggle">
-													<input id="banner-size-filter-toggle" type="checkbox" class="banners--filter--toggle">
-													&nbsp;&nbsp;By size
-												</label>
-												<div class="banners-filter-option">
-													<label>
-														<input type="checkbox" class="check-all" name="size[]" value="all"/>
-														All
-													</label>
-													<label>
-														<input type="checkbox" name="size[]" value="120x240"/>
-														120x240
-													</label>
-													<label>
-														<input type="checkbox" name="size[]" value="120x90"/>
-														120x90
-													</label>
-													<label>
-														<input type="checkbox" name="size[]" value="120x60"/>
-														120x60
-													</label>
-													<label>
-														<input type="checkbox" name="size[]" value="120x600"/>
-														120x600
-													</label>
-													<label>
-														<input type="checkbox" name="size[]" value="125x125"/>
-														125x125
-													</label>
-													<label>
-														<input type="checkbox" name="size[]" value="160x600"/>
-														160x600
-													</label>
-													<label>
-														<input type="checkbox" name="size[]" value="234x60"/>
-														234x60
-													</label>
-													<label>
-														<input type="checkbox" name="size[]" value="300x250"/>300x250
-													</label>
-													<label>
-														<input type="checkbox" name="size[]" value="320x50"/>320x50
-													</label>
-													<label>
-														<input type="checkbox" name="size[]" value="468x60"/>468x60
-													</label>
-													<label>
-														<input type="checkbox" name="size[]" value="500x147"/>500x147
-													</label>
-													<label>
-														<input type="checkbox" name="size[]" value="728x90"/>728x90
-													</label>
+												<div class="banners--filter--apply">
+													<button class="banners--filter--apply-btn btn btn-alternate btn-extruded pull-left"><i class="fa fa-filter"></i>&nbsp;&nbsp;APPLY FILTER</button>
 												</div>
-											</div>
-											<div class="banners--filter">
-												<label for="banner-orientation-filter-toggle">
-													<input id="banner-orientation-filter-toggle" type="checkbox" class="banners--filter--toggle">
-													&nbsp;&nbsp;By orientation
-												</label>
-												<div class="banners-filter-option">
-													<label>
-														<input type="checkbox" class="check-all" name="orientation[]" value="all"/>
-														All
-													</label>
-													<label>
-														<input type="checkbox" name="orientation[]" value="square"/>
-														Square
-													</label>
-													<label>
-														<input type="checkbox" name="orientation[]" value="Landscape"/>
-														Landscape
-													</label>
-													<label>
-														<input type="checkbox" name="orientation[]" value="portrait"/>
-														Portrait
-													</label>
-												</div>
-											</div>
-											<div class="banners--filter">
-												<label for="banner-extension-filter-toggle">
-													<input id="banner-extension-filter-toggle" type="checkbox" class="banners--filter--toggle">
-													&nbsp;&nbsp;By file type
-												</label>
-												<div class="banners-filter-option">
-													<label>
-														<input type="checkbox" class="check-all" name="extension[]" value="all"/>
-														All
-													</label>
-													<label>
-														<input type="checkbox" name="extension[]" value="html5"/>
-														HTML5
-													</label>
-													<label>
-														<input type="checkbox" name="extension[]" value="gif"/>
-														.gif
-													</label>
-													<label>
-														<input type="checkbox" name="extension[]" value="png"/>
-														.png
-													</label>
-													<label>
-														<input type="checkbox" name="extension[]" value="jpg"/>
-														.jpg
-													</label>
-												</div>
-											</div>
-											<div class="banners--filter">
-												<label for="banner-concept-filter-toggle">
-													<input id="banner-concept-filter-toggle" type="checkbox" class="banners--filter--toggle">
-													&nbsp;&nbsp;By concept
-												</label>
-												<div class="banners-filter-option">
-													<label>
-														<input type="checkbox" class="check-all" name="extension[]" value="all"/>All
-													</label>
-													<label>
-														<input type="checkbox" name="extension[]" value="logo"/>Logo/Brand
-													</label>
-													<label>
-														<input type="checkbox" name="extension[]" value="cashback"/>Signup Cashback
-													</label>
-													<label>
-														<input type="checkbox" name="extension[]" value="traders"/>Traders
-													</label>
-													<label>
-														<input type="checkbox" name="extension[]" value="etc"/>etc.
-													</label>
-												</div>
-											</div>
-											<div class="banners--filter">
-												<label for="banner-currency-filter-toggle">
-													<input id="banner-currency-filter-toggle" type="checkbox" class="banners--filter--toggle">
-													&nbsp;&nbsp;By currency
-												</label>
-												<div class="banners-filter-option">
-													<label>
-														<input type="checkbox" class="check-all" name="currency[]" value="all"/>
-														All
-													</label>
-													<label>
-														<input type="checkbox" name="currency[]" value="usd"/>
-														USD
-													</label>
-													<label>
-														<input type="checkbox" name="currency[]" value="aud"/>
-														AUD
-													</label>
-													<label>
-														<input type="checkbox" name="currency[]" value="gbp"/>
-														GBP
-													</label>
-													<label>
-														<input type="checkbox" name="currency[]" value="eur"/>
-														EUR
-													</label>
-													<label>
-														<input type="checkbox" name="currency[]" value="jpy"/>
-														JPY
-													</label>
-													<label>
-														<input type="checkbox" name="currency[]" value="uni"/>
-														Generic
-													</label>
-												</div>
-											</div>
-											<div class="banners--filter active">
-												<label for="banner-favourite-filter-toggle">
-													<input id="banner-favourite-filter-toggle" type="checkbox">
-													&nbsp;&nbsp;By favourite
-												</label>
-											</div>
-											<div class="banners--filter--apply">
-												<button class="banners--filter--apply-btn btn btn-alternate btn-extruded pull-left"><i class="fa fa-filter"></i>&nbsp;&nbsp;APPLY FILTER</button>
 											</div>
 										</div>
 									</div>
-									<div class="col-md-9 banners--list">
+									<div class="col-lg-9 banners--list">
 										<div class="header-block-1">
 											Currently viewing 6 of 76 banners:
 										</div>
@@ -549,7 +539,7 @@
 											data-format="(html5)"
 											data-campaign-name="Australian affiliates campaign 2"
 											data-target="https://en2.highlow.net/account"
-											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe style="width: 300px; height: 250px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/mrec-asx/banner.html"></iframe></a>'
+											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe style="width: 300px; height: 250px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/mrec-asx/banner.html"></iframe></a>'
 											data-width="300"
 											data-height="250"
 										>
@@ -580,11 +570,7 @@
 															Australian affiliates campaign 2
 														</div>
 														<div class="banner--details--target-link">	
-															<select class="banner--details--target-link-selector">
-																<option selected="selected" value="https://en2.highlow.net/account">https://en2.highlow.net/account</option>
-																<option value="https://en2.highlow.net/lp-traders">https://en2.highlow.net/lp-traders</option>
-																<option value="https://en2.highlow.net/landing">https://en2.highlow.net/landing</option>
-															</select>
+															<a href="https://en2.highlow.net/account">https://en2.highlow.net/account</a>
 														</div>
 														<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
 															<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
@@ -599,7 +585,7 @@
 											data-format="(html5)"
 											data-campaign-name="Australian affiliates campaign 2"
 											data-target="https://en2.highlow.net/account"
-											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe style="width: 728px; height: 90px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/leaderboard-asx/banner.html"></iframe></a>'
+											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe style="width: 728px; height: 90px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/leaderboard-asx/banner.html"></iframe></a>'
 											data-width="728"
 											data-height="90"
 										>
@@ -630,11 +616,7 @@
 															Australian affiliates campaign 2
 														</div>
 														<div class="banner--details--target-link">	
-															<select class="banner--details--target-link-selector">
-																<option selected="selected" value="https://en2.highlow.net/account">https://en2.highlow.net/account</option>
-																<option value="https://en2.highlow.net/lp-traders">https://en2.highlow.net/lp-traders</option>
-																<option value="https://en2.highlow.net/landing">https://en2.highlow.net/landing</option>
-															</select>
+															<a href="https://en2.highlow.net/account">https://en2.highlow.net/account</a>
 														</div>
 														<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
 															<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
@@ -649,7 +631,7 @@
 											data-format="(html5)"
 											data-campaign-name="Australian affiliates campaign 2"
 											data-target="https://en2.highlow.net/account"
-											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe style="width: 120px; height: 600px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/skyscrapper-asx/banner.html"></iframe></a>'
+											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe style="width: 120px; height: 600px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/skyscrapper-asx/banner.html"></iframe></a>'
 											data-width="120"
 											data-height="600"
 										>
@@ -680,11 +662,7 @@
 															Australian affiliates campaign 2
 														</div>
 														<div class="banner--details--target-link">	
-															<select class="banner--details--target-link-selector">
-																<option selected="selected" value="https://en2.highlow.net/account">https://en2.highlow.net/account</option>
-																<option value="https://en2.highlow.net/lp-traders">https://en2.highlow.net/lp-traders</option>
-																<option value="https://en2.highlow.net/landing">https://en2.highlow.net/landing</option>
-															</select>
+															<a href="https://en2.highlow.net/account">https://en2.highlow.net/account</a>
 														</div>
 														<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
 															<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
@@ -699,7 +677,7 @@
 											data-format="(html5)"
 											data-campaign-name="Australian affiliates campaign 2"
 											data-target="https://en2.highlow.net/account"
-											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe style="width: 320px; height: 50px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/mobile-asx/banner.html"></iframe></a>'
+											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe style="width: 320px; height: 50px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/mobile-asx/banner.html"></iframe></a>'
 											data-width="320"
 											data-height="50"
 										>
@@ -730,11 +708,7 @@
 															Australian affiliates campaign 2
 														</div>
 														<div class="banner--details--target-link">	
-															<select class="banner--details--target-link-selector">
-																<option selected="selected" value="https://en2.highlow.net/account">https://en2.highlow.net/account</option>
-																<option value="https://en2.highlow.net/lp-traders">https://en2.highlow.net/lp-traders</option>
-																<option value="https://en2.highlow.net/landing">https://en2.highlow.net/landing</option>
-															</select>
+															<a href="https://en2.highlow.net/account">https://en2.highlow.net/account</a>
 														</div>
 														<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
 															<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
@@ -749,7 +723,7 @@
 											data-format="(html5)"
 											data-campaign-name="Australian affiliates campaign 2"
 											data-target="https://en2.highlow.net/account"
-											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe style="width: 468px; height: 60px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/banner-dax/banner.html"></iframe></a>'
+											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe style="width: 468px; height: 60px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/banner-dax/banner.html"></iframe></a>'
 											data-width="468"
 											data-height="60"
 										>
@@ -780,11 +754,7 @@
 															Australian affiliates campaign 2
 														</div>
 														<div class="banner--details--target-link">	
-															<select class="banner--details--target-link-selector">
-																<option selected="selected" value="https://en2.highlow.net/account">https://en2.highlow.net/account</option>
-																<option value="https://en2.highlow.net/lp-traders">https://en2.highlow.net/lp-traders</option>
-																<option value="https://en2.highlow.net/landing">https://en2.highlow.net/landing</option>
-															</select>
+															<a href="https://en2.highlow.net/account">https://en2.highlow.net/account</a>
 														</div>
 														<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
 															<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
@@ -799,7 +769,7 @@
 											data-format="(html5)"
 											data-campaign-name="Australian affiliates campaign 2"
 											data-target="https://jp2.highlow.net/account"
-											data-code='<a href="LANDINGPAGE?a_aid=568d490aad773&amp;a_cid=757a25f1&amp;a_bid=a7fbd113SUBCODE" target="_top"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><img src="https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472927e4c164.gif" alt="1口１０００円からのバイナリーオプション一銭の値動きで利益が出る。お得なキャンペーン実施中！" title="1口１０００円からのバイナリーオプション一銭の値動きで利益が出る。お得なキャンペーン実施中！" /></a>'
+											data-code='<a href="LANDINGPAGE?a_aid=568d490aad773&amp;a_cid=757a25f1&amp;a_bid=a7fbd113SUBCODE" target="_top" style="position: relative;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><img src="https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472927e4c164.gif" alt="1口１０００円からのバイナリーオプション一銭の値動きで利益が出る。お得なキャンペーン実施中！" title="1口１０００円からのバイナリーオプション一銭の値動きで利益が出る。お得なキャンペーン実施中！" /></a>'
 											data-width="728"
 											data-height="90"
 										>
@@ -925,13 +895,23 @@
 												Paste the below code into your website. It contains your personal Affiliate ID and all conversions will be tracked automatically.
 											</p>
 											<br/>
+											<label for="landing-page-select">Target URL:</label>
+											<br/>
+											<div class="banner--details--target-link">	
+												<select id="landing-page-select" class="banner--details--target-link-selector">
+													<option selected="selected" value="https://en2.highlow.net/account">https://en2.highlow.net/account</option>
+													<option value="https://en2.highlow.net/lp-traders">https://en2.highlow.net/lp-traders</option>
+													<option value="https://en2.highlow.net/landing">https://en2.highlow.net/landing</option>
+												</select>
+											</div>
+											<br/>
 											<br/>
 											<textarea class="banner-code-holder" id="get-code-modal--banner-details--code" readonly="readonly">
-				<a href="http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeab" target="_top"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe style="width: 300px; height: 250px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/mrec/banner.html"></iframe></a>
+				<a href="http://www.google.com?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeab" target="_top" style="position: relative;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe style="width: 300px; height: 250px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/mrec/banner.html"></iframe></a>
 											</textarea>
 											<a class="get-code-modal--banner-details--add-custom-code bannerOption" href="#"><i class="fa fa-plus"></i> &nbsp;Add your own code</a>
 											<div class="subCodeDiv" style="display: none;">
-												<input type="text" name="subCodeText" class="form-control subCodeText" placeholder="Sub Code" value="">
+												<input type="text" id="banner-sub-code" name="subCodeText" class="form-control subCodeText" placeholder="Sub Code" value="">
 												<br/>
 												<br/>
 												<button type="button" class="btn-alternate btn btn-extruded applySubCode" data-target="#get-code-modal--banner-details--code">APPLY</button>
@@ -963,7 +943,7 @@
 								This is a welcome message to some one that just signed up, you can show some features of your dashboard or links to configuration.
 							</div>
 							<div class="row first-time-welcome--quick-links">
-								<a class="col-sm-4 first-time-welcome--quick-link">
+								<a class="col-xs-6 col-sm-4 first-time-welcome--quick-link">
 									<div class="first-time-welcome--quick-link--icon">
 										<div class="sprite-icon__wrench-orange-md first-time-welcome--quick-link--icon-default">
 										</div>
@@ -974,7 +954,7 @@
 										Configure your settings
 									</div>
 								</a>
-								<a class="col-sm-4 first-time-welcome--quick-link">
+								<a class="col-xs-6 col-sm-4 first-time-welcome--quick-link">
 									<div class="first-time-welcome--quick-link--icon">
 										<div class="sprite-icon__man-orange-md first-time-welcome--quick-link--icon-default">
 										</div>
@@ -985,7 +965,7 @@
 										Adjust your profile
 									</div>
 								</a>
-								<a class="col-sm-4 first-time-welcome--quick-link">
+								<a class="col-xs-6 col-sm-4 first-time-welcome--quick-link">
 									<div class="first-time-welcome--quick-link--icon">
 										<div class="sprite-icon__dollar-orange-md first-time-welcome--quick-link--icon-default">
 										</div>
@@ -996,7 +976,7 @@
 										Organise your payments
 									</div>
 								</a>
-								<a class="col-sm-4 first-time-welcome--quick-link">
+								<a class="col-xs-6 col-sm-4 first-time-welcome--quick-link">
 									<div class="first-time-welcome--quick-link--icon">
 										<div class="sprite-icon__star-orange-md first-time-welcome--quick-link--icon-default">
 										</div>
@@ -1007,7 +987,7 @@
 										Explore our Creative
 									</div>
 								</a>
-								<a class="col-sm-4 first-time-welcome--quick-link">
+								<a class="col-xs-6 col-sm-4 first-time-welcome--quick-link">
 									<div class="first-time-welcome--quick-link--icon">
 										<div class="sprite-icon__help-orange-md first-time-welcome--quick-link--icon-default">
 										</div>
@@ -1018,7 +998,7 @@
 										Visit our Help Centre
 									</div>
 								</a>
-								<a class="col-sm-4 first-time-welcome--quick-link">
+								<a class="col-xs-6 col-sm-4 first-time-welcome--quick-link">
 									<div class="first-time-welcome--quick-link--icon">
 										<div class="sprite-icon__link-orange-md first-time-welcome--quick-link--icon-default">
 										</div>
@@ -1283,14 +1263,19 @@
 			var subCodeText =  $(this).siblings('input.subCodeText').val();			
 			var textarea = $($(this).data('target'));
 			var textareaPrototype = textarea.data('prototype');
+			var landingPageUrl = $('#landing-page-select').val();
 			href = '';
 			if(subCodeText != '') {
 				href = "&amp;chan="+subCodeText;
 			}
 
-			console.log(href);
-			textarea.val(textareaPrototype.replace('SUBCODE',href));								
-			$(this).parent('div').hide();		
+			var newBannerCode = textareaPrototype.replace('SUBCODE',href).replace('LANDINGPAGE',landingPageUrl)
+			textarea.val(newBannerCode);	
+
+			$('#get-code-modal--banner-preview').empty().append($(newBannerCode));
+
+			// $(this).parent('div').hide();	
+			// $(this).siblings('input.subCodeText').val('');	
 		});
 
 		// if (location.hash !== '') {
@@ -1347,7 +1332,7 @@
 				bannerCampaignName = $bannerItem.data('campaignName'),
 				bannerCode = $bannerItem.data('code'),
 				bannerLayout = $bannerItem.data('width')<=320?'horizontal':'vertical',
-				bannerLandingPageUrl = $($bannerItem.find('.banner--details--target-link-selector')).val();
+				bannerLandingPageUrl = $('#landing-page-select').val();
 
 
 			
@@ -1359,6 +1344,18 @@
 			$('#get-code-modal--banner-preview').empty().append($(bannerCode.replace('SUBCODE','').replace('LANDINGPAGE',bannerLandingPageUrl)));
 			$('#get-code-modal--layout').removeClass().addClass(bannerLayout)
 			$('#get-code-modal').modal('show');
+		});
+
+		$('#landing-page-select').change(function(){
+			var self = $(this),
+				newLandingPageUrl = self.val(),
+				prototype = $('#get-code-modal--banner-details--code').data('prototype');
+
+			newBannerCode = prototype.replace('SUBCODE','&amp;chan='+$('#banner-sub-code').val()).replace('LANDINGPAGE',newLandingPageUrl);
+
+			$('#get-code-modal--banner-details--code').val(newBannerCode);
+			$('#get-code-modal--banner-preview').empty().append($(newBannerCode));
+
 		});
 
 		//banner filter code

@@ -32,7 +32,7 @@
 .sticky-side-content .custom-nav {
     margin-top: 54px;
     @media (max-width: 767px) {
-    	margin-top: 75px;
+    	margin-top: 67px;
     }
 }
 .side-content-collapsed .sticky-side-content {
@@ -456,8 +456,8 @@
 		bottom: auto;
 		left: 23px;
 		@tr: 0.25s cubic-bezier(.55,0,0,1);
-		z-index: 99;
-		.transition(all @tr);
+		@t1: all @tr, z-index 2s;
+		.transition(@t1);
 		&.active {
 		    left: 23px;
 		    top: 135px;
@@ -496,5 +496,12 @@
 	
 	.icon-bar {
 		background-color: #ee683a;
+	}
+
+	@media (max-width: 767px) {
+		position: fixed;
+	    top: 15px;
+	    z-index: 1000000;
+	    left: 15px;
 	}
 }
