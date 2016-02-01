@@ -519,14 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "market-related/widescrapper/logic.js",
-			"settings":
-			{
-				"buffer_size": 25337,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -580,9 +572,50 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/andrew-pham/development/point-sites/banners/market-related/widescrapper-usd-sgd"
 	],
 	"file_history":
 	[
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-landing/Gruntfile.js",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/skyscrapper-ftse/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/skyscrapper-usd-sgd/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/widescrapper/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/widescrapper-dax/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/widescrapper-dow/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/widescrapper-ftse/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/widescrapper-nzx/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/widescrapper-usd-sgd/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/skyscrapper-nzx/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/mrec-asx/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/mrec-Dax/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/mrec-dow/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/mrec-ftse/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/mrec-nzx/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/skyscrapper-asx/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/skyscrapper-dax/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/skyscrapper-dow/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/mobile-nzx/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/mobile-ftse/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/mobile-dow/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/mobile-dax/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/mobile-asx/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/mobile-usd-sgd/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/mobile-usd-sgd/logic.js",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/mrec-usd-sgd/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/leaderboard-asx/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/leaderboard-dax/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/leaderboard-dow/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/leaderboard-nzx/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/leaderboard-Ftse/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/widescrapper/logic.js",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/leaderboard-usd-sgd/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/banner-nzx/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/banner-dax/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/banner-dow/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/banner-usd-sgd/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/banner-usd-sgd/logic.js",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/banner-ftse/banner.html",
+		"/Users/andrew-pham/development/point-sites/banners/market-related/banner-asx/banner.html",
 		"/Users/andrew-pham/development/point-sites/banners/market-related/banner/logic.js",
 		"/Users/andrew-pham/development/point-sites/banners/market-related/leaderboard-usd-sgd-shareInvestor/logic.js",
 		"/Users/andrew-pham/development/point-sites/banners/market-related/leaderboard/logic.js",
@@ -591,10 +624,8 @@
 		"/Users/andrew-pham/development/point-sites/banners/market-related/mrec/logic.js",
 		"/Users/andrew-pham/development/point-sites/banners/market-related/skyscrapper/logic.js",
 		"/Users/andrew-pham/development/point-sites/banners/market-related/skyscrapper/banner.html",
-		"/Users/andrew-pham/development/point-sites/banners/market-related/widescrapper/banner.html",
 		"/Users/andrew-pham/development/point-sites/banners/market-related/mrec/banner.html",
 		"/Users/andrew-pham/development/point-sites/banners/market-related/mrec-usd-sgd-shareInvestor/banner.html",
-		"/Users/andrew-pham/development/point-sites/banners/market-related/widescrapper/logic.js",
 		"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components/utils.js",
 		"/Users/andrew-pham/development/point-sites/banners/share-investor/mrect/banner-old-platform.html",
 		"/Users/andrew-pham/development/point-sites/banners/share-investor/leaderboard/banner-old-platform.html",
@@ -672,45 +703,7 @@
 		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-signup-layout.liquid",
 		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-login-layout.liquid",
 		"/Users/andrew-pham/development/hl-my-account/templates/includes/demo-signup-layout.liquid",
-		"/Users/andrew-pham/development/hl-my-account/templates/includes/login-layout.liquid",
-		"/Users/andrew-pham/development/hl-my-account/templates/includes/signup-layout.liquid",
-		"/Users/andrew-pham/development/hl-my-account/common/less/ui-components/p-fill.less",
-		"/Users/andrew-pham/development/hl-my-account/common/scripts/point.main.js",
-		"/Users/andrew-pham/development/hl-my-account/templates/includes/ticker.liquid",
-		"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components/animation.js",
-		"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components/p-ticker__news-scroller.js",
-		"/Users/andrew-pham/development/highlow-public-page/templates/layouts/mobile-app-landing-layout.liquid",
-		"/Users/andrew-pham/development/point-sites/banners/market-related/leaderboard/bluebird.js",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/signin-popup.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/common-nav.liquid",
-		"/Users/andrew-pham/development/hl-my-account/templates/includes/menu-bar.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/main-navigation-demo.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/form.less",
-		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/btn.less",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/ja-signin-popup.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/templates/layouts/layout.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/menu-bar.less",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/extreme-alert.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/ja-extreme-alert.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/ja-common-nav.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/ja-main-navigation.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/ja-main-navigation-quick-demo.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/ja-main-navigation-demo.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/main-navigation.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/templates/includes/main-navigation-quick-demo.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/public/js/highlow.js",
-		"/Users/andrew-pham/development/hl-my-account/common/less/component/trade-walkthrough.less",
-		"/Users/andrew-pham/development/hl-my-account/templates/ja-home-lite.liquid",
-		"/Users/andrew-pham/development/hl-my-account/templates/home-lite.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/public/css/less/modals.less",
-		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/clearable.less",
-		"/Users/andrew-pham/development/hl-my-account/common/less/ui-components/clearable.less",
-		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-mega-menu.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/modal.less",
-		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/footer.less",
-		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/mobile-my-account.less",
-		"/Users/andrew-pham/development/hl-my-account/common/less/component/contact.less",
-		"/Users/andrew-pham/development/highlow-public-page/public/css/main-site-less/highlow-common-header.less"
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/login-layout.liquid"
 	],
 	"find":
 	{
@@ -856,6 +849,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"point.agency",
 			"count = ",
 			"if(window.running)\n		    		document.location.href=document.location.href;",
 			"if(count<3) {\n																		rerun();\n																	}",
@@ -982,8 +976,7 @@
 			"2-pos",
 			"chart-wr",
 			"graph-wrapper",
-			"cursor",
-			"graph-wrapper"
+			"cursor"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -991,6 +984,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"http://point.agency",
 			"if(window.running) {\n		    		if(count<3) document.location.href=document.location.href;}",
 			"if(count<3) {\n																		rerun();\n																	} else { emergencyStop(); }",
 			"href=\"#\"",
@@ -1117,8 +1111,7 @@
 			"1.2",
 			"</span><span class=\"word\">",
 			"_transaction-history",
-			"transactions-history-filter",
-			"_transaction-history"
+			"transactions-history-filter"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1134,38 +1127,8 @@
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "market-related/widescrapper/logic.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 25337,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								22501,
-								22509
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 18416.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1214,7 +1177,7 @@
 	"project": "banners.sublime-project",
 	"replace":
 	{
-		"height": 94.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1245,7 +1208,7 @@
 		],
 		"width": 953.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

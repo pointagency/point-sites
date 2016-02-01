@@ -1,0 +1,165 @@
+<div class="side-content sticky-side-content hidden-xs" id="side-menu">
+	<div class="stick-side-content--inner-wrapper">
+		<div class="side-content-inner">
+			<!--sidebar nav start-->
+			<ul class="nav nav-pills nav-stacked custom-nav">
+				<li class="user dropdown">
+					<a href="#" class="side-menu--user-toggle dropdown-toggle toggler" data-toggle-target=".side-menu--user--sub-menu" data-toggle-class="active" data-toggle-off-click="true">
+						<img class="avatar" src="acontent/images/avatar-1.png" />
+						<span>
+							Hi, Hamish!
+						</span>
+						<i class="sprite-icon__down-pink-sm menu-list--dropdown-icon"></i>
+					</a>
+				</li>
+				<li>
+					<div class="side-content--header">
+						MENU
+					</div>
+				</li>
+				<li >
+					<a href="#">
+						<span class="side-menu-item-icon">
+							<i class="side-menu-item-icon--default sprite-icon__meter-grey-sm"></i>
+							<i class="side-menu-item-icon--active sprite-icon__meter-red-sm"></i>
+							<i class="side-menu-item-icon--hover sprite-icon__meter-white-sm"></i>
+						</span>
+						<span>Dashboard</span>
+					</a>
+				</li>
+				<li class="menu-list {{ creatives }}">
+					<a href="javascript:void(0);">
+						<span class="side-menu-item-icon">
+							<i class="side-menu-item-icon--default sprite-icon__star-grey-sm"></i>
+							<i class="side-menu-item-icon--active sprite-icon__star-red-sm"></i>
+							<i class="side-menu-item-icon--hover sprite-icon__star-white-sm"></i>
+						</span>
+						<span>Creatives</span>
+						<i class="sprite-icon__down-grey-sm menu-list--dropdown-icon"></i>
+					</a>
+					<ul class="sub-menu-list">
+						<li class="{{ banners }}">
+							<a href="#">
+								<span>Banners</span>
+							</a>
+						</li>
+						<li class="">
+							<a href="#">
+								<span>Landing Pages</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menu-list">
+					<a href="javascript:void(0);">
+						<span class="side-menu-item-icon">
+							<i class="side-menu-item-icon--default sprite-icon__bars-grey-sm"></i>
+							<i class="side-menu-item-icon--active sprite-icon__bars-red-sm"></i>
+							<i class="side-menu-item-icon--hover sprite-icon__bars-white-sm"></i>
+						</span>
+						<span>Reporting</span> 
+						<i class="sprite-icon__down-grey-sm menu-list--dropdown-icon"></i>
+					</a>
+					<ul class="sub-menu-list">
+						<li class="">
+							<a href="#">
+								<span>Clicks</span>
+							</a>
+						</li>
+						<li class="">
+							<a href="#">
+								<span>Conversion</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="">
+					<a href="#">
+						<span class="side-menu-item-icon">
+							<i class="side-menu-item-icon--default sprite-icon__dollar-grey-sm"></i>
+							<i class="side-menu-item-icon--active sprite-icon__dollar-red-sm"></i>
+							<i class="side-menu-item-icon--hover sprite-icon__dollar-white-sm"></i>
+						</span>
+						<span>Payments</span>
+					</a>
+				</li>
+				<li class="menu-list">
+					<a href="javascript:void(0);">
+						<span class="side-menu-item-icon">
+							<i class="side-menu-item-icon--default sprite-icon__wrench-grey-sm"></i>
+							<i class="side-menu-item-icon--active sprite-icon__wrench-red-sm"></i>
+							<i class="side-menu-item-icon--hover sprite-icon__wrench-white-sm"></i>
+						</span>
+						<span>Settings</span> 
+						<i class="sprite-icon__down-grey-sm menu-list--dropdown-icon"></i>
+					</a>
+					<ul class="sub-menu-list">
+						<li class="">
+							<a href="#">
+								<span>My Websites</span>
+							</a>
+						</li>
+						<li class="">
+							<a href="#">
+								<span>Profile</span>
+							</a>
+						</li>
+						<li class="">
+							<a href="#">
+								<span>Change password</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+				{% comment %}
+				<li class="">
+					<a href="#">
+						<span class="side-menu-item-icon">
+							<i class="side-menu-item-icon--default sprite-icon__link-grey-sm"></i>
+							<i class="side-menu-item-icon--active sprite-icon__link-red-sm"></i>
+							<i class="side-menu-item-icon--hover sprite-icon__link-white-sm"></i>
+						</span>
+						<span>Direct Links</span>
+					</a>
+				</li>
+				{% endcomment %}
+			</ul>
+		</div>
+		<div class="side-menu--help-container">
+			<div class="side-menu--help-toggle toggler" data-toggle-target=".side-menu--help--sub-menu" data-toggle-class="active" data-toggle-off-click="true">
+				<i class="side-menu--help-toggle--icon">
+					<span class="side-menu--help-toggle--icon--default sprite-icon__help-red">
+					</span>
+					<span class="side-menu--help-toggle--icon--hover sprite-icon__help-white">
+					</span>
+				</i>
+				NEED HELP?
+			</div>
+		</div>
+	</div>
+</div>
+<div class="side-menu--user--sub-menu">
+	<div class="side-menu--user--sub-menu--item">
+		<a href="#update-avatar-modal" class="toggler" data-toggle-target=".side-menu--user--sub-menu" data-toggle-class="active" data-toggle="modal">Update Profile Pic</a>
+	</div>
+	<div class="side-menu--user--sub-menu--item">
+		<a href="#">My Websites</a>
+	</div>
+	<div class="side-menu--user--sub-menu--item">
+		<a href="#">Profile</a>
+	</div>
+	<div class="side-menu--user--sub-menu--item">
+		<a href="#">Change Password</a>
+	</div>
+	<div class="side-menu--user--sub-menu--item">
+		<a href="#">Log-out</a>
+	</div>
+</div>
+<div class="side-menu--help--sub-menu">
+	<div class="side-menu--help--sub-menu--item">
+		<a href="#">FAQ's</a>
+	</div>
+	<div class="side-menu--help--sub-menu--item">
+		<a href="#">Contact</a>
+	</div>
+</div>

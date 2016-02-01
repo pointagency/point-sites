@@ -1,0 +1,23 @@
+{
+  "name": "hl-affiliates-account",
+  "description": "High Low Affiliates Account",
+  "main": "index.js",
+  "authors": [
+    "Andrew Pham"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/pointagency/point-sites",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery.selectBoxIt.js": "https://github.com/gfranko/jquery.selectBoxIt.js.git#^3.8.1",
+    "fine-uploader": "https://github.com/FineUploader/fine-uploader.git#^5.5.0"
+  }
+}
