@@ -444,7 +444,7 @@ window.expandableInit = function () {
 	$('.expandable').each(function(){
 		var self = $(this);
 		$(self.find('.expandable-header')).click(function(){
-			if(self.hasClass('expanded')) {
+			if(self.hasClass('expanded') && $(self.find('.collapse.in')).length>0) {
 				self.removeClass('expanded');
 			} else {
 				self.addClass('expanded');
