@@ -2,17 +2,31 @@
 	.expandable-header {
 		background-color: #ecebeb;
 		padding: 0.75em 1.75em 0.75em 1em;
-		// .plus {
-		// 	display: inline-block;
-		// 	position: relative;
-		// 	margin-left: 1em;
-		// 	vertical-align: middle;
-		// 	top: auto;
-		// 	right: auto;
-		// }
+		position: relative;
 		.plus {
 			right: 0.7em;
 			top: 0.7em;
+			position: absolute;
+	 		> .vertical,
+	 		> .horizontal {
+	 			background-color: #ee683a;
+		 	}
+		}
+	}
+
+	.expandable-content {
+		padding: 0em 1.75em 0em 1em;
+	}
+
+	&.expanded {
+		.expandable-header {
+			.plus {
+				> .vertical {
+					display: none;
+				}
+			}
 		}
 	}
 }
+
+

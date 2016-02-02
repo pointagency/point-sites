@@ -1,19 +1,30 @@
 @media (max-width: 767px) {
+	html {
+		width: 100%;
+		position: relative;
+	}
 	body {
 		overflow-x: hidden;
 		overflow-y: auto;
+		width: 100%;
+		max-width: 100%;
+		position: relative;
+		&.show-sidebar {
+			overflow: hidden!important;
+		}
 	}
 	.show-sidebar {
 		.main-content {
 			.transition(left 0.25s ease);
 			z-index: 1029;
 			left: 230px;
-			position: relative;
+    		position: absolute;
 		}
 		.navbar-fixed-top {
 			.transition(left 0.25s ease);
 			left: 230px;
 			width: 100%;
+   			z-index: 1032;
 		}
 	}
 

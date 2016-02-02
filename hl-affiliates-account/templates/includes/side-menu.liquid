@@ -17,8 +17,8 @@
 						MENU
 					</div>
 				</li>
-				<li >
-					<a href="#">
+				<li class="{{ dashboard }}">
+					<a href="dashboard.html">
 						<span class="side-menu-item-icon">
 							<i class="side-menu-item-icon--default sprite-icon__meter-grey-sm"></i>
 							<i class="side-menu-item-icon--active sprite-icon__meter-red-sm"></i>
@@ -30,7 +30,7 @@
 				<li class="menu-list {{ creatives }}">
 					<a href="javascript:void(0);">
 						<span class="side-menu-item-icon">
-							<i class="side-menu-item-icon--default sprite-icon__star-grey-sm"></i>
+							<i class="side-menu-item-icon--default sprite-icon__star-grey-solid-sm"></i>
 							<i class="side-menu-item-icon--active sprite-icon__star-red-sm"></i>
 							<i class="side-menu-item-icon--hover sprite-icon__star-white-sm"></i>
 						</span>
@@ -39,7 +39,7 @@
 					</a>
 					<ul class="sub-menu-list">
 						<li class="{{ banners }}">
-							<a href="#">
+							<a href="view-promotions.html">
 								<span>Banners</span>
 							</a>
 						</li>
@@ -50,7 +50,7 @@
 						</li>
 					</ul>
 				</li>
-				<li class="menu-list">
+				<li class="menu-list {{ reporting }}">
 					<a href="javascript:void(0);">
 						<span class="side-menu-item-icon">
 							<i class="side-menu-item-icon--default sprite-icon__bars-grey-sm"></i>
@@ -61,20 +61,20 @@
 						<i class="sprite-icon__down-grey-sm menu-list--dropdown-icon"></i>
 					</a>
 					<ul class="sub-menu-list">
-						<li class="">
-							<a href="#">
+						<li class="{{ clicks }}">
+							<a href="reporting-clicks.html">
 								<span>Clicks</span>
 							</a>
 						</li>
-						<li class="">
-							<a href="#">
-								<span>Conversion</span>
+						<li class="{{ conversions }}">
+							<a href="reporting-conversions.html">
+								<span>Conversions</span>
 							</a>
 						</li>
 					</ul>
 				</li>
-				<li class="">
-					<a href="#">
+				<li class="{{ payments }}">
+					<a href="payments.html">
 						<span class="side-menu-item-icon">
 							<i class="side-menu-item-icon--default sprite-icon__dollar-grey-sm"></i>
 							<i class="side-menu-item-icon--active sprite-icon__dollar-red-sm"></i>
@@ -157,7 +157,7 @@
 </div>
 <div class="side-menu--help--sub-menu">
 	<div class="side-menu--help--sub-menu--item">
-		<a href="#">FAQ's</a>
+		<a href="faqs.html">FAQ's</a>
 	</div>
 	<div class="side-menu--help--sub-menu--item">
 		<a href="#">Contact</a>

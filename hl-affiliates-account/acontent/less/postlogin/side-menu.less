@@ -18,7 +18,9 @@
 .sticky-side-content {
     height: 100%;
     position: fixed;
-    z-index: 100;
+    @media (max-width: 767px) {
+   	 	z-index: 1031;
+    }
     overflow: hidden;
 }
 .stick-side-content--inner-wrapper {
@@ -521,9 +523,16 @@
 	}
 
 	@media (max-width: 767px) {
-		position: fixed;
-	    top: 15px;
+		position: fixed;    
+		top: 11px;
     	z-index: 1030;
 	    left: 15px;
+	    background: none!important;
+		&:hover {
+			top: 11px;
+			background: none;
+			margin-top: 8px;
+			margin-bottom: 8px;
+		}
 	}
 }

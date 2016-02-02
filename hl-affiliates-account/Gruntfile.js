@@ -154,7 +154,7 @@ module.exports = function(grunt) {
 					expand: true,
 					flatten: false,
 					cwd: 'acontent/',
-					src: ['**/*.*'],
+					src: ['**/*.*','!**/*.less'],
 					dest: 'compiled/acontent/'
 				}]
 			}

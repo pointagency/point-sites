@@ -1,0 +1,193 @@
+{% extends base %}
+
+
+{% block title %}
+	Frequently Asked Questions
+{% endblock %}
+
+{% block bodyClass %}
+{% endblock %}
+
+{% block content %}
+
+{% include header %}
+
+
+{% include side-menu %}
+
+<div class="main-content">
+	<div class="wrapper clearfix">
+		<div class="clearfix">
+		</div>
+		<div class="page-heading clearfix">
+			<div class="pull-left">
+				<h3>
+					FREQUENTLY ASKED QUESTIONS
+				</h3>
+			</div>
+		</div>
+		<div class="container">
+			<h3 class="page-sub-heading">Lorem ipsum</h3>
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="faq-item expandable">
+						<div class="expandable-header first-child collapsed" data-toggle="collapse" data-target="#q-7-0">
+							How Do I Open An Account?
+							<div class="plus first-child last-child">
+								<div class="vertical first-child">
+								</div>
+								<div class="horizontal last-child">
+								</div>
+							</div>
+						</div>
+						<div class="expandable-content-wrapper last-child collapse" id="q-7-0" style="height: 0px;">
+							<div class="expandable-content main-cont first-child last-child">
+								<p class="first-child">
+
+
+
+
+								</p><p>Please visit&nbsp;<a href="https://affiliates.highlow.net/en/sign-up" class="first-child last-child">https://affiliates.highlow.net/en/sign-up</a></p>
+
+								<p class="last-child"></p>
+							</div>
+						</div>
+					</div>
+					<div class="faq-item expandable">
+						<div class="expandable-header first-child collapsed" data-toggle="collapse" data-target="#q-7-1">
+							What Are Your Commissions?
+							<div class="plus first-child last-child">
+								<div class="vertical first-child">
+								</div>
+								<div class="horizontal last-child">
+								</div>
+							</div>
+						</div>
+						<div class="expandable-content-wrapper last-child collapse" id="q-7-1" style="height: 0px;">
+							<div class="expandable-content main-cont first-child last-child">
+								<p class="first-child">
+
+
+
+
+								</p><p>New commission plans are as follows – Commencing the 1<sup class="first-child last-child">st</sup> of May 2015 ;</p>
+								<p>1-10 = $300 AUD per client</p>
+								<p>11-100 = $350 AUD per client</p>
+								<p>100 + = $400 AUD per client</p>
+
+								<p class="last-child"></p>
+							</div>
+						</div>
+					</div>
+					<div class="faq-item expandable">
+						<div class="expandable-header first-child collapsed" data-toggle="collapse" data-target="#q-7-2">
+							Who Can I Contact For Help?
+							<div class="plus first-child last-child">
+								<div class="vertical first-child">
+								</div>
+								<div class="horizontal last-child">
+								</div>
+							</div>
+						</div>
+						<div class="expandable-content-wrapper last-child collapse" id="q-7-2" style="height: 0px;">
+							<div class="expandable-content main-cont first-child last-child">
+								<p class="first-child">
+
+
+
+
+								</p><p>If you have any questions regarding the transition from PAP to the new system please contact at&nbsp;<a href="mailto:affiliates@highlow.net" class="first-child last-child">affiliates@highlow.net</a></p>
+
+								<p class="last-child"></p>
+							</div>
+						</div>
+					</div>
+					<div class="faq-item expandable">
+						<div class="expandable-header first-child collapsed" data-toggle="collapse" data-target="#q-7-3">
+							When Are Commissions Paid?
+							<div class="plus first-child last-child">
+								<div class="vertical first-child">
+								</div>
+								<div class="horizontal last-child">
+								</div>
+							</div>
+						</div>
+						<div class="expandable-content-wrapper last-child collapse" id="q-7-3" style="height: 0px;">
+							<div class="expandable-content main-cont first-child last-child">
+								<p class="first-child">
+
+
+
+
+								</p><p>Commissions will be paid on the 10th of every month for all conversions from the previous month.&nbsp;</p>
+
+								<p class="last-child"></p>
+							</div>
+						</div>
+					</div>
+					<div class="faq-item expandable">
+						<div class="expandable-header first-child collapsed" data-toggle="collapse" data-target="#q-7-4">
+							Client Status Definitions
+							<div class="plus first-child last-child">
+								<div class="vertical first-child">
+								</div>
+								<div class="horizontal last-child">
+								</div>
+							</div>
+						</div>
+						<div class="expandable-content-wrapper last-child collapse" id="q-7-4" style="height: 0px;">
+							<div class="expandable-content main-cont first-child last-child">
+								<p class="first-child">
+
+
+
+
+								</p><p>Registered - When a account has been created</p>
+								<p>Funded - When the customer account has been funded by the customer</p>
+								<p>Sales - When Customer does a trade.</p>
+								<p>Rejected - When a conversion is rejected</p>
+
+								<p class="last-child"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
+
+{% block script %}
+
+<script>
+	$(document).ready(function(){
+		$(".sidebar-toggler").click(function(){
+			if($('body').hasClass('show-sidebar')) {
+				$('body').removeClass('show-sidebar');
+				$('#side-menu').addClass('hidden-xs');
+			} else {
+				$('body').addClass('show-sidebar');
+				$('#side-menu').removeClass('hidden-xs');
+			}
+		});
+
+
+		setTimeout(function(){
+			$('.message-wrapper').each(function(){
+				$(this).addClass('display').addClass($(this).data('type'));
+			});
+		},600);
+
+		$('.message-wrapper .close').click(function(){
+			$('.message-wrapper').removeClass('display').removeClass('fail').removeClass('success').removeClass('alert').removeClass('generic').removeClass('warning');
+		});
+
+
+	});
+</script>
+
+<script type="text/javascript" src="https://cdn.highlow.net/acontent/js/jquery.zclip.min.js"></script>
+
+{% endblock %}
