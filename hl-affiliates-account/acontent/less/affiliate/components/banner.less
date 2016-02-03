@@ -107,9 +107,9 @@
 	@media (max-width: 991px) {
 		margin: 0 0 5px;
 	}
-	@media (min-width: 1200px) {
-		float: right;
+	@media (min-width: 992px) {
 		margin-right: 0px;
+		float: right;
 	}
 }
 
@@ -123,7 +123,7 @@
 
 .banners--filter-list {
 	padding: 8px 0 30px;
-	@media (max-width: 768px) {
+	@media (max-width: 991px) {
 		background-color: #f0f2f4;
 		padding-top: 0px;
 		padding-bottom: 0px;
@@ -137,7 +137,7 @@
 	    color: #939393;
 	    padding: 17px 18px 3px 20px;
 	    position: relative;
-	    @media (max-width: 768px) {
+	    @media (max-width: 991px) {
 	    	padding-bottom: 17px;
 	    	&:before {
 	    		content: "";
@@ -161,7 +161,7 @@
 	}
 
 .banners--filter-container {
-	@media (max-width: 768px) {
+	@media (max-width: 991px) {
 		display: none;
 		&.active {
 			display: block;
@@ -188,15 +188,7 @@
 }
 
 .banners--filter--group {
-	@media (max-width: 1199px) {
-		width: 50%;
-		float: left;
-	}
 
-	@media (max-width: 767px) {
-		width: 100%;
-		float: none;
-	}
 }
 
 .banners-filter-option {
@@ -275,7 +267,16 @@
 
 	.banner--item-content {
 		min-height: 187px;
-		@media (max-width: 1199px) {
+		@media (max-width: 830px) and (min-width: 768px) {
+			display: block;
+			.p-css-table-row {
+				display: block;
+			}
+				.p-css-table-cell {
+					display: block;
+				}
+		}
+		@media (max-width: 520px) {
 			display: block;
 			.p-css-table-row {
 				display: block;
@@ -298,7 +299,12 @@
 		background-color: #f9fafb;
 	}
 
-	@media (max-width: 1199px) {
+	@media (max-width: 830px) and (min-width: 768px) {
+		width: 100%!important;
+		background-color: #f5f5f5;
+	}
+	
+	@media (max-width: 520px) {
 		width: 100%!important;
 		background-color: #f5f5f5;
 	}
@@ -308,10 +314,10 @@
 	display: block;
 	position: relative;
 	width: 240px!important;
-	height: 210px!important;
+	min-height: 210px!important;
 	top: 0px;
 	left: 0px;
-	@media (max-width: 1199px) {
+	@media (max-width: 991px) {
 		margin: 0 auto;
 	}
 }
@@ -341,6 +347,10 @@
 		}
 	}
 }
+
+	.banner--details--content {
+    	.clearfix();
+	}
 
 	.banner--details--favourite {
 		position: absolute;
