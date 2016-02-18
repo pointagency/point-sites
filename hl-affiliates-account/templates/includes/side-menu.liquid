@@ -5,11 +5,14 @@
 			<ul class="nav nav-pills nav-stacked custom-nav">
 				<li class="user dropdown">
 					<a href="#" class="side-menu--user-toggle dropdown-toggle toggler" data-toggle-target=".side-menu--user--sub-menu" data-toggle-class="active" data-toggle-off-click="true">
-						<img class="avatar" src="acontent/images/avatar-1.png" />
+						<img href="#update-avatar-modal" class="avatar toggler" data-toggle-target=".side-menu--user--sub-menu" data-toggle-class="active" data-toggle="modal" data-toggle="modal" src="acontent/images/avatar-1.png" />
 						<span>
-							Hi, Hamish!
+							Hi Hamish
 						</span>
-						<i class="sprite-icon__down-pink-sm menu-list--dropdown-icon"></i>
+						<div class="menu-list--dropdown-icon">
+							<i class="default sprite-icon__down-pink-sm"></i>
+							<i class="hover sprite-icon__down-white-sm"></i>
+						</div>
 					</a>
 				</li>
 				<li>
@@ -34,7 +37,7 @@
 							<i class="side-menu-item-icon--active sprite-icon__star-red-sm"></i>
 							<i class="side-menu-item-icon--hover sprite-icon__star-white-sm"></i>
 						</span>
-						<span>Creatives</span>
+						<span>Creative</span>
 						<i class="sprite-icon__down-grey-sm menu-list--dropdown-icon"></i>
 					</a>
 					<ul class="sub-menu-list">
@@ -43,9 +46,9 @@
 								<span>Banners</span>
 							</a>
 						</li>
-						<li class="">
-							<a href="#">
-								<span>Landing Pages</span>
+						<li class="{{ landingPages }}">
+							<a href="landing-pages.html">
+								<span>Landing pages</span>
 							</a>
 						</li>
 					</ul>
@@ -57,18 +60,18 @@
 							<i class="side-menu-item-icon--active sprite-icon__bars-red-sm"></i>
 							<i class="side-menu-item-icon--hover sprite-icon__bars-white-sm"></i>
 						</span>
-						<span>Reporting</span> 
+						<span>Analytics</span> 
 						<i class="sprite-icon__down-grey-sm menu-list--dropdown-icon"></i>
 					</a>
 					<ul class="sub-menu-list">
-						<li class="{{ clicks }}">
-							<a href="reporting-clicks.html">
-								<span>Clicks</span>
+						<li class="{{ analyticsLead }}">
+							<a href="analytics--lead-conversions.html">
+								<span>Lead conversion</span>
 							</a>
 						</li>
-						<li class="{{ conversions }}">
-							<a href="reporting-conversions.html">
-								<span>Conversions</span>
+						<li class="{{ analyticsCreative }}">
+							<a href="analytics--creatives.html">
+								<span>Banner conversion</span>
 							</a>
 						</li>
 					</ul>

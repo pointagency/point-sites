@@ -10,7 +10,7 @@
 		<meta name="description" content="Welcome!" />
 		<meta name="keywords" content="Welcome!" />
 		<meta name="robots" content="index, follow" />
-		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 		<link href="acontent/css/post-login-split.css" rel="stylesheet"/>
         <!--[if lt IE 9]>
@@ -47,9 +47,23 @@
 			</button>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="navbar-right">
+
 				<a class="navbar-logout-link" href="">Log-out</a>
 				<div class="commission-status pull-right hidden-xs">
 					This month: <span class="commission-status--value">$875</span>
+				</div>
+				<div class="outstanding-invoices pull-right hidden-xs toggler" data-toggle-off-click="true" data-toggle-target="#outstanding-invoices--tooltip" data-toggle-class="in">
+					Outstanding invoices: &nbsp;
+					<span class="outstanding-invoices--count">
+						102 
+						<div id="outstanding-invoices--tooltip" class="tooltip bottom fade">
+							<div class="tooltip-inner">
+								You have Commission outstanding – please supply invoices to receive payment. <a href='' class="disable-propagation">Learn more &gt;</a>
+							</div>
+							<div class="tooltip-arrow">
+							</div>
+						</div>
+					</span>
 					<span class="sprite-icon"></span>
 				</div>
 			</div><!-- /.navbar-collapse -->
@@ -68,11 +82,14 @@
 			<ul class="nav nav-pills nav-stacked custom-nav">
 				<li class="user dropdown">
 					<a href="#" class="side-menu--user-toggle dropdown-toggle toggler" data-toggle-target=".side-menu--user--sub-menu" data-toggle-class="active" data-toggle-off-click="true">
-						<img class="avatar" src="acontent/images/avatar-1.png" />
+						<img href="#update-avatar-modal" class="avatar toggler" data-toggle-target=".side-menu--user--sub-menu" data-toggle-class="active" data-toggle="modal" data-toggle="modal" src="acontent/images/avatar-1.png" />
 						<span>
-							Hi, Hamish!
+							Hi Hamish
 						</span>
-						<i class="sprite-icon__down-pink-sm menu-list--dropdown-icon"></i>
+						<div class="menu-list--dropdown-icon">
+							<i class="default sprite-icon__down-pink-sm"></i>
+							<i class="hover sprite-icon__down-white-sm"></i>
+						</div>
 					</a>
 				</li>
 				<li>
@@ -97,7 +114,7 @@
 							<i class="side-menu-item-icon--active sprite-icon__star-red-sm"></i>
 							<i class="side-menu-item-icon--hover sprite-icon__star-white-sm"></i>
 						</span>
-						<span>Creatives</span>
+						<span>Creative</span>
 						<i class="sprite-icon__down-grey-sm menu-list--dropdown-icon"></i>
 					</a>
 					<ul class="sub-menu-list">
@@ -107,8 +124,8 @@
 							</a>
 						</li>
 						<li class="">
-							<a href="#">
-								<span>Landing Pages</span>
+							<a href="landing-pages.html">
+								<span>Landing pages</span>
 							</a>
 						</li>
 					</ul>
@@ -120,18 +137,18 @@
 							<i class="side-menu-item-icon--active sprite-icon__bars-red-sm"></i>
 							<i class="side-menu-item-icon--hover sprite-icon__bars-white-sm"></i>
 						</span>
-						<span>Reporting</span> 
+						<span>Analytics</span> 
 						<i class="sprite-icon__down-grey-sm menu-list--dropdown-icon"></i>
 					</a>
 					<ul class="sub-menu-list">
 						<li class="">
-							<a href="reporting-clicks.html">
-								<span>Clicks</span>
+							<a href="analytics--lead-conversions.html">
+								<span>Lead conversion</span>
 							</a>
 						</li>
 						<li class="">
-							<a href="reporting-conversions.html">
-								<span>Conversions</span>
+							<a href="analytics--creatives.html">
+								<span>Banner conversion</span>
 							</a>
 						</li>
 					</ul>
@@ -246,6 +263,16 @@
 								<div class="banners--panel clearfix">
 									<div class="col-lg-3 banners--filters">
 										<div class="header-block-2 banners--filters--panel-header">
+											<div class="banners--views--toggles">
+												<div class="banners--views--toggle banners--views--grid-toggle toggler" data-toggle-switch='on' data-toggle-target-class="grid" data-toggle-self-off-disabled="true" data-toggle-target=".banners--list" data-toggle-group="banner-list-view-mode">
+													<div class="banners--views--toggle--icon--default sprite-icon__grid-grey-sm"></div>
+													<div class="banners--views--toggle--icon--active sprite-icon__grid-red-sm"></div>
+												</div>
+												<div class="banners--views--toggle banners--views--list-toggle active toggler" data-toggle-switch='off' data-toggle-target-class="grid" data-toggle-self-off-disabled="true" data-toggle-target=".banners--list" data-toggle-group="banner-list-view-mode">
+													<div class="banners--views--toggle--icon--default sprite-icon__list-grey-sm"></div>
+													<div class="banners--views--toggle--icon--active sprite-icon__list-red-sm"></div>
+												</div>
+											</div>
 											<div class="clearfix banners--search-options">
 												<div class="banners--search">
 													<label for="banners-search-input">Search</label>
@@ -527,20 +554,18 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-9 banners--list">
+									<div class="col-lg-9 banners--list" data-toggle-group="banner-list-view-mode">
 										<div class="header-block-1">
-											Currently viewing 6 of 76 banners:
+											Currently viewing 12 of 76 banners:
 										</div>
 										<div class="banner--item"
-
 											data-name="Experienced Market Trader: ASX"
 											data-format="(html5)"
 											data-campaign-name="Australian affiliates campaign 2"
 											data-target="https://en2.highlow.net/account"
-											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe style="width: 300px; height: 250px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/mrec-asx/banner.html"></iframe></a>'
+											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative; display:block;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe scrolling="no" style="width: 300px; height: 250px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/mrec-asx/banner.html"></iframe></a>'
 											data-width="300"
-											data-height="250"
-										>
+											data-height="250">
 											<div class="p-css-table banner--item-content">
 												<div class="p-css-table-row">
 													<div class="p-css-table-cell banner--preview-container">
@@ -580,15 +605,14 @@
 											</div>
 										</div>
 										<div class="banner--item"
-
 											data-name="Experienced Market Trader: ASX"
 											data-format="(html5)"
 											data-campaign-name="Australian affiliates campaign 2"
 											data-target="https://en2.highlow.net/account"
-											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe style="width: 728px; height: 90px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/leaderboard-asx/banner.html"></iframe></a>'
+											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative; display:block;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe scrolling="no" style="width: 728px; height: 90px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/leaderboard-asx/banner.html"></iframe></a>'
 											data-width="728"
 											data-height="90"
-										>
+											data-favourite="true">
 											<div class="p-css-table banner--item-content">
 												<div class="p-css-table-row">
 													<div class="p-css-table-cell banner--preview-container">
@@ -602,7 +626,7 @@
 														<div class="banner--details--content">
 															<div class="banner--details--favourite">
 																<label>
-																	<input type="checkbox" class="banner--details--favourite--checkbox" value="all"/>
+																	<input type="checkbox" checked="checked" class="banner--details--favourite--checkbox" value="all"/>
 																	<span class="banner--details--favourite--icon">
 																	</span>
 																</label>
@@ -628,15 +652,13 @@
 											</div>
 										</div>
 										<div class="banner--item"
-
 											data-name="Experienced Market Trader: ASX"
 											data-format="(html5)"
 											data-campaign-name="Australian affiliates campaign 2"
 											data-target="https://en2.highlow.net/account"
-											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe style="width: 120px; height: 600px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/skyscrapper-asx/banner.html"></iframe></a>'
+											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative; display:block;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe scrolling="no" style="width: 120px; height: 600px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/skyscrapper-asx/banner.html"></iframe></a>'
 											data-width="120"
-											data-height="600"
-										>
+											data-height="600">
 											<div class="p-css-table banner--item-content">
 												<div class="p-css-table-row">
 													<div class="p-css-table-cell banner--preview-container">
@@ -676,15 +698,14 @@
 											</div>
 										</div>
 										<div class="banner--item"
-
 											data-name="Experienced Market Trader: ASX"
 											data-format="(html5)"
 											data-campaign-name="Australian affiliates campaign 2"
 											data-target="https://en2.highlow.net/account"
-											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe style="width: 320px; height: 50px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/mobile-asx/banner.html"></iframe></a>'
+											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative; display:block;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe scrolling="no" style="width: 320px; height: 50px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/mobile-asx/banner.html"></iframe></a>'
 											data-width="320"
 											data-height="50"
-										>
+											data-favourite="true">
 											<div class="p-css-table banner--item-content">
 												<div class="p-css-table-row">
 													<div class="p-css-table-cell banner--preview-container">
@@ -698,7 +719,7 @@
 														<div class="banner--details--content">
 															<div class="banner--details--favourite">
 																<label>
-																	<input type="checkbox" class="banner--details--favourite--checkbox" value="all"/>
+																	<input type="checkbox" checked="checked" class="banner--details--favourite--checkbox" value="all"/>
 																	<span class="banner--details--favourite--icon">
 																	</span>
 																</label>
@@ -724,15 +745,13 @@
 											</div>
 										</div>
 										<div class="banner--item"
-
 											data-name="Experienced Market Trader: DAX"
 											data-format="(html5)"
 											data-campaign-name="Australian affiliates campaign 2"
 											data-target="https://en2.highlow.net/account"
-											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe style="width: 468px; height: 60px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/banner-dax/banner.html"></iframe></a>'
+											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative; display:block;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe scrolling="no" style="width: 468px; height: 60px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/banner-dax/banner.html"></iframe></a>'
 											data-width="468"
-											data-height="60"
-										>
+											data-height="60">
 											<div class="p-css-table banner--item-content">
 												<div class="p-css-table-row">
 													<div class="p-css-table-cell banner--preview-container">
@@ -772,15 +791,105 @@
 											</div>
 										</div>
 										<div class="banner--item"
-
+											data-name="OZ Regulated: USD"
+											data-format="(html5)"
+											data-campaign-name="Australian affiliates campaign 2"
+											data-target="https://en2.highlow.net/account"
+											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative; display:block;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe scrolling="no" style="width: 300px; height: 600px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/oz-regulated-300x600/banner.html"></iframe></a>'
+											data-width="300"
+											data-height="600">
+											<div class="p-css-table banner--item-content">
+												<div class="p-css-table-row">
+													<div class="p-css-table-cell banner--preview-container">
+														<div class="banner--preview banner--viewable banner--playable banner--view-code">
+															<a title="preview this banner" class="banner--viewable--cover">
+																<div class="banner--viewable--screenshot" style="background-image: url(http://point.agency/highlow/banners/oz-regulated-300x600/preview.png);"></div>
+															</a>
+														</div>
+													</div>
+													<div class="banner--details banner-code-div">
+														<div class="banner--details--content">
+															<div class="banner--details--favourite">
+																<label>
+																	<input type="checkbox" class="banner--details--favourite--checkbox" value="all"/>
+																	<span class="banner--details--favourite--icon">
+																	</span>
+																</label>
+															</div>
+															<h4 class="banner--details--banner-name">
+																<strong><span class="banner--dimensions">300x600</span> - OZ Regulated: USD</strong> 
+																<span class="word banner--details--banner-format">
+																	(html5)
+																</span>
+															</h4>
+															<div class="banner--details--campaign-name">
+																Australian affiliates campaign 2
+															</div>
+															<div class="banner--details--target-link">	
+																<a href="https://en2.highlow.net/account">https://en2.highlow.net/account</a>
+															</div>
+															<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
+																<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="banner--item"
+											data-name="OZ Regulated: GBP"
+											data-format="(html5)"
+											data-campaign-name="Australian affiliates campaign 2"
+											data-target="https://en2.highlow.net/account"
+											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative; display:block;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe scrolling="no" style="width: 300px; height: 250px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/oz-regulated-gbp-300x250/banner.html"></iframe></a>'
+											data-width="300"
+											data-height="250">
+											<div class="p-css-table banner--item-content">
+												<div class="p-css-table-row">
+													<div class="p-css-table-cell banner--preview-container">
+														<div class="banner--preview banner--viewable banner--playable banner--view-code">
+															<a title="preview this banner" class="banner--viewable--cover">
+																<div class="banner--viewable--screenshot" style="background-image: url(http://point.agency/highlow/banners/oz-regulated-gbp-300x250/preview.png);"></div>
+															</a>
+														</div>
+													</div>
+													<div class="banner--details banner-code-div">
+														<div class="banner--details--content">
+															<div class="banner--details--favourite">
+																<label>
+																	<input type="checkbox" class="banner--details--favourite--checkbox" value="all"/>
+																	<span class="banner--details--favourite--icon">
+																	</span>
+																</label>
+															</div>
+															<h4 class="banner--details--banner-name">
+																<strong><span class="banner--dimensions">300x250</span> - OZ Regulated: GBP</strong> 
+																<span class="word banner--details--banner-format">
+																	(html5)
+																</span>
+															</h4>
+															<div class="banner--details--campaign-name">
+																Australian affiliates campaign 2
+															</div>
+															<div class="banner--details--target-link">	
+																<a href="https://en2.highlow.net/account">https://en2.highlow.net/account</a>
+															</div>
+															<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
+																<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="banner--item"
 											data-name="Japanese landscape example"
 											data-format="(html5)"
 											data-campaign-name="Australian affiliates campaign 2"
 											data-target="https://jp2.highlow.net/account"
-											data-code='<a href="LANDINGPAGE?a_aid=568d490aad773&amp;a_cid=757a25f1&amp;a_bid=a7fbd113SUBCODE" target="_top" style="position: relative;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><img src="https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472927e4c164.gif" alt="1口１０００円からのバイナリーオプション一銭の値動きで利益が出る。お得なキャンペーン実施中！" title="1口１０００円からのバイナリーオプション一銭の値動きで利益が出る。お得なキャンペーン実施中！" /></a>'
+											data-code='<a href="LANDINGPAGE?a_aid=568d490aad773&amp;a_cid=757a25f1&amp;a_bid=a7fbd113SUBCODE" target="_top" style="position: relative; display:block;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><img src="https://highlow-affiliate-banner.s3-ap-northeast-1.amazonaws.com/5472927e4c164.gif" alt="1口１０００円からのバイナリーオプション一銭の値動きで利益が出る。お得なキャンペーン実施中！" title="1口１０００円からのバイナリーオプション一銭の値動きで利益が出る。お得なキャンペーン実施中！" /></a>'
 											data-width="728"
-											data-height="90"
-										>
+											data-height="90">
 											<div class="p-css-table banner--item-content">
 												<div class="p-css-table-row">
 													<div class="p-css-table-cell banner--preview-container">
@@ -809,11 +918,192 @@
 																Australian affiliates campaign 2
 															</div>
 															<div class="banner--details--target-link">	
-																<select class="banner--details--target-link-selector">
-																	<option selected="selected" value="https://en2.highlow.net/account">https://jp2.highlow.net/account</option>
-																	<option value="https://en2.highlow.net/lp-traders">https://en2.highlow.net/lp-traders</option>
-																	<option value="https://en2.highlow.net/landing">https://en2.highlow.net/landing</option>
-																</select>
+																<a href="https://en2.highlow.net/account">https://en2.highlow.net/account</a>
+															</div>
+															<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
+																<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="banner--item"
+											data-name="Experienced Market Trader: ASX"
+											data-format="(html5)"
+											data-campaign-name="Australian affiliates campaign 2"
+											data-target="https://en2.highlow.net/account"
+											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative; display:block;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe scrolling="no" style="width: 120px; height: 600px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/skyscrapper-asx/banner.html"></iframe></a>'
+											data-width="120"
+											data-height="600">
+											<div class="p-css-table banner--item-content">
+												<div class="p-css-table-row">
+													<div class="p-css-table-cell banner--preview-container">
+														<div class="banner--preview banner--viewable banner--playable banner--view-code">
+															<a title="preview this banner" class="banner--viewable--cover">
+																<div class="banner--viewable--screenshot" style="background-image: url(acontent/images/banner1-asx-skyscraper-preview.png);"></div>
+															</a>
+														</div>
+													</div>
+													<div class="banner--details banner-code-div">
+														<div class="banner--details--content">
+															<div class="banner--details--favourite">
+																<label>
+																	<input type="checkbox" class="banner--details--favourite--checkbox" value="all"/>
+																	<span class="banner--details--favourite--icon">
+																	</span>
+																</label>
+															</div>
+															<h4 class="banner--details--banner-name">
+																<strong><span class="banner--dimensions">120x600</span> - Experienced Market Trader: ASX</strong> 
+																<span class="word banner--details--banner-format">
+																	(html5)
+																</span>
+															</h4>
+															<div class="banner--details--campaign-name">
+																Australian affiliates campaign 2
+															</div>
+															<div class="banner--details--target-link">	
+																<a href="https://en2.highlow.net/account">https://en2.highlow.net/account</a>
+															</div>
+															<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
+																<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="banner--item"
+											data-name="Experienced Market Trader: ASX"
+											data-format="(html5)"
+											data-campaign-name="Australian affiliates campaign 2"
+											data-target="https://en2.highlow.net/account"
+											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative; display:block;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe scrolling="no" style="width: 320px; height: 50px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/mobile-asx/banner.html"></iframe></a>'
+											data-width="320"
+											data-height="50"
+											data-favourite="true">
+											<div class="p-css-table banner--item-content">
+												<div class="p-css-table-row">
+													<div class="p-css-table-cell banner--preview-container">
+														<div class="banner--preview banner--viewable banner--playable banner--view-code">
+															<a title="preview this banner" class="banner--viewable--cover">
+																<div class="banner--viewable--screenshot" style="background-image: url(acontent/images/banner1-asx-mobile-preview.png);"></div>
+															</a>
+														</div>
+													</div>
+													<div class="banner--details banner-code-div">
+														<div class="banner--details--content">
+															<div class="banner--details--favourite">
+																<label>
+																	<input type="checkbox" checked="checked" class="banner--details--favourite--checkbox" value="all"/>
+																	<span class="banner--details--favourite--icon">
+																	</span>
+																</label>
+															</div>
+															<h4 class="banner--details--banner-name">
+																<strong><span class="banner--dimensions">320x50</span> - Experienced Market Trader: ASX</strong> 
+																<span class="word banner--details--banner-format">
+																	(html5)
+																</span>
+															</h4>
+															<div class="banner--details--campaign-name">
+																Australian affiliates campaign 2
+															</div>
+															<div class="banner--details--target-link">	
+																<a href="https://en2.highlow.net/account">https://en2.highlow.net/account</a>
+															</div>
+															<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
+																<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="banner--item"
+											data-name="Experienced Market Trader: DAX"
+											data-format="(html5)"
+											data-campaign-name="Australian affiliates campaign 2"
+											data-target="https://en2.highlow.net/account"
+											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative; display:block;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe scrolling="no" style="width: 468px; height: 60px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/market-related/banner-dax/banner.html"></iframe></a>'
+											data-width="468"
+											data-height="60">
+											<div class="p-css-table banner--item-content">
+												<div class="p-css-table-row">
+													<div class="p-css-table-cell banner--preview-container">
+														<div class="banner--preview banner--viewable banner--playable banner--view-code">
+															<a title="preview this banner" class="banner--viewable--cover">
+																<div class="banner--viewable--screenshot" style="background-image: url(acontent/images/banner1-dax-banner-preview.png);"></div>
+															</a>
+														</div>
+													</div>
+													<div class="banner--details banner-code-div">
+														<div class="banner--details--content">
+															<div class="banner--details--favourite">
+																<label>
+																	<input type="checkbox" class="banner--details--favourite--checkbox" value="all"/>
+																	<span class="banner--details--favourite--icon">
+																	</span>
+																</label>
+															</div>
+															<h4 class="banner--details--banner-name">
+																<strong><span class="banner--dimensions">468x60</span> - Experienced Market Trader: DAX</strong> 
+																<span class="word banner--details--banner-format">
+																	(html5)
+																</span>
+															</h4>
+															<div class="banner--details--campaign-name">
+																Australian affiliates campaign 2
+															</div>
+															<div class="banner--details--target-link">	
+																<a href="https://en2.highlow.net/account">https://en2.highlow.net/account</a>
+															</div>
+															<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
+																<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="banner--item"
+											data-name="OZ Regulated: USD"
+											data-format="(html5)"
+											data-campaign-name="Australian affiliates campaign 2"
+											data-target="https://en2.highlow.net/account"
+											data-code='<a href="LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE" target="_top" style="position: relative; display:block;"><div style="position:absolute;width:100%;height:100%;z-index:1;"></div><iframe scrolling="no" style="width: 300px; height: 600px; border: none; outline: none; display: block;" src="http://point.agency/highlow/banners/oz-regulated-300x600/banner.html"></iframe></a>'
+											data-width="300"
+											data-height="600">
+											<div class="p-css-table banner--item-content">
+												<div class="p-css-table-row">
+													<div class="p-css-table-cell banner--preview-container">
+														<div class="banner--preview banner--viewable banner--playable banner--view-code">
+															<a title="preview this banner" class="banner--viewable--cover">
+																<div class="banner--viewable--screenshot" style="background-image: url(http://point.agency/highlow/banners/oz-regulated-300x600/preview.png);"></div>
+															</a>
+														</div>
+													</div>
+													<div class="banner--details banner-code-div">
+														<div class="banner--details--content">
+															<div class="banner--details--favourite">
+																<label>
+																	<input type="checkbox" class="banner--details--favourite--checkbox" value="all"/>
+																	<span class="banner--details--favourite--icon">
+																	</span>
+																</label>
+															</div>
+															<h4 class="banner--details--banner-name">
+																<strong><span class="banner--dimensions">300x600</span> - OZ Regulated: USD</strong> 
+																<span class="word banner--details--banner-format">
+																	(html5)
+																</span>
+															</h4>
+															<div class="banner--details--campaign-name">
+																Australian affiliates campaign 2
+															</div>
+															<div class="banner--details--target-link">	
+																<a href="https://en2.highlow.net/account">https://en2.highlow.net/account</a>
 															</div>
 															<button type="button" class="banner--details--get-code-btn btn-alternate btn btn-extruded banner--view-code">
 																<img src="acontent/images/hl-icon-white.png"/>&nbsp;&nbsp;&nbsp;GET CODE
@@ -889,7 +1179,7 @@
 			<div class="p-css-table-cell p-css-table-cell__center">
 				<div class="modal-dialog">
 					<div class="modal-content">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="sprite-icon__x-grey-md"></span></button>
 						<div class="modal-body">
 							<div id="get-code-modal--layout">
 								<div class="p-css-table">
@@ -925,7 +1215,14 @@
 												<br/>
 												<br/>
 												<button type="button" class="btn-alternate btn btn-extruded applySubCode" data-target="#get-code-modal--banner-details--code">APPLY</button>
-											</div>					
+											</div>		
+											<div class="banner--details--favourite">
+												<label>
+													<input type="checkbox" id="get-code-modal--banner-details--favourite" class="banner--details--favourite--checkbox" value="all"/>
+													<span class="banner--details--favourite--icon">
+													</span>
+												</label>
+											</div>		
 										</div>
 									</div>
 								</div>
@@ -946,18 +1243,18 @@
 			<div class="p-css-table-cell p-css-table-cell__center">
 				<div class="modal-dialog">
 					<div class="modal-content">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="sprite-icon__x-grey-md"></span></button>
 						<div class="modal-body">
 							<form id="update-avatar-form">
 								<div class="modal-headline">
 									Update profile pic
 								</div>
 								<div class="modal-intro">
-									Update your profile pic using one of the 2 options below
+									Select an avatar or upload and crop your own
 								</div>
 								<div class="update-avatar-modal--tabs">
 									<ul class="nav nav-tabs" role="tablist">
-									    <li role="presentation" class="active"><a href="#existing-avatars" aria-controls="home" role="tab" data-toggle="tab">Choose an existing avatar</a></li>
+									    <li role="presentation" class="active"><a href="#existing-avatars" aria-controls="home" role="tab" data-toggle="tab">Select an existing avatar</a></li>
 									    <li role="presentation"><a href="#upload-own-avatar" aria-controls="profile" role="tab" data-toggle="tab">Upload your own</a></li>
 									</ul>
 									<div class="tab-content">
@@ -986,6 +1283,15 @@
 												</div>
 												<div class="avatar-picker-option toggler" data-toggle-target="self" data-toggle-group="avatar-option" data-toggle-class="selected">
 													<img src="acontent/images/avatar-8.png"/>
+												</div>
+												<div class="avatar-picker-option toggler" data-toggle-target="self" data-toggle-group="avatar-option" data-toggle-class="selected">
+													<img src="acontent/images/avatar-13.png"/>
+												</div>
+												<div class="avatar-picker-option toggler" data-toggle-target="self" data-toggle-group="avatar-option" data-toggle-class="selected">
+													<img src="acontent/images/avatar-14.png"/>
+												</div>
+												<div class="avatar-picker-option toggler" data-toggle-target="self" data-toggle-group="avatar-option" data-toggle-class="selected">
+													<img src="acontent/images/avatar-15.png"/>
 												</div>
 												<div class="avatar-picker-option toggler" data-toggle-target="self" data-toggle-group="avatar-option" data-toggle-class="selected">
 													<img src="acontent/images/avatar-9.png"/>
@@ -1027,11 +1333,11 @@
 
 								</div>
 								<div class="modal-footer">
-									<button data-dismiss="modal" class="btn btn-lg btn-extruded pull-left">
-										CANCEL
+									<button class="btn btn-alternate btn-lg btn-extruded">
+										<i class="sprite-icon__tick-white-sm"></i>&nbsp; SAVE
 									</button>
-									<button class="btn btn-default btn-lg btn-extruded pull-right">
-										SAVE
+									<button data-dismiss="modal" class="btn btn-lg btn-extruded">
+										CANCEL
 									</button>
 								</div>
 							</form>
@@ -1124,18 +1430,24 @@
     </div>
 </script>
 
-	<script src="https://cdn.highlow.net/admin/js/jquery-1.8.3.js"></script>
-	<script src="https://cdn.highlow.net/admin/js/ui/jquery-ui-1.9.2.custom.js"></script>    	
-	<script src="https://cdn.highlow.net/admin/js/ui/jquery-ui-timepicker.js"></script>
-	<script src="https://cdn.highlow.net/admin/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="https://cdn.highlow.net/common/js/jquery.validate.min.js"></script>
-	<script src="https://cdn.highlow.net/common/js/additional-methods.min.js"></script>
-	<script src="acontent/js/third-parties.min.js"></script>
-	<script src="acontent/js/custom-plugin/upload-cropper.js"></script>
-	<script src="acontent/js/custom.js"></script>
-	<script src="acontent/js/datepicker.loader.js"></script>
-	<script src="https://cdn.highlow.net/admin/js/daterangepicker.js"></script>
-	<script src="acontent/js/highlow-affiliate.js"></script>
+	
+
+		<script src="https://cdn.highlow.net/admin/js/jquery-1.8.3.js"></script>
+		<script src="https://cdn.highlow.net/admin/js/ui/jquery-ui-1.9.2.custom.js"></script>    	
+		<script src="https://cdn.highlow.net/admin/js/ui/jquery-ui-timepicker.js"></script>
+		<script src="https://cdn.highlow.net/admin/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="https://cdn.highlow.net/common/js/jquery.validate.min.js"></script>
+		<script src="https://cdn.highlow.net/common/js/additional-methods.min.js"></script>
+		<script src="https://cdn.highlow.net/admin/js/highcharts/highcharts.js"></script>
+		<script src="acontent/js/third-parties.min.js"></script>
+		<script src="acontent/js/custom-plugin/upload-cropper.js"></script>
+		<script src="acontent/js/custom.js"></script>
+		<script src="acontent/js/datepicker.loader.js"></script>
+		<script src="https://cdn.highlow.net/admin/js/daterangepicker.js"></script>
+		<script src="acontent/js/highlow-affiliate.js"></script>
+		<script type="text/javascript" src="acontent/js/custom-plugin/toggler.js"></script>
+
+	
 
 	
 
@@ -1163,10 +1475,49 @@
 		});
 
 
+		var bannerItemResizeTimeout;
+
+		window.bannerItemResize = function() {
+			clearTimeout(bannerItemResizeTimeout);
+
+			$('.banner--item .banner--details').css({
+				height: 'auto'
+			});
+
+			bannerItemResizeTimeout = setTimeout(function(){
+				var bannerItemMaxHeight = 0;
+
+				$('.banner--item').each(function(){
+					var $self = $(this),
+						$bannerDetails = $($self.find('.banner--details'));
+
+					if($bannerDetails.outerHeight()>bannerItemMaxHeight) {
+						bannerItemMaxHeight = $bannerDetails.outerHeight();
+					}
+				});
+
+				$('.banner--item .banner--details').css({
+					height: bannerItemMaxHeight
+				});
+			},750);
+		}
+
+		$('.banners--views--toggle').click(function(){
+			window.bannerItemResize();
+		});
+
+		$(window).resize(function(){
+
+			window.bannerItemResize();
+			
+		});
+
 	});
 </script>
 
 <script type="text/javascript" src="https://cdn.highlow.net/acontent/js/jquery.zclip.min.js"></script>
+
+
 <script>
 	$(document).ready(function(){
 		$('a.bannerOption').on('click',function(e){
@@ -1193,18 +1544,6 @@
 			// $(this).siblings('input.subCodeText').val('');	
 		});
 
-		// if (location.hash !== '') {
-		// 	$('a[href="' + location.hash + '"]').tab('show');
-		// } else {
-		// 	$('.nav-tabs a:first').tab('show');
-		// }
-		// $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
-		// 	if(history.pushState)
-		// 		history.pushState(null, null, '#'+$(e.target).attr('href').substr(1));
-		// 	else
-		// 		location.hash = '#'+$(e.target).attr('href').substr(1);
-		// });
-
 		message = '<div class="highlow message-wrapper">'+
 		'<div class="message">'+
 		'Banner code has been copied to clipboard'+
@@ -1213,23 +1552,7 @@
 		'</div>'+
 		'</div>';
 
-		$('.get-code').zclip({
-			path:'https://cdn.highlow.net/acontent/js/ZeroClipboard.swf',
-			copy: function() {
-				content = $(this).closest('.banner-code-div').find('.banner-code-holder').val(); 
-				return content;
-			},
-			afterCopy: function() {
-				$('.message-wrapper').remove();
-				$(this).closest('.media-body').prepend(message);
-				$('.message-wrapper').addClass('success').addClass('display');
-				setTimeout(function(){
-					$('.message-wrapper').each(function(){
-						$(this).removeClass('success').removeClass('display').remove();
-					});
-				},5000);
-			}
-		});
+		
 
 		$('.message-wrapper .close').click(function(){
 			$('.message-wrapper').removeClass('display').removeClass('fail').removeClass('success').removeClass('alert').removeClass('generic').removeClass('warning');
@@ -1239,7 +1562,7 @@
 
 		$('.banner--view-code').click(function(){
 			var $self = $(this),
-				$bannerItem = $($self.closest('.banner--item'));
+				$bannerItem = $($self.closest('.banner--item').length>0?$self.closest('.banner--item'):$self);
 
 			var bannerName = $bannerItem.data('name'),
 				bannerFormat = $bannerItem.data('format'),
@@ -1247,9 +1570,10 @@
 				bannerCampaignName = $bannerItem.data('campaignName'),
 				bannerCode = $bannerItem.data('code'),
 				bannerLayout = $bannerItem.data('width')<=320?'horizontal':'vertical',
-				bannerLandingPageUrl = $('#landing-page-select').val();
+				bannerLandingPageUrl = $('#landing-page-select').val(),
+				bannerFavourite = $bannerItem.find('.banner--details--favourite--checkbox').is(':checked');
 
-
+			console.log(bannerFavourite);
 			
 			$('#get-code-modal--banner-details--dimensions').html($bannerItem.data('width')+'x'+$bannerItem.data('height'));
 			$('#get-code-modal--banner-details--name').html(bannerName);
@@ -1257,7 +1581,11 @@
 			$('#get-code-modal--banner-details--code').data('prototype',bannerCode);
 			$('#get-code-modal--banner-details--code').val(bannerCode.replace('SUBCODE','').replace('LANDINGPAGE',bannerLandingPageUrl));
 			$('#get-code-modal--banner-preview').empty().append($(bannerCode.replace('SUBCODE','').replace('LANDINGPAGE',bannerLandingPageUrl)));
-			$('#get-code-modal--layout').removeClass().addClass(bannerLayout)
+			$('#get-code-modal--layout').removeClass().addClass(bannerLayout);
+
+
+			$('#get-code-modal--banner-details--favourite').prop('checked',bannerFavourite);
+
 			$('#get-code-modal').modal('show');
 		});
 
@@ -1371,6 +1699,8 @@
 
 	});
 </script>
+
+
 
 
 

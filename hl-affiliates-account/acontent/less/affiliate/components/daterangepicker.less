@@ -1,0 +1,168 @@
+.daterangepicker {
+	border-radius: 0px;
+	margin-top: 0px;
+	box-shadow: none;
+	box-shadow: 3px 3px 0px 0px #f6f6f6;
+
+
+	@media (max-width: 767px) {		
+		top: 108px!important;
+		right: 15px!important;
+		padding: 0px;
+		left: 15px!important;
+	}
+
+	.ranges {
+		li {
+			font-size: 12px;
+			color: #33363d;
+			background-color: #eeeeee;
+			border: none;
+			
+			&:hover {
+				background-color: #DFE0E1;
+				color: #232323;
+				border: none;
+			}
+
+			&.active {
+				color: #fff;
+				background-color: #33363d;
+				border: none;
+ 			}
+		}
+
+		.input-mini {
+			background-color: #f9f9f9;
+			font-size: 11px;
+			color: #2c2f35;
+			border-color: #e8e8e8;
+			border-radius: 0px;
+			@media (max-width: 767px) {
+				width: 100%;
+			}
+		}
+
+		label {
+			color: #2c2f35;
+			font-size: 11px;
+			text-transform: capitalize;
+			font-weight: 500;
+		}
+
+
+		@media (max-width: 767px) {
+			width: 100%;
+			padding: 6px;
+			margin: 0px!important;
+		}
+	}
+
+	.btn-success {
+		background-color: #ee683a;
+    	color: white;
+    	border: none;
+    	border-bottom: 3px solid #de2e10;
+    	font-family: 'Montserrat','Futura','Verdana',Arial,sans-serif;
+    	text-transform: uppercase;
+	    font-size: 10px;
+	    letter-spacing: .08em;
+	    padding: 9px 19px 7px 16px;
+	    width: 74px;
+	    float: left;
+    	&:hover,
+    	&:focus,
+    	&:active {
+			color: white;
+			background-color: #ec5a27;
+			border-bottom: 3px solid #de2e10;
+    	}
+
+    	@media (max-width: 767px) {
+    		float: right;
+    		width: 40%;
+    		margin: 20px 5px 8px;
+    	}
+	}
+	.btn-default {
+		background-color: #eeeeee;
+	    color: #33363d !important;
+	    margin-top: 0;
+	    border: 0 solid #dedede;
+	    border-bottom: 3px solid #dedede;
+    	font-family: 'Montserrat','Futura','Verdana',Arial,sans-serif;
+    	text-transform: uppercase;
+	    font-size: 10px;
+	    letter-spacing: .08em;
+	    padding: 9px 10px 7px;
+	    width: 74px;
+	    float: right;
+	    margin-right: 1px;
+    	&:hover,
+    	&:focus,
+    	&:active {
+			color: white;
+			background-color: #f1f1f1!important;
+			border-bottom: 3px solid #e1e1e1;
+    	}
+
+    	@media (max-width: 767px) {
+    		float: right;
+    		width: 40%;
+    		margin: 20px 5px 8px;
+    	}
+	}
+
+	.daterangepicker_start_input {
+		@media (max-width: 767px) {
+			width: 50%;
+			padding-right: 5px;
+		}
+	}
+
+	.daterangepicker_end_input {
+		@media (max-width: 767px) {
+			padding-left: 5px!important;
+			width: 50%;
+		}
+	}
+
+	.calendar {
+		table {
+			border-collapse: separate;
+		}
+		th {
+			font-weight: 500;
+			color: #464646;
+			&.month {
+				color: #131313;
+			}
+			&.prev,
+			&.next {
+				color: #676768;
+			}
+		}
+		td {
+			border: 1px solid transparent;
+			&.in-range {
+				background-color: #FBDBD0;
+				color: #463E3D;
+			}
+			&.active {
+			    background-color: #ee683a;
+			    border: 1px solid #ececec !important;
+			    color: #fff;
+			}
+		}
+
+		@media (max-width: 767px) {
+			float: none!important;
+			max-width: none!important;
+		}
+	}
+}
+
+#reportrange {
+	box-shadow: 3px 3px 0px 0px #f6f6f6;
+	border-color: #dadada;
+}

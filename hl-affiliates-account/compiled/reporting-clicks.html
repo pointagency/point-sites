@@ -12,7 +12,7 @@
 		<meta name="description" content="Welcome!" />
 		<meta name="keywords" content="Welcome!" />
 		<meta name="robots" content="index, follow" />
-		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 		<link href="acontent/css/post-login-split.css" rel="stylesheet"/>
         <!--[if lt IE 9]>
@@ -49,9 +49,23 @@
 			</button>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="navbar-right">
+
 				<a class="navbar-logout-link" href="">Log-out</a>
 				<div class="commission-status pull-right hidden-xs">
 					This month: <span class="commission-status--value">$875</span>
+				</div>
+				<div class="outstanding-invoices pull-right hidden-xs toggler" data-toggle-off-click="true" data-toggle-target="#outstanding-invoices--tooltip" data-toggle-class="in">
+					Outstanding invoices: &nbsp;
+					<span class="outstanding-invoices--count">
+						102 
+						<div id="outstanding-invoices--tooltip" class="tooltip bottom fade">
+							<div class="tooltip-inner">
+								You have Commission outstanding – please supply invoices to receive payment. <a href='' class="disable-propagation">Learn more &gt;</a>
+							</div>
+							<div class="tooltip-arrow">
+							</div>
+						</div>
+					</span>
 					<span class="sprite-icon"></span>
 				</div>
 			</div><!-- /.navbar-collapse -->
@@ -70,11 +84,14 @@
 			<ul class="nav nav-pills nav-stacked custom-nav">
 				<li class="user dropdown">
 					<a href="#" class="side-menu--user-toggle dropdown-toggle toggler" data-toggle-target=".side-menu--user--sub-menu" data-toggle-class="active" data-toggle-off-click="true">
-						<img class="avatar" src="acontent/images/avatar-1.png" />
+						<img href="#update-avatar-modal" class="avatar toggler" data-toggle-target=".side-menu--user--sub-menu" data-toggle-class="active" data-toggle="modal" data-toggle="modal" src="acontent/images/avatar-1.png" />
 						<span>
-							Hi, Hamish!
+							Hi Hamish
 						</span>
-						<i class="sprite-icon__down-pink-sm menu-list--dropdown-icon"></i>
+						<div class="menu-list--dropdown-icon">
+							<i class="default sprite-icon__down-pink-sm"></i>
+							<i class="hover sprite-icon__down-white-sm"></i>
+						</div>
 					</a>
 				</li>
 				<li>
@@ -99,7 +116,7 @@
 							<i class="side-menu-item-icon--active sprite-icon__star-red-sm"></i>
 							<i class="side-menu-item-icon--hover sprite-icon__star-white-sm"></i>
 						</span>
-						<span>Creatives</span>
+						<span>Creative</span>
 						<i class="sprite-icon__down-grey-sm menu-list--dropdown-icon"></i>
 					</a>
 					<ul class="sub-menu-list">
@@ -109,8 +126,8 @@
 							</a>
 						</li>
 						<li class="">
-							<a href="#">
-								<span>Landing Pages</span>
+							<a href="landing-pages.html">
+								<span>Landing pages</span>
 							</a>
 						</li>
 					</ul>
@@ -122,18 +139,18 @@
 							<i class="side-menu-item-icon--active sprite-icon__bars-red-sm"></i>
 							<i class="side-menu-item-icon--hover sprite-icon__bars-white-sm"></i>
 						</span>
-						<span>Reporting</span> 
+						<span>Analytics</span> 
 						<i class="sprite-icon__down-grey-sm menu-list--dropdown-icon"></i>
 					</a>
 					<ul class="sub-menu-list">
-						<li class="active">
-							<a href="reporting-clicks.html">
-								<span>Clicks</span>
+						<li class="">
+							<a href="analytics--lead-conversions.html">
+								<span>Lead conversion</span>
 							</a>
 						</li>
 						<li class="">
-							<a href="reporting-conversions.html">
-								<span>Conversions</span>
+							<a href="analytics--creatives.html">
+								<span>Banner conversion</span>
 							</a>
 						</li>
 					</ul>
@@ -253,18 +270,18 @@
 			<div class="p-css-table-cell p-css-table-cell__center">
 				<div class="modal-dialog">
 					<div class="modal-content">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="sprite-icon__x-grey-md"></span></button>
 						<div class="modal-body">
 							<form id="update-avatar-form">
 								<div class="modal-headline">
 									Update profile pic
 								</div>
 								<div class="modal-intro">
-									Update your profile pic using one of the 2 options below
+									Select an avatar or upload and crop your own
 								</div>
 								<div class="update-avatar-modal--tabs">
 									<ul class="nav nav-tabs" role="tablist">
-									    <li role="presentation" class="active"><a href="#existing-avatars" aria-controls="home" role="tab" data-toggle="tab">Choose an existing avatar</a></li>
+									    <li role="presentation" class="active"><a href="#existing-avatars" aria-controls="home" role="tab" data-toggle="tab">Select an existing avatar</a></li>
 									    <li role="presentation"><a href="#upload-own-avatar" aria-controls="profile" role="tab" data-toggle="tab">Upload your own</a></li>
 									</ul>
 									<div class="tab-content">
@@ -293,6 +310,15 @@
 												</div>
 												<div class="avatar-picker-option toggler" data-toggle-target="self" data-toggle-group="avatar-option" data-toggle-class="selected">
 													<img src="acontent/images/avatar-8.png"/>
+												</div>
+												<div class="avatar-picker-option toggler" data-toggle-target="self" data-toggle-group="avatar-option" data-toggle-class="selected">
+													<img src="acontent/images/avatar-13.png"/>
+												</div>
+												<div class="avatar-picker-option toggler" data-toggle-target="self" data-toggle-group="avatar-option" data-toggle-class="selected">
+													<img src="acontent/images/avatar-14.png"/>
+												</div>
+												<div class="avatar-picker-option toggler" data-toggle-target="self" data-toggle-group="avatar-option" data-toggle-class="selected">
+													<img src="acontent/images/avatar-15.png"/>
 												</div>
 												<div class="avatar-picker-option toggler" data-toggle-target="self" data-toggle-group="avatar-option" data-toggle-class="selected">
 													<img src="acontent/images/avatar-9.png"/>
@@ -334,11 +360,11 @@
 
 								</div>
 								<div class="modal-footer">
-									<button data-dismiss="modal" class="btn btn-lg btn-extruded pull-left">
-										CANCEL
+									<button class="btn btn-alternate btn-lg btn-extruded">
+										<i class="sprite-icon__tick-white-sm"></i>&nbsp; SAVE
 									</button>
-									<button class="btn btn-default btn-lg btn-extruded pull-right">
-										SAVE
+									<button data-dismiss="modal" class="btn btn-lg btn-extruded">
+										CANCEL
 									</button>
 								</div>
 							</form>
@@ -431,18 +457,24 @@
     </div>
 </script>
 
-	<script src="https://cdn.highlow.net/admin/js/jquery-1.8.3.js"></script>
-	<script src="https://cdn.highlow.net/admin/js/ui/jquery-ui-1.9.2.custom.js"></script>    	
-	<script src="https://cdn.highlow.net/admin/js/ui/jquery-ui-timepicker.js"></script>
-	<script src="https://cdn.highlow.net/admin/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="https://cdn.highlow.net/common/js/jquery.validate.min.js"></script>
-	<script src="https://cdn.highlow.net/common/js/additional-methods.min.js"></script>
-	<script src="acontent/js/third-parties.min.js"></script>
-	<script src="acontent/js/custom-plugin/upload-cropper.js"></script>
-	<script src="acontent/js/custom.js"></script>
-	<script src="acontent/js/datepicker.loader.js"></script>
-	<script src="https://cdn.highlow.net/admin/js/daterangepicker.js"></script>
-	<script src="acontent/js/highlow-affiliate.js"></script>
+	
+
+		<script src="https://cdn.highlow.net/admin/js/jquery-1.8.3.js"></script>
+		<script src="https://cdn.highlow.net/admin/js/ui/jquery-ui-1.9.2.custom.js"></script>    	
+		<script src="https://cdn.highlow.net/admin/js/ui/jquery-ui-timepicker.js"></script>
+		<script src="https://cdn.highlow.net/admin/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="https://cdn.highlow.net/common/js/jquery.validate.min.js"></script>
+		<script src="https://cdn.highlow.net/common/js/additional-methods.min.js"></script>
+		<script src="https://cdn.highlow.net/admin/js/highcharts/highcharts.js"></script>
+		<script src="acontent/js/third-parties.min.js"></script>
+		<script src="acontent/js/custom-plugin/upload-cropper.js"></script>
+		<script src="acontent/js/custom.js"></script>
+		<script src="acontent/js/datepicker.loader.js"></script>
+		<script src="https://cdn.highlow.net/admin/js/daterangepicker.js"></script>
+		<script src="acontent/js/highlow-affiliate.js"></script>
+		<script type="text/javascript" src="acontent/js/custom-plugin/toggler.js"></script>
+
+	
 
 	
 

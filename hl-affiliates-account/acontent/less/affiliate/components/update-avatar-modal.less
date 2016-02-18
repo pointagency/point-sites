@@ -5,70 +5,50 @@
 
 	.modal-dialog {
 		#update-avatar-modal & {
-			width: 100%;
-			margin: 0 auto;
-			max-width: 720px;
-			min-height: 484px;
+
 		}
 	}
 
 	.modal-body {
 		#update-avatar-modal & {
-			font-size: 14px;
-			padding: 0px;
-			color: #2c2f35;
-			line-height: 24px;
 		}
 	}
 
 	.modal-content {
 		#update-avatar-modal & {
-			padding: 69px 20px 19px;
-			border-radius: 0px;
-			box-shadow: none;
-			border: none;
 		}
 	}
 
 	.modal-headline {
 		#update-avatar-modal & {
-			font-size: 20px;
-			font-weight: 300;
-			color: #2c2f35;
-			text-align: center;
-			margin-bottom: 15px;
-			b {
-				font-weight: 500;
-			}
 		}
 	}
 
 	.modal-intro {
 		#update-avatar-modal & {
-			font-size: 14px;
-			color: #2c2f35;
-			font-weight: 400;
-			max-width: 478/720*100%;
-			line-height: 24px;
-			margin: 0 auto 24px;
-			text-align: center;
 		}
 	}
 
 	.modal-footer {
 		#update-avatar-modal & {
 		    background-color: #FFFFFF;
-		    padding: 20px 0 0px;
+		    border-top: none;
+		    padding: 11px 0 0px;
 		    text-align: center;
+		    .btn {
+		    	font-size: 10px;
+		    	padding: 17px 0px 13px;
+		    	line-height: 11px;
+		    }
+		    .sprite-icon__tick-white-sm {
+		    	position: relative;
+		    	top: -2px;
+		    }
 		}
 	}
 
 	.close {
 		#update-avatar-modal & {
-			position: absolute;
-			top: 20px;
-			right: 20px;
-    		z-index: 1000;
 		}
 		#update-avatar-modal .modal-footer & {
 			position: relative;
@@ -95,35 +75,66 @@
 
 
 	.update-avatar-modal--tabs {
-		max-width: 500px;
    	 	margin: 0 auto 0px;
+   	 	.nav-tabs {
+   	 		border: none;
+   	 		> li {
+   	 			margin: 0;
+   	 			> a {
+   	 				font-size: 12px;
+   	 				color: #33363d;
+   	 				border: none!important;
+   	 				padding-top: 18px;
+   	 				padding-bottom: 13px;
+   	 				&:hover {
+   	 					background-color: transparent;
+   	 					color: #ee683a;
+   	 					border: none;
+   	 				}
+   	 			}
+   	 			&.active {
+   	 				> a,
+   	 				> a:hover,
+   	 				> a:active,
+   	 				> a:focus {
+   	 					color: #33363d;
+   	 					background-color: #eeeeee;
+   	 					border: none;
+   	 				}
+   	 			}
+   	 		}
+   	 	}
+   	 	.tab-pane {
+   	 		background-color: #eeeeee;
+   	 		min-height: 327px;
+   	 	}
 	}
-		.avatar-picker-options {
-			background-color: #fff;    
+		.avatar-picker-options { 
 			padding: 20px 0px;
 			text-align: center;
 		}
 		.avatar-picker-option {
 			display: inline-block;
 			cursor: pointer!important;
-			width: 72px;
-			height: 72px;
+			width: 70px;
+			height: 70px;
 			border-radius: 50px;
 			overflow: hidden;
 			position: relative;
 			margin: 0.125em;
+			background-color: #fff;
+			border: 3px solid #eeeeee;
 			img {
-				width: 62px;
-				height: 62px;
+				width: 60px;
+				height: 60px;
 				border-radius: 50px;
 				position: absolute;
-				top: 5px;
-				left: 5px;
+				top: 2px;
+				left: 2px;
 				z-index: 1;
 			}
 			&.selected {
-				background-color: #fff;
-				box-shadow: 0px 0px 1px 1px #ee683a;
+				border-color: #ee683a;
 			}
 		}
 

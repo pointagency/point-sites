@@ -62,17 +62,17 @@ function loadLineChart(start, end){
 	var startDate = start.format('YYYY-MM-DD');
 	var endDate = end.format('YYYY-MM-DD');
 	$.post(url,{
-			startDate : startDate,
-			endDate : endDate,
-		},function(data){  									
-			$("#affiliate-line-chart").lineChart({
-				renderTo: 'affiliate-line-chart',
-				title: '',
-				xTitle: data['xTitle'],
-				categories : data['categories'],
-				seriesdata : data['series']				
-			});
-		});		
+		startDate : startDate,
+		endDate : endDate,
+	},function(data){  									
+		$("#affiliate-line-chart").lineChart({
+			renderTo: 'affiliate-line-chart',
+			title: '',
+			xTitle: data['xTitle'],
+			categories : data['categories'],
+			seriesdata : data['series']				
+		});
+	});		
 }
 
 function loadAffiliateStats(start, end)

@@ -1,0 +1,326 @@
+
+.widget {
+	background-image: url(../images/loading-lighter.gif);
+	background-size: 23px 5px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.chart-title {
+	font-size: 16px;
+	color: #2c2f35;
+	font-weight: 400;
+}
+
+.chart-title--dynamic {
+	font-weight: 300;
+	// font-size: 14px;
+}
+
+.chart-tooltip--title {
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	display: block;
+	position: relative!important;
+	padding-bottom: 11px;
+	border-bottom: 1px solid #474950;
+	margin-bottom: 8px;
+}
+
+.chart-tooltip--count {
+	font-size: 16px;
+	font-weight: 500;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	display: block;
+	position: relative!important;
+}
+
+.highcharts-tooltip {
+	padding: 10px 20px 0px;
+	> span {
+		display: block!important;
+		position: relative!important;
+		top: 14px!important;
+		left: auto!important;
+	}
+}
+.chart--label-guide-line {
+	background-image: url(../images/chart--guide-line.png);
+	width: 11px;
+	height: 11px;
+	position: absolute;
+	top: 15px;
+	left: -14px;
+}
+
+.chart--funnel--category-label {
+	position: absolute;
+	width: 80px;
+	left: 50%;
+	margin-left: -40px;
+	text-align: center;
+}
+
+	.chart--funnel--category-label--count {
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		top: -42px;
+		left: 20px;
+		font-weight: 300;
+		font-size: 16px;
+		color: #525357;
+		display: inline-block;
+		z-index: 2;
+	}
+
+	.chart--funnel--category-label--tooltip {
+		width: 160px;
+		left: 50%;
+		margin-left: -80px;
+		position: absolute;
+		z-index: -1;
+		background-color: #33363d;
+		padding: 20px;
+		font-size: 12px;
+		line-height: 14px;
+		text-align: left;
+		font-weight: 400;
+		font-family: 'Roboto', Helvetica, Arial, sans-serif;
+		bottom: 65px;
+		visibility: hidden;
+		color: #fff;
+		.opacity(0);
+
+
+		@tr: 0.25s cubic-bezier(.55,0,0,1);
+		@t1: all @tr, z-index @tr;
+		.transition(@t1);
+
+		.chart--funnel--category-label:hover & {
+			display: block;
+			visibility: visible;
+			bottom: 35px;
+			z-index: 4;
+			.opacity(1);
+			@t: bottom @tr, opacity @tr;
+			.transition(@t);
+		}
+		&:after {
+			content: "";
+			display: block;
+			width: 80px;
+			position: absolute;
+			height: 40px;
+			bottom: -40px;
+			left: 50%;
+			margin-left: -40px;
+		}
+		&:before {
+			content: "";
+			display: block;
+			width: 0px;
+			height: 0px;
+			border: 10px solid transparent;
+			border-top-color: #33363d;
+			position: absolute;
+			left: 50%;
+			bottom: -20px;
+			margin-left: -10px;
+			z-index: 1;
+		}
+	}
+
+#affiliate-funnel-chart {
+	.highcharts-legend-item {
+		display: none!important;
+	}
+	.highcharts-legend-title {
+		display: block!important;
+		background-color: #ffefe9;
+	}
+	svg {
+		overflow: visible!important;
+	}
+	.highcharts-xaxis-labels {
+		span {
+			overflow: visible!important;
+			&:hover {
+				z-index: 10000!important;
+			}
+		}
+	}
+	.highcharts-container {
+		overflow: visible!important;
+	}
+}
+
+#affiliate-funnel-chart-bottom-count {
+	font-weight: 300;
+	font-size: 18px;
+	color: #2c2f35;
+	background-color: #ffefe9;
+	width: 72px;
+	height: 72px;
+	border-radius: 40px;
+	position: absolute;
+	top: 60px;
+	line-height: 72px;
+	text-align: center;
+	right: 45px;
+	.opacity(0);
+	&.in {
+		.opacity(1);
+	}
+}
+
+#affiliate-pie-chart-conversions {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	bottom: 15px;
+	right: 15px;
+	display: block;
+	z-index: -1;
+	&.active {
+		z-index: 2;
+	}
+}
+
+#affiliate-line-chart {
+	.highcharts-legend-item {
+		rect {
+			transform: translateY(-5px);
+		}
+	}
+}
+
+.affiliate-chart--toggles {
+	position: absolute;
+	top: 22px;
+	right: 15px;
+	font-size: 12px;
+	color: #686867;
+	z-index: 3;
+}
+
+.affiliate-chart--toggle {
+	float: left;
+	padding: 0px 10px;
+	cursor: pointer;
+	position: relative;
+	&:before {
+		content: "";
+		display: block;
+		position: absolute;
+		right: 0px;
+		top: 50%;
+		margin-top: -5px;
+		height: 10px;
+		width: 1px;
+		background-color: #969696;
+	}
+
+	&.active {
+		color: #f07a3f;
+	}
+
+	&:last-child {
+		&:before {
+			display: none;
+		}
+	}
+	&:hover {
+		color: #232323;
+		&.active {
+			color: #f07a3f;
+		}
+	}
+}
+
+.widget-title {
+	position: absolute;
+	z-index: 3;
+    top: 21px;
+    left: 25px;
+	font-size: 16px;
+	color: #2c2f35;
+	font-weight: 400;
+}
+
+.widget {
+	box-shadow: 3px 3px 0px 0px #f6f6f6;
+}
+
+#dashboard--top-banners--conversions {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	bottom: 15px;
+	right: 15px;
+	display: block;
+	z-index: -1;
+	&.active {
+		z-index: 2;
+	}
+}
+
+#affiliate-line-chart,
+#affiliate-funnel-chart {
+	.highcharts-grid {
+		:first-child {
+			display: none;
+		}
+	}
+}
+
+#dashboard--top-banners--clicks,
+#dashboard--top-banners--conversions,
+#affiliate-pie-chart-clicks,
+#affiliate-pie-chart-conversions,
+#affiliate-funnel-chart {
+	height: 250px!important;
+
+
+}
+#dashboard--top-banners--clicks,
+#dashboard--top-banners--conversions {
+	@media (max-width: 767px) {
+		height: auto!important;
+	}
+}
+
+#affiliate-pie-chart-clicks {
+	@media (max-width: 991px) {
+		height: auto!important;
+		min-height: 340px!important;
+	}
+}
+
+#affiliate-line-chart {
+	height: 294px!important;    
+	min-width: 640px;
+}
+
+.top-banners--click-percentage {
+	display: inline-block;
+	width: 38px;
+	margin-right: 2px;
+	vertical-align: middle;
+}
+
+.top-banners--click-percentage-bar {
+	display: inline-block;
+	height: 10px;
+	width: 35px;
+	vertical-align: middle;
+}
+
+	.top-banners--click-percentage-bar--fill {
+		background-color: #ffb091;
+		height: 10px;
+		float: left;
+		min-width: 1px;
+	}

@@ -13,9 +13,23 @@
 			</button>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="navbar-right">
+
 				<a class="navbar-logout-link" href="">Log-out</a>
 				<div class="commission-status pull-right hidden-xs">
 					This month: <span class="commission-status--value">$875</span>
+				</div>
+				<div class="outstanding-invoices pull-right hidden-xs toggler" data-toggle-off-click="true" data-toggle-target="#outstanding-invoices--tooltip" data-toggle-class="in">
+					Outstanding invoices: &nbsp;
+					<span class="outstanding-invoices--count">
+						102 
+						<div id="outstanding-invoices--tooltip" class="tooltip bottom fade">
+							<div class="tooltip-inner">
+								You have Commission outstanding – please supply invoices to receive payment. <a href='' class="disable-propagation">Learn more &gt;</a>
+							</div>
+							<div class="tooltip-arrow">
+							</div>
+						</div>
+					</span>
 					<span class="sprite-icon"></span>
 				</div>
 			</div><!-- /.navbar-collapse -->

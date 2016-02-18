@@ -5,41 +5,22 @@
 }
 	.modal-dialog {
 		#first-time-welcome-message & {
-			width: 100%;
-			margin: 0 auto;
-			max-width: 720px;
-			min-height: 484px;
 		}
 	}
 
 	.modal-body {
 		#first-time-welcome-message & {
-			font-size: 14px;
-			padding: 0px;
-			color: #2c2f35;
-			line-height: 24px;
 		}
 	}
 
 	.modal-content {
 		#first-time-welcome-message & {
-			padding: 69px 20px 19px;
-			border-radius: 0px;
-			box-shadow: none;
-			border: none;
 		}
 	}
 
 	.modal-headline {
 		#first-time-welcome-message & {
-			font-size: 20px;
-			font-weight: 300;
-			color: #2c2f35;
-			text-align: center;
-			margin-bottom: 15px;
-			b {
-				font-weight: 500;
-			}
+			padding-bottom: 14px;
 			@media (max-width: 767px) {
 				max-width: 9em;
    		 		margin: 0px auto 15px;
@@ -49,59 +30,65 @@
 
 	.modal-intro {
 		#first-time-welcome-message & {
-			font-size: 14px;
-			color: #2c2f35;
-			font-weight: 400;
-			max-width: 478/720*100%;
-			line-height: 24px;
-			margin: 0 auto 24px;
-			text-align: center;
+			width: 100%;
+			padding-top: 30px;
+			max-width: none;
+			background-color: #eeeeee;
+			margin-bottom: 0px;    
+			padding-bottom: 18px;
 		}
 	}
 
 	.modal-footer {
 		#first-time-welcome-message & {
-			background-color: #ecebeb;
+		    border-top: none;
+		    text-align: center;
 			padding: 0px;
+			margin-top: 30px;
 		}
 	}
 
 	.close {
 		#first-time-welcome-message & {
-			position: absolute;
-			top: 20px;
-			right: 20px;
-    		z-index: 1000;
 		}
 		#first-time-welcome-message .modal-footer & {
-			position: relative;
-			display: block;
-			background: none;
-			cursor: pointer!important;
-			font-size: 14px;
 			.opacity(1);
-			color: #222529;
-			float: none;
-			width: 100%;
-			min-height: 61px;
-			text-align: center;
-			padding-top: 25px;    
-			top: auto;
-			font-weight: 400;
-    		right: auto;
+			position: relative;
+			display: inline-block;
+	    	font-size: 10px;
+	    	padding: 17px 44px 13px;
+	    	text-shadow: none;
+	    	font-family: 'Montserrat', sans-serif;
+	    	letter-spacing: 0.08em;
+	    	line-height: 11px;
+	    	float: none;
+	    	top: auto;
+	    	bottom: auto;
+	    	left: auto;
+	    	right: auto;
     		&:hover {
     			cursor: pointer!important;
-    			color: #000;
     		}
 		}
 	}
 
 	.first-time-welcome--quick-links {
-		max-width: 500px;
-		margin: 0 auto 36px;
+		margin: 0 auto;    
+		padding-bottom: 32px;
+		background-color: #eeeeee;
+		.first-time-welcome--quick-links--inner-wrapper {
+			max-width: 450px;
+			margin: 0 auto;
+			*[class^="col-"] {
+				padding: 0;
+			}
+		}
 	}
 	.first-time-welcome--quick-link {
 		min-height: 90px;
+		padding-top: 16px;
+		padding-bottom: 18px;
+		margin: 1px;
 		text-align: center;
 		display: block;
 		cursor: pointer!important;
@@ -109,15 +96,33 @@
 		* {
 			cursor: pointer!important;
 		}
-	}
-		.first-time-welcome--quick-link--icon {
-			width: 78px;
-			height: 46px;
-			display: inline-block;
+
+		&:hover {
+			background-color: #f7f7f7;
 		}
 
-			.first-time-welcome--quick-link--icon-default,
-			.first-time-welcome--quick-link--icon-hover {
+		&.close {
+			#first-time-welcome-message & {
+				position: relative;
+				float: left;
+				top: auto;
+				left: auto;
+				bottom: auto;
+				right: auto;
+				line-height: inherit;
+				font-size: inherit;
+				.opacity(1);
+			}
+		}
+	}
+		.first-time-welcome--quick-link--icon {
+			width: 49px;
+			height: 55px;
+			display: inline-block;
+			position: relative;
+		}
+
+			.first-time-welcome--quick-link--icon-default {
 				position: absolute;
 				left: 0;
 				right: 0;
@@ -125,20 +130,11 @@
 				height: 100%;
 			}
 
-			.first-time-welcome--quick-link--icon-hover {
-				.opacity(0);
-				z-index: 1;
-
-				.first-time-welcome--quick-link:hover & {
-					.opacity(1);
-				}
-
-			}
-
 		.first-time-welcome--quick-link--label {
-			color: #222529;
+			color: #33363d;
 			font-size: 12px;
-			font-weight: 500;
+			line-height: 16px;
+			font-weight: 400;
 			.first-time-welcome--quick-link:hover & {
 				color: #121212;
 			}

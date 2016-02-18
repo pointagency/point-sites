@@ -31,10 +31,6 @@
 
 	.close {
 		#get-code-modal & {
-			position: absolute;
-			top: 20px;
-			right: 20px;
-    		z-index: 1000;
 		}
 	}
 
@@ -55,6 +51,8 @@
 			height: 190px; 
 			resize: none;
 			margin-bottom: 22px;
+			color: #8b909a;
+    		padding: 10px 13px;
 		}
 	}
 
@@ -70,6 +68,7 @@
 	p {
 		#get-code-modal & {
 			font-size: 14px;
+			line-height: 24px;
 		}
 	}
 
@@ -89,6 +88,18 @@
 	.get-code-modal--banner-details {
 		vertical-align: top;
 		padding: 33px;
+	}
+
+	.get-code-modal--banner-details--header {
+		font-size: 16px;
+		lin-height: 24px;
+		strong {
+
+		}
+	}
+
+	#get-code-modal--banner-details--format {
+		font-style: italic;
 	}
 
 	.get-code-modal--banner-details--add-custom-code {

@@ -7,6 +7,7 @@ header {
 .navbar.post-login {
 	padding-top: 13px;
 	padding-bottom: 12px;
+	padding-right: 7px;
 }
 
 .navbar-collapse {
@@ -33,10 +34,6 @@ header {
 	position: relative;
 	top: 4px;
 	cursor: pointer;
-	&:hover {
-		color: #fff;
-		.transition(color 0.125s ease);
-	}
 }
 
 	.commission-status--value {
@@ -48,17 +45,96 @@ header {
 	}
 
 	.sprite-icon {
-		.commission-status & {
+		.commission-status &,
+		.outstanding-invoices &,
+		#reportrange & {
 			position: relative;
-			top: -2px;
+			top: -1px;
 			margin-left: 4px;
 			.sprite(@down-grey-sm);
 		}
 
-		.commission-status:hover & {
+		#reportrange & {
+			top: 0px;
+			margin-left: 6px;
+			margin-right: -2px;
+		}
+
+		.commission-status:hover &,
+		.outstanding-invoices:hover & {
 			.sprite(@down-white-sm);
+			.opacity(0.5);
 		}
 	}
+
+.outstanding-invoices {
+	font-size: 14px;
+	line-height: 19px;
+	font-weight: 400;
+	color: #9a9ca2;
+	padding-right: 20px;
+	height: 19px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	top: 4px;
+	cursor: pointer;
+	&:hover {
+		color: #d3d3d3;
+	}
+
+	.tooltip {
+		margin-top: 0px;
+		width: 200px;
+		left: 50%;
+   	 	margin-left: -157px;
+		z-index: -1;
+		position: absolute;
+		visibility: hidden;
+
+
+		@tr: 0.25s cubic-bezier(.55,0,0,1);
+		@t1: all @tr, z-index @tr;
+		.transition(@t1);
+		&.in {
+			visibility: visible;
+			margin-top: 34px;
+			bottom: auto;
+			z-index: 1000;
+			@t: margin-top @tr, opacity @tr;
+			.transition(@t);
+		}
+
+		> .tooltip-arrow {
+			left: 157px;
+		}
+
+		a {
+			display: block;
+			margin-top: 10px;
+			color: #ee683a;
+			text-decoration: none!important;
+			&:hover {
+				color: #ffb091;
+			}
+		}
+	}
+}
+
+	.outstanding-invoices--count {
+		background-color: #ee683a;
+		display: inline-block;
+		vertical-align: middle;
+		border-radius: 15px;
+		height: 20px;
+		line-height: 11px;
+		text-align: center;
+		position: relative;
+		padding: 4px 8px 4px 7px;
+		color: #fff;
+		font-size: 12px;
+	}
+
 
 .navbar-logout-link {
 	display: inline-block;

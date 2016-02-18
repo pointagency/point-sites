@@ -4,6 +4,14 @@
 		{
 			"follow_symlinks": true,
 			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/andrew-pham/development/hl-my-account"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/andrew-pham/development/html5-banners/highlow-banners"
 		}
 	]
 }
