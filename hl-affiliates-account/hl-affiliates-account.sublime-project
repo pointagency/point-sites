@@ -12,6 +12,14 @@
 		{
 			"follow_symlinks": true,
 			"path": "/Users/andrew-pham/development/html5-banners/highlow-banners"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/andrew-pham/development/highlow-app"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/andrew-pham/development/highlow-public-page"
 		}
 	]
 }

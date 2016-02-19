@@ -23,11 +23,37 @@
 											<label for="landing-page-select">Target URL:</label>
 											<br/>
 											<div class="banner--details--target-link">	
-												<select id="landing-page-select" class="banner--details--target-link-selector">
-													<option selected="selected" value="https://en2.highlow.net/account">https://en2.highlow.net/account</option>
-													<option value="https://en2.highlow.net/lp-traders">https://en2.highlow.net/lp-traders</option>
-													<option value="https://en2.highlow.net/landing">https://en2.highlow.net/landing</option>
-												</select>
+												<span class="banner--details--target-link--current banner--details--target-link--selector" data-url="acontent/js/sample-json/landing-pages.js">
+													<span class="banner--details--target-link--item banner--details--landing-page-selector--current-url" 
+														data-name="HighLow Markets Home page"
+														data-preview-url="acontent/landing-page-screenshots/lp1.png"
+														data-lp-url="https://en2.highlow.net/account">
+														https://en2.highlow.net/account
+													</span>
+													<div class="banner--details--landing-page-selector">
+														<div class="banner--details--landing-page-selector--filter">
+															<div class="banner--details--landing-page-selector--filter--languages">
+																<div class="banner--details--landing-page-selector--filter--language active toggler" data-key="" data-self-toggle-off-disabled="true" data-toggle-group="landing-page-preview--language-pickers">
+																	All
+																</div>
+																<div class="banner--details--landing-page-selector--filter--language toggler" data-key="en" data-self-toggle-off-disabled="true" data-toggle-group="landing-page-preview--language-pickers">
+																	English
+																</div>
+																<div class="banner--details--landing-page-selector--filter--language toggler" data-key="jp" data-toggle-self-off-disabled="true" data-toggle-group="landing-page-preview--language-pickers">
+																	Japanese
+																</div>
+															</div>
+															<div class="banner--details--landing-page-selector--filter--search">
+																<span class="banner--details--landing-page-selector--filter--search--toggler toggler" data-toggle-target="#get-code-modal .banner--details--landing-page-selector--filter--search">
+																</span>
+																<input type="text" class="banner--details--landing-page-selector--filter--search--input" placeholder="Start typing..."/>
+															</div>
+														</div>
+														<div class="banner--details--landing-page-selector--landing-page-list">
+															
+														</div>
+													</div>
+												</span>
 											</div>
 											<br/>
 											<br/>
@@ -58,4 +84,22 @@
 			</div>
 		</div>
 	</div>
+</div>
+<div id="landing-page--hover-preview">
+	<div id="landing-page--hover-preview--screenshot--wrapper">
+		<div id="landing-page--hover-preview--screenshot">
+			<img id="landing-page--hover-preview--screenshot-img" src="acontent/landing-page-screenshots/lp1.png"/>
+		</div>
+	</div>
+	<div id="landing-page--hover-preview--details">
+		<div id="landing-page--hover-preview--name">
+			HighLow Markets Home page
+		</div>
+		<div id="landing-page--hover-preview--url">
+			https://en2.highlow.net/account
+		</div>
+		<a id="landing-page--hover-preview--details--open-in-new-tab" target="_blank" class="btn btn-alternate btn-extruded">
+			OPEN IN NEW TAB
+		</a>
+	</div> 
 </div>

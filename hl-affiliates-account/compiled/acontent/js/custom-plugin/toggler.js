@@ -24,9 +24,6 @@ $(document).ready(
 				target = self;
 			}
 
-
-			console.log(target);
-
 			var off = function() {
 				$('[data-toggle-target="'+self.data('toggleTarget')+'"]').removeClass(toggleClass);
 				target.removeClass(toggleClass);
@@ -37,8 +34,6 @@ $(document).ready(
 			}
 
 			var on = function() {
-
-				console.log('on');
 
 				if(toggleGroup && toggleGroup != '') {
 					$('[data-toggle-group="'+toggleGroup+'"]').removeClass(toggleClass);
@@ -61,14 +56,6 @@ $(document).ready(
 			}
 
 			var toggle = function() {
-
-				console.log('toggle');
-
-				console.log(target);
-
-				console.log(target.hasClass(toggleClass));
-
-				// console.log(toggleClass);
 
 				if(target.hasClass(toggleClass) && !toggleSelfOffDisabled) {
 					off();
