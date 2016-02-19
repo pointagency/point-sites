@@ -39,8 +39,8 @@ $(document).ready(function(){
 			height = 400;
 
 
-			var left = e.clientX + 40,
-				top = e.clientY - height/2;
+			var left = e.clientX + 25,
+				top = e.clientY - height;
 
 			if(left+width>$(window).width()) {
 				left = $(window).width()-width-25;
@@ -48,6 +48,10 @@ $(document).ready(function(){
 
 			if(top+height>$(window).height()) {
 				top = $(window).height()-height-25;
+			}
+
+			if(top < 25) {
+				top = 25;
 			}
 
 			$landingPagePreview.addClass('active');
@@ -301,12 +305,6 @@ $(document).ready(function(){
 			filter({
 				keys : $searchBox.val()
 			});
-
-		});
-
-		$menu.on('mouseleave',function(){
-
-			$($self.find('.banner--details--landing-page-selector--filter--search, .banner--details--landing-page-selector--filter--search--toggler')).removeClass('active');
 
 		});
 

@@ -49,7 +49,7 @@ $(document).ready(function(){
 			bannerCampaignName = $bannerItem.data('campaignName'),
 			bannerCode = $bannerItem.data('code'),
 			bannerLayout = $bannerItem.data('width')<=320?'horizontal':'vertical',
-			bannerLandingPageUrl = $('#landing-page-select').val(),
+			bannerLandingPageUrl = $bannerItem.data('target'),
 			bannerFavourite = $bannerItem.find('.banner--details--favourite--checkbox').is(':checked');
 
 		console.log(bannerFavourite);
@@ -71,6 +71,20 @@ $(document).ready(function(){
 	$('#landing-page-select').change(function(){
 		var self = $(this),
 			newLandingPageUrl = self.val(),
+			prototype = $('#get-code-modal--banner-details--code').data('prototype');
+
+		newBannerCode = prototype.replace('SUBCODE','&amp;chan='+$('#banner-sub-code').val()).replace('LANDINGPAGE',newLandingPageUrl);
+
+		$('#get-code-modal--banner-details--code').val(newBannerCode);
+		$('#get-code-modal--banner-preview').empty().append($(newBannerCode));
+
+	});
+
+
+	$('.banner--details--landing-page-selector--landing-page-list').on('click','.banner--details--landing-page-selector--landing-page--item',function(){
+
+		var self = $(this),
+			newLandingPageUrl = self.data('lpUrl'),
 			prototype = $('#get-code-modal--banner-details--code').data('prototype');
 
 		newBannerCode = prototype.replace('SUBCODE','&amp;chan='+$('#banner-sub-code').val()).replace('LANDINGPAGE',newLandingPageUrl);

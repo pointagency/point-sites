@@ -477,23 +477,25 @@
 			}
 		}
 
-		@media (max-width: 991px) and (min-width: 768px) {
-			position: relative;
-			margin: 0 auto;
-			top: auto;
-			right: auto;
-			width: 17px;
-			display: block;
-		}
+		.banners--list & {
+			@media (max-width: 991px) and (min-width: 768px) {
+				position: relative;
+				margin: 0 auto;
+				top: auto;
+				right: auto;
+				width: 17px;
+				display: block;
+			}
 
-		@media (max-width: 520px) {
-			position: relative;
-			margin: 0 auto;
-			top: auto;
-			right: auto;
-			width: 17px;
-			display: block;
-		}
+			@media (max-width: 520px) {
+				position: relative;
+				margin: 0 auto;
+				top: auto;
+				right: auto;
+				width: 17px;
+				display: block;
+			}
+		}	
 	}
 
 	.banner--details--favourite--icon {
@@ -611,15 +613,14 @@
 			margin-bottom: 15px;
 		}
 
-
-
-
 		#get-code-modal & {
 			float: none;
-			display: inline-block;
+			display: block;
+			padding-left: 25px;
 			&:before {
 				margin-right: 5px;
 				top: 0px;
+				margin-left: -25px;
 			}
 		}
 
@@ -645,40 +646,45 @@
 		}
 
 		@media (max-width: 991px) and (min-width: 768px) {
-			float: none;
-			margin: 0 auto;
-			text-align: center;
-			white-space: nowrap;
-			overflow: hidden;
-			text-overflow: ellipsis;
-			position: absolute;
-			bottom: 25px;
-		    width: 100%;
-		    left: 0px;
-			top: auto;
-			display: block;
-			&:before {
-				content: none;
-				display: none;
+			.banners--list & {
+				float: none;
+				margin: 0 auto;
+				text-align: center;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				position: absolute;
+				bottom: 25px;
+			    width: 100%;
+			    left: 0px;
+				top: auto;
+				display: block;
+				&:before {
+					content: none;
+					display: none;
+				}
 			}
+			
 		}
 
 		@media (max-width: 520px) {
-			float: none;
-			margin: 0 auto;
-			text-align: center;
-			white-space: nowrap;
-			overflow: hidden;
-			text-overflow: ellipsis;
-			position: absolute;
-			bottom: 25px;
-		    width: 100%;
-		    left: 0px;
-			top: auto;
-			display: block;
-			&:before {
-				content: none;
-				display: none;
+			.banners--list & {
+				float: none;
+				margin: 0 auto;
+				text-align: center;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				position: absolute;
+				bottom: 25px;
+			    width: 100%;
+			    left: 0px;
+				top: auto;
+				display: block;
+				&:before {
+					content: none;
+					display: none;
+				}
 			}
 		}
 	}
