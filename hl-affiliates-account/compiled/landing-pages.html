@@ -123,7 +123,7 @@
 								<span>Banners</span>
 							</a>
 						</li>
-						<li class="">
+						<li class="active">
 							<a href="landing-pages.html">
 								<span>Landing pages</span>
 							</a>
@@ -142,12 +142,12 @@
 					</a>
 					<ul class="sub-menu-list">
 						<li class="">
-							<a href="analytics--lead-conversions.html">
+							<a href="analytics-lead-conversion.html">
 								<span>Lead conversion</span>
 							</a>
 						</li>
 						<li class="">
-							<a href="analytics--creatives.html">
+							<a href="analytics-banner-conversion.html">
 								<span>Banner conversion</span>
 							</a>
 						</li>
@@ -254,9 +254,6 @@
 			<div class="row">
 				<h3></h3>
 				<div class="col-lg-12">
-					<!-- Nav tabs -->
-					
-					<!-- Tab panes -->
 					<div class="tab-content">
 						<div class="tab-pane active" id="landing-pages">
 							<form>
@@ -344,81 +341,6 @@
 														</div>
 													</div>
 													<div class="banners--filter">
-														<label for="banner-type-filter-toggle">
-															<input id="banner-type-filter-toggle" type="checkbox" class="banners--filter--toggle">
-															&nbsp;&nbsp;By banner type
-														</label>
-														<div class="banners-filter-option">
-															<label>
-																<input type="checkbox" class="check-all" name="type[]" value="all"/>
-																All
-															</label>
-															<label>
-																<input type="checkbox" name="type[]" value="animated"/>
-																Animated
-															</label>
-															<label>
-																<input type="checkbox" name="type[]" value="static"/>
-																Static
-															</label>
-														</div>
-													</div>
-													<div class="banners--filter">
-														<label for="banner-size-filter-toggle">
-															<input id="banner-size-filter-toggle" type="checkbox" class="banners--filter--toggle">
-															&nbsp;&nbsp;By size
-														</label>
-														<div class="banners-filter-option">
-															<label>
-																<input type="checkbox" class="check-all" name="size[]" value="all"/>
-																All
-															</label>
-															<label>
-																<input type="checkbox" name="size[]" value="120x240"/>
-																120x240
-															</label>
-															<label>
-																<input type="checkbox" name="size[]" value="120x90"/>
-																120x90
-															</label>
-															<label>
-																<input type="checkbox" name="size[]" value="120x60"/>
-																120x60
-															</label>
-															<label>
-																<input type="checkbox" name="size[]" value="120x600"/>
-																120x600
-															</label>
-															<label>
-																<input type="checkbox" name="size[]" value="125x125"/>
-																125x125
-															</label>
-															<label>
-																<input type="checkbox" name="size[]" value="160x600"/>
-																160x600
-															</label>
-															<label>
-																<input type="checkbox" name="size[]" value="234x60"/>
-																234x60
-															</label>
-															<label>
-																<input type="checkbox" name="size[]" value="300x250"/>300x250
-															</label>
-															<label>
-																<input type="checkbox" name="size[]" value="320x50"/>320x50
-															</label>
-															<label>
-																<input type="checkbox" name="size[]" value="468x60"/>468x60
-															</label>
-															<label>
-																<input type="checkbox" name="size[]" value="500x147"/>500x147
-															</label>
-															<label>
-																<input type="checkbox" name="size[]" value="728x90"/>728x90
-															</label>
-														</div>
-													</div>
-													<div class="banners--filter">
 														<label for="banner-orientation-filter-toggle">
 															<input id="banner-orientation-filter-toggle" type="checkbox" class="banners--filter--toggle">
 															&nbsp;&nbsp;By orientation
@@ -439,36 +361,6 @@
 															<label>
 																<input type="checkbox" name="orientation[]" value="portrait"/>
 																Portrait
-															</label>
-														</div>
-													</div>
-												</div>
-												<div class="banners--filter--group">
-													<div class="banners--filter">
-														<label for="banner-extension-filter-toggle">
-															<input id="banner-extension-filter-toggle" type="checkbox" class="banners--filter--toggle">
-															&nbsp;&nbsp;By file type
-														</label>
-														<div class="banners-filter-option">
-															<label>
-																<input type="checkbox" class="check-all" name="extension[]" value="all"/>
-																All
-															</label>
-															<label>
-																<input type="checkbox" name="extension[]" value="html5"/>
-																HTML5
-															</label>
-															<label>
-																<input type="checkbox" name="extension[]" value="gif"/>
-																.gif
-															</label>
-															<label>
-																<input type="checkbox" name="extension[]" value="png"/>
-																.png
-															</label>
-															<label>
-																<input type="checkbox" name="extension[]" value="jpg"/>
-																.jpg
 															</label>
 														</div>
 													</div>
@@ -546,37 +438,103 @@
 									</div>
 									<div class="col-lg-9 banners--list landing-pages--list">
 										<div class="header-block-1">
-											Currently viewing 8 of 12 pages:
+											Landing pages <span class="thin">(1-4 of 8 records)</span>
 										</div>
-										<div class="banner--item"
-											data-name="HighLow Markets Home page"
-											data-url="https://en2.highlow.net/account"
-											data-screenshots="['acontent/landing-page-screenshots/lp1.png','']"data-description="<span class='landing-page--description--heading'>Featuring a built-in sign-up form, plus regionally dynamic content</span><span class='landing-page--description--body'><p>A general, simple landing page outlining key features, an image of the HighLow platform and the sign-up bonus. This page dynamically loads country-specific content using blahBlah, meaning a more relevant experience for the lead. </p><p></p>Potential leads can sign-up for HighLow directly from this page.</span>"
-										>
-											<div class="banner--item-content">
-												<div class="banner--preview-container">
-													<div class="banner--preview banner--viewable banner--playable banner--view-code">
-														<a title="preview this banner" class="banner--viewable--cover">
-															<div class="banner--viewable--screenshot" style="background-image: url(acontent/landing-page-screenshots/lp1.png);"></div>
-														</a>
+										<div class="banner--items clearfix">
+											<div class="landing-page--item">
+												<div class="landing-page--item--inner--wrapper">
+													<div class="landing-page--item--screenshot--wrapper">
+														<div class="landing-page--item--screenshot">
+															<img id="landing-page--hover-preview--screenshot-img" class="landing-page--item--screenshot-img" src="acontent/landing-page-screenshots/lp1.png"/>
+														</div>
 													</div>
-												</div>
-												<div class="banner--details banner-code-div">
-													<div class="banner--details--content">
-														<div class="banner--details--favourite">
+													<div class="landing-page--item--details">
+														<div class="landing-page--item--favourite">
 															<label>
-																<input type="checkbox" class="banner--details--favourite--checkbox" value="all"/>
-																<span class="banner--details--favourite--icon">
+																<input type="checkbox" checked="checked" value="all"/>
+																<span class="landing-page--item--favourite--icon">
 																</span>
 															</label>
 														</div>
-														<h4 class="banner--details--banner-name">
-															<strong>HighLow Markets Home page</strong>
-														</h4>
-														<div class="banner--details--target-link">	
-															<a href="https://en2.highlow.net/account">https://en2.highlow.net/account</a>
+														<div class="landing-page--item--name">
+															HighLow Markets Home page
+														</div>
+														<div class="landing-page--item--url">
+															https://en2.highlow.net/account
+														</div>
+													</div> 
+												</div>
+											</div>
+											<div class="landing-page--item">
+												<div class="landing-page--item--inner--wrapper">
+													<div class="landing-page--item--screenshot--wrapper">
+														<div class="landing-page--item--screenshot">
+															<img id="landing-page--hover-preview--screenshot-img" class="landing-page--item--screenshot-img" src="acontent/landing-page-screenshots/lp2.png"/>
 														</div>
 													</div>
+													<div class="landing-page--item--details">
+														<div class="landing-page--item--favourite">
+															<label>
+																<input type="checkbox" value="all"/>
+																<span class="landing-page--item--favourite--icon">
+																</span>
+															</label>
+														</div>
+														<div class="landing-page--item--name">
+															Long Form Landing page
+														</div>
+														<div class="landing-page--item--url">
+															https://en2.highlow.net/landing
+														</div>
+													</div> 
+												</div>
+											</div>
+											<div class="landing-page--item">
+												<div class="landing-page--item--inner--wrapper">
+													<div class="landing-page--item--screenshot--wrapper">
+														<div class="landing-page--item--screenshot">
+															<img id="landing-page--hover-preview--screenshot-img" class="landing-page--item--screenshot-img" src="acontent/landing-page-screenshots/lp3.png"/>
+														</div>
+													</div>
+													<div class="landing-page--item--details">
+														<div class="landing-page--item--favourite">
+															<label>
+																<input type="checkbox" value="all"/>
+																<span class="landing-page--item--favourite--icon">
+																</span>
+															</label>
+														</div>
+														<div class="landing-page--item--name">
+															Experience Traders Landing page
+														</div>
+														<div class="landing-page--item--url">
+															https://en2.highlow.net/lp-traders
+														</div>
+													</div> 
+												</div>
+											</div>
+											<div class="landing-page--item">
+												<div class="landing-page--item--inner--wrapper">
+													<div class="landing-page--item--screenshot--wrapper">
+														<div class="landing-page--item--screenshot">
+															<img id="landing-page--hover-preview--screenshot-img" class="landing-page--item--screenshot-img" src="acontent/landing-page-screenshots/lp5.png"/>
+														</div>
+													</div>
+													<div class="landing-page--item--details">
+														<div class="landing-page--item--favourite">
+															<label>
+																<input type="checkbox" checked="checked" value="all"/>
+																<span class="landing-page--item--favourite--icon">
+																</span>
+															</label>
+														</div>
+														<div class="landing-page--item--name">
+															Short Form Landing page
+														</div>
+														<div class="landing-page--item--url">
+															http://point.agency/highlow/new-site/landing-page-basic.html
+														</div>
+													</div> 
 												</div>
 											</div>
 										</div>
@@ -631,12 +589,10 @@
 								</div>  
 							</form>
 						</div>
-									 
 					</div>
 				</div>
 			</div>
 		</div>
-
 	</div>
 </div>
 
@@ -701,6 +657,8 @@
 	<div class="p-css-table__fill p-css-table">
 		<div class="p-css-table-row">
 			<div class="p-css-table-cell p-css-table-cell__center">
+				<div class="modal-bg" data-dismiss="modal">
+				</div>
 				<div class="modal-dialog">
 					<div class="modal-content">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="sprite-icon__x-grey-md"></span></button>

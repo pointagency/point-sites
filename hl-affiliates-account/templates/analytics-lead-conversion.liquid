@@ -1,0 +1,288 @@
+{% extends base %}
+
+{% block title %}
+	Lead Conversion | Analytics
+{% endblock %}
+
+{% block bodyClass %}
+{% endblock %}
+
+{% block content %}
+
+{% include header %}
+
+{% assign analytics='active' %}
+{% assign leadConversion='active' %}
+
+{% include side-menu %}
+
+{% assign analytics='active' %}
+{% assign leadConversion='active' %}
+
+<div class="main-content lead-conversion">
+	<div class="wrapper clearfix">
+		<div class="clearfix">
+		</div>
+		<div class="page-heading clearfix">
+			<div class="pull-left">
+				<h3>
+					LEAD CONVERSION ANALYTICS
+				</h3>
+			</div>
+			<div class="page-actions">
+				<div class="affiliate-btn-group affiliate-btn-xs pull-right" id="aff_frontend_ranges">
+					<a href="#" id="reportrange" class="affiliate-btn affiliate-btn-default"><i class="sprite-icon__calendar-red-sm"></i>&nbsp; 
+						<span>January 12, 2016 &mdash; February 10, 2016</span>
+						<span class="sprite-icon"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="widget-stats">
+				<div class="row">
+					<div class="col-md-3 stats">
+				    	<div class="stats-title">
+				    		<span>Clicks</span>&nbsp;
+
+				    		<span class="tooltip-toggle lg-screen" data-toggle="tooltip" data-placement="right" title="The number of clients who created accounts with us based on creation date. Depending on the filter it will include all clients registered during that period."><i class="fa fa-question"></i></span>
+
+
+				    		<span class="tooltip-toggle sm-screen" data-toggle="tooltip" data-placement="top" title="The number of clients who created accounts with us based on creation date. Depending on the filter it will include all clients registered during that period."><i class="fa fa-question"></i></span>
+				    	</div>
+				        <div class="stats-info">90</div>                
+					</div>
+					<div class="col-md-3 stats">
+				    	<div class="stats-title">
+				    		<span>Conversions</span>&nbsp;
+
+				    		<span class="tooltip-toggle lg-screen" data-toggle="tooltip" data-placement="right" title="The number of clients who have had their account activated, based on the activated date. Depending on the filter it will include all clients activated during that period."><i class="fa fa-question"></i></span>
+
+				    		<span class="tooltip-toggle sm-screen" data-toggle="tooltip" data-placement="top" title="The number of clients who have had their account activated, based on the activated date. Depending on the filter it will include all clients activated during that period."><i class="fa fa-question"></i></span>
+				    	</div>
+				        <div class="stats-info">9</div>                
+					</div>
+					<div class="col-md-3 stats">
+				    	<div class="stats-title">
+				    		<span>Conversion rate</span>&nbsp;
+
+				    		<span class="tooltip-toggle lg-screen" data-toggle="tooltip" data-placement="right" title="The number of clients who have funded their account, based on the funded date. Depending on the filter it will include all clients who have funded during that period."><i class="fa fa-question"></i></span>
+
+				    		<span class="tooltip-toggle sm-screen" data-toggle="tooltip" data-placement="top" title="The number of clients who have funded their account, based on the funded date. Depending on the filter it will include all clients who have funded during that period."><i class="fa fa-question"></i></span>
+				    	</div>
+				        <div class="stats-info">10%</div>                
+					</div>
+					<div class="col-md-3 stats">
+						<div class="stats-title">
+							<span>Commission</span>&nbsp;
+
+							<span class="tooltip-toggle lg-screen" data-toggle="tooltip" data-placement="left" title="The number of clients who have traded, based on the sales date. Depending on the filter it will include all the clients who have traded during that period."><i class="fa fa-question"></i></span>
+
+							<span class="tooltip-toggle sm-screen" data-toggle="tooltip" data-placement="top" title="The number of clients who have traded, based on the sales date. Depending on the filter it will include all the clients who have traded during that period."><i class="fa fa-question"></i></span>
+						</div>
+						<div class="stats-info">AU$2,700</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-lg-8 col-xl-8">
+					<div class="widget">
+						<div id="affiliate-line-chart" data-link="/en/my-account/affiliate-line-chart">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12 col-xl-4">
+					<div class="widget">
+						<div id="affiliate-funnel-chart" data-link="/en/my-account/affiliate-funnel-chart">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<div id="lead-status-table-widget" class="widget widget__table">
+						<div class="clearfix">
+							<div class="widget-title">
+								Lead status <span class="chart-title--dynamic" id="lead-count"></span>
+							</div>
+							<div class="widget-options">
+								<div id="lead-status-table--download" class="btn widget-options--btn">
+									<i class="sprite-icon__thick-arrow-down-grey-sm"></i>
+									Download
+								</div>
+								<div id="lead-status-table--filter" class="btn widget-options--btn">
+									<i class="sprite-icon__filter-grey-sm"></i>
+									Filters
+								</div>
+								&nbsp;
+								&nbsp;
+								<div class="filter--toggles">
+									<div class="filter--toggles--item active toggler" data-field-name="status" data-value="all" data-self-toggle-off-disabled="true" data-toggle-group="lead-status--filters">
+										All
+									</div>
+									<div class="filter--toggles--item toggler" data-field-name="status" data-value="clicks" data-self-toggle-off-disabled="true" data-toggle-group="lead-status--filters">
+										Clicks
+									</div>
+									<div class="filter--toggles--item toggler" data-field-name="status" data-value="registered" data-toggle-self-off-disabled="true" data-toggle-group="lead-status--filters">
+										Registered
+									</div>
+									<div class="filter--toggles--item toggler" data-field-name="status" data-value="approved" data-toggle-self-off-disabled="true" data-toggle-group="lead-status--filters">
+										Approved
+									</div>
+									<div class="filter--toggles--item toggler" data-field-name="status" data-value="funded" data-toggle-self-off-disabled="true" data-toggle-group="lead-status--filters">
+										Funded
+									</div>
+									<div class="filter--toggles--item toggler"  data-field-name="status" data-value="traded" data-toggle-self-off-disabled="true" data-toggle-group="lead-status--filters">
+										Traded
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="table-wrapper table-wrapper__md">
+							<table id="lead-status-table" data-src="acontent/js/sample-json/lead-status.js" 
+								data-data-property="data" 
+								data-count-property="total" 
+								data-page-length="25"
+								data-filtered-count-property="filtered"
+								data-no-data-message="No result found."
+								data-asset-url="acontent/images/"
+								data-page-count-property="currentPage"
+								data-count-display="#lead-count">
+								<thead>
+									<tr>
+										<th 
+											data-template='
+											<span class="banner--view-code"
+												data-name="{bannerName}"
+												data-format="({bannerFileType})"
+												data-target="{landingPageUrl}"
+												data-target-name="{landingPageName}"
+												data-target-preview="{landingPagePreview}"
+												data-code=&apos;{bannerTemplate}&apos;
+												data-width="{bannerWidth}"
+												data-height="{bannerHeight}"
+											>{bannerWidth}x{bannerHeight} {bannerName}</span>'
+											data-property-name="bannerName">
+											Banner
+										</th>
+										<th
+											data-template='
+											<span class="banner--details--target-link--item"
+												data-name="{landingPageName}"
+												data-preview-url="{landingPagePreview}"
+												data-lp-url="{landingPageUrl}"
+											>{landingPageName}</span>'
+											data-property-name="landingPageName">
+											Landing Page
+										</th>
+										<th
+											data-property-name="leadLocation">
+											Location
+										</th>
+										<th
+											class="url"
+											data-template='<span>{srcUrl}</span>'
+											data-property-name="srcUrl">
+											URL
+										</th>
+										<th
+											data-property-name="leadStatus">
+											Status
+										</th>
+										<th
+											data-property-name="lastUpdate"
+											data-type="date",
+											data-format="D/MM/YY&nbsp;HH:mm:ss">
+											Last update
+										</th>
+										<th
+											data-empty="-"
+											data-property-name="commission">
+											Commission
+										</th>
+										<th
+											data-property-name="paid"
+											data-type="map"
+											data-map='{ "1" : "Y" , "0" : "N", "else" : "-"}'>
+											Paid
+										</th>	
+									</tr>
+								</thead>
+								<tbody>
+
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</div>
+
+{% include get-code-modal %}
+
+{% endblock %}
+
+{% block defaultScripts %}
+    <script src="https://cdn.highlow.net/admin/js/jquery-1.8.3.js"></script>
+	<script src="https://cdn.highlow.net/admin/js/ui/jquery-ui-1.9.2.custom.js"></script>    	
+	<script src="https://cdn.highlow.net/admin/js/ui/jquery-ui-timepicker.js"></script>
+	<script src="https://cdn.highlow.net/admin/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="https://cdn.highlow.net/common/js/jquery.validate.min.js"></script>
+	<script src="https://cdn.highlow.net/common/js/additional-methods.min.js"></script>
+	<script src="https://cdn.highlow.net/acontent/js/custom.js"></script>
+	<script src="https://cdn.highlow.net/acontent/js/datepicker.loader.js"></script>
+	<script src="https://cdn.highlow.net/admin/js/daterangepicker.js"></script>
+	<script src="acontent/js/highlow-affiliate.js"></script>
+	
+	<script>
+    	$(document).ready(function(){
+			$(".sidebar-toggler").click(function(){
+				if($('body').hasClass('show-sidebar')) {
+					$('body').removeClass('show-sidebar');
+					$('#side-menu').addClass('hidden-xs');
+				} else {
+					$('body').addClass('show-sidebar');
+					$('#side-menu').removeClass('hidden-xs');
+				}
+			});
+
+
+			setTimeout(function(){
+				  $('.message-wrapper').each(function(){
+				   $(this).addClass('display').addClass($(this).data('type'));
+				  });
+				 },600);
+				 
+			 $('.message-wrapper .close').click(function(){
+			  $('.message-wrapper').removeClass('display').removeClass('fail').removeClass('success').removeClass('alert').removeClass('generic').removeClass('warning');
+			 });
+
+				 
+		});
+    </script>
+
+    {% include preview-banner-js %}
+
+	<script>
+		$(document).ready(function(){
+			$('body').tooltip({
+			    selector: '[data-toggle="tooltip"]'
+			});
+		});
+	</script>
+	<script type="text/javascript" src="acontent/js/third-parties/highcharts.js"></script>
+	<script type="text/javascript" src="https://cdn.highlow.net/admin/js/highcharts/modules/exporting.js"></script>
+	<script type="text/javascript" src="https://cdn.highlow.net/admin/js/highcharts/modules/no-data-to-display.src.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/lineChart.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/funnelChart.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/table.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/toggler.js"></script>
+	<script src="https://cdn.highlow.net/admin/js/jquery.cookie.js"></script>
+	<script src="https://cdn.highlow.net/admin/js/moment.min.js"></script>
+	<script src="acontent/js/third-parties.min.js"></script>
+	<script src="acontent/js/custom-plugin/upload-cropper.js"></script>
+	<script type="text/javascript" src="acontent/js/ui-demo/lead-conversion.js"></script>
+
+{% endblock %}

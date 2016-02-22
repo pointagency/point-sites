@@ -240,20 +240,6 @@
 	}
 }
 
-.widget-title {
-	position: absolute;
-	z-index: 3;
-    top: 21px;
-    left: 25px;
-	font-size: 16px;
-	color: #2c2f35;
-	font-weight: 400;
-}
-
-.widget {
-	box-shadow: 3px 3px 0px 0px #f6f6f6;
-}
-
 #dashboard--top-banners--conversions {
 	position: absolute;
 	top: 15px;
@@ -302,6 +288,10 @@
 #affiliate-line-chart {
 	height: 294px!important;    
 	min-width: 640px;
+
+	.lead-conversion & {
+		height: 250px !important;
+	}
 }
 
 .top-banners--click-percentage {

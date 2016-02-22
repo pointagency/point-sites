@@ -13,10 +13,12 @@ $(document).ready(function(){
 
 
 	$('body').on('mouseover','.banner--details--target-link--item',function(e){
-		var $self = $(this),
-			$parent = $($self.closest('.banner--details--target-link--current'));
+		var $self = $(this);
 
 		clearTimeout(landingPagePreviewTimeout);
+
+
+		$self.addClass('loadingPreview');
 
 		$landingPagePreview.css({
 			left: e.clientX,
@@ -30,10 +32,9 @@ $(document).ready(function(){
 		$landingPagePreviewUrl.html($self.data('lpUrl'));
 		$landingPagePreviewNewTab.attr('href',$self.data('lpUrl'));
 
-		console.log($parent.offset().left);
-		console.log($parent.offset().top);
-
 		landingPagePreviewTimeout = setTimeout(function(){
+
+			$self.removeClass('loadingPreview');
 
 			var width = 480;
 			height = 400;
@@ -69,7 +70,8 @@ $(document).ready(function(){
 
 	$('body').on('mouseleave','.banner--details--target-link--item',function(e){
 		clearTimeout(landingPagePreviewTimeout);
-
+		var $self = $(this);
+		$self.removeClass('loadingPreview');
 		$landingPagePreview.removeClass('active');
 	});
 
@@ -178,7 +180,7 @@ $(document).ready(function(){
 
 				var dom = $('<div class="banner--details--landing-page-selector--landing-page--item banner--details--target-link--item '+(item.favourite?'favourite':'')+'">'+
 					'<div class="banner--details--landing-page-selector--landing-page--item--url">'+
-						item.url+
+						item.name+
 					'</div>'+
 				'</div>');
 

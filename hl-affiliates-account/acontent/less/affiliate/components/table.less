@@ -1,0 +1,124 @@
+.table-wrapper {
+	padding: 40px 0px 0px;
+	margin: 0 10px;
+	background-color: #fff;
+	@media (max-width: 991px) {
+		overflow: auto;
+	}
+}
+	table {
+		width: 100%;
+		background-color: #fff;
+		
+	}
+
+		table thead tr th {
+			vertical-align: top;
+			width: 45px;
+			font-size: 12px;
+			font-weight: 500;
+			color: #33363d;
+			background-color:#f9f9f9;
+			padding-top: 8px;
+			padding-bottom: 7px;
+			text-align: left;
+			padding-left: 5px;
+			padding-right: 5px;
+
+			.table-wrapper__dashboard & {
+				&:first-child {
+					padding-left: 20px;
+					width: 6%;
+				}
+				&:nth-child(2) {
+					width: 100%;
+				}
+				&:nth-child(3) {
+					min-width: 80px;
+				}
+				&:nth-child(4) {
+					min-width: 100px;
+				}
+				&:nth-child(5) {
+					min-width: 100px;
+				}
+				&:nth-child(6) {
+					min-width: 130px;
+				}
+				&:last-child {
+					// padding-right: 20px;
+				}
+			}
+
+			&.url {
+				max-width: 230px;
+			}
+
+
+			.table-wrapper__md & {
+
+				font-size: 14px;
+
+			}
+		}
+
+		tbody tr {
+			border-top: 1px solid #eeeeee;
+		}
+		tbody tr&:hover > td {
+			background-color: #fafafa;
+		}
+		tbody tr > td {
+			vertical-align: top;
+			font-size: 12px;
+			font-weight: 400;
+			color: #33363d;
+			padding-top: 9px;
+			padding-bottom: 9px;
+			padding-left: 5px;
+			padding-right: 5px;
+
+			.table-wrapper__md & {
+
+				font-size: 14px;
+
+			}
+
+			.table-wrapper__dashboard & {
+
+				&:first-child {
+					padding-left: 20px;
+					color: #f07a3f;
+					font-weight: 500;
+				}
+				&:last-child {
+					padding-right: 20px;
+				}
+			}
+
+			&.url {
+				max-width: 230px;
+				span {
+					display: inline-block;
+					max-width: 230px;
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+				}
+			}
+		}
+
+		.dataTables_paginate {
+			text-align: right;
+		}
+
+			.paginate_button  {
+				display: inline-block;
+				width: 2em;
+				text-align: center;
+				cursor: pointer;
+				&:hover {
+					text-decoration: none;
+					color: #ee683a;
+				}
+			}

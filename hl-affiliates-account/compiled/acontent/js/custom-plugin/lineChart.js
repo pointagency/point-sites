@@ -62,7 +62,7 @@
     	  allowDecimals: false,
     	  min : 0,      
         gridZIndex: 4,  	  
-        tickPixelInterval: 70,
+        tickPixelInterval: 50,
         gridLineColor: '#efefef',
         title: {
           text: cfg.yTitle

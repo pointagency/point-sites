@@ -39,13 +39,15 @@ $(document).ready(function(){
 
 	//new banner item code
 
-	$('.banner--view-code').click(function(){
+	$('body').on('click','.banner--view-code',function(){
 		var $self = $(this),
 			$bannerItem = $($self.closest('.banner--item').length>0?$self.closest('.banner--item'):$self);
 
 		var bannerName = $bannerItem.data('name'),
 			bannerFormat = $bannerItem.data('format'),
 			bannerTarget = $bannerItem.data('target'),
+			bannerTargetName = $bannerItem.data('targetName'),
+			bannerTargetPreview = $bannerItem.data('targetPreview'),
 			bannerCampaignName = $bannerItem.data('campaignName'),
 			bannerCode = $bannerItem.data('code'),
 			bannerLayout = $bannerItem.data('width')<=320?'horizontal':'vertical',
@@ -61,6 +63,14 @@ $(document).ready(function(){
 		$('#get-code-modal--banner-details--code').val(bannerCode.replace('SUBCODE','').replace('LANDINGPAGE',bannerLandingPageUrl));
 		$('#get-code-modal--banner-preview').empty().append($(bannerCode.replace('SUBCODE','').replace('LANDINGPAGE',bannerLandingPageUrl)));
 		$('#get-code-modal--layout').removeClass().addClass(bannerLayout);
+
+		var currentTargetItem  = $('#banner--details--landing-page-selector--current-url');
+
+		currentTargetItem.data('name',bannerTargetName);
+		currentTargetItem.data('previewUrl',bannerTargetPreview);
+		currentTargetItem.data('lpUrl',bannerTarget);
+		currentTargetItem.html(bannerTarget);
+
 
 
 		$('#get-code-modal--banner-details--favourite').prop('checked',bannerFavourite);

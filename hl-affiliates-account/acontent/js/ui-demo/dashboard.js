@@ -345,8 +345,6 @@ $(document).ready(function() {
 
 	// Sample data for pie chart 
 
-
-
 	$("#affiliate-pie-chart-clicks").pieChart({
 		renderTo: 'affiliate-pie-chart-clicks',
 		title: 'By location',

@@ -112,6 +112,8 @@ module.exports = function(grunt) {
 						'acontent/js/third-parties/jquery.selectBoxIt.min.js',
 						'acontent/js/third-parties/jquery.fine-uploader.min.js',
 						'acontent/js/third-parties/cropper.min.js',
+						'acontent/js/third-parties/jquery.dataTables.js',
+						'acontent/js/third-parties/jstz-1.0.4.min.js',
 						'acontent/js/third-parties/strings.js'
 					]
 				}
@@ -215,7 +217,7 @@ module.exports = function(grunt) {
 			},
 			js: {
 				files: ['acontent/js/**/*.js'],
-				tasks: ['copy'],
+				tasks: ['uglify','copy'],
 				options: {
 					livereload: false
 				}
