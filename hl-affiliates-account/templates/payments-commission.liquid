@@ -1,7 +1,7 @@
 {% extends base %}
 
 {% block title %}
-	Banner Conversion | Analytics
+	Commission | Payments
 {% endblock %}
 
 {% block bodyClass %}
@@ -11,22 +11,24 @@
 
 {% include header %}
 
-{% assign analytics='active' %}
-{% assign bannerConversion='active' %}
+{% assign payments='active' %}
+
+{% assign paymentsCommission='active' %}
 
 {% include side-menu %}
 
-{% assign analytics='active' %}
-{% assign bannerConversion='active' %}
+{% assign payments='active' %}
 
-<div class="main-content lead-conversion">
+{% assign paymentsCommission='active' %}
+
+<div class="main-content">
 	<div class="wrapper clearfix">
 		<div class="clearfix">
 		</div>
 		<div class="page-heading clearfix">
 			<div class="pull-left">
 				<h3>
-					BANNER CONVERSION ANALYTICS
+					COMMISSION
 				</h3>
 			</div>
 			<div class="page-actions">
@@ -39,39 +41,61 @@
 			</div>
 		</div>
 		<div class="container">
+			<div class="widget-stats">
+				<div class="row">
+					<div class="col-md-4 stats">
+				    	<div class="stats-title">
+				    		<span>Paid to date</span>&nbsp;
+				    	</div>
+				        <div class="stats-info">AU$57,255.00</div>                
+					</div>
+					<div class="col-md-4 stats">
+				    	<div class="stats-title">
+				    		<span>Pending</span>&nbsp;
+				    	</div>
+				        <div class="stats-info">AU$0.00</div>                
+					</div>
+					<div class="col-md-4 stats">
+				    	<div class="stats-title">
+				    		<span>This month</span>&nbsp;
+				    	</div>
+				        <div class="stats-info">AU$2,700</div>                
+					</div>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-sm-12">
-					<div id="banner-performance-table-widget" class="widget widget__table">
+					<div id="commission-history-table-widget" class="widget widget__table">
 						<div class="clearfix">
 							<div class="widget-title">
-								Banner performance <span class="chart-title--dynamic" id="lead-count"></span>
+								Commission History <span class="chart-title--dynamic" id="lead-count"></span>
 							</div>
 							<div class="widget-options">
-								<div id="banner-performance-table--download" class="btn widget-options--btn">
+								<div id="commission-history-table--download" class="btn widget-options--btn">
 									<i class="sprite-icon__thick-arrow-down-grey-sm"></i>
 									Download
 								</div>
-								<div id="banner-performance-table--filter" data-toggle="modal" data-target="#banner-performance-filter-modal" class="btn widget-options--btn">
+								<div id="commission-history-table--filter" data-toggle="modal" data-target="#commission-history-filter-modal" class="btn widget-options--btn">
 									<i class="sprite-icon__filter-grey-sm"></i>
 									Filters
 								</div>
 								&nbsp;
 								&nbsp;
 								<div class="filter--toggles">
-									<div class="filter--toggles--item banner-performance--quick-filter active toggler" data-value="all" data-self-toggle-off-disabled="true" data-toggle-group="banner-performance--quick-filters">
+									<div class="filter--toggles--item commission-history--quick-filter active toggler" data-value="0" data-self-toggle-off-disabled="true" data-toggle-group="commission-history--quick-filters">
 										All
 									</div>
-									<div class="filter--toggles--item banner-performance--quick-filter toggler" data-value="clicked" data-self-toggle-off-disabled="true" data-toggle-group="banner-performance--quick-filters">
-										Clicked
+									<div class="filter--toggles--item commission-history--quick-filter toggler" data-value="1" data-self-toggle-off-disabled="true" data-toggle-group="commission-history--quick-filters">
+										Paid
 									</div>
-									<div class="filter--toggles--item banner-performance--quick-filter toggler" data-value="traded" data-toggle-self-off-disabled="true" data-toggle-group="banner-performance--quick-filters">
-										Traded
+									<div class="filter--toggles--item commission-history--quick-filter toggler" data-value="2" data-toggle-self-off-disabled="true" data-toggle-group="commission-history--quick-filters">
+										Unpaid
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="table-wrapper table-lg">
-							<table id="banner-performance-table" data-src="acontent/js/sample-json/banner-performance.js" 
+							<table id="commission-history-table" data-src="acontent/js/sample-json/commission-history.js" 
 								data-data-property="data" 
 								data-count-property="total" 
 								data-page-length="25"
@@ -84,80 +108,25 @@
 								<thead>
 									<tr>
 										<th 
-											data-property-name="bannerPreview"
-											data-template='
-												<span class="preview-thumbnail">
-													<span class="preview-thumbnail--inner-wrapper" style="background-image: url({bannerPreview});">
-														
-													</span>
-												</span>
-											'
-											data-disable-order="true">
-											&nbsp;
+											data-property-name="month">
+											Month
 										</th>
 										<th 
-											data-template='
-											<span class="banner--view-code"
-												data-name="{bannerName}"
-												data-format="({bannerFileType})"
-												data-code=&apos;{bannerTemplate}&apos;
-												data-width="{bannerWidth}"
-												data-height="{bannerHeight}"
-											>{bannerWidth}x{bannerHeight} {bannerName}</span>'
-											data-property-name="bannerName">
-											Banner
+											
+											data-property-name="commission">
+											Commission
 										</th>
 										<th
-											data-property-name="impressions">
-											Impressions
+											data-property-name="paid"
+											data-type="map"
+											data-map='{ "true" : "Y" , "else" : "N"}'>
+											Paid?
 										</th>
 										<th
-											class="clicked"
-											data-property-name="clicked">
-											Clicked
-										</th>
-										<th
-											class="clicked-percentage"
-											data-template='
-												<span class="percentage-display">
-													<span class="percentage-value">
-														{clickedPercent}%
-													</span><span class="percentage-bar">
-														<span class="percentage-bar-fill" style="width: {clickedPercent}%;">
-														</span>
-													</span>
-												</span>
-											'
-											data-property-name="clickedPercent">
-											% Clicked
-										</th>
-										<th
-											class="traded"
-											data-property-name="traded">
-											Traded
-										</th>
-										<th
-											class="traded-percentage"
-											data-template='
-												<span class="percentage-display">
-													<span class="percentage-value">
-														{tradedPercent}% 
-													</span><span class="percentage-bar">
-														<span class="percentage-bar-fill" style="width: {tradedPercent}%;">
-														</span>
-													</span>
-												</span>
-											'
-											data-property-name="tradedPercent">
-											% Traded
-										</th>
-										<th
-											data-template='
-											<span class="favourite-{bannerFavourite}"></span>
-											'
-											data-template-map='{ "bannerFavourite" : { "true" : "checked" , "else" : "unchecked" } }'
-											data-property-name="bannerFavourite">
-											Favourite
+											data-property-name="payment_date"
+											data-type="date",
+											data-format="YYYY-MM-DD">
+											Payment date
 										</th>
 									</tr>
 								</thead>
@@ -169,14 +138,11 @@
 					</div>
 				</div>
 			</div>
-
 		</div>
-
 	</div>
 </div>
 
-{% include banner-performance-filter-modal %}
-{% include get-code-modal %}
+{% include commission-history-filter-modal %}
 
 {% endblock %}
 
@@ -219,8 +185,6 @@
 		});
     </script>
 
-    {% include preview-banner-js %}
-
 	<script>
 		$(document).ready(function(){
 			$('body').tooltip({
@@ -238,8 +202,8 @@
 	<script type="text/javascript" src="acontent/js/custom-plugin/toggler.js"></script>
 	<script type="text/javascript" src="acontent/js/custom-plugin/typeSelect.js"></script>
 	<script type="text/javascript" src="acontent/js/custom-plugin/form-ajax.js"></script>
-	<script type="text/javascript" src="acontent/js/custom-plugin/form-ajax.banner-performance-filter-form.js"></script>
-	<script type="text/javascript" src="acontent/js/custom-plugin/banner-performance-table.quick-filter.js"></script>
-	<script type="text/javascript" src="acontent/js/ui-demo/banner-performance.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/form-ajax.commission-history-filter-form.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/commission-history-table.quick-filter.js"></script>
+	<script type="text/javascript" src="acontent/js/ui-demo/commission-history.js"></script>
 
 {% endblock %}

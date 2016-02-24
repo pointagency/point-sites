@@ -96,7 +96,7 @@
 
   				var page = parseInt(response[pageCountProperty]);
 
-  				$($self.data('countDisplay')).html('('+((page-1)*thisOptions.pageLength+1)+' - '+(page*thisOptions.pageLength)+' of '+response[countProperty]+')');
+  				$($self.data('countDisplay')).html('('+((page-1)*thisOptions.pageLength+1)+' - '+((page-1)*thisOptions.pageLength+returnedData.data.length)+' of '+response[countProperty]+')');
 
   				callback(returnedData);
 
@@ -178,7 +178,12 @@
 							}
 
 							if(colType == 'date') {
-								returnString = moment(data).format(format);  
+
+								if(data!='' && data!=undefined) {
+									returnString = moment(data).format(format);  
+								} else {
+									returnString = '-';
+								}
 							}
 
 							if(colType == 'map') {
