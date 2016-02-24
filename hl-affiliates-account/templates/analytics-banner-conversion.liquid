@@ -1,0 +1,250 @@
+{% extends base %}
+
+{% block title %}
+	Lead Conversion | Analytics
+{% endblock %}
+
+{% block bodyClass %}
+{% endblock %}
+
+{% block content %}
+
+{% include header %}
+
+{% assign analytics='active' %}
+{% assign bannerConversion='active' %}
+
+{% include side-menu %}
+
+{% assign analytics='active' %}
+{% assign bannerConversion='active' %}
+
+<div class="main-content lead-conversion">
+	<div class="wrapper clearfix">
+		<div class="clearfix">
+		</div>
+		<div class="page-heading clearfix">
+			<div class="pull-left">
+				<h3>
+					BANNER CONVERSION ANALYTICS
+				</h3>
+			</div>
+			<div class="page-actions">
+				<div class="affiliate-btn-group affiliate-btn-xs pull-right" id="aff_frontend_ranges">
+					<a href="#" id="reportrange" class="affiliate-btn affiliate-btn-default"><i class="sprite-icon__calendar-red-sm"></i>&nbsp; 
+						<span>January 12, 2016 &mdash; February 10, 2016</span>
+						<span class="sprite-icon"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div id="banner-performance-table-widget" class="widget widget__table">
+						<div class="clearfix">
+							<div class="widget-title">
+								Banner performance <span class="chart-title--dynamic" id="lead-count"></span>
+							</div>
+							<div class="widget-options">
+								<div id="banner-performance-table--download" class="btn widget-options--btn">
+									<i class="sprite-icon__thick-arrow-down-grey-sm"></i>
+									Download
+								</div>
+								<div id="banner-performance-table--filter" data-toggle="modal" data-target="#banner-performance-filter-modal" class="btn widget-options--btn">
+									<i class="sprite-icon__filter-grey-sm"></i>
+									Filters
+								</div>
+								&nbsp;
+								&nbsp;
+								<div class="filter--toggles">
+									<div class="filter--toggles--item banner-performance--quick-filter active toggler" data-value="all" data-self-toggle-off-disabled="true" data-toggle-group="banner-performance--quick-filters">
+										All
+									</div>
+									<div class="filter--toggles--item banner-performance--quick-filter toggler" data-value="clicked" data-self-toggle-off-disabled="true" data-toggle-group="banner-performance--quick-filters">
+										Clicked
+									</div>
+									<div class="filter--toggles--item banner-performance--quick-filter toggler" data-value="traded" data-toggle-self-off-disabled="true" data-toggle-group="banner-performance--quick-filters">
+										Traded
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="table-wrapper table-lg">
+							<table id="banner-performance-table" data-src="acontent/js/sample-json/banner-performance.js" 
+								data-data-property="data" 
+								data-count-property="total" 
+								data-page-length="25"
+								data-filtered-count-property="filtered"
+								data-no-data-message="No result found."
+								data-asset-url="acontent/images/"
+								data-page-count-property="currentPage"
+								data-count-display="#lead-count"
+								data-filter-container="#lead-status-filter-form">
+								<thead>
+									<tr>
+										<th 
+											data-property-name="bannerPreview"
+											data-template='
+												<span class="preview-thumbnail">
+													<span class="preview-thumbnail--inner-wrapper" style="background-image: url({bannerPreview});">
+														
+													</span>
+												</span>
+											'
+											data-disable-order="true">
+											&nbsp;
+										</th>
+										<th 
+											data-template='
+											<span class="banner--view-code"
+												data-name="{bannerName}"
+												data-format="({bannerFileType})"
+												data-code=&apos;{bannerTemplate}&apos;
+												data-width="{bannerWidth}"
+												data-height="{bannerHeight}"
+											>{bannerWidth}x{bannerHeight} {bannerName}</span>'
+											data-property-name="bannerName">
+											Banner
+										</th>
+										<th
+											data-property-name="impressions">
+											Impressions
+										</th>
+										<th
+											class="clicked"
+											data-property-name="clicked">
+											Clicked
+										</th>
+										<th
+											class="clicked-percentage"
+											data-template='
+												<span class="percentage-display">
+													<span class="percentage-value">
+														{clickedPercent}%
+													</span><span class="percentage-bar">
+														<span class="percentage-bar-fill" style="width: {clickedPercent}%;">
+														</span>
+													</span>
+												</span>
+											'
+											data-property-name="clickedPercent">
+											% Clicked
+										</th>
+										<th
+											class="traded"
+											data-property-name="traded">
+											Traded
+										</th>
+										<th
+											class="traded-percentage"
+											data-template='
+												<span class="percentage-display">
+													<span class="percentage-value">
+														{tradedPercent}% 
+													</span><span class="percentage-bar">
+														<span class="percentage-bar-fill" style="width: {tradedPercent}%;">
+														</span>
+													</span>
+												</span>
+											'
+											data-property-name="tradedPercent">
+											% Traded
+										</th>
+										<th
+											data-template='
+											<span class="favourite-{bannerFavourite}"></span>
+											'
+											data-template-map='{ "bannerFavourite" : { "true" : "checked" , "else" : "unchecked" } }'
+											data-property-name="bannerFavourite">
+											Favourite
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</div>
+
+{% include banner-performance-filter-modal %}
+{% include get-code-modal %}
+
+{% endblock %}
+
+{% block defaultScripts %}
+    <script src="https://cdn.highlow.net/admin/js/jquery-1.8.3.js"></script>
+	<script src="https://cdn.highlow.net/admin/js/ui/jquery-ui-1.9.2.custom.js"></script>    	
+	<script src="https://cdn.highlow.net/admin/js/ui/jquery-ui-timepicker.js"></script>
+	<script src="https://cdn.highlow.net/admin/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="https://cdn.highlow.net/common/js/jquery.validate.min.js"></script>
+	<script src="https://cdn.highlow.net/common/js/additional-methods.min.js"></script>
+	<script src="https://cdn.highlow.net/acontent/js/custom.js"></script>
+	<script src="https://cdn.highlow.net/acontent/js/datepicker.loader.js"></script>
+	<script src="https://cdn.highlow.net/admin/js/daterangepicker.js"></script>
+	<script src="acontent/js/highlow-affiliate.js"></script>
+	
+	<script>
+    	$(document).ready(function(){
+			$(".sidebar-toggler").click(function(){
+				if($('body').hasClass('show-sidebar')) {
+					$('body').removeClass('show-sidebar');
+					$('#side-menu').addClass('hidden-xs');
+				} else {
+					$('body').addClass('show-sidebar');
+					$('#side-menu').removeClass('hidden-xs');
+				}
+			});
+
+
+			setTimeout(function(){
+				  $('.message-wrapper').each(function(){
+				   $(this).addClass('display').addClass($(this).data('type'));
+				  });
+				 },600);
+				 
+			 $('.message-wrapper .close').click(function(){
+			  $('.message-wrapper').removeClass('display').removeClass('fail').removeClass('success').removeClass('alert').removeClass('generic').removeClass('warning');
+			 });
+
+				 
+		});
+    </script>
+
+    {% include preview-banner-js %}
+
+	<script>
+		$(document).ready(function(){
+			$('body').tooltip({
+			    selector: '[data-toggle="tooltip"]'
+			});
+		});
+	</script>
+	<script type="text/javascript" src="acontent/js/third-parties/highcharts.js"></script>
+	<script type="text/javascript" src="acontent/js/third-parties/select2.full.min.js"></script>
+	<script type="text/javascript" src="https://cdn.highlow.net/admin/js/highcharts/modules/exporting.js"></script>
+	<script type="text/javascript" src="https://cdn.highlow.net/admin/js/highcharts/modules/no-data-to-display.src.js"></script>
+	<script src="https://cdn.highlow.net/admin/js/jquery.cookie.js"></script>
+	<script src="https://cdn.highlow.net/admin/js/moment.min.js"></script>
+	<script src="acontent/js/third-parties.min.js"></script>
+	<script src="acontent/js/custom-plugin/upload-cropper.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/selectboxit.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/lineChart.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/funnelChart.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/table.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/toggler.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/typeSelect.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/form-ajax.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/form-ajax.banner-performance-filter-form.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/banner-performance-table.quick-filter.js"></script>
+	<script type="text/javascript" src="acontent/js/ui-demo/banner-performance.js"></script>
+
+{% endblock %}

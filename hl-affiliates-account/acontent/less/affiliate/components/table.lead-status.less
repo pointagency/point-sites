@@ -1,0 +1,38 @@
+#lead-status-table {
+	.lead-status {
+		text-transform: capitalize;
+	}
+}
+
+.dot {
+	#lead-status-table & {
+
+		width: 8px;
+		height: 8px;
+		border-radius: 8px;
+		display: inline-block;
+		margin-bottom: 0px;
+		margin-right: 5px;
+
+		&.traded {
+			background-color: #ffb091;
+		}
+
+		&.funded {
+			background-color: #ffc791;
+		}
+
+		&.registered {
+			background-color: #fcf4c8;
+		}
+
+		&.clicked {
+			background-color: #cee8e1;
+		}
+
+		&.approved {
+			background-color: #ffe9c2;
+		}
+
+	}
+}

@@ -1,0 +1,114 @@
+#banner-performance-table {
+
+	table-layout: fixed;
+
+	.favourite-unchecked {
+		position: relative;
+		display: inline-block;
+		.sprite(@star-grey-sm);
+	}
+	.favourite-checked {
+		position: relative;
+		display: inline-block;
+		.sprite(@star-yellow-sm);
+	}
+	.preview-thumbnail {
+		width: 142px;
+		height: 120px;
+		position: relative;
+		display: block;
+		background-color: #f0f2f4;
+		.preview-thumbnail--inner-wrapper {
+			position: absolute;
+			display: block;
+			top: 10px;
+			left: 15px;
+			right: 15px;
+			bottom: 10px;
+			background-size: contain;
+			background-position: center center;
+			background-repeat: no-repeat;
+		}
+	}
+
+	tr > td,
+	tr > th {
+		vertical-align: middle;
+		text-align: center;
+
+		&:nth-child(1) {
+			padding-left: 0px;
+			padding-right: 0px;
+			width: 142px!important;
+			max-width: 142px!important;
+		}
+
+		&:nth-child(1),
+		&:nth-child(2) {
+			text-align: left;
+		}
+	}
+
+	tr > th {
+		&.clicked {
+			&:before {
+				content: "";
+				display: inline-block;
+				width: 12px;
+				height: 12px;
+				border-radius: 10px;
+				border: 2px solid #fff;
+				background-color: #cee8e1;
+				margin-right: 2px;
+				vertical-align: sub;
+				position: relative;
+				top: -1px;
+			}
+		}
+
+		&.traded {
+			&:before {
+				content: "";
+				display: inline-block;
+				width: 12px;
+				height: 12px;
+				border-radius: 10px;
+				border: 2px solid #fff;
+				background-color: #ffb091;
+				margin-right: 2px;
+				vertical-align: sub;
+				position: relative;
+				top: -1px;
+			}
+		}
+	}
+
+	tr > td {
+		&:nth-child(1) {
+			// background-color: #f0f2f4;
+			padding: 0px;
+		}
+	}
+}
+
+
+.percentage-display {
+	#banner-performance-table & {
+	}
+}
+
+.percentage-bar {
+	#banner-performance-table & {
+		// background-color: #f1f1f1;
+	}
+}
+
+.percentage-bar-fill {
+	#banner-performance-table .clicked-percentage & {
+		background-color: #cee8e1;
+	}
+
+	#banner-performance-table .traded-percentage & {
+		background-color: #ffb091;
+	}
+}

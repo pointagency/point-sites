@@ -1,5 +1,7 @@
 .selectboxit-container {
 
+	display: block;
+	width: auto!important;
 	* {
 		font-family: inherit;
 		font-size: 12px;
@@ -7,7 +9,9 @@
 
 	.selectboxit {
 		border-radius: 0px;
+		width: 100%!important;
 		background: none;
+		background-color: #fff!important;
 		border: none;
 		
 		&:hover {
@@ -51,6 +55,25 @@
 	}
 }
 
+/* Button Text */
+.selectboxit-text {
+  text-indent: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  float: left;
+}
+
+/* Drop Down down arrow container */
+.selectboxit-arrow-container {
+  width: 24px;
+  top: 4px;
+}
+
+.selectboxit-container span.selectboxit-option-icon-container {
+	display: none;
+}
+
 .selectboxit-list {
 
 	>.selectboxit-option {
@@ -66,7 +89,7 @@
 }
 .selectboxit-default-arrow {
 	border: none;
-	.sprite(@down-grey-sm);
+	.sprite(@down-grey-xs);
 	.opacity(0.5);
 
 	.selectboxit-container:hover & {

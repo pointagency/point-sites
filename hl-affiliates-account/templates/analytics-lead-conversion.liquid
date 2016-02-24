@@ -85,13 +85,13 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12 col-lg-8 col-xl-8">
+				<div class="col-md-12 col-lg-8 col-xl-9">
 					<div class="widget">
 						<div id="affiliate-line-chart" data-link="/en/my-account/affiliate-line-chart">
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-12 col-xl-4">
+				<div class="col-lg-4 col-md-12 col-xl-3">
 					<div class="widget">
 						<div id="affiliate-funnel-chart" data-link="/en/my-account/affiliate-funnel-chart">
 						</div>
@@ -108,35 +108,35 @@
 									<i class="sprite-icon__thick-arrow-down-grey-sm"></i>
 									Download
 								</div>
-								<div id="lead-status-table--filter" class="btn widget-options--btn">
+								<div id="lead-status-table--filter" data-toggle="modal" data-target="#lead-status-filter-modal" class="btn widget-options--btn">
 									<i class="sprite-icon__filter-grey-sm"></i>
 									Filters
 								</div>
 								&nbsp;
 								&nbsp;
 								<div class="filter--toggles">
-									<div class="filter--toggles--item active toggler" data-field-name="status" data-value="all" data-self-toggle-off-disabled="true" data-toggle-group="lead-status--filters">
+									<div class="filter--toggles--item lead-status--quick-filter active toggler" data-value="" data-self-toggle-off-disabled="true" data-toggle-group="lead-status--quick-filters">
 										All
 									</div>
-									<div class="filter--toggles--item toggler" data-field-name="status" data-value="clicks" data-self-toggle-off-disabled="true" data-toggle-group="lead-status--filters">
-										Clicks
+									<div class="filter--toggles--item lead-status--quick-filter toggler" data-value="clicked" data-self-toggle-off-disabled="true" data-toggle-group="lead-status--quick-filters">
+										Clicked
 									</div>
-									<div class="filter--toggles--item toggler" data-field-name="status" data-value="registered" data-toggle-self-off-disabled="true" data-toggle-group="lead-status--filters">
+									<div class="filter--toggles--item lead-status--quick-filter toggler" data-value="registered" data-toggle-self-off-disabled="true" data-toggle-group="lead-status--quick-filters">
 										Registered
 									</div>
-									<div class="filter--toggles--item toggler" data-field-name="status" data-value="approved" data-toggle-self-off-disabled="true" data-toggle-group="lead-status--filters">
+									<div class="filter--toggles--item lead-status--quick-filter toggler" data-value="approved" data-toggle-self-off-disabled="true" data-toggle-group="lead-status--quick-filters">
 										Approved
 									</div>
-									<div class="filter--toggles--item toggler" data-field-name="status" data-value="funded" data-toggle-self-off-disabled="true" data-toggle-group="lead-status--filters">
+									<div class="filter--toggles--item lead-status--quick-filter toggler" data-value="funded" data-toggle-self-off-disabled="true" data-toggle-group="lead-status--quick-filters">
 										Funded
 									</div>
-									<div class="filter--toggles--item toggler"  data-field-name="status" data-value="traded" data-toggle-self-off-disabled="true" data-toggle-group="lead-status--filters">
+									<div class="filter--toggles--item lead-status--quick-filter toggler" data-value="traded" data-toggle-self-off-disabled="true" data-toggle-group="lead-status--quick-filters">
 										Traded
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="table-wrapper table-wrapper__md">
+						<div class="table-wrapper table-lg">
 							<table id="lead-status-table" data-src="acontent/js/sample-json/lead-status.js" 
 								data-data-property="data" 
 								data-count-property="total" 
@@ -145,7 +145,8 @@
 								data-no-data-message="No result found."
 								data-asset-url="acontent/images/"
 								data-page-count-property="currentPage"
-								data-count-display="#lead-count">
+								data-count-display="#lead-count"
+								data-filter-container="#lead-status-filter-form">
 								<thead>
 									<tr>
 										<th 
@@ -179,18 +180,25 @@
 										</th>
 										<th
 											class="url"
-											data-template='<span>{srcUrl}</span>'
+											data-template='<span class="clipped-string"><span class="clipped-string--clipped">{srcUrl}</span><span class="clipped-string--full">{srcUrl}</span></span>'
 											data-property-name="srcUrl">
 											URL
 										</th>
 										<th
+											class="lead-status"
+											data-template='
+											<span class="dot {leadStatus}">
+											</span>
+											{leadStatus}
+											'
+											data-template-map='{ "leadStatus" : { "Clicked" : "clicked", "Registered" : "registered", "Approved" : "approved", "Funded" : "funded", "Traded" : "traded" } }'
 											data-property-name="leadStatus">
 											Status
 										</th>
 										<th
 											data-property-name="lastUpdate"
 											data-type="date",
-											data-format="D/MM/YY&nbsp;HH:mm:ss">
+											data-format="YYYY-MM-DD&nbsp;\a\t&nbsp;HH:mm">
 											Last update
 										</th>
 										<th
@@ -220,6 +228,7 @@
 	</div>
 </div>
 
+{% include lead-status-filter-modal %}
 {% include get-code-modal %}
 
 {% endblock %}
@@ -275,14 +284,18 @@
 	<script type="text/javascript" src="acontent/js/third-parties/highcharts.js"></script>
 	<script type="text/javascript" src="https://cdn.highlow.net/admin/js/highcharts/modules/exporting.js"></script>
 	<script type="text/javascript" src="https://cdn.highlow.net/admin/js/highcharts/modules/no-data-to-display.src.js"></script>
-	<script type="text/javascript" src="acontent/js/custom-plugin/lineChart.js"></script>
-	<script type="text/javascript" src="acontent/js/custom-plugin/funnelChart.js"></script>
-	<script type="text/javascript" src="acontent/js/custom-plugin/table.js"></script>
-	<script type="text/javascript" src="acontent/js/custom-plugin/toggler.js"></script>
 	<script src="https://cdn.highlow.net/admin/js/jquery.cookie.js"></script>
 	<script src="https://cdn.highlow.net/admin/js/moment.min.js"></script>
 	<script src="acontent/js/third-parties.min.js"></script>
 	<script src="acontent/js/custom-plugin/upload-cropper.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/selectboxit.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/lineChart.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/funnelChart.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/table.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/toggler.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/form-ajax.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/form-ajax.lead-status-filter-form.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/lead-status-table.quick-filter.js"></script>
 	<script type="text/javascript" src="acontent/js/ui-demo/lead-conversion.js"></script>
 
 {% endblock %}

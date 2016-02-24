@@ -60,7 +60,11 @@ $(document).ready(function(){
 		$('#get-code-modal--banner-details--name').html(bannerName);
 		$('#get-code-modal--banner-details--format').html(bannerFormat);
 		$('#get-code-modal--banner-details--code').data('prototype',bannerCode);
-		$('#get-code-modal--banner-details--code').val(bannerCode.replace('SUBCODE','').replace('LANDINGPAGE',bannerLandingPageUrl));
+
+		if(bannerLandingPageUrl!='' && bannerLandingPageUrl!=undefined) {
+			$('#get-code-modal--banner-details--code').val(bannerCode.replace('SUBCODE','').replace('LANDINGPAGE',bannerLandingPageUrl));
+		}
+		
 		$('#get-code-modal--banner-preview').empty().append($(bannerCode.replace('SUBCODE','').replace('LANDINGPAGE',bannerLandingPageUrl)));
 		$('#get-code-modal--layout').removeClass().addClass(bannerLayout);
 

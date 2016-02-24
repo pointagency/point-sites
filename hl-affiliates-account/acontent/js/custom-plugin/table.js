@@ -5,12 +5,12 @@
   		serverSide: true,
   		processing: true,
   		pagingType: 'simple_numbers',
-  		aaSorting: [[0,"desc"]],
   		searching: false,
   		ordering: true,
   		autoWidth: true,
   		deferRender: true,
   		info: false,
+  		aaSorting: [[0]],
   		lengthChange: false
   	};
 
@@ -30,6 +30,7 @@
   			countProperty = $self.data('countProperty'),
   			pageCountProperty = $self.data('pageCountProperty'),
   			filteredCountProperty = $self.data('filteredCountProperty'),
+  			filterContainer = $self.data('filterContainer'),
   			src = $self.data('src');
 
 
@@ -69,18 +70,17 @@
 
   		thisOptions.ajax = function (data, callback, settings) {
 
-  			var from = $('*[name="daterangepicker_start"]').val() || '2014-01-01',
-  				to = $('*[name="daterangepicker_end').val();
+  			var params = $self.data('reloadParams');
 
-  			var params = {
+
+  			params = jQuery.extend(params,{
   				timezone : jstz.determine().name(),
-  				from : from,
-  				to: to,
-  				status: status,
 				sortColumn : columns[settings.aaSorting[0][0]].sortField,
 				sortDirection: settings.aaSorting[0][1]
-  			};
+  			});
 
+  			console.log('reload '+$self.attr('id')+' with params: ');
+  			console.log(params);
 
   			var returnedData = {};
 
@@ -96,13 +96,7 @@
 
   				var page = parseInt(response[pageCountProperty]);
 
-  				console.log(page);
-
-  				$($self.data('countDisplay')).html('('+((page-1)*thisOptions.pageLength+1)+' - '+(page*thisOptions.pageLength)+' of '+response[countProperty]+')')
-
-  				console.log(response);
-
-  				console.log(returnedData);
+  				$($self.data('countDisplay')).html('('+((page-1)*thisOptions.pageLength+1)+' - '+(page*thisOptions.pageLength)+' of '+response[countProperty]+')');
 
   				callback(returnedData);
 
@@ -124,6 +118,7 @@
 			decimal = $col.data('decimal'),
 			format = $col.data('format'),
 			template = $col.data('template'),
+			templateMap = $col.data('templateMap'),
 			keyMap = $col.data('map'),
 			disableOrdering = $col.data('disableOrder'),
 			empty = $col.data('empty');
@@ -148,9 +143,17 @@
 							for(var i=0; i<placeholders.length; i++) {
 
 								var placeholder = placeholders[i],
-									value = full[placeholder.replace(/\{/g,'').replace(/\}/g,'')];
+									propertyName = placeholder.replace(/\{/g,'').replace(/\}/g,''),
+									value = full[propertyName];
 
 								var regex = new RegExp(placeholder,"g");
+
+
+								if(templateMap) {
+
+									value = templateMap[propertyName][value] || templateMap[propertyName]['else'];
+
+								}
 
 								returnString = returnString.replace(regex,value);
 

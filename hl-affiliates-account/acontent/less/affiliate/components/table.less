@@ -2,10 +2,36 @@
 	padding: 40px 0px 0px;
 	margin: 0 10px;
 	background-color: #fff;
+	position: relative;
 	@media (max-width: 991px) {
 		overflow: auto;
 	}
+
+
+	&.table-lg {
+		margin: 0px;
+   	 	padding-top: 22px;
+	}
 }
+
+	.dataTables_processing {
+		display: block;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+		background-color: rgba(255,255,255,0.8);
+		z-index: 100000;
+		.loading {
+			position: absolute;
+			top: 60px;
+			width: 120px;
+			left: 50%;
+			margin-left: -60px;
+		}
+	}
+
 	table {
 		width: 100%;
 		background-color: #fff;
@@ -24,6 +50,39 @@
 			text-align: left;
 			padding-left: 5px;
 			padding-right: 5px;
+
+			&.sorting {
+				&:after {
+					content: "";
+					display: inline-block;
+					position: relative;
+					top: 2px;
+					margin-left: 5px;
+					.sprite(@sort-default);
+				}
+			}
+
+			&.sorting_desc {
+				&:after {
+					content: "";
+					display: inline-block;
+					position: relative;
+					top: 2px;
+					margin-left: 5px;
+					.sprite(@sort-descending);
+				}
+			}
+
+			&.sorting_asc {
+				&:after {
+					content: "";
+					display: inline-block;
+					position: relative;
+					top: 2px;
+					margin-left: 5px;
+					.sprite(@sort-ascending);
+				}
+			}
 
 			.table-wrapper__dashboard & {
 				&:first-child {
@@ -55,9 +114,16 @@
 			}
 
 
-			.table-wrapper__md & {
+			.table-lg & {
 
 				font-size: 14px;
+
+				padding-left: 10px;
+    			padding-right: 20px;
+
+				&:first-child {
+					padding-left: 28px;
+				}
 
 			}
 		}
@@ -66,7 +132,7 @@
 			border-top: 1px solid #eeeeee;
 		}
 		tbody tr&:hover > td {
-			background-color: #fafafa;
+			background-color: #fffcec;
 		}
 		tbody tr > td {
 			vertical-align: top;
@@ -78,9 +144,16 @@
 			padding-left: 5px;
 			padding-right: 5px;
 
-			.table-wrapper__md & {
+			.table-lg & {
 
 				font-size: 14px;
+				
+				padding-left: 10px;
+    			padding-right: 20px;
+
+				&:first-child {
+					padding-left: 28px;
+				}
 
 			}
 
@@ -98,13 +171,6 @@
 
 			&.url {
 				max-width: 230px;
-				span {
-					display: inline-block;
-					max-width: 230px;
-					white-space: nowrap;
-					overflow: hidden;
-					text-overflow: ellipsis;
-				}
 			}
 		}
 

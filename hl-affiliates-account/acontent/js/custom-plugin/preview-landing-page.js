@@ -10,13 +10,14 @@ $(document).ready(function(){
 		$landingPagePreviewNewTab = $('#landing-page--hover-preview--details--open-in-new-tab');
 
 	
-
-
 	$('body').on('mouseover','.banner--details--target-link--item',function(e){
 		var $self = $(this);
 
 		clearTimeout(landingPagePreviewTimeout);
 
+		if(!$self.data('name')) {
+			return;
+		}
 
 		$self.addClass('loadingPreview');
 
@@ -26,6 +27,7 @@ $(document).ready(function(){
 			width: 0,
 			height: 0
 		});
+
 
 		$landingPagePreviewImg.attr('src',$self.data('previewUrl'));
 		$landingPagePreviewName.html($self.data('name'));

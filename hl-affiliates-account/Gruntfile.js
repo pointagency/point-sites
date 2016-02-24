@@ -140,6 +140,9 @@ module.exports = function(grunt) {
 					{
 						src: 'bower_components/jquery.selectBoxIt.js/src/javascripts/jquery.selectBoxIt.min.js',
 						dest: 'acontent/js/third-parties/jquery.selectBoxIt.min.js'
+					},{
+						src: 'bower_components/select2/dist/js/select2.full.min.js',
+						dest: 'acontent/js/third-parties/select2.full.min.js'
 					}
 				]
 			},
@@ -148,6 +151,9 @@ module.exports = function(grunt) {
 					{
 						src: 'bower_components/jquery.selectBoxIt.js/src/stylesheets/jquery.selectBoxIt.css',
 						dest: 'acontent/less/third-parties/jquery.selectBoxIt.less'
+					},{
+						src: 'bower_components/select2/dist/css/select2.css',
+						dest: 'acontent/less/third-parties/select2.less'
 					}
 				]
 			},
