@@ -113,6 +113,7 @@ module.exports = function(grunt) {
 						'acontent/js/third-parties/jquery.fine-uploader.min.js',
 						'acontent/js/third-parties/cropper.min.js',
 						'acontent/js/third-parties/jquery.dataTables.js',
+						'acontent/js/third-parties/jquery.datatables-responsive.js',
 						'acontent/js/third-parties/jstz-1.0.4.min.js',
 						'acontent/js/third-parties/strings.js'
 					]

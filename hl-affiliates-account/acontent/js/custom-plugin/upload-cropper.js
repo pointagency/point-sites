@@ -2,7 +2,7 @@ var uploadCropper = {
 	init: function() {
 		
 
-		if($('.fine-uploader').length<=0){
+		if($('#update-avatar-form').length<=0){
 			return;
 		}
 
@@ -62,7 +62,8 @@ var uploadCropper = {
 	            autoUpload: !$(target).data('disableAutoUpload'),
 	            messages: {
 	            	sizeError: $(target).data('sizeErrorMessage') || "File to large",
-	            	typeError: $(target).data('typeErrorMessage') || "Wrong file type"
+	            	typeError: $(target).data('typeErrorMessage') || "Wrong file type",
+	            	
 	            },
 	            callbacks: {
 	            	onSubmit: function(id, fileName) {
@@ -238,7 +239,7 @@ var uploadCropper = {
 
 		}
 
-		$('.fine-uploader').each(function(){
+		$('#update-avatar-form').each(function(){
 			var self = $(this),
 				inputPrefix = self.data('inputPrefix'),
 				type = self.data('idType');
@@ -333,3 +334,7 @@ var uploadCropper = {
 
 	}
 }
+
+$(document).ready(function(){
+	window.uploadCropper.init();
+});

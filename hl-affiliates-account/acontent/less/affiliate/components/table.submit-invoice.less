@@ -1,0 +1,92 @@
+#submit-invoice-table {
+	.payment-status {
+		text-transform: capitalize;
+	}
+}
+
+#submit-invoice-table_wrapper {
+	tr > td {
+		vertical-align: middle;
+		height: 90px;
+		text-align: left;
+
+	}
+
+	tr > th {
+		text-align: left;
+	}
+
+	tr > th,
+	tr > td {
+	}
+
+	tr.disabled {
+		td {
+			background-color: transparent!important;
+		}
+	}
+
+	tbody > tr {
+		&:first-child {
+			border-top: none!important;
+		}
+	}
+
+	table {
+		table-layout: initial;
+	}
+}
+
+#submit-invoice-table_wrapper .dataTables_scrollBody thead > tr > th {
+}
+
+#submit-invoice-table_wrapper .dataTables_scrollHead {
+	z-index: 1!important;
+	border-bottom: 1px solid #dadada!important;
+	tr > th {
+		border-bottom: none!important;
+	}
+}
+
+#submit-invoice-table_wrapper .dataTables_scrollHeadInner {
+	width: 100%!important;
+	padding-right: 0px!important;
+	background-color: #f9f9f9;
+}
+
+#submit-invoice-table_wrapper .dataTables_scrollBody {
+	z-index: 0;
+    margin-top: 0px;
+    th {
+    	border-bottom: none!important;
+    	overflow: hidden!important;
+    }
+}
+
+#submit-invoice-table {
+
+	.payment-status {
+		.dot {
+			width: 8px;
+			height: 8px;
+			border-radius: 8px;
+			display: inline-block;
+			margin-right: 4px;
+			position: relative;
+
+
+			&.outstanding {
+				background-color: #ffb091;
+			}
+			&.rejected {
+				background-color: #ee683a;
+			}
+
+			&.submitted {
+				background-color: #ffe9c2;
+			}
+
+		}
+	}
+
+}

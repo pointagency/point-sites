@@ -2,6 +2,11 @@
 	.lead-status {
 		text-transform: capitalize;
 	}
+
+	.lead-status-item {
+		display: inline-block;
+		width: 7em;
+	}
 }
 
 .dot {
@@ -34,5 +39,38 @@
 			background-color: #ffe9c2;
 		}
 
+	}
+}
+
+#lead-status-table {
+	tr {
+		>th,
+		>td {
+			position: relative;
+			&.col-banner {
+				width: 10%;
+			}
+			&.col-lp {
+				width: 14%;
+			}
+			&.col-location {
+				width: 10%;
+			}
+			&.col-url {
+				width: 19%;
+			}
+			&.col-lead-status {
+				width: 9%;
+			}
+			&.col-last-update {
+				width: 13%;
+			}
+			&.col-commission {
+				width: 130px;
+			}
+			&.col-paid {
+				width: 80px;
+			}
+		}
 	}
 }

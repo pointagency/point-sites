@@ -57,7 +57,7 @@
 				<div class="outstanding-invoices pull-right hidden-xs toggler" data-toggle-off-click="true" data-toggle-target="#outstanding-invoices--tooltip" data-toggle-class="in">
 					Outstanding invoices: &nbsp;
 					<span class="outstanding-invoices--count">
-						102 
+						2
 						<div id="outstanding-invoices--tooltip" class="tooltip bottom fade">
 							<div class="tooltip-inner">
 								You have Commission outstanding – please supply invoices to receive payment. <a href='' class="disable-propagation">Learn more &gt;</a>
@@ -190,12 +190,17 @@
 					<ul class="sub-menu-list">
 						<li class="">
 							<a href="#">
-								<span>My Websites</span>
+								<span>Profile settings</span>
 							</a>
 						</li>
 						<li class="">
 							<a href="#">
-								<span>Profile</span>
+								<span>Bank and payments</span>
+							</a>
+						</li>
+						<li class="">
+							<a href="#">
+								<span>My websites</span>
 							</a>
 						</li>
 						<li class="">
@@ -381,6 +386,7 @@
 								<thead>
 									<tr>
 										<th 
+											class="desktop col-banner"
 											data-template='
 											<span class="banner--view-code"
 												data-name="{bannerName}"
@@ -396,6 +402,7 @@
 											Banner
 										</th>
 										<th
+											class="desktop col-lp"
 											data-template='
 											<span class="banner--details--target-link--item"
 												data-name="{landingPageName}"
@@ -406,38 +413,43 @@
 											Landing Page
 										</th>
 										<th
+											class="col-location"
 											data-property-name="leadLocation">
 											Location
 										</th>
 										<th
-											class="url"
+											class="desktop col-url url"
 											data-template='<span class="clipped-string"><span class="clipped-string--clipped">{srcUrl}</span><span class="clipped-string--full">{srcUrl}</span></span>'
 											data-property-name="srcUrl">
 											URL
 										</th>
 										<th
-											class="lead-status"
+											class="col-lead-status"
 											data-template='
+											<span class="lead-status-item">
 											<span class="dot {leadStatus}">
 											</span>
-											{leadStatus}
+											{leadStatus}</span>
 											'
 											data-template-map='{ "leadStatus" : { "Clicked" : "clicked", "Registered" : "registered", "Approved" : "approved", "Funded" : "funded", "Traded" : "traded" } }'
 											data-property-name="leadStatus">
 											Status
 										</th>
 										<th
+											class="col-last-update min-tablet-l"	
 											data-property-name="lastUpdate"
 											data-type="date",
-											data-format="YYYY-MM-DD&nbsp;\a\t&nbsp;HH:mm">
+											data-format="YYYY-MM-DD \a\t&nbsp;HH:mm">
 											Last update
 										</th>
 										<th
+											class="col-commission"
 											data-empty="-"
 											data-property-name="commission">
 											Commission
 										</th>
 										<th
+											class="col-paid"
 											data-property-name="paid"
 											data-type="map"
 											data-map='{ "1" : "Y" , "0" : "N", "else" : "-"}'>
@@ -544,21 +556,15 @@
 									<div class="form">
 										<div class="form-control-group">
 											<label for="lead-status-filter--banner">Referring banner</label>
-											<select id="lead-status-filter--banner" class="form-control selectBoxit">
+											<select id="lead-status-filter--banner" class="form-control">
 												<option value="">
-													Where is the lead from?
+													Select the banner by name
 												</option>
-												<option value="1">
-													Australia
+												<option value="">
+													HighLow Markets home page
 												</option>
-												<option value="0">
-													Singapore
-												</option>
-												<option value="0">
-													Japan
-												</option>
-												<option value="0">
-													UK
+												<option value="">
+													Experienced Traders home page
 												</option>
 											</select>
 										</div>
@@ -931,11 +937,13 @@
 	<script type="text/javascript" src="acontent/js/third-parties/highcharts.js"></script>
 	<script type="text/javascript" src="https://cdn.highlow.net/admin/js/highcharts/modules/exporting.js"></script>
 	<script type="text/javascript" src="https://cdn.highlow.net/admin/js/highcharts/modules/no-data-to-display.src.js"></script>
+	<script type="text/javascript" src="acontent/js/third-parties/select2.full.min.js"></script>
 	<script src="https://cdn.highlow.net/admin/js/jquery.cookie.js"></script>
 	<script src="https://cdn.highlow.net/admin/js/moment.min.js"></script>
 	<script src="acontent/js/third-parties.min.js"></script>
 	<script src="acontent/js/custom-plugin/upload-cropper.js"></script>
 	<script type="text/javascript" src="acontent/js/custom-plugin/selectboxit.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/typeSelect.js"></script>
 	<script type="text/javascript" src="acontent/js/custom-plugin/lineChart.js"></script>
 	<script type="text/javascript" src="acontent/js/custom-plugin/funnelChart.js"></script>
 	<script type="text/javascript" src="acontent/js/custom-plugin/table.js"></script>

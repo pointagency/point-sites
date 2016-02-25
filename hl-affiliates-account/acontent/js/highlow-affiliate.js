@@ -758,7 +758,6 @@ $(document).ready(function(){
 	UIinit();
 	resizeHandler.init();
 	scrollHandler.init();
-	window.uploadCropper.init();
 	window.appStrings.init();
 
 	$('.flow-explain').addClass('concealed');

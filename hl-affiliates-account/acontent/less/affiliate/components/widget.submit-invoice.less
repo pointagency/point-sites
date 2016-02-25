@@ -1,0 +1,114 @@
+.widget {
+	&#submit-invoice-widget {
+		padding: 0px;
+	}
+}
+
+.table-wrapper {
+	#submit-invoice-widget & {
+		padding-top: 0px;
+	}
+}
+
+#submit-invoice-table-widget {
+	padding-right: 0px;
+	width: 66.666667%;
+	vertical-align: top;
+}
+
+#submit-invoice-uploader-widget {
+	padding-left: 0px;
+	width: 33.333333%;
+	vertical-align: top;
+	position: relative;
+	background-color: #f9f9f9;
+	border-left: 1px solid #dadada;
+}
+
+#invoice-uploader-heading {
+	background-color: #f9f9f9;
+	font-size: 14px;
+	color: #33363d;
+	font-weight: 500;
+	text-align: center;
+	padding-top: 8px;
+    padding-bottom: 7px;
+    margin-left: -2px;
+    margin-right: 0px;
+    border-bottom: 1px solid #dadada;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+#invoice-uploader {
+	background-color: #f9f9f9;
+	height: 480px;
+	padding-top: 60px;
+	.qq-upload-drop-area-text {
+		display: block;
+		font-size: 40px;
+		font-weight: 100;
+		color: #b4b4b4;
+		text-align: center;
+		&:after {
+			display: block;
+			margin: 20px auto;
+			content: "";
+			.sprite(@upload-grey-lg);
+		}
+
+		@media (max-width: 1440px) {
+			font-size: 32px;
+		}
+	}
+
+	&.has-files {
+		.qq-upload-drop-area-text {
+			font-size: 22px;
+			&:after {
+				.scale(0.5);
+				margin: 0px auto;
+			}
+		}
+	}
+
+	.qq-upload-button-selector {
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		width: 100%;
+	}
+
+	.qq-upload-button-text {
+		font-size: 14px;
+		font-weight: 400;
+		color: #929292;
+		display: block;
+		text-align: center;
+	}
+
+	.qq-upload-button:hover {
+		.qq-upload-button-text {
+			color: #ee683a;
+		}
+	}
+
+	.qq-thumbnail-inner-wrapper {
+		display: none;
+	}
+
+	.qq-upload-queued {
+		display: none;
+	}
+
+	.qq-hide {
+		display: none;
+	}
+}
+
+.payment-item-action {
+	text-transform: lowercase;
+}

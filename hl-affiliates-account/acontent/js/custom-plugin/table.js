@@ -7,15 +7,15 @@
   		pagingType: 'simple_numbers',
   		searching: false,
   		ordering: true,
-  		autoWidth: true,
+  		autoWidth: false,
   		deferRender: true,
   		info: false,
   		aaSorting: [[0]],
+  		responsive: true,
   		lengthChange: false
   	};
 
   	jQuery.extend(options, o);
-
 
   	/*
   	*
@@ -41,13 +41,22 @@
 
   		jQuery.extend(thisOptions, options);
 
+  		console.log('initing table #'+$self.attr('id')+' with following paramters: ');
+  		console.log(thisOptions);
+
 
   		/**** simple value options ****/
 
   		thisOptions.pageLength  = parseInt($self.data('pageLength'));
   		thisOptions.ordering = !$self.data('disableOrder');
   		thisOptions.paging = $self.data('paging');
-  		thisOptions.responsive = $self.data('responsive');
+  		// thisOptions.responsive = $self.data('responsive');
+
+
+  		if($self.data('scrollY')) {
+  			thisOptions.scrollY = $self.data('scrollY');
+  			thisOptions.scrollCollapse = true;
+  		}
 
   		if($self.data('defaultOrder')) {
   			thisOptions.aaSorting = $self.data('defaultOrder');

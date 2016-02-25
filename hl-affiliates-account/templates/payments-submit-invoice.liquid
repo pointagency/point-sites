@@ -1,0 +1,213 @@
+{% extends base %}
+
+{% block title %}
+	Submit Invoice | Payments
+{% endblock %}
+
+{% block bodyClass %}
+{% endblock %}
+
+{% block content %}
+
+{% include header %}
+
+{% assign payments='active' %}
+
+{% assign paymentsSubmitInvoice='active' %}
+
+{% include side-menu %}
+
+{% assign payments='active' %}
+
+{% assign paymentsSubmitInvoice='active' %}
+
+<div class="main-content">
+	<div class="wrapper clearfix">
+		<div class="clearfix">
+		</div>
+		<div class="page-heading clearfix">
+			<div class="pull-left">
+				<h3>
+					SUBMIT INVOICE
+				</h3>
+			</div>
+		</div>
+		<div class="container">
+			<h3 class="page-sub-heading">Select one or more payment below, and upload your associated invoice/s to receive payment</h3>
+			<br/>
+			<br/>
+			<div class="p-css-table widget" id="submit-invoice-widget">
+				<div class="p-css-table-row">
+					<div class="p-css-table-cell" id="submit-invoice-table-widget">
+						<form id="invoice-submit-form">
+							<div class="table-wrapper table-lg">
+								<table id="submit-invoice-table" data-src="acontent/js/sample-json/outstanding-commission.js" 
+									data-data-property="data" 
+									data-count-property="total" 
+									data-page-length="25"
+									data-paging="false"
+									data-filtered-count-property="filtered"
+									data-no-data-message="No result found."
+									data-asset-url="acontent/images/"
+									data-page-count-property="currentPage"
+									data-count-display="#lead-count"
+									data-scroll-y="480px"
+									data-filter-container="#lead-status-filter-form">
+									<thead>
+										<tr>
+											<th 
+												data-template='<label class="payment-select {status}"><input type="checkbox" class="payment-select-input" {status}/><span class="payment-select--icon"></span></label>'
+												data-template-map='{ "status" : { "2" : "checked disabled" , "else" : "" } }'
+												data-property-name="status">
+												Select
+											</th>
+											<th 
+												data-property-name="month">
+												Month
+											</th>
+											<th 
+												
+												data-property-name="commission">
+												Amount
+											</th>
+											<th
+												class="payment-status"
+												data-template='
+												<span class="dot {status}">
+												</span>
+												<span class="payment-status">{status}</span>
+												'
+												data-template-map='{ "status" : { "1" : "outstanding" , "2" : "submitted", "3" : "rejected", "else" : "-" } }'
+												data-property-name="status"
+												data-type="map">
+												Status
+											</th>
+										</tr>
+									</thead>
+									<tbody>
+
+									</tbody>
+								</table>
+							</div>
+						</form>
+					</div>
+					<div class="p-css-table-cell" id="submit-invoice-uploader-widget">
+						<div id="invoice-uploader-heading">
+							Submit invoice/s
+						</div>
+						<div class="file-uploader-upload-area fine-uploader p-css-table p-css-table__fill" id="invoice-uploader" 
+
+							data-input-prefix="custom_avatar" 
+
+							data-upload-to="http://andrewfam.com/dummy-uploader/endpoint-cors.php" 
+
+							data-single-file="true"
+
+							data-multiple="true"
+
+							data-auto-upload="true"
+
+							data-delete-at="http://andrewfam.com/dummy-uploader/endpoint-cors.php"
+
+							data-target-form="#invoice-submit-form"
+
+							data-template-id="default-file-uploader-template"
+
+							data-size-limit="2097152"
+
+							data-input-name="invoice"
+
+							data-drag-and-drop-message="Drag your file/s"
+
+							data-click-message="or select from your computer/device"
+
+							data-type-error-message="Please upload only .jpeg, .jpg, .gif, .pdf, or .png files"
+
+							data-size-error-message="The file you are trying to upload is too large. Max file size allowed is 2MB"
+
+							data-allowed-extensions="jpeg,jpg,gif,png,pdf"
+
+							data-upload-success-message="Upload success"
+
+							data-upload-failed-message="Upload failed"
+
+							data-add-more-message="Add more"
+						>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% include commission-history-filter-modal %}
+
+{% include file-uploader-template %}
+
+{% endblock %}
+
+{% block defaultScripts %}
+    <script src="https://cdn.highlow.net/admin/js/jquery-1.8.3.js"></script>
+	<script src="https://cdn.highlow.net/admin/js/ui/jquery-ui-1.9.2.custom.js"></script>    	
+	<script src="https://cdn.highlow.net/admin/js/ui/jquery-ui-timepicker.js"></script>
+	<script src="https://cdn.highlow.net/admin/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="https://cdn.highlow.net/common/js/jquery.validate.min.js"></script>
+	<script src="https://cdn.highlow.net/common/js/additional-methods.min.js"></script>
+	<script src="https://cdn.highlow.net/acontent/js/custom.js"></script>
+	<script src="https://cdn.highlow.net/acontent/js/datepicker.loader.js"></script>
+	<script src="https://cdn.highlow.net/admin/js/daterangepicker.js"></script>
+	<script src="acontent/js/highlow-affiliate.js"></script>
+	
+	<script>
+    	$(document).ready(function(){
+			$(".sidebar-toggler").click(function(){
+				if($('body').hasClass('show-sidebar')) {
+					$('body').removeClass('show-sidebar');
+					$('#side-menu').addClass('hidden-xs');
+				} else {
+					$('body').addClass('show-sidebar');
+					$('#side-menu').removeClass('hidden-xs');
+				}
+			});
+
+
+			setTimeout(function(){
+				  $('.message-wrapper').each(function(){
+				   $(this).addClass('display').addClass($(this).data('type'));
+				  });
+				 },600);
+				 
+			 $('.message-wrapper .close').click(function(){
+			  $('.message-wrapper').removeClass('display').removeClass('fail').removeClass('success').removeClass('alert').removeClass('generic').removeClass('warning');
+			 });
+
+				 
+		});
+    </script>
+
+	<script>
+		$(document).ready(function(){
+			$('body').tooltip({
+			    selector: '[data-toggle="tooltip"]'
+			});
+		});
+	</script>
+	<script type="text/javascript" src="acontent/js/third-parties/select2.full.min.js"></script>
+	<script src="https://cdn.highlow.net/admin/js/jquery.cookie.js"></script>
+	<script src="https://cdn.highlow.net/admin/js/moment.min.js"></script>
+	<script src="acontent/js/third-parties.min.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/upload-cropper.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/file-uploader.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/file-uploader.invoice.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/selectboxit.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/table.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/toggler.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/typeSelect.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/form-ajax.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/form-ajax.commission-history-filter-form.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/commission-history-table.quick-filter.js"></script>
+	<script type="text/javascript" src="acontent/js/ui-demo/daterangepicker.js"></script>
+	<script type="text/javascript" src="acontent/js/ui-demo/submit-invoice.js"></script>
+
+{% endblock %}

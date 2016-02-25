@@ -16,4 +16,7 @@ $(document).ready(function(){
 
 	});
 
+
+	$('#lead-status-filter--banner').typeSelect();
+
 });

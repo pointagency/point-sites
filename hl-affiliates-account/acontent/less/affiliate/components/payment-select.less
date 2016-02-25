@@ -1,0 +1,26 @@
+.payment-select {
+
+	margin-bottom: 0;
+    margin-top: 6px;
+
+	input {
+		display: none;
+	}
+
+	.payment-select--icon {
+		display: block;
+		position: relative;
+		.sprite(@disc-grey-md);
+	}
+
+	input:checked + .payment-select--icon {
+		.sprite(@disc-tick-green-md);
+	}
+
+	&.checked {
+		input:checked + .payment-select--icon {
+			.sprite(@disc-tick-grey-md);
+			.opacity(0.4);
+		}
+	}
+}

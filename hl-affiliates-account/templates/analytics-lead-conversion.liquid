@@ -150,6 +150,7 @@
 								<thead>
 									<tr>
 										<th 
+											class="desktop col-banner"
 											data-template='
 											<span class="banner--view-code"
 												data-name="{bannerName}"
@@ -165,6 +166,7 @@
 											Banner
 										</th>
 										<th
+											class="desktop col-lp"
 											data-template='
 											<span class="banner--details--target-link--item"
 												data-name="{landingPageName}"
@@ -175,38 +177,43 @@
 											Landing Page
 										</th>
 										<th
+											class="col-location"
 											data-property-name="leadLocation">
 											Location
 										</th>
 										<th
-											class="url"
+											class="desktop col-url url"
 											data-template='<span class="clipped-string"><span class="clipped-string--clipped">{srcUrl}</span><span class="clipped-string--full">{srcUrl}</span></span>'
 											data-property-name="srcUrl">
 											URL
 										</th>
 										<th
-											class="lead-status"
+											class="col-lead-status"
 											data-template='
+											<span class="lead-status-item">
 											<span class="dot {leadStatus}">
 											</span>
-											{leadStatus}
+											{leadStatus}</span>
 											'
 											data-template-map='{ "leadStatus" : { "Clicked" : "clicked", "Registered" : "registered", "Approved" : "approved", "Funded" : "funded", "Traded" : "traded" } }'
 											data-property-name="leadStatus">
 											Status
 										</th>
 										<th
+											class="col-last-update min-tablet-l"	
 											data-property-name="lastUpdate"
 											data-type="date",
-											data-format="YYYY-MM-DD&nbsp;\a\t&nbsp;HH:mm">
+											data-format="YYYY-MM-DD \a\t&nbsp;HH:mm">
 											Last update
 										</th>
 										<th
+											class="col-commission"
 											data-empty="-"
 											data-property-name="commission">
 											Commission
 										</th>
 										<th
+											class="col-paid"
 											data-property-name="paid"
 											data-type="map"
 											data-map='{ "1" : "Y" , "0" : "N", "else" : "-"}'>
@@ -284,11 +291,13 @@
 	<script type="text/javascript" src="acontent/js/third-parties/highcharts.js"></script>
 	<script type="text/javascript" src="https://cdn.highlow.net/admin/js/highcharts/modules/exporting.js"></script>
 	<script type="text/javascript" src="https://cdn.highlow.net/admin/js/highcharts/modules/no-data-to-display.src.js"></script>
+	<script type="text/javascript" src="acontent/js/third-parties/select2.full.min.js"></script>
 	<script src="https://cdn.highlow.net/admin/js/jquery.cookie.js"></script>
 	<script src="https://cdn.highlow.net/admin/js/moment.min.js"></script>
 	<script src="acontent/js/third-parties.min.js"></script>
 	<script src="acontent/js/custom-plugin/upload-cropper.js"></script>
 	<script type="text/javascript" src="acontent/js/custom-plugin/selectboxit.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/typeSelect.js"></script>
 	<script type="text/javascript" src="acontent/js/custom-plugin/lineChart.js"></script>
 	<script type="text/javascript" src="acontent/js/custom-plugin/funnelChart.js"></script>
 	<script type="text/javascript" src="acontent/js/custom-plugin/table.js"></script>
