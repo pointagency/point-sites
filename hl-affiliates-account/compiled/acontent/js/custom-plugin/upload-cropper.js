@@ -6,6 +6,9 @@ var uploadCropper = {
 			return;
 		}
 
+
+		console.log('upload croppper');
+
 		function addFileHiddenInput(target,name,id) {
 			var form = target,
 				id = id;
@@ -239,7 +242,7 @@ var uploadCropper = {
 
 		}
 
-		$('#update-avatar-form').each(function(){
+		$('#custom-avatar-uploader').each(function(){
 			var self = $(this),
 				inputPrefix = self.data('inputPrefix'),
 				type = self.data('idType');

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"text-",
+				"text-transform"
+			],
+			[
 				"text",
 				"text-align"
 			],
@@ -58,10 +62,6 @@
 			[
 				"legend",
 				"legendSmallScreen"
-			],
-			[
-				"text-",
-				"text-align"
 			],
 			[
 				"tot",
@@ -536,10 +536,18 @@
 			}
 		},
 		{
+			"file": "templates/analytics-lead-conversion.liquid",
+			"settings":
+			{
+				"buffer_size": 13420,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "templates/payments-submit-invoice.liquid",
 			"settings":
 			{
-				"buffer_size": 7187,
+				"buffer_size": 7274,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,7 +555,15 @@
 			"file": "acontent/js/ui-demo/submit-invoice.js",
 			"settings":
 			{
-				"buffer_size": 2079,
+				"buffer_size": 859,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "acontent/js/ui-demo/daterangepicker.js",
+			"settings":
+			{
+				"buffer_size": 1284,
 				"line_ending": "Unix"
 			}
 		},
@@ -563,7 +579,7 @@
 			"file": "acontent/less/affiliate/components/widget.submit-invoice.less",
 			"settings":
 			{
-				"buffer_size": 1692,
+				"buffer_size": 1746,
 				"line_ending": "Unix"
 			}
 		},
@@ -572,14 +588,6 @@
 			"settings":
 			{
 				"buffer_size": 5116,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "acontent/less/affiliate/components/table.lead-status.less",
-			"settings":
-			{
-				"buffer_size": 922,
 				"line_ending": "Unix"
 			}
 		},
@@ -631,14 +639,6 @@
 				"line_ending": "Unix",
 				"name": "Find Results",
 				"scratch": true
-			}
-		},
-		{
-			"file": "acontent/less/affiliate/components/landing-pages.less",
-			"settings":
-			{
-				"buffer_size": 1355,
-				"line_ending": "Unix"
 			}
 		},
 		{
@@ -698,6 +698,14 @@
 			}
 		},
 		{
+			"file": "acontent/less/affiliate/components/table.lead-status.less",
+			"settings":
+			{
+				"buffer_size": 936,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "acontent/js/custom-plugin/form-ajax.commission-history-filter-form.js",
 			"settings":
 			{
@@ -709,7 +717,7 @@
 			"file": "acontent/less/affiliate/components/table.less",
 			"settings":
 			{
-				"buffer_size": 4043,
+				"buffer_size": 4223,
 				"line_ending": "Unix"
 			}
 		},
@@ -759,6 +767,15 @@
 			{
 				"buffer_size": 289,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Completed Item:\n\n+ overall:\n	- Correct Pagination style (taken Creative -> Banners)\n	- Use font-size 12px for all table\n	- Fix spacing and width of dropdown item.\n\n+ Lead conversion: \n	- Resize table when resize browser (need to work out column size on smaller screen and show/hide columns)\n	- Adjusted space between items in dropdown in Filter modal\n	- Lose scroll on LP modal\n	- Fix table overflowing right on smaller screen.\n\n+ Banners correction:\n	- Resize table when resize browser (need to work out column size on smaller screen and show/hide columns)\n	- \"In Filter modal, dropdown styles different to rest of site\" : I intentionally use a different suggestive select box to give better UX in production when there'll be 10s of banner. The user can type the name and filter the list\n	\n+ Payment: Commission corrections:\n	- Add tooltips to there items on top\n	- Resize table when resize browser (need to work out column size on smaller screen and show/hide columns)\n\n+ Upload invoice:\n	- Correct table style\n	- Styled upload box\n	- Make entire rowclick trigger select.\n	- Romove hover state on submitted row.\n\nOutstanding Item:\n\n\n\n+ Landing Pages:\n	- Need to add hover state and 'Details' modal\n\n+ Upload invoice:\n	- Make \"cancel\" link return row to unselected state\n	- Make table height match available space in viewport\n\n+ Overall:\n\n	- Adjust sizing of tables for smaller screen.\n",
+			"settings":
+			{
+				"buffer_size": 1387,
+				"line_ending": "Unix",
+				"name": "Completed Item:"
 			}
 		}
 	],
@@ -823,17 +840,8 @@
 		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate",
 		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components",
 		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/postlogin",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/bower_components/select2",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/bower_components/select2/dist",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/bower_components/select2/dist/css",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/bower_components/select2/dist/js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/compiled/acontent",
 		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes",
-		"/Users/andrew-pham/development/hl-my-account/common",
-		"/Users/andrew-pham/development/hl-my-account/common/less",
-		"/Users/andrew-pham/development/hl-my-account/common/less/component",
-		"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components"
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes"
 	],
 	"file_history":
 	[
@@ -1412,7 +1420,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
@@ -1438,27 +1446,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 715.0,
+						"translation.y": 4343.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "templates/payments-submit-invoice.liquid",
+					"file": "templates/analytics-lead-conversion.liquid",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7187,
+						"buffer_size": 13420,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2461,
-								2461
+								9646,
+								9646
 							]
 						],
 						"settings":
@@ -1467,27 +1475,56 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 513.0,
+						"translation.y": 4872.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "acontent/js/ui-demo/submit-invoice.js",
+					"file": "templates/payments-submit-invoice.liquid",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2079,
+						"buffer_size": 7274,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1736,
-								1736
+								7158,
+								7158
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3576.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "acontent/js/ui-demo/submit-invoice.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 859,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
 							]
 						],
 						"settings":
@@ -1495,15 +1532,44 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 360.0,
-						"translation.y": 26.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
+					"file": "acontent/js/ui-demo/daterangepicker.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1284,
+								1284
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "acontent/js/sample-json/outstanding-commission.js",
 					"semi_transient": false,
 					"settings":
@@ -1528,24 +1594,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "acontent/less/affiliate/components/widget.submit-invoice.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1692,
+						"buffer_size": 1746,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								755,
-								755
+								1744,
+								1744
 							]
 						],
 						"settings":
@@ -1554,14 +1620,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 106.0,
+						"translation.y": 960.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "acontent/less/affiliate/components/sprite-icon.less",
 					"semi_transient": false,
 					"settings":
@@ -1586,40 +1652,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "acontent/less/affiliate/components/table.lead-status.less",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 922,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "acontent/less/affiliate/components/tooltip.less",
 					"semi_transient": false,
 					"settings":
@@ -1643,11 +1680,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "acontent/less/affiliate/components/file-uploader.less",
 					"semi_transient": false,
 					"settings":
@@ -1672,11 +1709,11 @@
 						"translation.y": 4613.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "acontent/js/custom-plugin/table.js",
 					"semi_transient": false,
 					"settings":
@@ -1700,17 +1737,17 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 19,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 6,
+			"selected": 19,
 			"sheets":
 			[
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "acontent/less/affiliate/components/percentage-display.less",
 					"semi_transient": false,
 					"settings":
@@ -1728,17 +1765,18 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 29,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "acontent/js/custom-plugin/typeSelect.js",
 					"semi_transient": false,
 					"settings":
@@ -1756,17 +1794,19 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 14,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1840,36 +1880,7 @@
 						"translation.y": 459.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "acontent/less/affiliate/components/landing-pages.less",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1355,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
@@ -1898,7 +1909,7 @@
 						"translation.y": 3094.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
@@ -1926,7 +1937,7 @@
 						"translation.y": 877.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
@@ -1954,7 +1965,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
@@ -1983,7 +1994,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
@@ -2012,7 +2023,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
@@ -2041,7 +2052,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 27,
+					"stack_index": 30,
 					"type": "text"
 				},
 				{
@@ -2070,11 +2081,40 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 28,
+					"stack_index": 31,
 					"type": "text"
 				},
 				{
 					"buffer": 22,
+					"file": "acontent/less/affiliate/components/table.lead-status.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 936,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								606,
+								606
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 297.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
 					"file": "acontent/js/custom-plugin/form-ajax.commission-history-filter-form.js",
 					"semi_transient": false,
 					"settings":
@@ -2098,24 +2138,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 24,
 					"file": "acontent/less/affiliate/components/table.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4043,
+						"buffer_size": 4223,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								582,
-								559
+								841,
+								841
 							]
 						],
 						"settings":
@@ -2124,14 +2164,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 41.0,
+						"translation.y": 644.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 25,
 					"file": "acontent/less/affiliate/components/table.submit-invoice.less",
 					"semi_transient": false,
 					"settings":
@@ -2156,11 +2196,11 @@
 						"translation.y": 6.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 26,
 					"file": "templates/includes/file-uploader-template.liquid",
 					"semi_transient": false,
 					"settings":
@@ -2185,11 +2225,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 27,
 					"file": "acontent/less/affiliate/components/selectBoxIt-custom.less",
 					"semi_transient": false,
 					"settings":
@@ -2214,11 +2254,11 @@
 						"translation.y": 637.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 28,
 					"file": "acontent/js/custom-plugin/form-ajax.lead-status-filter-form.js",
 					"semi_transient": false,
 					"settings":
@@ -2236,17 +2276,18 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 29,
 					"file": "acontent/js/custom-plugin/commission-history-table.quick-filter.js",
 					"semi_transient": false,
 					"settings":
@@ -2270,11 +2311,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 30,
 					"file": "acontent/js/custom-plugin/form-ajax.js",
 					"semi_transient": false,
 					"settings":
@@ -2298,7 +2339,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1387
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Completed Item:",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -2332,7 +2401,7 @@
 		"cols":
 		[
 			0.0,
-			0.597411754003,
+			0.518019490632,
 			1.0
 		],
 		"rows":
@@ -2380,7 +2449,7 @@
 		],
 		"width": 953.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
