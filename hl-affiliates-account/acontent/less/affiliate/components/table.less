@@ -8,6 +8,7 @@ table td[class*="col-"], table th[class*="col-"] {
 	margin: 0 10px;
 	background-color: #fff;
 	position: relative;
+	overflow: auto;
 
 	@media (max-width: 991px) {
 		overflow: auto;
@@ -16,6 +17,9 @@ table td[class*="col-"], table th[class*="col-"] {
 	&.table-lg {
 		margin: 0px;
    	 	padding-top: 22px;
+	}
+	.dataTables_wrapper {
+		min-width: 1024px;
 	}
 }
 
