@@ -292,6 +292,43 @@ $(document).ready(function() {
 						y : (traded/totalClicks)*100
 					}
 				]
+			},
+			// the next 3 series are for drawing border between the funnels, so just use them as is
+			{
+				color: '#fff',
+				data: [
+					{ 
+						y : (registered/totalClicks)*100,
+						x : 2
+					},{ 
+						y : (registered/totalClicks)*100,
+						x : 2.025
+					}
+				]
+			},
+			{
+				color: '#fff',
+				data: [
+					{ 
+						y : (registered/totalClicks)*100,
+						x : 4
+					},{ 
+						y : (registered/totalClicks)*100,
+						x : 4.025
+					}
+				]
+			},
+			{
+				color: '#fff',
+				data: [
+					{ 
+						y : (registered/totalClicks)*100,
+						x : 6
+					},{ 
+						y : (registered/totalClicks)*100,
+						x : 6.025
+					}
+				]
 			}
 		]	
 		

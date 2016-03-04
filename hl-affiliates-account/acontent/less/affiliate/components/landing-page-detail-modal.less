@@ -1,0 +1,138 @@
+#landing-page-detail-modal {
+	background-color: rgba(255,255,255,0.93);
+	top: 54px;
+	overflow: auto;
+	padding-top: 70px;
+	text-align: center;
+
+	@media (max-width: 991px) {
+		top: 0px;
+		padding-top: 40px;
+	}
+
+	.close {
+		top: 40px;
+		right: 40px;
+		.opacity(0.3);
+		&:hover {
+			.opacity(0.7);
+		}
+
+		@media (max-width: 768px) {
+			top: 15px;
+			right: 15px;
+			.scale(0.5,0.5);
+		}
+	}
+}
+
+.container {
+	#landing-page-detail-modal & {
+		max-width: 940px;
+	}
+}
+
+#landing-page-detail--name {
+	color: #ee683a;
+	font-size: 35px;
+	font-weight: 300;
+	margin-bottom: 3px;
+	text-align: center;
+	@media (max-width: 768px) {
+		font-size: 22px;
+		line-height: 32px;
+	}
+}
+
+#landing-page-detail--url-container {
+	text-align: center;
+}
+
+#landing-page-detail--url {
+	display: inline-block;
+	font-size: 12px;
+	color: #868686;
+	&:before {
+		content: "";
+		display: inline-block;
+		margin-right: 3px;
+		position: relative;
+		top: 3px;
+		.sprite(@crosshair-grey-sm);
+	}
+}
+
+#landing-page-detail--favourite {
+	text-align: center;
+	margin-bottom: 4px;
+
+	&.favourite {
+		&:before {
+			content: "";
+			display: inline-block;
+			.sprite(@star-yellow-sm);
+		}
+	}
+}
+
+#landing-page-detail--description {
+	text-align: center;
+	color: #2c2f35;
+	font-size: 14px;
+	line-height: 24px;
+	max-width: 570px;
+	margin: 0px auto 30px;
+	strong {
+		font-weight: 500;
+	}
+}
+
+#landing-page-detail--open-new-tab {
+	font-size: 10px;
+	letter-spacing: 0.08em;
+	line-height: 10px;
+	padding-top: 18px;
+	padding-bottom: 14px;
+	width: 163px;
+	display: inline-block;
+	margin-bottom: 64px;
+	&:before {
+		content: "";
+		display: inline-block;
+		width: 0;
+		height: 0;
+		border: 6px solid transparent;
+		border-left: 10px solid #fff;
+		vertical-align: middle;
+	}
+}
+
+#landing-page-detail--screenshot-carousel {
+	margin-top: 30px;
+}
+
+#landing-page-detail--screenshot-carousel--indicators {
+	position: relative;
+    display: inline-block;
+    float: none;
+    bottom: auto;
+    top: auto;
+    left: auto;
+    right: auto;
+    width: auto;
+    text-align: center;
+    margin: 30px auto;
+	> li {
+		background-color: #aaaaaa;
+		width: 12px!important;
+		height: 12px!important;
+		margin: 0 2px!important;
+		&:hover {
+			background-color: #c3c3c3;
+		}
+		&.active,
+		&.active:hover {
+			background-color: #ee683a;
+		}
+	}
+}

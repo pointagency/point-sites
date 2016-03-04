@@ -83,7 +83,7 @@
 			<ul class="nav nav-pills nav-stacked custom-nav">
 				<li class="user dropdown">
 					<a href="#" class="side-menu--user-toggle dropdown-toggle toggler" data-toggle-target=".side-menu--user--sub-menu" data-toggle-class="active" data-toggle-off-click="true">
-						<img href="#update-avatar-modal" class="avatar toggler" data-toggle-target=".side-menu--user--sub-menu" data-toggle-class="active" data-toggle="modal" data-toggle="modal" src="acontent/images/avatar-1.png" />
+						<img href="#update-avatar-modal" class="avatar toggler" data-toggle-target=".side-menu--user--sub-menu" data-toggle-class="active" data-toggle="modal" src="acontent/images/avatar-1.png" />
 						<span>
 							Hi Hamish
 						</span>
@@ -177,7 +177,7 @@
 						</li>
 					</ul>
 				</li>
-				<li class="menu-list">
+				<li class="menu-list ">
 					<a href="javascript:void(0);">
 						<span class="side-menu-item-icon">
 							<i class="side-menu-item-icon--default sprite-icon__wrench-grey-sm"></i>
@@ -189,22 +189,22 @@
 					</a>
 					<ul class="sub-menu-list">
 						<li class="">
-							<a href="#">
+							<a href="settings-profile.html">
 								<span>Profile settings</span>
 							</a>
 						</li>
 						<li class="">
-							<a href="#">
+							<a href="settings-bank-and-payments.html">
 								<span>Bank and payments</span>
 							</a>
 						</li>
 						<li class="">
-							<a href="#">
+							<a href="settings-my-websites.html">
 								<span>My websites</span>
 							</a>
 						</li>
 						<li class="">
-							<a href="#">
+							<a href="settings-password.html">
 								<span>Change password</span>
 							</a>
 						</li>
@@ -234,7 +234,7 @@
 		<a href="#">My Websites</a>
 	</div>
 	<div class="side-menu--user--sub-menu--item">
-		<a href="#">Profile</a>
+		<a href="settings-profile.html">Profile</a>
 	</div>
 	<div class="side-menu--user--sub-menu--item">
 		<a href="#">Change Password</a>
@@ -452,7 +452,7 @@
 											class="col-paid"
 											data-property-name="paid"
 											data-type="map"
-											data-map='{ "1" : "Y" , "0" : "N", "else" : "-"}'>
+											data-map='{ "1" : "Y" , "0" : "N <a href=\"payments-submit-invoice.html\">+</a>", "else" : "-"}'>
 											Paid
 										</th>	
 									</tr>
@@ -488,7 +488,7 @@
 								</div>
 								<div class="row modal-body--inner-panel">
 									<div class="form">
-										<div class="form-control-group">
+										<div class="form-group">
 											<label for="lead-status-filter--status">Status</label>
 											<select id="lead-status-filter--status" class="form-control selectBoxit">
 												<option value="">
@@ -516,7 +516,7 @@
 										</div>
 									</div>
 									<div class="form">
-										<div class="form-control-group">
+										<div class="form-group">
 											<label for="lead-status-filter--commission">Commission</label>
 											<select id="lead-status-filter--commission" class="form-control selectBoxit">
 												<option value="">
@@ -532,7 +532,7 @@
 										</div>
 									</div>
 									<div class="form">
-										<div class="form-control-group">
+										<div class="form-group">
 											<label for="lead-status-filter--country">Country</label>
 											<select id="lead-status-filter--country" class="form-control selectBoxit">
 												<option value="">
@@ -554,7 +554,7 @@
 										</div>
 									</div>
 									<div class="form">
-										<div class="form-control-group">
+										<div class="form-group">
 											<label for="lead-status-filter--banner">Referring banner</label>
 											<select id="lead-status-filter--banner" class="form-control">
 												<option value="">
@@ -601,61 +601,63 @@
 											
 										</div>
 										<div class="p-css-table-cell get-code-modal--banner-details">
-											<div class="get-code-modal--banner-details--header">
-												<strong id="get-code-modal--banner-details--dimensions"></strong> - <strong id="get-code-modal--banner-details--name"></strong> <span class="word" id="get-code-modal--banner-details--format"></span>
-											</div>
-											<p>
-												Paste the below code into your website. It contains your personal Affiliate ID and all conversions will be tracked automatically.
-											</p>
-											<br/>
-											<label for="landing-page-select">Target URL:</label>
-											<br/>
-											<div class="banner--details--target-link">	
-												<span class="banner--details--target-link--current banner--details--target-link--selector" data-url="acontent/js/sample-json/landing-pages.js">
-													<span id="banner--details--landing-page-selector--current-url" class="banner--details--target-link--item banner--details--landing-page-selector--current-url">
-														Select a landing page
-													</span>
-													<div class="banner--details--landing-page-selector">
-														<div class="banner--details--landing-page-selector--filter">
-															<div class="banner--details--landing-page-selector--filter--languages filter--toggles">
-																<div class="banner--details--landing-page-selector--filter--language filter--toggles--item active toggler" data-key="" data-self-toggle-off-disabled="true" data-toggle-group="landing-page-preview--language-pickers">
-																	All
+											<div class="get-code-modal--banner-details--content-wrapper">
+												<div class="get-code-modal--banner-details--header">
+													<strong id="get-code-modal--banner-details--dimensions"></strong> - <strong id="get-code-modal--banner-details--name"></strong> <span class="word" id="get-code-modal--banner-details--format"></span>
+												</div>
+												<p>
+													Paste the below code into your website. It contains your personal Affiliate ID and all conversions will be tracked automatically.
+												</p>
+												<br/>
+												<label for="landing-page-select">Target URL:</label>
+												<br/>
+												<div class="banner--details--target-link">	
+													<span class="banner--details--target-link--current banner--details--target-link--selector" data-url="acontent/js/sample-json/landing-pages.js">
+														<span id="banner--details--landing-page-selector--current-url" class="banner--details--target-link--item banner--details--landing-page-selector--current-url">
+															Select a landing page
+														</span>
+														<div class="banner--details--landing-page-selector">
+															<div class="banner--details--landing-page-selector--filter">
+																<div class="banner--details--landing-page-selector--filter--languages filter--toggles">
+																	<div class="banner--details--landing-page-selector--filter--language filter--toggles--item active toggler" data-key="" data-self-toggle-off-disabled="true" data-toggle-group="landing-page-preview--language-pickers">
+																		All
+																	</div>
+																	<div class="banner--details--landing-page-selector--filter--language filter--toggles--item toggler" data-key="en" data-self-toggle-off-disabled="true" data-toggle-group="landing-page-preview--language-pickers">
+																		English
+																	</div>
+																	<div class="banner--details--landing-page-selector--filter--language filter--toggles--item toggler" data-key="jp" data-toggle-self-off-disabled="true" data-toggle-group="landing-page-preview--language-pickers">
+																		Japanese
+																	</div>
 																</div>
-																<div class="banner--details--landing-page-selector--filter--language filter--toggles--item toggler" data-key="en" data-self-toggle-off-disabled="true" data-toggle-group="landing-page-preview--language-pickers">
-																	English
-																</div>
-																<div class="banner--details--landing-page-selector--filter--language filter--toggles--item toggler" data-key="jp" data-toggle-self-off-disabled="true" data-toggle-group="landing-page-preview--language-pickers">
-																	Japanese
+																<div class="banner--details--landing-page-selector--filter--search">
+																	<span class="banner--details--landing-page-selector--filter--search--toggler toggler" data-toggle-target="#get-code-modal .banner--details--landing-page-selector--filter--search">
+																	</span>
+																	<input type="text" class="banner--details--landing-page-selector--filter--search--input" placeholder="Start typing..."/>
 																</div>
 															</div>
-															<div class="banner--details--landing-page-selector--filter--search">
-																<span class="banner--details--landing-page-selector--filter--search--toggler toggler" data-toggle-target="#get-code-modal .banner--details--landing-page-selector--filter--search">
-																</span>
-																<input type="text" class="banner--details--landing-page-selector--filter--search--input" placeholder="Start typing..."/>
+															<div class="banner--details--landing-page-selector--landing-page-list">
+																
 															</div>
 														</div>
-														<div class="banner--details--landing-page-selector--landing-page-list">
-															
-														</div>
-													</div>
-												</span>
-											</div>
-											<br/>
-											<textarea class="banner-code-holder" id="get-code-modal--banner-details--code" readonly="readonly" placeholder="Please select a landing page"></textarea>
-											<a class="get-code-modal--banner-details--add-custom-code bannerOption" href="#"><i class="fa fa-plus"></i> &nbsp;Add your own code</a>
-											<div class="subCodeDiv" style="display: none;">
-												<input type="text" id="banner-sub-code" name="subCodeText" class="form-control subCodeText" placeholder="Sub Code" value="">
-												<br/>
-												<br/>
-												<button type="button" class="btn-alternate btn btn-extruded applySubCode" data-target="#get-code-modal--banner-details--code">APPLY</button>
-											</div>		
-											<div class="banner--details--favourite">
-												<label>
-													<input type="checkbox" id="get-code-modal--banner-details--favourite" class="banner--details--favourite--checkbox" value="all"/>
-													<span class="banner--details--favourite--icon">
 													</span>
-												</label>
-											</div>		
+												</div>
+												<br/>
+												<textarea class="banner-code-holder" id="get-code-modal--banner-details--code" readonly="readonly" placeholder="Please select a landing page"></textarea>
+												<a class="get-code-modal--banner-details--add-custom-code bannerOption" href="#"><i class="fa fa-plus"></i> &nbsp;Add your own code</a>
+												<div class="subCodeDiv" style="display: none;">
+													<input type="text" id="banner-sub-code" name="subCodeText" class="form-control subCodeText" placeholder="Sub Code" value="">
+													<br/>
+													<br/>
+													<button type="button" class="btn-alternate btn btn-extruded applySubCode" data-target="#get-code-modal--banner-details--code">APPLY</button>
+												</div>		
+												<div class="banner--details--favourite">
+													<label>
+														<input type="checkbox" id="get-code-modal--banner-details--favourite" class="banner--details--favourite--checkbox" value="all"/>
+														<span class="banner--details--favourite--icon">
+														</span>
+													</label>
+												</div>		
+											</div>
 										</div>
 									</div>
 								</div>
@@ -884,10 +886,10 @@
 </script>
 
 	
-    <script src="https://cdn.highlow.net/admin/js/jquery-1.8.3.js"></script>
+    <script src="acontent/js/jquery-1.11.1.min.js"></script>
 	<script src="https://cdn.highlow.net/admin/js/ui/jquery-ui-1.9.2.custom.js"></script>    	
 	<script src="https://cdn.highlow.net/admin/js/ui/jquery-ui-timepicker.js"></script>
-	<script src="https://cdn.highlow.net/admin/bootstrap/dist/js/bootstrap.min.js"></script>
+	
 	<script src="https://cdn.highlow.net/common/js/jquery.validate.min.js"></script>
 	<script src="https://cdn.highlow.net/common/js/additional-methods.min.js"></script>
 	<script src="https://cdn.highlow.net/acontent/js/custom.js"></script>
@@ -922,7 +924,7 @@
 		});
     </script>
 
-    <script src="acontent/js/custom-plugin/preview-banner.js">	
+    <script src="acontent/js/custom-plugin/view-banner-details.js">	
 </script>
 <script src="acontent/js/custom-plugin/preview-landing-page.js">
 </script>

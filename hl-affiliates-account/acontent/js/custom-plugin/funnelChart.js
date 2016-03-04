@@ -15,11 +15,14 @@
 		  chart: {
         type: 'area',
         overflow: 'visible',
-        marginTop: 80,
-        marginBottom: 53,
+        marginTop: 90,
+        marginBottom: 39,
         events: {
           load: function(){
             $('#'+cfg.renderTo+'-bottom-count').addClass('in').html(Number(cfg.min/cfg.total*100).toFixed(2)+'%');
+          
+
+
           }
         },
         style: {
@@ -53,7 +56,11 @@
         tickLength: 0,
         startOnTick: true,
         categories: cfg.categories,
-        lineColor: '#efefef',
+        lineWidth: 0,
+        minorGridLineWidth: 0,
+        minorTickLength: 0,
+        tickLength: 0,
+        lineColor: 'transparent',
         gridLineColor: '#fff',
         labels: {
           y: 25,
@@ -92,7 +99,11 @@
         startOnTick : false,    	  
         tickPixelInterval: cfg.total-cfg.min,
         gridLineColor: '#fff',
-        lineColor: '#efefef',
+        lineWidth: 0,
+        minorGridLineWidth: 0,
+        minorTickLength: 0,
+        tickLength: 0,
+        lineColor: 'transparent',
         title: {
           text: cfg.yTitle
         },

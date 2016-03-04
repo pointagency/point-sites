@@ -1,3 +1,8 @@
+
+table td[class*="col-"], table th[class*="col-"] {
+	position: relative;
+}
+
 .table-wrapper {
 	padding: 40px 0px 0px;
 	margin: 0 10px;
@@ -37,7 +42,10 @@
 		background-color: #fff;
 		table-layout: fixed;
 	}
-
+		table thead tr {
+			border-top: 1px solid #efefef;
+			border-bottom: 1px solid #dadada;
+		}
 		table thead tr th {
 			vertical-align: top;
 			font-size: 12px;
@@ -185,7 +193,10 @@
 
 		.dataTables_paginate {
 			text-align: center;
-			margin-top: 1em;
+			margin-top: 2em;
+			padding-top: 2em;
+			margin-bottom: 3em;
+			border-top: 1px solid #eaeaea;
 		}
 
 			.paginate_button, 

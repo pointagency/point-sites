@@ -2,6 +2,14 @@ header {
 	.high-low {
 		.sprite(@header-logo);
 	}
+	&.bring-to-top {
+		z-index: 999999999;
+		position: relative;
+		@media (max-width: 991px) {
+			z-index: initial;
+			position: static;
+		}
+	}
 }
 
 .navbar.post-login {

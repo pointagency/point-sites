@@ -53,7 +53,9 @@
   		// thisOptions.responsive = $self.data('responsive');
 
 
-  		if($self.data('scrollY')) {
+
+
+  		if($self.data('scrollY') && !thisOptions.scrollY ) {
   			thisOptions.scrollY = $self.data('scrollY');
   			thisOptions.scrollCollapse = true;
   		}
@@ -158,6 +160,11 @@
 								var regex = new RegExp(placeholder,"g");
 
 
+								if(value=="") {
+									returnString = "&ndash;";
+									return returnString;
+								}
+
 								if(templateMap) {
 
 									value = templateMap[propertyName][value] || templateMap[propertyName]['else'];
@@ -191,7 +198,7 @@
 								if(data!='' && data!=undefined) {
 									returnString = moment(data).format(format);  
 								} else {
-									returnString = '-';
+									returnString = "&ndash;";
 								}
 							}
 
@@ -203,7 +210,7 @@
 							returnString = (prefix||"") + returnString + (suffix || "");
 
 							if(returnString=='') {
-								returnString = empty || '-';
+								returnString = empty || "&ndash;";
 							}
 							
 						}

@@ -1,0 +1,77 @@
+.profile--avatar {
+	.clearfix();
+	margin-bottom: 40px;
+	max-width: 378px;
+}
+
+	.profile--avatar--preview {
+		width: 144px;
+		height: 144px;
+		border-radius: 100px;
+		overflow: hidden;
+		float: left;    
+		margin-right: 46px;
+		margin-left: -14px;
+		img {
+			width: 100%;
+		}
+	}
+
+	.profile--avatar--instruction {
+		float: left;
+		margin-bottom: 20px;
+		margin-top: 35px;
+	}
+
+	.profile--avatar--change-btn {
+		float: left;
+	}
+
+	.profile--avatar--change-btn {
+		background-color: #eeeeee;
+		border-bottom: 3px solid #dedede;
+		color: #6c6c6c;
+		font-size: 10px;
+		cursor: pointer;
+		font-family: @font-mont;
+		letter-spacing: 0.08em;
+		padding: 13px 20px 9px;
+		line-height: 10px;
+		&:hover {
+			background-color: #f4f4f4;
+		}
+	}
+
+	#profile-settings-form {
+		max-width: 316px;
+		&.read-only {
+			max-width: 100%;
+		}
+	}
+
+	#profile-settings-save {
+		display: inline-block;
+		width: 140px;
+		.read-only & {
+			display: none;
+		}
+	}
+
+	#profile-settings-edit {
+		display: none;
+		width: 140px;
+		.read-only & {
+			display: inline-block;
+			margin-left: 175px;
+			float: left!important;
+			margin-top: 32px;
+		}
+	}
+
+	.form-control {
+		#profile-settings-form & {
+
+		}
+	}
+
+	

@@ -66,7 +66,7 @@ $(document).ready(function(){
 		}
 		
 		$('#get-code-modal--banner-preview').empty().append($(bannerCode.replace('SUBCODE','').replace('LANDINGPAGE',bannerLandingPageUrl)));
-		$('#get-code-modal--layout').removeClass().addClass(bannerLayout);
+		$('#get-code-modal--layout').removeAttr('class').addClass(bannerLayout);
 
 		var currentTargetItem  = $('#banner--details--landing-page-selector--current-url');
 

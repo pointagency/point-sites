@@ -14,13 +14,13 @@
 			"srcUrl" : "http://binaryoptionsbrokers.pw/",
 			"leadStatus" : "Traded",
 			"lastUpdate" : 1456109381000,
-			"commission" : "$300",
+			"commission" : "$300.00",
 			"paid" : "1"
 		},{
 			"bannerName" : "Up to 200% Payout Black: AUD",
-			"bannerWidth" : "300",
+			"bannerWidth" : "300.00",
 			"bannerHeight" : "250",
-			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300px; height: 250px; border: none; outline: none; display: block;\" src=\"http://point.agency.s3.amazonaws.com/highlow/banners/fla/HighLow_300x250_1b/high-low_300x250-1b_flash.html\"></iframe></a>",
+			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300.00px; height: 250px; border: none; outline: none; display: block;\" src=\"http://point.agency.s3.amazonaws.com/highlow/banners/fla/HighLow_300.00x250_1b/high-low_300.00x250-1b_flash.html\"></iframe></a>",
 			"bannerFileType" : "html5",
 			"bannerFavourite" : "true",
 			"landingPageName" : "HighLow Markets Home page",
@@ -34,9 +34,9 @@
 			"paid" : ""
 		},{
 			"bannerName" : "OZ Regulated: AUD",
-			"bannerWidth" : "300",
+			"bannerWidth" : "300.00",
 			"bannerHeight" : "600",
-			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300x600/banner.html\"></iframe></a>",
+			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300.00px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300.00x600/banner.html\"></iframe></a>",
 			"bannerFileType" : "html5",
 			"bannerFavourite" : "true",
 			"landingPageName" : "Regional short-form sign-up page",
@@ -62,13 +62,13 @@
 			"srcUrl" : "http://binaryoptionsbrokers.pw/",
 			"leadStatus" : "Registered",
 			"lastUpdate" : 1456109381000,
-			"commission" : "$300",
+			"commission" : "$300.00",
 			"paid" : "0"
 		},{
 			"bannerName" : "Up to 200% Payout Black: AUD",
-			"bannerWidth" : "300",
+			"bannerWidth" : "300.00",
 			"bannerHeight" : "250",
-			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300px; height: 250px; border: none; outline: none; display: block;\" src=\"http://point.agency.s3.amazonaws.com/highlow/banners/fla/HighLow_300x250_1b/high-low_300x250-1b_flash.html\"></iframe></a>",
+			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300.00px; height: 250px; border: none; outline: none; display: block;\" src=\"http://point.agency.s3.amazonaws.com/highlow/banners/fla/HighLow_300.00x250_1b/high-low_300.00x250-1b_flash.html\"></iframe></a>",
 			"bannerFileType" : "html5",
 			"bannerFavourite" : "true",
 			"landingPageName" : "HighLow Markets Home page",
@@ -82,9 +82,9 @@
 			"paid" : ""
 		},{
 			"bannerName" : "OZ Regulated: AUD",
-			"bannerWidth" : "300",
+			"bannerWidth" : "300.00",
 			"bannerHeight" : "600",
-			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300x600/banner.html\"></iframe></a>",
+			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300.00px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300.00x600/banner.html\"></iframe></a>",
 			"bannerFileType" : "html5",
 			"bannerFavourite" : "true",
 			"landingPageName" : "Regional short-form sign-up page",
@@ -94,7 +94,7 @@
 			"srcUrl" : "http://binaryoptionsfinancial.edu.us/",
 			"leadStatus" : "Traded",
 			"lastUpdate" : 1456109381000,
-			"commission" : "$300",
+			"commission" : "$300.00",
 			"paid" : "0"
 		},{
 			"bannerName" : "Experienced traders: NZX",
@@ -110,13 +110,13 @@
 			"srcUrl" : "http://binaryoptionsbrokers.pw/",
 			"leadStatus" : "Traded",
 			"lastUpdate" : 1456109381000,
-			"commission" : "$300",
+			"commission" : "$300.00",
 			"paid" : "1"
 		},{
 			"bannerName" : "Up to 200% Payout Black: AUD",
-			"bannerWidth" : "300",
+			"bannerWidth" : "300.00",
 			"bannerHeight" : "250",
-			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300px; height: 250px; border: none; outline: none; display: block;\" src=\"http://point.agency.s3.amazonaws.com/highlow/banners/fla/HighLow_300x250_1b/high-low_300x250-1b_flash.html\"></iframe></a>",
+			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300.00px; height: 250px; border: none; outline: none; display: block;\" src=\"http://point.agency.s3.amazonaws.com/highlow/banners/fla/HighLow_300.00x250_1b/high-low_300.00x250-1b_flash.html\"></iframe></a>",
 			"bannerFileType" : "html5",
 			"bannerFavourite" : "true",
 			"landingPageName" : "HighLow Markets Home page",
@@ -130,9 +130,9 @@
 			"paid" : ""
 		},{
 			"bannerName" : "OZ Regulated: AUD",
-			"bannerWidth" : "300",
+			"bannerWidth" : "300.00",
 			"bannerHeight" : "600",
-			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300x600/banner.html\"></iframe></a>",
+			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300.00px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300.00x600/banner.html\"></iframe></a>",
 			"bannerFileType" : "html5",
 			"bannerFavourite" : "true",
 			"landingPageName" : "Regional short-form sign-up page",
@@ -142,13 +142,13 @@
 			"srcUrl" : "http://binaryoptionsfinancial.edu.us/",
 			"leadStatus" : "Funded",
 			"lastUpdate" : 1456109381000,
-			"commission" : "$300",
+			"commission" : "$300.00",
 			"paid" : "1"
 		},{
 			"bannerName" : "OZ Regulated: AUD",
-			"bannerWidth" : "300",
+			"bannerWidth" : "300.00",
 			"bannerHeight" : "600",
-			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300x600/banner.html\"></iframe></a>",
+			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300.00px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300.00x600/banner.html\"></iframe></a>",
 			"bannerFileType" : "html5",
 			"bannerFavourite" : "true",
 			"landingPageName" : "Regional short-form sign-up page",
@@ -158,7 +158,7 @@
 			"srcUrl" : "http://binaryoptionsfinancial.edu.us/",
 			"leadStatus" : "Approved",
 			"lastUpdate" : 1456109381000,
-			"commission" : "$300",
+			"commission" : "$300.00",
 			"paid" : "0"
 		},{
 			"bannerName" : "Experienced traders: NZX",
@@ -174,13 +174,13 @@
 			"srcUrl" : "http://binaryoptionsbrokers.pw/",
 			"leadStatus" : "Traded",
 			"lastUpdate" : 1456109381000,
-			"commission" : "$300",
+			"commission" : "$300.00",
 			"paid" : "1"
 		},{
 			"bannerName" : "Up to 200% Payout Black: AUD",
-			"bannerWidth" : "300",
+			"bannerWidth" : "300.00",
 			"bannerHeight" : "250",
-			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300px; height: 250px; border: none; outline: none; display: block;\" src=\"http://point.agency.s3.amazonaws.com/highlow/banners/fla/HighLow_300x250_1b/high-low_300x250-1b_flash.html\"></iframe></a>",
+			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300.00px; height: 250px; border: none; outline: none; display: block;\" src=\"http://point.agency.s3.amazonaws.com/highlow/banners/fla/HighLow_300.00x250_1b/high-low_300.00x250-1b_flash.html\"></iframe></a>",
 			"bannerFileType" : "html5",
 			"bannerFavourite" : "true",
 			"landingPageName" : "HighLow Markets Home page",
@@ -194,9 +194,9 @@
 			"paid" : ""
 		},{
 			"bannerName" : "OZ Regulated: AUD",
-			"bannerWidth" : "300",
+			"bannerWidth" : "300.00",
 			"bannerHeight" : "600",
-			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300x600/banner.html\"></iframe></a>",
+			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300.00px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300.00x600/banner.html\"></iframe></a>",
 			"bannerFileType" : "html5",
 			"bannerFavourite" : "true",
 			"landingPageName" : "Regional short-form sign-up page",
@@ -222,13 +222,13 @@
 			"srcUrl" : "http://binaryoptionsbrokers.pw/",
 			"leadStatus" : "Registered",
 			"lastUpdate" : 1456109381000,
-			"commission" : "$300",
+			"commission" : "$300.00",
 			"paid" : "1"
 		},{
 			"bannerName" : "Up to 200% Payout Black: AUD",
-			"bannerWidth" : "300",
+			"bannerWidth" : "300.00",
 			"bannerHeight" : "250",
-			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300px; height: 250px; border: none; outline: none; display: block;\" src=\"http://point.agency.s3.amazonaws.com/highlow/banners/fla/HighLow_300x250_1b/high-low_300x250-1b_flash.html\"></iframe></a>",
+			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300.00px; height: 250px; border: none; outline: none; display: block;\" src=\"http://point.agency.s3.amazonaws.com/highlow/banners/fla/HighLow_300.00x250_1b/high-low_300.00x250-1b_flash.html\"></iframe></a>",
 			"bannerFileType" : "html5",
 			"bannerFavourite" : "true",
 			"landingPageName" : "HighLow Markets Home page",
@@ -242,9 +242,9 @@
 			"paid" : ""
 		},{
 			"bannerName" : "OZ Regulated: AUD",
-			"bannerWidth" : "300",
+			"bannerWidth" : "300.00",
 			"bannerHeight" : "600",
-			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300x600/banner.html\"></iframe></a>",
+			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300.00px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300.00x600/banner.html\"></iframe></a>",
 			"bannerFileType" : "html5",
 			"bannerFavourite" : "true",
 			"landingPageName" : "Regional short-form sign-up page",
@@ -254,7 +254,7 @@
 			"srcUrl" : "http://binaryoptionsfinancial.edu.us/",
 			"leadStatus" : "Traded",
 			"lastUpdate" : 1456109381000,
-			"commission" : "$300",
+			"commission" : "$300.00",
 			"paid" : "0"
 		},{
 			"bannerName" : "Experienced traders: NZX",
@@ -270,13 +270,13 @@
 			"srcUrl" : "http://binaryoptionsbrokers.pw/",
 			"leadStatus" : "Traded",
 			"lastUpdate" : 1456109381000,
-			"commission" : "$300",
+			"commission" : "$300.00",
 			"paid" : "1"
 		},{
 			"bannerName" : "Up to 200% Payout Black: AUD",
-			"bannerWidth" : "300",
+			"bannerWidth" : "300.00",
 			"bannerHeight" : "250",
-			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300px; height: 250px; border: none; outline: none; display: block;\" src=\"http://point.agency.s3.amazonaws.com/highlow/banners/fla/HighLow_300x250_1b/high-low_300x250-1b_flash.html\"></iframe></a>",
+			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300.00px; height: 250px; border: none; outline: none; display: block;\" src=\"http://point.agency.s3.amazonaws.com/highlow/banners/fla/HighLow_300.00x250_1b/high-low_300.00x250-1b_flash.html\"></iframe></a>",
 			"bannerFileType" : "html5",
 			"bannerFavourite" : "true",
 			"landingPageName" : "HighLow Markets Home page",
@@ -290,9 +290,9 @@
 			"paid" : ""
 		},{
 			"bannerName" : "OZ Regulated: AUD",
-			"bannerWidth" : "300",
+			"bannerWidth" : "300.00",
 			"bannerHeight" : "600",
-			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300x600/banner.html\"></iframe></a>",
+			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300.00px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300.00x600/banner.html\"></iframe></a>",
 			"bannerFileType" : "html5",
 			"bannerFavourite" : "true",
 			"landingPageName" : "Regional short-form sign-up page",
@@ -302,13 +302,13 @@
 			"srcUrl" : "http://binaryoptionsfinancial.edu.us/",
 			"leadStatus" : "Funded",
 			"lastUpdate" : 1456109381000,
-			"commission" : "$300",
+			"commission" : "$300.00",
 			"paid" : "0"
 		},{
 			"bannerName" : "OZ Regulated: AUD",
-			"bannerWidth" : "300",
+			"bannerWidth" : "300.00",
 			"bannerHeight" : "600",
-			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300x600/banner.html\"></iframe></a>",
+			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300.00px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300.00x600/banner.html\"></iframe></a>",
 			"bannerFileType" : "html5",
 			"bannerFavourite" : "true",
 			"landingPageName" : "Regional short-form sign-up page",
@@ -318,13 +318,13 @@
 			"srcUrl" : "http://binaryoptionsfinancial.edu.us/",
 			"leadStatus" : "Approved",
 			"lastUpdate" : 1456109381000,
-			"commission" : "$300",
+			"commission" : "$300.00",
 			"paid" : "1"
 		},{
 			"bannerName" : "OZ Regulated: AUD",
-			"bannerWidth" : "300",
+			"bannerWidth" : "300.00",
 			"bannerHeight" : "600",
-			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300x600/banner.html\"></iframe></a>",
+			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300.00px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300.00x600/banner.html\"></iframe></a>",
 			"bannerFileType" : "html5",
 			"bannerFavourite" : "true",
 			"landingPageName" : "Regional short-form sign-up page",
@@ -350,13 +350,13 @@
 			"srcUrl" : "http://binaryoptionsbrokers.pw/",
 			"leadStatus" : "Registered",
 			"lastUpdate" : 1456109381000,
-			"commission" : "$300",
+			"commission" : "$300.00",
 			"paid" : "1"
 		},{
 			"bannerName" : "Up to 200% Payout Black: AUD",
-			"bannerWidth" : "300",
+			"bannerWidth" : "300.00",
 			"bannerHeight" : "250",
-			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300px; height: 250px; border: none; outline: none; display: block;\" src=\"http://point.agency.s3.amazonaws.com/highlow/banners/fla/HighLow_300x250_1b/high-low_300x250-1b_flash.html\"></iframe></a>",
+			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300.00px; height: 250px; border: none; outline: none; display: block;\" src=\"http://point.agency.s3.amazonaws.com/highlow/banners/fla/HighLow_300.00x250_1b/high-low_300.00x250-1b_flash.html\"></iframe></a>",
 			"bannerFileType" : "html5",
 			"bannerFavourite" : "true",
 			"landingPageName" : "HighLow Markets Home page",
@@ -370,9 +370,9 @@
 			"paid" : ""
 		},{
 			"bannerName" : "OZ Regulated: AUD",
-			"bannerWidth" : "300",
+			"bannerWidth" : "300.00",
 			"bannerHeight" : "600",
-			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300x600/banner.html\"></iframe></a>",
+			"bannerTemplate" : "<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300.00px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300.00x600/banner.html\"></iframe></a>",
 			"bannerFileType" : "html5",
 			"bannerFavourite" : "true",
 			"landingPageName" : "Regional short-form sign-up page",
@@ -382,7 +382,7 @@
 			"srcUrl" : "http://binaryoptionsfinancial.edu.us/",
 			"leadStatus" : "Traded",
 			"lastUpdate" : 1456109381000,
-			"commission" : "$300",
+			"commission" : "$300.00",
 			"paid" : "0"
 		},{
 			"bannerName" : "Experienced traders: NZX",
@@ -398,7 +398,7 @@
 			"srcUrl" : "http://binaryoptionsbrokers.pw/",
 			"leadStatus" : "Traded",
 			"lastUpdate" : 1456109381000,
-			"commission" : "$300",
+			"commission" : "$300.00",
 			"paid" : "1"
 		}
 	],

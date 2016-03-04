@@ -49,6 +49,10 @@
 		margin-top: 0px;
 		padding: 15px;
 	}
+
+	&:hover {
+		cursor: pointer;
+	}
 }
 
 	.landing-page--item--inner--wrapper {
@@ -88,4 +92,34 @@
 	input:checked + .landing-page--item--favourite--icon {
 		.sprite(@star-yellow-sm);
 		cursor: pointer!important;
+	}
+
+
+
+	.landing-page--item--screenshot {
+		position: relative;
+
+		&:before {
+			content: "";
+			position: absolute;
+			display: block;
+			width: 100%;
+			height: 100%;
+			top: 0px;
+			left: 0px;
+			z-index: 1;
+			background-color: transparent;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-image: url(../images/preview-btn.png);
+			.opacity(00);
+		}
+
+		.landing-page--item:hover & {
+			&:before {
+				.transition(all 0.125s ease);
+				background-color: rgba(255,255,255,0.2);
+				.opacity(80);
+			}
+		}
 	}

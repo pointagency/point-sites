@@ -170,52 +170,14 @@ $(document).ready(function() {
 				name: 'Clicks',
 				color: '#cee8e1',
 				fillColor: '#f6f9f5',
-                // marker: {
-                //     enabled: false,
-                //     states: {
-                //         hover: {
-                //             enabled: false   
-                //         }
-                //     }
-                // },
 				data: clicksData
 			},
-			// {
-			// 	name: 'Clicks',
-			// 	type: 'scatter',
-			// 	color: '#cee8e1',
-   //              tooltip: {
-   //              	hideDelay: 0,
-   //              	shape: "callout"
-   //              },
-   //              showInLegend: false,
-			// 	data: clicksData
-			// },
 			{
 				name: 'Conversions',
 				color: '#f07a3f',
 				fillColor: '#ffefe9',
-                // marker: {
-                //     enabled: false,
-                //     states: {
-                //         hover: {
-                //             enabled: false   
-                //         }
-                //     }
-                // },
 				data: conversionsData
 			}
-			// ,{
-			// 	name: 'Conversions',
-			// 	type: 'scatter',
-			// 	color: '#f07a3f',
-   //              tooltip: {
-   //              	hideDelay: 0,
-   //              	shape: "callout"
-   //              },
-   //              showInLegend: false,
-			// 	data: conversionsData
-			// }
 		]	
 
 		/*
@@ -268,7 +230,7 @@ $(document).ready(function() {
 				name: 'Registered',
 				data: [
 					{ 
-						y : 100
+						y : 100,
 					},
 					{
 						y: ((100+registered)/2/totalClicks)*100,
@@ -334,6 +296,43 @@ $(document).ready(function() {
 						y : (traded/totalClicks)*100
 					}
 				]
+			},
+			// the next 3 series are for drawing border between the funnels, so just use them as is
+			{
+				color: '#fff',
+				data: [
+					{ 
+						y : (registered/totalClicks)*100,
+						x : 2
+					},{ 
+						y : (registered/totalClicks)*100,
+						x : 2.025
+					}
+				]
+			},
+			{
+				color: '#fff',
+				data: [
+					{ 
+						y : (registered/totalClicks)*100,
+						x : 4
+					},{ 
+						y : (registered/totalClicks)*100,
+						x : 4.025
+					}
+				]
+			},
+			{
+				color: '#fff',
+				data: [
+					{ 
+						y : (registered/totalClicks)*100,
+						x : 6
+					},{ 
+						y : (registered/totalClicks)*100,
+						x : 6.025
+					}
+				]
 			}
 		]	
 
@@ -361,9 +360,6 @@ $(document).ready(function() {
 				name: 'Czech Republic',
 				y: 102
 			},{
-				name: 'Slovakia',
-				y: 65
-			},{
 				name: 'UK',
 				y: 43
 			},{
@@ -372,6 +368,9 @@ $(document).ready(function() {
 			},{
 				name: 'Italy',
 				y: 22
+			},{
+				name: 'Others',
+				y: 65
 			}]
 		}]			
 	});
@@ -392,9 +391,6 @@ $(document).ready(function() {
 				name: 'Czech Republic',
 				y: 23
 			},{
-				name: 'Slovakia',
-				y: 22
-			},{
 				name: 'UK',
 				y: 8
 			},{
@@ -403,6 +399,9 @@ $(document).ready(function() {
 			},{
 				name: 'Italy',
 				y: 3
+			},{
+				name: 'Others',
+				y: 22
 			}]
 		}]			
 	});

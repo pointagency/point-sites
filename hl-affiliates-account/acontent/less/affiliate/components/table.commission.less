@@ -1,0 +1,29 @@
+#commission-history-table {
+	tr > td,
+	tr > th {
+		&.col-paid {
+			text-align: center;
+		}
+	}
+
+	tr > td {
+		&.col-paid {
+			text-indent: 13px;
+			a {
+				text-decoration: none!important;
+				color: #c6c6c6;
+				text-indent: 0px;
+				display: inline-block;
+				height: 1em;
+				width: 1em;
+				line-height: 1em;
+				text-align: center;
+    			margin-right: -15px;
+				&:hover {
+					background-color: #fff;
+					color: #f07a3f;
+				}
+			}
+		}
+	}
+}

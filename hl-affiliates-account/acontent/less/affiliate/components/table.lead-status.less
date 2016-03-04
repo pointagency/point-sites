@@ -61,6 +61,7 @@
 			}
 			&.col-lead-status {
 				width: 9%;
+				text-transform: capitalize;
 			}
 			&.col-last-update {
 				width: 13%;
@@ -70,7 +71,28 @@
 			}
 			&.col-paid {
 				width: 80px;
+				text-align: center;
+				a {
+					text-decoration: none!important;
+					color: #c6c6c6;
+					text-indent: 0px;
+					display: inline-block;
+					height: 1em;
+					width: 1em;
+					line-height: 1em;
+					text-align: center;
+    				margin-right: -15px;
+					&:hover {
+						background-color: #fff;
+						color: #f07a3f;
+					}
+				}
 			}
+		}
+
+		>td.col-paid {
+			text-align: center;
+			text-indent: 13px;
 		}
 	}
 }

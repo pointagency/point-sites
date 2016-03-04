@@ -62,7 +62,7 @@
     var options = {
       chart: {
         type: 'pie',
-        marginTop: 44,
+        marginTop: 54,
         marginLeft: -30,
         align: 'left',
         style: {
@@ -86,10 +86,10 @@
         '#ffb091',
         '#ffc791',
         '#ffe9c2',
-        '#d3eae4',
-        '#fff8d0', 
+        '#fff8d0',
         '#ffefe9',
-        '#f6f9f5'
+        '#f6f9f5',
+        '#d3eae4'
       ],
       plotOptions: {
         pie: {

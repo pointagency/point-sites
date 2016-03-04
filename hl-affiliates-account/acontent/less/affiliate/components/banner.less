@@ -481,8 +481,9 @@
 		}
 
 		#get-code-modal & {
-		    top: auto;
-		    bottom: 19px;
+			top: auto;
+			bottom: 10px;
+			right: -2px;
 		}
 
 		.grid & {
@@ -636,9 +637,11 @@
 			float: none;
 			display: block;
 			padding-left: 25px;
+			padding-right: 25px;
 			&:before {
 				margin-right: 5px;
-				top: 0px;
+				top: 10px;
+				position: absolute;
 				margin-left: -25px;
 			}
 		}
@@ -1004,3 +1007,22 @@
 		}
 	}
 
+
+
+#get-code-modal .banner--details--target-link--current {
+	display: inline-block;
+	position: relative;  
+	width: auto;
+    max-width: 253px;
+	padding-right: 21px;
+	&:after {
+		content: "";
+		display: inline-block;
+		margin-left: 8px;
+		position: absolute;
+		top: 16px;
+		right: 0px;
+		.opacity(0.6);
+		.sprite(@down-grey-sm);
+	}
+}

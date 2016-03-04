@@ -86,9 +86,17 @@
 										<th 
 											data-property-name="bannerPreview"
 											data-template='
-												<span class="preview-thumbnail">
-													<span class="preview-thumbnail--inner-wrapper" style="background-image: url({bannerPreview});">
-														
+												<span class="banner--view-code"
+												data-name="{bannerName}"
+												data-format="({bannerFileType})"
+												data-code=&apos;{bannerTemplate}&apos;
+												data-width="{bannerWidth}"
+												data-height="{bannerHeight}"
+													>	
+													<span class="preview-thumbnail">
+														<span class="preview-thumbnail--inner-wrapper" style="background-image: url({bannerPreview});">
+															
+														</span>
 													</span>
 												</span>
 											'
@@ -96,6 +104,7 @@
 											&nbsp;
 										</th>
 										<th 
+											class="col-banner"
 											data-template='
 											<span class="banner--view-code"
 												data-name="{bannerName}"
@@ -108,16 +117,17 @@
 											Banner
 										</th>
 										<th
+											class="col-impressions"
 											data-property-name="impressions">
 											Impressions
 										</th>
 										<th
-											class="clicked"
+											class="col-clicked clicked"
 											data-property-name="clicked">
 											Clicked
 										</th>
 										<th
-											class="clicked-percentage"
+											class="col-clicked-percentage clicked-percentage"
 											data-template='
 												<span class="percentage-display">
 													<span class="percentage-value">
@@ -132,12 +142,12 @@
 											% Clicked
 										</th>
 										<th
-											class="traded"
+											class="col-traded traded"
 											data-property-name="traded">
 											Traded
 										</th>
 										<th
-											class="traded-percentage"
+											class="col-traded-percentage traded-percentage"
 											data-template='
 												<span class="percentage-display">
 													<span class="percentage-value">
@@ -152,6 +162,7 @@
 											% Traded
 										</th>
 										<th
+											class="col-favourite"
 											data-template='
 											<span class="favourite-{bannerFavourite}"></span>
 											'
@@ -181,10 +192,10 @@
 {% endblock %}
 
 {% block defaultScripts %}
-    <script src="https://cdn.highlow.net/admin/js/jquery-1.8.3.js"></script>
+    <script src="acontent/js/jquery-1.11.1.min.js"></script>
 	<script src="https://cdn.highlow.net/admin/js/ui/jquery-ui-1.9.2.custom.js"></script>    	
 	<script src="https://cdn.highlow.net/admin/js/ui/jquery-ui-timepicker.js"></script>
-	<script src="https://cdn.highlow.net/admin/bootstrap/dist/js/bootstrap.min.js"></script>
+	
 	<script src="https://cdn.highlow.net/common/js/jquery.validate.min.js"></script>
 	<script src="https://cdn.highlow.net/common/js/additional-methods.min.js"></script>
 	<script src="https://cdn.highlow.net/acontent/js/custom.js"></script>

@@ -31,6 +31,13 @@
 		}
 	}
 
+	tr:hover > td {
+		.preview-thumbnail {
+			background-color: #fffcec;
+
+		}
+	}
+
 	tr > td,
 	tr > th {
 		vertical-align: middle;
@@ -47,9 +54,68 @@
 		&:nth-child(2) {
 			text-align: left;
 		}
+
+		&.col-banner {
+			padding-left: 64px;
+		}
+
+		&.col-impressions {
+			width: 168px;
+		}
+
+		&.col-clicked {
+			width: 168px;
+		}
+
+		&.col-clicked-percentage {
+			width: 168px;
+		}
+
+		&.col-traded {
+			width: 168px;
+		}
+
+		&.col-traded-percentage {
+			width: 168px;
+		}
+
+		&.col-favourite {
+			width: 168px;
+		}
+
+		@media (max-width: 1440px) {
+			&.col-banner {
+				padding-left: 32px;
+			}
+
+			&.col-impressions {
+				width: 106px;
+			}
+
+			&.col-clicked {
+				width: 106px;
+			}
+
+			&.col-clicked-percentage {
+				width: 106px;
+			}
+
+			&.col-traded {
+				width: 106px;
+			}
+
+			&.col-traded-percentage {
+				width: 106px;
+			}
+
+			&.col-favourite {
+				width: 106px;
+			}
+		}
 	}
 
 	tr > th {
+
 		&.clicked {
 			&:before {
 				content: "";

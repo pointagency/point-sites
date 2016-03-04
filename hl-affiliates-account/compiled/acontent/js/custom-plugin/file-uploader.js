@@ -167,6 +167,7 @@
 
         uploaderBlock.addClass('has-files');
 
+        o.onFileDropCallback();
 
       }).on("upload",function(event, id, name) {
 
@@ -202,6 +203,8 @@
       }).on("reset",function(){
         uploaderBlock.removeClass('uploaded');
         uploaderBlock.removeClass('has-files');
+      }).on("deleteComplete", function() {
+        o.onDeleteCallback();
       });
 
 

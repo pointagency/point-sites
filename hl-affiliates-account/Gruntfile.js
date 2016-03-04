@@ -111,6 +111,7 @@ module.exports = function(grunt) {
 					'acontent/js/third-parties.min.js': [
 						'acontent/js/third-parties/jquery.selectBoxIt.min.js',
 						'acontent/js/third-parties/jquery.fine-uploader.min.js',
+						'acontent/js/third-parties/bootstrap.min.js',
 						'acontent/js/third-parties/cropper.min.js',
 						'acontent/js/third-parties/jquery.dataTables.js',
 						'acontent/js/third-parties/jquery.datatables-responsive.js',
