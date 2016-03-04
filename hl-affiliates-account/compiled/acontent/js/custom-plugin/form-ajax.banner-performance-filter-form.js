@@ -1,9 +1,6 @@
 $(document).ready(function(){
 
 
-	$('#banner-performance-filter--name').typeSelect();
-
-
 	$('#banner-performance-filter-form').on('ajax-submit',function(){
 
 		console.log('reload #banner-performance-table');

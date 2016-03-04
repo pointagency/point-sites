@@ -19,7 +19,9 @@ table td[class*="col-"], table th[class*="col-"] {
    	 	padding-top: 22px;
 	}
 	.dataTables_wrapper {
-		min-width: 1024px;
+		@media (max-width: 1199px) {
+			min-width: 900px;
+		}
 	}
 }
 
