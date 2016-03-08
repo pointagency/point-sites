@@ -320,6 +320,7 @@
 								<thead>
 									<tr>
 										<th 
+											class="col-preview desktop tablet fablet"
 											data-property-name="bannerPreview"
 											data-template='
 												<span class="banner--view-code"
@@ -342,7 +343,7 @@
 										<th 
 											class="col-banner"
 											data-template='
-											<span class="banner--view-code"
+											<span class="banner--view-code overflow-clipper"
 												data-name="{bannerName}"
 												data-format="({bannerFileType})"
 												data-code=&apos;{bannerTemplate}&apos;
@@ -358,12 +359,18 @@
 											Impressions
 										</th>
 										<th
-											class="col-clicked clicked"
+											class="col-clicked-combined clicked tablet fablet phone"
+											data-template='<span class="col-content">{clicked} <small>({clickedPercent}%)</small></span>'
 											data-property-name="clicked">
 											Clicked
 										</th>
 										<th
-											class="col-clicked-percentage clicked-percentage"
+											class="col-clicked clicked desktop"
+											data-property-name="clicked">
+											Clicked
+										</th>
+										<th
+											class="col-clicked-percentage clicked-percentage desktop"
 											data-template='
 												<span class="percentage-display">
 													<span class="percentage-value">
@@ -378,12 +385,18 @@
 											% Clicked
 										</th>
 										<th
-											class="col-traded traded"
+											class="col-traded-combined traded tablet fablet phone"
+											data-template='<span class="col-content">{traded} <small>({tradedPercent}%)</small></span>'
 											data-property-name="traded">
 											Traded
 										</th>
 										<th
-											class="col-traded-percentage traded-percentage"
+											class="col-traded traded desktop"
+											data-property-name="traded">
+											Traded
+										</th>
+										<th
+											class="col-traded-percentage traded-percentage desktop"
 											data-template='
 												<span class="percentage-display">
 													<span class="percentage-value">
@@ -398,7 +411,7 @@
 											% Traded
 										</th>
 										<th
-											class="col-favourite"
+											class="col-favourite desktop tablet fablet"
 											data-template='
 											<span class="favourite-{bannerFavourite}"></span>
 											'
@@ -863,6 +876,7 @@
 	<script type="text/javascript" src="acontent/js/custom-plugin/form-ajax.js"></script>
 	<script type="text/javascript" src="acontent/js/custom-plugin/form-ajax.banner-performance-filter-form.js"></script>
 	<script type="text/javascript" src="acontent/js/custom-plugin/banner-performance-table.quick-filter.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/overflow-clipper.js"></script>
 	<script type="text/javascript" src="acontent/js/ui-demo/banner-performance.js"></script>
 
 

@@ -1,8 +1,6 @@
 $(document).ready(function(){
 
 
-	$('#commission-history-filter--name').typeSelect();
-
 
 	$('#commission-history-filter-form').on('ajax-submit',function(){
 

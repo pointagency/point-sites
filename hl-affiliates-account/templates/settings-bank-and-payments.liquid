@@ -1,7 +1,7 @@
 {% extends base %}
 
 {% block title %}
-	Profile | Settings
+	Bank and payments | Settings
 {% endblock %}
 
 {% block bodyClass %}
@@ -43,6 +43,51 @@
 						{% assign settingsBankAndPayments='active' %}
 					</div>
 					<div class="p-css-table-cell side-tab-view--main-view">
+						<form class="form-ajax form read-only settings-form" id="bank-settings-form">
+							<div class="form-group">
+								<label>
+								Payment Method
+								</label>
+								<input class="form-control" type="text" value="Bank" disabled="disabled"/>
+							</div>
+							<div class="form-group">
+								<label>
+								Bank Name
+								</label>
+								<input class="form-control" type="text" value="National Australia Bank"/>
+							</div>
+							<div class="form-group">
+								<label>
+								Branch Name
+								</label>
+								<input class="form-control" type="text" value="Surry Hills"/>
+							</div>
+							<div class="form-group">
+								<label>
+								Account Name
+								</label>
+								<input class="form-control" type="text" value="Hamish Yousaf"/>
+							</div>
+							<div class="form-group">
+								<label>
+								Branch Number
+								</label>
+								<input class="form-control" type="text" value="120489"/>
+							</div>
+							<div class="form-group">
+								<label>
+								Account Number
+								</label>
+								<input class="form-control" type="text" value="20304902039"/>
+							</div>
+							<br/>
+							<div class="pull-right submit-btn btn-alternate btn btn-extruded toggler" id="settings-edit" data-toggle-target="#bank-settings-form" data-toggle-class="read-only">
+								UPDATE
+							</div>
+							<button id="settings-save" class="pull-right submit-btn btn-alternate btn btn-extruded toggler" data-toggle-target="#bank-settings-form" data-toggle-class="read-only">
+								SAVE
+							</button>
+						</form>
 					</div>
 				</div>
 			</div>

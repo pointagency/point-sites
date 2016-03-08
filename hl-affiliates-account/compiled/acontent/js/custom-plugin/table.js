@@ -17,6 +17,18 @@
 
   	jQuery.extend(options, o);
 
+
+  	options.rowCallback = function(row, data, index) {
+  		
+  		if(options.rowRendered) {
+  			options.rowRendered(row, data, index);
+  		}
+
+  		if($.fn.overflowClip!=undefined) {
+  			$($(row).find('.overflow-clipper')).overflowClip();
+  		}
+  	}
+
   	/*
   	*
   	*	Setup table for each matching dom element

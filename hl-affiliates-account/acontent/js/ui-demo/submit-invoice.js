@@ -84,7 +84,7 @@ $(document).ready(function() {
 	resizeInvoiceUploader();
 
 	$('#submit-invoice-table').tablize({
-		rowCallback : submitInvoiceTableRowProcessor,
+		rowRendered : submitInvoiceTableRowProcessor,
 		scrollY: $invoiceUploaderHeight,
 		scrollCollapse: true
 	});

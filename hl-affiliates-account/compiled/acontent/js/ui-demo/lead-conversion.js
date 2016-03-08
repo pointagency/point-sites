@@ -337,7 +337,15 @@ $(document).ready(function() {
 	// Sample usage of table
 
 	$('#lead-status-table').tablize({
-		
+		responsive: {
+			details: false,
+	        breakpoints: [
+	            { name: 'desktop', width: Infinity },
+	            { name: 'tablet',  width: 1650 },
+	            { name: 'fablet',  width: 1199 },
+	            { name: 'phone',   width: 767 }
+	        ]
+	    }
 	});
 		
 });

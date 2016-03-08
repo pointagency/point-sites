@@ -150,9 +150,9 @@
 								<thead>
 									<tr>
 										<th 
-											class="desktop col-banner"
+											class="col-banner desktop tablet fablet"
 											data-template='
-											<span class="banner--view-code"
+											<span class="banner--view-code overflow-clipper"
 												data-name="{bannerName}"
 												data-format="({bannerFileType})"
 												data-target="{landingPageUrl}"
@@ -168,7 +168,7 @@
 										<th
 											class="desktop col-lp"
 											data-template='
-											<span class="banner--details--target-link--item"
+											<span class="banner--details--target-link--item overflow-clipper"
 												data-name="{landingPageName}"
 												data-preview-url="{landingPagePreview}"
 												data-lp-url="{landingPageUrl}"
@@ -177,13 +177,13 @@
 											Landing Page
 										</th>
 										<th
-											class="col-location"
+											class="desktop col-location"
 											data-property-name="leadLocation">
 											Location
 										</th>
 										<th
-											class="desktop col-url url"
-											data-template='<span class="clipped-string"><span class="clipped-string--clipped">{srcUrl}</span><span class="clipped-string--full">{srcUrl}</span></span>'
+											class="col-url url"
+											data-template='<span class="overflow-clipper">{srcUrl}</span>'
 											data-property-name="srcUrl">
 											URL
 										</th>
@@ -207,13 +207,13 @@
 											Last update
 										</th>
 										<th
-											class="col-commission"
+											class="desktop col-commission"
 											data-empty="-"
 											data-property-name="commission">
 											Commission
 										</th>
 										<th
-											class="col-paid"
+											class="col-paid desktop tablet fablet"
 											data-property-name="paid"
 											data-type="map"
 											data-map='{ "1" : "Y" , "0" : "N <a href=\"payments-submit-invoice.html\">+</a>", "else" : "-"}'>
@@ -305,6 +305,7 @@
 	<script type="text/javascript" src="acontent/js/custom-plugin/form-ajax.js"></script>
 	<script type="text/javascript" src="acontent/js/custom-plugin/form-ajax.lead-status-filter-form.js"></script>
 	<script type="text/javascript" src="acontent/js/custom-plugin/lead-status-table.quick-filter.js"></script>
+	<script type="text/javascript" src="acontent/js/custom-plugin/overflow-clipper.js"></script>
 	<script type="text/javascript" src="acontent/js/ui-demo/lead-conversion.js"></script>
 
 {% endblock %}

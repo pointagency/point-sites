@@ -4,12 +4,36 @@
 		"selected_items":
 		[
 			[
-				"text-",
-				"text-transform"
+				"text",
+				"text-indent"
 			],
 			[
-				"text",
-				"text-align"
+				"inv",
+				"invoiceUploader"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"scre",
+				"screenshotItem"
+			],
+			[
+				"lan",
+				"landingPageItem"
+			],
+			[
+				"cl",
+				"closest"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"coll",
+				"collapsible-header"
 			],
 			[
 				"drop",
@@ -110,10 +134,6 @@
 			[
 				"padd",
 				"padding"
-			],
-			[
-				"tex",
-				"text-align"
 			],
 			[
 				"lp-traders--bi",
@@ -494,288 +514,129 @@
 			[
 				"overview",
 				"overview-banner--content"
-			],
-			[
-				"resources-",
-				"resources-landing-downloads"
-			],
-			[
-				"backgrounc-",
-				"background-color"
-			],
-			[
-				"option",
-				"option-types-block--slide-item-wrapper"
-			],
-			[
-				"optio",
-				"option-types-block--slide-item--close"
-			],
-			[
-				"collapsi",
-				"collapsible-body"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "acontent/less/affiliate/components/banner.less",
+			"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/my-account-finance-withdrawal-cn.liquid",
 			"settings":
 			{
-				"buffer_size": 16708,
+				"buffer_size": 17423,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/payments-commission.liquid",
+			"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/p-card__withdrawal-pending-cn.liquid",
 			"settings":
 			{
-				"buffer_size": 9110,
+				"buffer_size": 1647,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/analytics-lead-conversion.liquid",
+			"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/my-account-profile-cn.liquid",
 			"settings":
 			{
-				"buffer_size": 13420,
+				"buffer_size": 1050,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/payments-submit-invoice.liquid",
+			"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/my-account-common-cn.liquid",
 			"settings":
 			{
-				"buffer_size": 7274,
+				"buffer_size": 1095,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "acontent/js/ui-demo/submit-invoice.js",
+			"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/cards-profile-cn.liquid",
 			"settings":
 			{
-				"buffer_size": 859,
+				"buffer_size": 9738,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "acontent/js/ui-demo/daterangepicker.js",
+			"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/cards-refer-a-friend.liquid",
 			"settings":
 			{
-				"buffer_size": 1284,
+				"buffer_size": 672,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "acontent/js/sample-json/outstanding-commission.js",
+			"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/my-account-finance-deposit-cn.liquid",
 			"settings":
 			{
-				"buffer_size": 674,
+				"buffer_size": 17631,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "acontent/less/affiliate/components/widget.submit-invoice.less",
+			"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/payment-instruction-bank-cn.liquid",
 			"settings":
 			{
-				"buffer_size": 1746,
+				"buffer_size": 286,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "acontent/less/affiliate/components/sprite-icon.less",
+			"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/payment-instruction-neteller-cn.liquid",
 			"settings":
 			{
-				"buffer_size": 5116,
+				"buffer_size": 113,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "acontent/less/affiliate/components/tooltip.less",
+			"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/payment-instruction-safe-charge-cn.liquid",
 			"settings":
 			{
-				"buffer_size": 31,
+				"buffer_size": 117,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "acontent/less/affiliate/components/file-uploader.less",
+			"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/my-account-banking-tabs-cn.liquid",
 			"settings":
 			{
-				"buffer_size": 10671,
+				"buffer_size": 619,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "acontent/js/custom-plugin/table.js",
+			"file": "/Users/andrew-pham/development/hl-my-account/templates/my-account-finance-cn.liquid",
 			"settings":
 			{
-				"buffer_size": 5791,
+				"buffer_size": 551,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "acontent/less/affiliate/components/percentage-display.less",
+			"file": "/Users/andrew-pham/development/hl-my-account/templates/my-account-finance-deposit.liquid",
 			"settings":
 			{
-				"buffer_size": 386,
+				"buffer_size": 551,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "acontent/js/custom-plugin/typeSelect.js",
+			"file": "/Users/andrew-pham/development/hl-my-account/templates/my-account-dashboard-cn.liquid",
 			"settings":
 			{
-				"buffer_size": 491,
+				"buffer_size": 545,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Searching 59 files for \"typeSelect\" (case sensitive)\n\n/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/form-ajax.banner-performance-filter-form.js:\n    2  \n    3  \n    4: 	$('#banner-performance-filter--name').typeSelect();\n    5  \n    6  \n\n/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/form-ajax.commission-history-filter-form.js:\n    2  \n    3  \n    4: 	$('#commission-history-filter--name').typeSelect();\n    5  \n    6  \n\n/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/typeSelect.js:\n    1  (function( $ ){\n    2:   $.fn.typeSelect = function(o) {\n    3    \n    4    	var options = {\n\n3 matches across 3 files\n\n\nSearching 32 files for \"tooltip\" (case sensitive)\n\n/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/chart.less:\n   23  }\n   24  \n   25: .chart-tooltip--title {\n   26  	font-size: 12px;\n   27  	font-weight: 400;\n   ..\n   34  }\n   35  \n   36: .chart-tooltip--count {\n   37  	font-size: 16px;\n   38  	font-weight: 500;\n   ..\n   42  }\n   43  \n   44: .highcharts-tooltip {\n   45  	padding: 10px 20px 0px;\n   46  	> span {\n   ..\n   81  	}\n   82  \n   83: 	.chart--funnel--category-label--tooltip {\n   84  		width: 160px;\n   85  		left: 50%;\n\n/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/header.less:\n   84  	}\n   85  \n   86: 	.tooltip {\n   87  		margin-top: 0px;\n   88  		width: 200px;\n   ..\n  106  		}\n  107  \n  108: 		> .tooltip-arrow {\n  109  			left: 157px;\n  110  		}\n\n6 matches across 2 files\n",
+			"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/p-ticker__news-scroller--logged-in-cn.liquid",
 			"settings":
 			{
-				"buffer_size": 1644,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "acontent/js/custom-plugin/upload-cropper.js",
-			"settings":
-			{
-				"buffer_size": 9040,
+				"buffer_size": 513,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "acontent/less/post-login.less",
-			"settings":
-			{
-				"buffer_size": 3745,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "acontent/less/affiliate/point-hl-affiliate-account.less",
-			"settings":
-			{
-				"buffer_size": 1604,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "acontent/less/affiliate/components/daterangepicker.less",
-			"settings":
-			{
-				"buffer_size": 3002,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/includes/get-code-modal.liquid",
-			"settings":
-			{
-				"buffer_size": 5693,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "acontent/js/custom-plugin/preview-banner.js",
-			"settings":
-			{
-				"buffer_size": 6614,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "acontent/js/custom-plugin/preview-landing-page.js",
-			"settings":
-			{
-				"buffer_size": 6749,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "acontent/less/affiliate/components/table.lead-status.less",
-			"settings":
-			{
-				"buffer_size": 936,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "acontent/js/custom-plugin/form-ajax.commission-history-filter-form.js",
-			"settings":
-			{
-				"buffer_size": 509,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "acontent/less/affiliate/components/table.less",
-			"settings":
-			{
-				"buffer_size": 4223,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "acontent/less/affiliate/components/table.submit-invoice.less",
-			"settings":
-			{
-				"buffer_size": 1354,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/includes/file-uploader-template.liquid",
-			"settings":
-			{
-				"buffer_size": 2744,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "acontent/less/affiliate/components/selectBoxIt-custom.less",
-			"settings":
-			{
-				"buffer_size": 2034,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "acontent/js/custom-plugin/form-ajax.lead-status-filter-form.js",
-			"settings":
-			{
-				"buffer_size": 533,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "acontent/js/custom-plugin/commission-history-table.quick-filter.js",
-			"settings":
-			{
-				"buffer_size": 404,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "acontent/js/custom-plugin/form-ajax.js",
-			"settings":
-			{
-				"buffer_size": 289,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Completed Item:\n\n+ overall:\n	- Correct Pagination style (taken Creative -> Banners)\n	- Use font-size 12px for all table\n	- Fix spacing and width of dropdown item.\n\n+ Lead conversion: \n	- Resize table when resize browser (need to work out column size on smaller screen and show/hide columns)\n	- Adjusted space between items in dropdown in Filter modal\n	- Lose scroll on LP modal\n	- Fix table overflowing right on smaller screen.\n\n+ Banners correction:\n	- Resize table when resize browser (need to work out column size on smaller screen and show/hide columns)\n	- \"In Filter modal, dropdown styles different to rest of site\" : I intentionally use a different suggestive select box to give better UX in production when there'll be 10s of banner. The user can type the name and filter the list\n	\n+ Payment: Commission corrections:\n	- Add tooltips to there items on top\n	- Resize table when resize browser (need to work out column size on smaller screen and show/hide columns)\n\n+ Upload invoice:\n	- Correct table style\n	- Styled upload box\n	- Make entire rowclick trigger select.\n	- Romove hover state on submitted row.\n\nOutstanding Item:\n\n\n\n+ Landing Pages:\n	- Need to add hover state and 'Details' modal\n\n+ Upload invoice:\n	- Make \"cancel\" link return row to unselected state\n	- Make table height match available space in viewport\n\n+ Overall:\n\n	- Adjust sizing of tables for smaller screen.\n",
-			"settings":
-			{
-				"buffer_size": 1387,
-				"line_ending": "Unix",
-				"name": "Completed Item:"
 			}
 		}
 	],
@@ -831,148 +692,155 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account",
 		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/sample-json",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/ui-demo",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less",
 		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate",
 		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components",
 		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/postlogin",
 		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes"
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes",
+		"/Users/andrew-pham/development/hl-my-account",
+		"/Users/andrew-pham/development/hl-my-account/common",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components",
+		"/Users/andrew-pham/development/hl-my-account/templates",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes",
+		"/Users/andrew-pham/development/highlow-app/common/less",
+		"/Users/andrew-pham/development/highlow-app/common/less/app",
+		"/Users/andrew-pham/development/highlow-app/common/less/components",
+		"/Users/andrew-pham/development/highlow-app/templates",
+		"/Users/andrew-pham/development/highlow-public-page/templates",
+		"/Users/andrew-pham/development/highlow-public-page/templates/includes"
 	],
 	"file_history":
 	[
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/file-uploader-template.liquid",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/payments-submit-invoice.liquid",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/type-select.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/landing-pages.liquid",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/p-css-table.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/file-uploader.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/widget.submit-invoice.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/file-uploader.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/table.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/side-menu.liquid",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/landing-page-preview.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/banner.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/analytics-banner-conversion.liquid",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/analytics-lead-conversion.liquid",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/Gruntfile.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/lead-status-filter-modal.liquid",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/ui-demo/banner-performance.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/table.lead-status.less",
-		"/Volumes/Design server/• HighLow/• Traders campaigns/0127_JapanNetBank eDM/• frontEnd/_frontEnd/QN_eDM1.html",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/selectBoxIt-custom.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/table.submit-invoice.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/payment-select.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/header.liquid",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/file-uploader.invoice.js",
-		"/Users/andrew-pham/development/hl-my-account/common/less/component/file-uploader.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/ui-demo/submit-invoice.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/sample-json/outstanding-commission.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/invoice-uploader.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/highlow-affiliate.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/postlogin/responsive.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/banner-performance-filter-modal.liquid",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/ui-demo/commission-history.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/commission-history-filter-modal.liquid",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/banner-performance-table.quick-filter.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/form.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/clipped-string.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/sample-json/lead-status.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/table.banner-performance.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/table.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/sample-json/banner-performance.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/point-hl-affiliate-account.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/preview-landing-page.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/lead-status-table.quick-filter.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/ui-demo/dashboard.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/selectboxit.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/chart.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/widget.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/sprite-icon.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/third-parties/jquery.selectBoxIt.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/form-ajax.lead-status-filter-form.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/first-time-welcome-message.liquid",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/modal.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/filter-modal.less",
-		"/Users/andrew-pham/development/hl-my-account/templates/includes/cards-recent-trades.liquid",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/funnelChart.js",
+		"/Users/andrew-pham/development/hl-my-account/templates/my-account-finance.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/my-account-finance-withdrawal-cn.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/p-ticker__news-scroller-cn.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/my-account-profile-cn.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/my-account-dashboard-cn.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/my-account-finance-withdrawal-cn.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/my-account-common-cn.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/my-account-dashboard-cn.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/p-ticker__news-scroller--logged-in-cn.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/cards-news-cn.liquid",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components/strings.js",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/cards-top-assets-ratio-cn.liquid",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components/charting.js",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components/item-reader-lite.js",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/cards-recent-trades-cn.liquid",
 		"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components/tabling.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/first-time-welcome-modal.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/preview-banner-js.liquid",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/preview-banner.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/view-promotions.liquid",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/dashboard.liquid",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/dashboard.less",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/cards-volume-traded-cn.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/cards-highlow-ratio-cn.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/cards-highlow-point-cn.liquid",
+		"/Users/andrew-pham/development/hl-my-account/common/less/pages/cn.less",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/my-account-tabs-cn.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-link-settings.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-link-news.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-link-trading.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-link-resources-demo-sign-up.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-link-profile.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-my-account-finance-add-bank-account.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/overflow-clipper.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/overflow-clipper.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/table.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/ui-demo/submit-invoice.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/table.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/settings-my-websites.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/layouts/layout.liquid",
+		"/Users/andrew-pham/development/hl-my-account/Gruntfile.js",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/header.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/header-cn.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/sprite-icon.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/side-menu.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/settings-tabs.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/payments-commission.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/settings-profile.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/settings.profile.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/settings.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/banner.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/analytics-lead-conversion.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/table.lead-status.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/table.banner-performance.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/table.commission.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/analytics-banner-conversion.liquid",
 		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/ui-demo/lead-conversion.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/sample-json/landing-pages.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/filter-toggle.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/get-code-modal.liquid",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/update-avatar-modal.liquid",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/toggler.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/landing-page-selector.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/ui-demo/banner-performance.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/dashboard.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/table.submit-invoice.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/widget.submit-invoice.less",
 		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/postlogin/post-login.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/index.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/form.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/selectBoxIt-custom.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/sample-json/banner-performance.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/lead-status-filter-modal.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/form-ajax.lead-status-filter-form.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/form-ajax.commission-history-filter-form.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/form-ajax.banner-performance-filter-form.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/commission-history-filter-modal.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/banner-performance-filter-modal.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/highlow-affiliate.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/file-uploader.invoice.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/file-uploader.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/landing-page-detail-modal.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/chart.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/point-hl-affiliate-account.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/payments-submit-invoice.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/widget.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/first-time-welcome-message.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/sample-json/commission-history.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/landing-page-preview.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/view-banner-details.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/base.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/settings-bank-and-payments.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/get-code-modal.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/sample-json/lead-status.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/landing-page-detail-modal.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/landing-pages.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/view-promotions.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/view-landing-page-details.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/header.less",
 		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/landing-pages.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/lineChart.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/preview-banner-js.liquid",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/bootstrap/carousel.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/bootstrap.min.js",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/walk-through/walk-through.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/Gruntfile.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/main.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/post-login.less",
+		"/Users/andrew-pham/development/hl-my-account/common/css/main.css",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/preview-landing-page.js",
 		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/postlogin/side-menu.less",
 		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/get-code-modal.less",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banner.base.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-jp-728x90/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-jp-300x250/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-jp-300x600/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-jp-320x50/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-jp-468x60/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-120x600/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-160x600/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-300x250/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-300x600/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-320x50/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-468x60/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-728x90/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-eur-120x600/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-eur-160x600/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-eur-300x250/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-eur-300x600/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-eur-728x90/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-gbp-120x600/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-gbp-160x600/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-gbp-300x250/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-gbp-300x600/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-gbp-728x90/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-jp-120x600/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/oz-regulated-jp-160x600/banner.html",
-		"/Users/andrew-pham/development/highlow-app/Gruntfile.js",
-		"/Users/andrew-pham/development/highlow-app/templates/index.liquid",
-		"/Users/andrew-pham/development/highlow-public-page/Gruntfile.js",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/sample-json",
-		"/Users/andrew-pham/development/hl-my-account/common/less/component/collapsible.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/header-block.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes/base.liquid",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/header.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/daterangepicker.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/update-avatar-modal.less",
-		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/upload-cropper.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/landing-page-selector.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/ui-demo/dashboard.js",
 		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/pieChart.js",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/trading-streamlined-usd-sgd-728x90/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/trading-streamlined-usd-sgd-300x250/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/trading-streamlined-asx-120x600/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/trading-streamlined-asx-160x600/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/trading-streamlined-asx-300x250/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/trading-streamlined-asx-728x90/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/trading-streamlined-dax-120x600/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/trading-streamlined-dax-160x600/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/trading-streamlined-dax-300x250/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/trading-streamlined-dax-728x90/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/trading-streamlined-dow-120x600/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/trading-streamlined-dow-160x600/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/trading-streamlined-dow-300x250/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/trading-streamlined-dow-728x90/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/trading-streamlined-ftse-120x600/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/trading-streamlined-ftse-160x600/banner.html",
-		"/Users/andrew-pham/development/html5-banners/highlow-banners/banners/trading-streamlined-ftse-300x250/banner.html"
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/custom-plugin/funnelChart.js",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/highlow/btn.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/settings--tabs.less",
+		"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components/side-tab-view.less",
+		"/Users/andrew-pham/development/hl-my-account/common/less/component/collapsible.less",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-deposit-iframe.liquid",
+		"/Users/andrew-pham/development/hl-my-account/common/less/deposit-iframe/iframe.less",
+		"/Users/andrew-pham/development/hl-my-account/common/less/deposit-iframe/iframe-logos.less",
+		"/Users/andrew-pham/development/hl-my-account/common/scripts/iframe/iframe.js",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/trade-platform.liquid",
+		"/Users/andrew-pham/development/highlow-app/templates/index-cn.liquid",
+		"/Users/andrew-pham/development/highlow-public-page/public/css/highlow.less",
+		"/Users/andrew-pham/development/highlow-public-page/templates/includes/account-menu-cashback-cn.liquid",
+		"/Users/andrew-pham/development/highlow-public-page/templates/includes/account-menu-cashback-zero-balance-cn.liquid",
+		"/Users/andrew-pham/development/highlow-public-page/templates/includes/account-menu-cn.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/deposit-iframe-disabled.liquid",
+		"/Users/andrew-pham/development/highlow-public-page/templates/includes/account-menu-quick-demo-cn.liquid",
+		"/Users/andrew-pham/development/highlow-public-page/templates/includes/main-navigation-quick-demo-cn.liquid",
+		"/Users/andrew-pham/development/highlow-public-page/templates/includes/main-navigation-quick-demo.liquid",
+		"/Users/andrew-pham/development/highlow-public-page/templates/includes/ja-main-navigation-quick-demo.liquid",
+		"/Users/andrew-pham/development/highlow-public-page/templates/includes/ja-main-navigation-demo.liquid",
+		"/Users/andrew-pham/development/highlow-app/common/less/components/tab-view.less",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-trade-platform.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/ja-my-account-finance-deposit.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/deposit-iframe.liquid",
+		"/Users/andrew-pham/development/hl-my-account/templates/includes/my-account-finance-deposit.liquid"
 	],
 	"find":
 	{
@@ -983,6 +851,15 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/Users/andrew-pham/development/hl-my-account/common/scripts",
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components",
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates",
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js",
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates",
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components",
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/templates/includes",
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js",
+			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js/ui-demo",
 			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components",
 			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/js",
 			"/Users/andrew-pham/development/point-sites/hl-affiliates-account/acontent/less/affiliate/components",
@@ -1101,16 +978,7 @@
 			"/Users/andrew-pham/development/hl-my-account/common/scripts",
 			"/Users/andrew-pham/development/hl-my-account/templates/includes",
 			"/Users/andrew-pham/development/hl-my-account/common/less",
-			"/Users/andrew-pham/development/hl-my-account/common/less/component",
-			"/Users/andrew-pham/development/hl-my-account/common/scripts",
-			"/Users/andrew-pham/development/hl-my-account/common/scripts/point-components",
-			"/Users/andrew-pham/development/hl-my-account/templates/includes",
-			"/Users/andrew-pham/development/hl-my-account/common/less/component",
-			"/Users/andrew-pham/development/hl-my-account/common/less/base",
-			"/Users/andrew-pham/development/hl-my-account/common/less/component",
-			"/Users/andrew-pham/development/umajin-landing-page/common/less/components",
-			"/Users/andrew-pham/development/umajin-landing-page/templates/includes",
-			"/Users/andrew-pham/development/umajin-landing-page/common/less/components"
+			"/Users/andrew-pham/development/hl-my-account/common/less/component"
 		]
 	},
 	"find_state":
@@ -1118,6 +986,75 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Neteller",
+			"BANK DEPOSIT",
+			">\n",
+			"loading",
+			"desktop",
+			"rowCallback",
+			".table-wrapper",
+			"#ee683a",
+			"ee683",
+			"<td>\n											<div class=\"banner--view-code\"",
+			"#get-",
+			"#invoice-uploader",
+			"#invoice",
+			"#invoice-uploader",
+			";\n",
+			"payment-item-action",
+			"<script src=\"https://cdn.highlow.net/admin/bootstrap/dist/js/bootstrap.min.js\"></script>",
+			"\n<script src=\"https://cdn.highlow.net/admin/bootstrap/dist/js/bootstrap.min.js\"></script>",
+			"first-time-welcome-message",
+			"bannerLayout",
+			"\"bannerFavourite\" : \"\",",
+			"\"-\"",
+			"2em",
+			"300",
+			"https://cdn.highlow.net/admin/js/jquery-1.8.3.js",
+			"screenshot {",
+			"screenshot",
+			":before",
+			"slide",
+			"open",
+			"favourite",
+			"		\n",
+			".banner--details--target-link",
+			"banner--details--target-link--current",
+			".banner--details--landing-page-selector--current-url",
+			"menu-list {",
+			"data-name=\"HighLow Markets Home page\"",
+			"\n												data-target-name=\"HighLow Markets Home page\",",
+			"<div class=\"banner--details--target-link\">	\n																	<a href=\"https://en2.highlow.net/account\">https://en2.highlow.net/account</a>",
+			"funnel-",
+			"form-control-group",
+			"\";\n",
+			"red",
+			"label {",
+			"neteller",
+			"icon {",
+			"instrument-panel-payout",
+			"$",
+			"tooltip",
+			"method-instructions",
+			"nab",
+			".method-item-label",
+			"float: left",
+			"safe_charge_others",
+			"safe_charge",
+			"quick-nyukin",
+			"current-method",
+			".current-method-item",
+			"method-item-icon",
+			"selector",
+			"safe_charge",
+			"cc_",
+			"safe_charge",
+			"iframe",
+			"options-screen",
+			"safecharge",
+			".file-uploader",
+			"setupFine",
+			"fileUploaderize",
 			"tooltip",
 			"qq-upload-drop-area-text",
 			"cross",
@@ -1176,76 +1113,7 @@
 			"\"bannerName\" : \"Up to 200% Payout Black: AUD\",\n			\"bannerWidth\" : \"300\",\n			\"bannerHeight\" : \"250\",\n			\"bannerTemplate\" : \"<a href=\\\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\\\" target=\\\"_top\\\" style=\\\"position: relative; display:block;\\\"><div style=\\\"position:absolute;width:100%;height:100%;z-index:1;\\\"></div><iframe scrolling=\\\"no\\\" style=\\\"width: 300px; height: 250px; border: none; outline: none; display: block;\\\" src=\\\"http://point.agency.s3.amazonaws.com/highlow/banners/fla/HighLow_300x250_1b/high-low_300x250-1b_flash.html\\\"></iframe></a>\",\n			\"bannerFileType\" : \"html5\",\n			\"bannerFavourite\" : \"true\",\n			\"bannerPreview\" : \"\",",
 			"\"bannerName\" : \"Experienced traders: NZX\",\n			\"bannerWidth\" : \"728\",\n			\"bannerHeight\" : \"90\",\n			\"bannerTemplate\" : \"<a href=\\\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\\\" target=\\\"_top\\\" style=\\\"position: relative; display:block;\\\"><div style=\\\"position:absolute;width:100%;height:100%;z-index:1;\\\"></div><iframe scrolling=\\\"no\\\" style=\\\"width: 728px; height: 90px; border: none; outline: none; display: block;\\\" src=\\\"http://point.agency/highlow/banners/market-related/leaderboard-nzx/banner.html\\\"></iframe></a>\",\n			\"bannerFileType\" : \"html5\",\n			\"bannerFavourite\" : \"false\",\n			\"bannerPreview\" : \"\",",
 			"Favourite\" : \"true\"",
-			"Favourite",
-			"favourite",
-			"sort",
-			"initial",
-			"widget-options--btn",
-			"col-xl",
-			"col-xs",
-			"selectboxit-text {",
-			"width: 20px",
-			"arrow-container",
-			".sprite",
-			"arrow",
-			"lead-status--filter",
-			"btn",
-			"}\n",
-			"banner--details--target-link",
-			"banner--details--target-link--item",
-			"pageProperty",
-			"25",
-			"1456109381,",
-			"lastUpdate\" : \"1456109381\"",
-			"lastUpdate\" : \"\"",
-			"src-url",
-			"src=url",
-			"srcUrl",
-			"data-target-preview=\"https://en2.highlow.net/account\"",
-			"data-target=\"https://en2.highlow.net/account\"\n												data-code",
-			"leadLocation\" : \"\"",
-			"'<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300px; height: 600px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/oz-regulated-300x600/banner.html\"></iframe></a>'",
-			"'<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 300px; height: 250px; border: none; outline: none; display: block;\" src=\"http://point.agency.s3.amazonaws.com/highlow/banners/fla/HighLow_300x250_1b/high-low_300x250-1b_flash.html\"></iframe></a>'",
-			"'<a href=\"LANDINGPAGE?a_aid=55b5cf4903c24&amp;a_cid=55b2298372b7f&amp;a_bid=5593b9124eeabSUBCODE\" target=\"_top\" style=\"position: relative; display:block;\"><div style=\"position:absolute;width:100%;height:100%;z-index:1;\"></div><iframe scrolling=\"no\" style=\"width: 728px; height: 90px; border: none; outline: none; display: block;\" src=\"http://point.agency/highlow/banners/market-related/leaderboard-nzx/banner.html\"></iframe></a>'",
-			"\n			\"bannerName\" : \"OZ Regulated: AUD\",\n			\"bannerWidth\" : \"300\",\n			\"bannerHeight\" : \"600\",\n			\"bannerTemplate\" : \"\",\n			\"bannerFileType\" : \"html5\",",
-			"\"bannerName\" : \"Up to 200% Payout Black: AUD\",\n			\"bannerWidth\" : \"300\",\n			\"bannerHeight\" : \"250\",\n			\"bannerTemplate\" : \"\",\n			\"bannerFileType\" : \"html5\",",
-			"\"bannerName\" : \"Experienced traders: NZX\",\n			\"bannerWidth\" : \"728\",\n			\"bannerHeight\" : \"90\",\n			\"bannerTemplate\" : \"\",\n			\"bannerFileType\" : \"html5\",",
-			"aDataSort",
-			"disable-in",
-			"aaSorting",
-			"sortField",
-			"leadStatusId",
-			"'",
-			".filter--toggles",
-			"filter",
-			"banner--details--landing-page-selector--filter--language",
-			"banner--details--landing-page-selector--filter--language toggler",
-			".widget-title",
-			"<span class=\"landing-page--item--favourite\">\n																</span>",
-			"item--name {",
-			"\n											<div class=\"landing-page--item\">\n												",
-			"banner--details--favourite--icon",
-			"banner--details--favourite--checkbox",
-			"id=",
-			"sort",
-			"banners--filter {",
-			"banners--filter",
-			"12px 20px 11px 24px !important",
-			".banner--details--target-link",
-			";\n",
-			".banner--details--target-link",
-			".banner--details--landing-page-selector--current-url",
-			"bannerLandingPageUrl",
-			"banner--details--landing-page-selector {",
-			"banner--details--landing-page-selector",
-			".banner--details--target-link--selector",
-			"18px",
-			"http://cdn",
-			"id=",
-			"\"eng",
-			"details--target",
-			".banner--details--target-link",
-			"before"
+			"Favourite"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1253,6 +1121,26 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<td>\n											<div class=\"banner--view-code overflow-clipper\"",
+			"",
+			"\"bannerFavourite\" : \"false\",",
+			"\"\"",
+			"300.00",
+			"acontent/js/jquery-1.11.1.min.js",
+			"data-name=\"HighLow Markets Signup page\"",
+			"\n												data-target-name=\"HighLow Markets Signup page\",",
+			"<div class=\"banner--details--target-link\">	\n																	<span class=\"banner--details--target-link--item\"\n																		data-preview-url=\"acontent/landing-page-screenshots/lp1.png\"\n																		data-lp-url=\"https://en2.highlow.net/account\"\n																		data-name=\"HighLow Markets Home page\">\n																		https://en2.highlow.net/account\n																	</span>",
+			"form-group",
+			"grey",
+			"skrill",
+			"¥",
+			"skrill",
+			"safe_charge_credit_card",
+			"smbc-qn",
+			"skrill",
+			"safe_charge_credit_card_",
+			"safe_charge_others",
+			"others",
 			"",
 			"commission-history",
 			"\"srcUrl\" : \"http://binaryoptionsfinancial.edu.us/\"",
@@ -1360,27 +1248,7 @@
 			"2a2a2a",
 			".opacity(1",
 			"href=\"https://en2.highlow.net/landing?utm_source=ShareInvestor&utm_medium=email&utm_campaign=EDM1",
-			"href=\"https://cdn.highlow.net/campaign/images/",
-			"https://cdn.highlow.net/campaign/images/",
-			"/dec1000",
-			"/dec500",
-			"/dec25",
-			"/dec15",
-			"/dec1",
-			"dec5000",
-			"/3",
-			"jpy",
-			"eur",
-			"<span class=\"em_hide\">&#8203;</span>",
-			"font-size:12px; line-height:18px;",
-			"動画ライブラリー",
-			"用語集",
-			"取引ツール <br />クイックガイド",
-			"よくあるご質問",
-			"<a style=\"display: block; margin: 0; padding: 0; border: none; outline: none; text-decoration: none;",
-			"</span>&#8203;<span class=\"word\">",
-			"font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro',Osaka, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;",
-			"</span>&#8203;<span class=\"word\">"
+			"href=\"https://cdn.highlow.net/campaign/images/"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1391,111 +1259,118 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "acontent/less/affiliate/components/banner.less",
+					"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/my-account-finance-withdrawal-cn.liquid",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16708,
+						"buffer_size": 17423,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								545,
-								545
+								7691,
+								7691
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3022.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/p-card__withdrawal-pending-cn.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1647,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1056,
+								1056
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 2,
 					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "templates/payments-commission.liquid",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9110,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1927,
-								2214
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4343.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
 				{
 					"buffer": 2,
-					"file": "templates/analytics-lead-conversion.liquid",
+					"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/my-account-profile-cn.liquid",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13420,
+						"buffer_size": 1050,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9646,
-								9646
+								682,
+								682
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4872.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "templates/payments-submit-invoice.liquid",
+					"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/my-account-common-cn.liquid",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7274,
+						"buffer_size": 1095,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7158,
-								7158
+								637,
+								637
 							]
 						],
 						"settings":
@@ -1504,32 +1379,32 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3576.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "acontent/js/ui-demo/submit-invoice.js",
+					"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/cards-profile-cn.liquid",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 859,
+						"buffer_size": 9738,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								31,
-								31
+								607,
+								607
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -1541,425 +1416,25 @@
 				},
 				{
 					"buffer": 5,
-					"file": "acontent/js/ui-demo/daterangepicker.js",
+					"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/cards-refer-a-friend.liquid",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1284,
+						"buffer_size": 672,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1284,
-								1284
+								649,
+								649
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "acontent/js/sample-json/outstanding-commission.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 674,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								98,
-								98
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "acontent/less/affiliate/components/widget.submit-invoice.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1746,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1744,
-								1744
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 960.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "acontent/less/affiliate/components/sprite-icon.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5116,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4371,
-								4371
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "acontent/less/affiliate/components/tooltip.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 31,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								29,
-								29
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "acontent/less/affiliate/components/file-uploader.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10671,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4718,
-								4742
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4613.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 20,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "acontent/js/custom-plugin/table.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5791,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1381,
-								1381
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 19,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 19,
-			"sheets":
-			[
-				{
-					"buffer": 12,
-					"file": "acontent/less/affiliate/components/percentage-display.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 386,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								332,
-								332
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "acontent/js/custom-plugin/typeSelect.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 491,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23,
-								33
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 25,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1644,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										252,
-										262
-									],
-									[
-										481,
-										491
-									],
-									[
-										655,
-										665
-									],
-									[
-										940,
-										947
-									],
-									[
-										1045,
-										1052
-									],
-									[
-										1155,
-										1162
-									],
-									[
-										1278,
-										1285
-									],
-									[
-										1472,
-										1479
-									],
-									[
-										1568,
-										1575
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								746,
-								746
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 2,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 459.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "acontent/js/custom-plugin/upload-cropper.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9040,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4055,
-								6348
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3094.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 27,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "acontent/less/post-login.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3745,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3663,
-								3663
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 877.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 26,
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"file": "acontent/less/affiliate/point-hl-affiliate-account.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1604,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1373,
-								1366
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1969,49 +1444,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
-					"file": "acontent/less/affiliate/components/daterangepicker.less",
+					"buffer": 6,
+					"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/my-account-finance-deposit-cn.liquid",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3002,
+						"buffer_size": 17631,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								244,
-								244
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 29,
-					"type": "text"
-				},
-				{
-					"buffer": 19,
-					"file": "templates/includes/get-code-modal.liquid",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5693,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								288,
-								288
+								6588,
+								6532
 							]
 						],
 						"settings":
@@ -2020,334 +1466,106 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 18,
-					"type": "text"
-				},
-				{
-					"buffer": 20,
-					"file": "acontent/js/custom-plugin/preview-banner.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6614,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2249,
-								2249
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 30,
-					"type": "text"
-				},
-				{
-					"buffer": 21,
-					"file": "acontent/js/custom-plugin/preview-landing-page.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6749,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								604,
-								604
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 31,
-					"type": "text"
-				},
-				{
-					"buffer": 22,
-					"file": "acontent/less/affiliate/components/table.lead-status.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 936,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								606,
-								606
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 297.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 23,
-					"file": "acontent/js/custom-plugin/form-ajax.commission-history-filter-form.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 509,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								226,
-								226
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 22,
-					"type": "text"
-				},
-				{
-					"buffer": 24,
-					"file": "acontent/less/affiliate/components/table.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4223,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								841,
-								841
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 644.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 25,
-					"file": "acontent/less/affiliate/components/table.submit-invoice.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1354,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								426,
-								426
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 6.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
-					"type": "text"
-				},
-				{
-					"buffer": 26,
-					"file": "templates/includes/file-uploader-template.liquid",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2744,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 21,
-					"type": "text"
-				},
-				{
-					"buffer": 27,
-					"file": "acontent/less/affiliate/components/selectBoxIt-custom.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2034,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1306,
-								1306
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 637.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 23,
-					"type": "text"
-				},
-				{
-					"buffer": 28,
-					"file": "acontent/js/custom-plugin/form-ajax.lead-status-filter-form.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 533,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								512,
-								512
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 24,
-					"type": "text"
-				},
-				{
-					"buffer": 29,
-					"file": "acontent/js/custom-plugin/commission-history-table.quick-filter.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 404,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								298,
-								298
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 28,
-					"type": "text"
-				},
-				{
-					"buffer": 30,
-					"file": "acontent/js/custom-plugin/form-ajax.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 289,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								238,
-								238
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2167.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 7,
+					"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/payment-instruction-bank-cn.liquid",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1387,
+						"buffer_size": 286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								286,
+								286
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/payment-instruction-neteller-cn.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								113
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/payment-instruction-safe-charge-cn.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								102,
+								102
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/my-account-banking-tabs-cn.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 619,
 						"regions":
 						{
 						},
@@ -2355,19 +1573,131 @@
 						[
 							[
 								0,
-								1387
+								619
 							]
 						],
 						"settings":
 						{
-							"auto_name": "Completed Item:",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/Users/andrew-pham/development/hl-my-account/templates/my-account-finance-cn.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 551,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								551
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/Users/andrew-pham/development/hl-my-account/templates/my-account-finance-deposit.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 551,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								535,
+								448
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/Users/andrew-pham/development/hl-my-account/templates/my-account-dashboard-cn.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								529,
+								529
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/Users/andrew-pham/development/hl-my-account/templates/includes/p-ticker__news-scroller--logged-in-cn.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								287,
+								327
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
 					"type": "text"
 				}
 			]
@@ -2401,7 +1731,7 @@
 		"cols":
 		[
 			0.0,
-			0.518019490632,
+			0.495620931562,
 			1.0
 		],
 		"rows":
@@ -2418,7 +1748,7 @@
 	"project": "hl-affiliates-account.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 94.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -2444,12 +1774,12 @@
 		[
 			[
 				"",
-				"%.gz:"
+				"875em"
 			]
 		],
 		"width": 953.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

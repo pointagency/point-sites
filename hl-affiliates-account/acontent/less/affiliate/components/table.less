@@ -8,20 +8,15 @@ table td[class*="col-"], table th[class*="col-"] {
 	margin: 0 10px;
 	background-color: #fff;
 	position: relative;
-	overflow: auto;
+	overflow-x: auto;
 
 	@media (max-width: 991px) {
-		overflow: auto;
+		overflow-x: auto;
 	}
 
 	&.table-lg {
 		margin: 0px;
    	 	padding-top: 22px;
-	}
-	.dataTables_wrapper {
-		@media (max-width: 1199px) {
-			min-width: 900px;
-		}
 	}
 }
 
@@ -74,9 +69,7 @@ table td[class*="col-"], table th[class*="col-"] {
 					margin-top: -7px;
 					margin-left: 5px;
 					.sprite(@sort-default);
-					@media (max-width: 1024px) {
-						right: 10px;
-					}
+					
 				}
 			}
 
@@ -89,9 +82,6 @@ table td[class*="col-"], table th[class*="col-"] {
 					margin-top: -7px;
 					margin-left: 5px;
 					.sprite(@sort-descending);
-					@media (max-width: 1024px) {
-						right: 10px;
-					}
 				}
 			}
 
@@ -104,9 +94,6 @@ table td[class*="col-"], table th[class*="col-"] {
 					margin-top: -7px;
 					margin-left: 5px;
 					.sprite(@sort-ascending);
-					@media (max-width: 1024px) {
-						right: 10px;
-					}
 				}
 			}
 

@@ -21,3 +21,29 @@
 		letter-spacing: 0.01em;
 	}
 }
+
+#settings-save {
+		display: inline-block;
+	width: 140px;
+	.read-only & {
+		display: none;
+	}
+}
+
+#settings-edit {
+	display: none;
+	width: 140px;
+	.read-only & {
+		display: inline-block;
+		margin-left: 175px;
+		float: left!important;
+		margin-top: 32px;
+	}
+}
+
+.settings-form {
+	max-width: 316px;
+	&.read-only {
+		max-width: 100%;
+	}
+}
