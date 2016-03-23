@@ -3,7 +3,11 @@
 	[
 		{
 			"follow_symlinks": true,
-			"path": "."
+			"path": "/Users/andrew-pham/development/outsider"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/andrew-pham/development/highlow-public-page"
 		},
 		{
 			"follow_symlinks": true,
@@ -11,15 +15,27 @@
 		},
 		{
 			"follow_symlinks": true,
-			"path": "/Users/andrew-pham/development/html5-banners/highlow-banners"
-		},
-		{
-			"follow_symlinks": true,
 			"path": "/Users/andrew-pham/development/highlow-app"
 		},
 		{
 			"follow_symlinks": true,
-			"path": "/Users/andrew-pham/development/highlow-public-page"
+			"path": "/Users/andrew-pham/development/highlow-edm"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/andrew-pham/development/html5-banners/highlow-banners"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Volumes/Design server/• HighLow/• Website reLaunch Project/0013_Main website work/Point design/• eDMs"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/andrew-pham/development/point-sites/hl-affiliates-landing"
 		}
 	]
 }
